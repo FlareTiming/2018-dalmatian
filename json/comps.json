@@ -1,0 +1,12 @@
+{
+  "civilId": "12859",
+  "discipline": "pg",
+  "location": "Hrvace, Croatia",
+  "to": "2018-05-27",
+  "compName": "2018 XC Dalmatian Paragliding Open",
+  "from": "2018-05-24",
+  "utcOffset": {
+    "timeZoneMinutes": 120
+  },
+  "scoreBack": "300.000 s"
+}

@@ -1,0 +1,362 @@
+[
+  [
+    [
+      "74",
+      "Nuno Filipe da Fonseca Bastos Gomes"
+    ],
+    {
+      "breakdown": {
+        "time": 0,
+        "reach": 238.811,
+        "distance": 477.622,
+        "leading": 17.5,
+        "effort": 238.811,
+        "arrival": 0
+      },
+      "velocity": {
+        "gs": "2018-05-26T11:00:00Z",
+        "ssVelocity": null,
+        "ssElapsed": null,
+        "gsElapsed": null,
+        "es": null,
+        "ss": "2018-05-26T11:12:41Z",
+        "ssDistance": null,
+        "gsVelocity": null
+      },
+      "total": 495,
+      "landedDistance": "26.915 km",
+      "place": "1",
+      "reachDistance": "26.939 km"
+    }
+  ],
+  [
+    [
+      "98",
+      "Tomas Svoboda"
+    ],
+    {
+      "breakdown": {
+        "time": 0,
+        "reach": 238.288,
+        "distance": 469.139,
+        "leading": 17.6,
+        "effort": 230.851,
+        "arrival": 0
+      },
+      "velocity": {
+        "gs": "2018-05-26T11:00:00Z",
+        "ssVelocity": null,
+        "ssElapsed": null,
+        "gsElapsed": null,
+        "es": null,
+        "ss": "2018-05-26T11:09:24Z",
+        "ssDistance": null,
+        "gsVelocity": null
+      },
+      "total": 487,
+      "landedDistance": "26.652 km",
+      "place": "2",
+      "reachDistance": "26.880 km"
+    }
+  ],
+  [
+    [
+      "101",
+      "Tomaž Toplak"
+    ],
+    {
+      "breakdown": {
+        "time": 0,
+        "reach": 237.96,
+        "distance": 468.811,
+        "leading": 17.6,
+        "effort": 230.851,
+        "arrival": 0
+      },
+      "velocity": {
+        "gs": "2018-05-26T11:00:00Z",
+        "ssVelocity": null,
+        "ssElapsed": null,
+        "gsElapsed": null,
+        "es": null,
+        "ss": "2018-05-26T11:08:57Z",
+        "ssDistance": null,
+        "gsVelocity": null
+      },
+      "total": 486,
+      "landedDistance": "26.671 km",
+      "place": "3",
+      "reachDistance": "26.843 km"
+    }
+  ],
+  [
+    [
+      "54",
+      "Krešo  Kovačič"
+    ],
+    {
+      "breakdown": {
+        "time": 0,
+        "reach": 235.655,
+        "distance": 450.585,
+        "leading": 17.6,
+        "effort": 214.93,
+        "arrival": 0
+      },
+      "velocity": {
+        "gs": "2018-05-26T11:00:00Z",
+        "ssVelocity": null,
+        "ssElapsed": null,
+        "gsElapsed": null,
+        "es": null,
+        "ss": "2018-05-26T11:06:52Z",
+        "ssDistance": null,
+        "gsVelocity": null
+      },
+      "total": 468,
+      "landedDistance": "26.389 km",
+      "place": "4",
+      "reachDistance": "26.583 km"
+    }
+  ],
+  [
+    [
+      "16",
+      "Bruno Matos"
+    ],
+    {
+      "breakdown": {
+        "time": 0,
+        "reach": 206.898,
+        "distance": 397.946,
+        "leading": 17.5,
+        "effort": 191.049,
+        "arrival": 0
+      },
+      "velocity": {
+        "gs": "2018-05-26T11:00:00Z",
+        "ssVelocity": null,
+        "ssElapsed": null,
+        "gsElapsed": null,
+        "es": null,
+        "ss": "2018-05-26T11:11:33Z",
+        "ssDistance": null,
+        "gsVelocity": null
+      },
+      "total": 415,
+      "landedDistance": "22.749 km",
+      "place": "5=",
+      "reachDistance": "23.339 km"
+    }
+  ],
+  [
+    [
+      "114",
+      "Joan Brito"
+    ],
+    {
+      "breakdown": {
+        "time": 0,
+        "reach": 206.738,
+        "distance": 397.787,
+        "leading": 17.4,
+        "effort": 191.049,
+        "arrival": 0
+      },
+      "velocity": {
+        "gs": "2018-05-26T11:00:00Z",
+        "ssVelocity": null,
+        "ssElapsed": null,
+        "gsElapsed": null,
+        "es": null,
+        "ss": "2018-05-26T11:11:59Z",
+        "ssDistance": null,
+        "gsVelocity": null
+      },
+      "total": 415,
+      "landedDistance": "22.754 km",
+      "place": "5=",
+      "reachDistance": "23.321 km"
+    }
+  ],
+  [
+    [
+      "41",
+      "Ivo Duarte"
+    ],
+    {
+      "breakdown": {
+        "time": 0,
+        "reach": 201.1,
+        "distance": 360.307,
+        "leading": 17.6,
+        "effort": 159.207,
+        "arrival": 0
+      },
+      "velocity": {
+        "gs": "2018-05-26T11:00:00Z",
+        "ssVelocity": null,
+        "ssElapsed": null,
+        "gsElapsed": null,
+        "es": null,
+        "ss": "2018-05-26T11:11:31Z",
+        "ssDistance": null,
+        "gsVelocity": null
+      },
+      "total": 378,
+      "landedDistance": "22.685 km",
+      "place": "6",
+      "reachDistance": "22.685 km"
+    }
+  ],
+  [
+    [
+      "46",
+      "Jerko Odžak"
+    ],
+    {
+      "breakdown": {
+        "time": 0,
+        "reach": 58.438,
+        "distance": 177.843,
+        "leading": 18.1,
+        "effort": 119.406,
+        "arrival": 0
+      },
+      "velocity": {
+        "gs": "2018-05-26T11:00:00Z",
+        "ssVelocity": null,
+        "ssElapsed": null,
+        "gsElapsed": null,
+        "es": null,
+        "ss": "2018-05-26T11:25:10Z",
+        "ssDistance": null,
+        "gsVelocity": null
+      },
+      "total": 196,
+      "landedDistance": "5.548 km",
+      "place": "7",
+      "reachDistance": "6.592 km"
+    }
+  ],
+  [
+    [
+      "73",
+      "Mitja Jug"
+    ],
+    {
+      "breakdown": {
+        "time": 0,
+        "reach": 40.123,
+        "distance": 151.568,
+        "leading": 18.2,
+        "effort": 111.445,
+        "arrival": 0
+      },
+      "velocity": {
+        "gs": "2018-05-26T11:00:00Z",
+        "ssVelocity": null,
+        "ssElapsed": null,
+        "gsElapsed": null,
+        "es": null,
+        "ss": "2018-05-26T11:52:23Z",
+        "ssDistance": null,
+        "gsVelocity": null
+      },
+      "total": 170,
+      "landedDistance": "3.971 km",
+      "place": "8",
+      "reachDistance": "4.526 km"
+    }
+  ],
+  [
+    [
+      "21",
+      "Damir Kalinger"
+    ],
+    {
+      "breakdown": {
+        "time": 0,
+        "reach": 29.955,
+        "distance": 125.479,
+        "leading": 18.4,
+        "effort": 95.524,
+        "arrival": 0
+      },
+      "velocity": {
+        "gs": "2018-05-26T11:00:00Z",
+        "ssVelocity": null,
+        "ssElapsed": null,
+        "gsElapsed": null,
+        "es": null,
+        "ss": "2018-05-26T11:24:43Z",
+        "ssDistance": null,
+        "gsVelocity": null
+      },
+      "total": 144,
+      "landedDistance": "3.379 km",
+      "place": "9",
+      "reachDistance": "3.379 km"
+    }
+  ],
+  [
+    [
+      "40",
+      "Ivica Huljek"
+    ],
+    {
+      "breakdown": {
+        "time": 0,
+        "reach": 27.127,
+        "distance": 98.77,
+        "leading": 18.5,
+        "effort": 71.643,
+        "arrival": 0
+      },
+      "velocity": {
+        "gs": "2018-05-26T11:00:00Z",
+        "ssVelocity": null,
+        "ssElapsed": null,
+        "gsElapsed": null,
+        "es": null,
+        "ss": "2018-05-26T11:21:16Z",
+        "ssDistance": null,
+        "gsVelocity": null
+      },
+      "total": 117,
+      "landedDistance": "3.057 km",
+      "place": "10",
+      "reachDistance": "3.060 km"
+    }
+  ],
+  [
+    [
+      "4",
+      "Alojz Tovornik"
+    ],
+    {
+      "breakdown": {
+        "time": 0,
+        "reach": 13.174,
+        "distance": 52.975,
+        "leading": 18.6,
+        "effort": 39.802,
+        "arrival": 0
+      },
+      "velocity": {
+        "gs": "2018-05-26T11:00:00Z",
+        "ssVelocity": null,
+        "ssElapsed": null,
+        "gsElapsed": null,
+        "es": null,
+        "ss": "2018-05-26T12:06:18Z",
+        "ssDistance": null,
+        "gsVelocity": null
+      },
+      "total": 72,
+      "landedDistance": "1.307 km",
+      "place": "11",
+      "reachDistance": "1.486 km"
+    }
+  ]
+]
