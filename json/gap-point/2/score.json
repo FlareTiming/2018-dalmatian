@@ -265,7 +265,7 @@
       },
       "total": 700,
       "landedDistance": "22.685 km",
-      "place": "8",
+      "place": "9",
       "reachDistance": "22.685 km"
     }
   ],
@@ -295,7 +295,7 @@
       },
       "total": 634,
       "landedDistance": "20.932 km",
-      "place": "9",
+      "place": "10",
       "reachDistance": "21.181 km"
     }
   ],
@@ -325,7 +325,7 @@
       },
       "total": 578,
       "landedDistance": "19.135 km",
-      "place": "10",
+      "place": "11",
       "reachDistance": "19.136 km"
     }
   ],
@@ -355,7 +355,7 @@
       },
       "total": 532,
       "landedDistance": "18.395 km",
-      "place": "11",
+      "place": "12",
       "reachDistance": "18.395 km"
     }
   ],
@@ -385,7 +385,7 @@
       },
       "total": 384,
       "landedDistance": "9.878 km",
-      "place": "12",
+      "place": "13",
       "reachDistance": "10.812 km"
     }
   ],
@@ -415,7 +415,7 @@
       },
       "total": 311,
       "landedDistance": "5.548 km",
-      "place": "13",
+      "place": "14",
       "reachDistance": "6.592 km"
     }
   ],
@@ -445,7 +445,7 @@
       },
       "total": 263,
       "landedDistance": "3.971 km",
-      "place": "14",
+      "place": "15",
       "reachDistance": "4.526 km"
     }
   ],
@@ -475,7 +475,7 @@
       },
       "total": 229,
       "landedDistance": "3.379 km",
-      "place": "15",
+      "place": "16",
       "reachDistance": "3.379 km"
     }
   ],
@@ -505,7 +505,7 @@
       },
       "total": 198,
       "landedDistance": "3.057 km",
-      "place": "16",
+      "place": "17",
       "reachDistance": "3.060 km"
     }
   ],
@@ -535,7 +535,7 @@
       },
       "total": 140,
       "landedDistance": "1.307 km",
-      "place": "17",
+      "place": "18",
       "reachDistance": "1.486 km"
     }
   ],
@@ -565,7 +565,7 @@
       },
       "total": 71,
       "landedDistance": "1.097 km",
-      "place": "18",
+      "place": "19",
       "reachDistance": "1.883 km"
     }
   ]
