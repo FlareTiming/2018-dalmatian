@@ -2803,7 +2803,7 @@ table th {
   .is-size-7-fullhd {
     font-size: 0.75rem !important; } }
 
-.has-text-centered, .th-start, .th-end, .th-time, .td-start, .td-end, .td-time, .th-tp-distance {
+.has-text-centered, .th-start, .th-end, .th-time, .td-start, .td-end, .td-time, .th-tp-distance, .tr-dnf td.td-dnf {
   text-align: center !important; }
 
 .has-text-justified {
@@ -3124,7 +3124,7 @@ a.has-text-danger:hover, a.td-end:hover, a.has-text-danger:focus, a.td-end:focus
 .has-text-weight-semibold {
   font-weight: 600 !important; }
 
-.has-text-weight-bold, .td-placing, .td-total-points, .td-tp-name {
+.has-text-weight-bold, .td-placing, .td-total-points, .td-tp-name, .tr-dnf td.td-dnf {
   font-weight: 700 !important; }
 
 .is-block {
@@ -9284,5 +9284,11 @@ body, input, button, select, textarea {
 
 .box span.tag {
   border-radius: 0; }
+
+.tr-dnf td.td-dnf {
+  border: 1px solid #dbdbdb;
+  vertical-align: middle;
+  background-color: #fafafa;
+  background-image: repeating-linear-gradient(-45deg, white, white 30px, #fafafa 30px, #fafafa 60px); }
 
 /*# sourceMappingURL=styles.css.map*/
