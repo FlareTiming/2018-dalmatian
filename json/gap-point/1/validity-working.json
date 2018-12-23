@@ -12,11 +12,11 @@
     "nominalLaunch": 0.96
   },
   "distance": {
-    "area": 12.311226,
+    "area": 14.711226,
     "flying": 23,
     "nominalGoal": 0.2,
     "nominalDistance": "25.0 km",
-    "minimumDistance": "5.0 km",
+    "minimumDistance": "1.0 km",
     "sum": "116.0 km",
     "bestDistance": "28.1 km"
   }
