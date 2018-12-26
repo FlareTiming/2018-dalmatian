@@ -21,6 +21,7 @@ for t in {1..3}
         mkdir json/gap-point/$t
         curl -X GET -H "Accept:application/json" http://localhost:3000/gap-point/$t/validity-working | jq > json/gap-point/$t/validity-working.json
         curl -X GET -H "Accept:application/json" http://localhost:3000/gap-point/$t/score | jq > json/gap-point/$t/score.json
+        curl -X GET -H "Accept:application/json" http://localhost:3000/gap-point/$t/pilot-status | jq > json/gap-point/$t/pilot-status.json
 
         mkdir json/task-length/$t
         curl -X GET -H "Accept:application/json" http://localhost:3000/task-length/$t/spherical-edge | jq > json/task-length/$t/spherical-edge.json
