@@ -10,7 +10,7 @@ curl -X GET -H "Accept:application/json" http://localhost:3000/comp-input/tasks 
 mkdir json/gap-point
 curl -X GET -H "Accept:application/json" http://localhost:3000/gap-point/allocation | jq > json/gap-point/allocation.json
 curl -X GET -H "Accept:application/json" http://localhost:3000/gap-point/validity | jq > json/gap-point/validity.json
-curl -X GET -H "Accept:application/json" http://localhost:3000/gap-point/pilot-status | jq > json/gap-point/pilot-status.json
+curl -X GET -H "Accept:application/json" http://localhost:3000/gap-point/pilots-status | jq > json/gap-point/pilots-status.json
 
 mkdir json/cross-zone
 mkdir json/task-length
