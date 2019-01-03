@@ -2803,7 +2803,7 @@ table th {
   .is-size-7-fullhd {
     font-size: 0.75rem !important; } }
 
-.has-text-centered, .th-start, .th-end, .th-time, .td-start, .td-end, .td-time, .tr-dnf td.td-dnf {
+.has-text-centered, .th-start, .th-end, .th-time, .td-start, .td-end, .td-time, .tr-dnf td.td-dnf, .tr-give td.td-missing {
   text-align: center !important; }
 
 .has-text-justified {
@@ -2812,7 +2812,7 @@ table th {
 .has-text-left, .th-tp-lng, .td-tp-latl, .th-tp-close, .td-tp-close {
   text-align: left !important; }
 
-.has-text-right, .th-speed, .th-distance-points, .th-total-points, .th-speed-units, .th-best-distance, .th-landed-distance, .th-best-distance-units, .th-landed-distance-units, .th-reach-alloc, .th-effort-alloc, .th-distance-alloc, .th-leading-alloc, .th-time-alloc, .th-arrival-alloc, .th-task-alloc, .th-distance-validity, .th-time-validity, .th-task-validity, .th-distance-weight, .th-leading-weight, .th-time-weight, .th-arrival-weight, .th-placing, .th-reach-points, .th-effort-points, .th-lead-points, .th-time-points, .th-arrival-points, .td-placing, .td-speed, .td-speed-distance, .td-best-distance, .td-landed-distance, .td-reach-points, .td-effort-points, .td-distance-points, .td-leading-points, .td-time-points, .td-arrival-points, .td-total-points, .th-tp-distance-leg, .th-tp-distance-task, .th-tp-radius, .th-tp-lat, .td-tp-distance-leg, .td-tp-distance-task, .td-tp-radius, .td-tp-lat, .th-tp-open, .td-tp-open {
+.has-text-right, .th-speed, .th-distance-points, .th-total-points, .th-speed-units, .th-best-distance, .th-landed-distance, .th-best-distance-units, .th-landed-distance-units, .th-reach-alloc, .th-effort-alloc, .th-distance-alloc, .th-leading-alloc, .th-time-alloc, .th-arrival-alloc, .th-task-alloc, .th-distance-validity, .th-time-validity, .th-task-validity, .th-distance-weight, .th-leading-weight, .th-time-weight, .th-arrival-weight, .th-placing, .th-reach-points, .th-effort-points, .th-lead-points, .th-time-points, .th-arrival-points, .td-placing, .td-speed, .td-speed-distance, .td-best-distance, .td-landed-distance, .td-reach-points, .td-effort-points, .td-distance-points, .td-leading-points, .td-time-points, .td-arrival-points, .td-total-points, .th-tp-distance-leg, .th-tp-distance-task, .th-tp-radius, .th-tp-lat, .td-tp-distance-leg, .td-tp-distance-task, .td-tp-radius, .td-tp-lat, .th-tp-open, .td-tp-open, .th-tp-altitude, .td-tp-altitude, .th-tp-give, .td-tp-give {
   text-align: right !important; }
 
 @media screen and (max-width: 768px) {
@@ -3124,7 +3124,7 @@ a.has-text-danger:hover, a.td-end:hover, a.td-tp-close:hover, tr.end-speed > a.t
 .has-text-weight-semibold {
   font-weight: 600 !important; }
 
-.has-text-weight-bold, .td-placing, .td-total-points, .td-tp-distance-task, .td-tp-name, tr.start-speed > .td-tp-name, tr.end-speed > .td-tp-name, .tr-dnf td.td-dnf {
+.has-text-weight-bold, .td-placing, .td-total-points, .td-tp-distance-task, .td-tp-name, tr.start-speed > .td-tp-name, tr.end-speed > .td-tp-name, .tr-dnf td.td-dnf, .tr-give td.td-missing {
   font-weight: 700 !important; }
 
 .is-block {
@@ -9260,7 +9260,7 @@ body, input, button, select, textarea {
 .box span.tag {
   border-radius: 0; }
 
-.tr-dnf td.td-dnf {
+.tr-dnf td.td-dnf, .tr-give td.td-missing {
   border: 1px solid #dbdbdb;
   vertical-align: middle;
   background-color: #fafafa;
