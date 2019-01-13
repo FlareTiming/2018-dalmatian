@@ -159,28 +159,6 @@
     "startGates": [
       "2018-05-24T10:30:00Z"
     ],
-    "absent": [
-      [
-        "50",
-        "Josip Osmann"
-      ],
-      [
-        "53",
-        "Konstantin Rakić"
-      ],
-      [
-        "91",
-        "Slava Jelić"
-      ],
-      [
-        "94",
-        "Stjepan Zjacic"
-      ],
-      [
-        "95",
-        "Stojan Kranjc"
-      ]
-    ],
     "zoneTimes": [
       {
         "close": "2018-05-24T14:00:00Z",
@@ -392,32 +370,6 @@
     "startGates": [
       "2018-05-26T11:00:00Z"
     ],
-    "absent": [
-      [
-        "23",
-        "David Šiljeg"
-      ],
-      [
-        "50",
-        "Josip Osmann"
-      ],
-      [
-        "53",
-        "Konstantin Rakić"
-      ],
-      [
-        "82",
-        "Richard Edlinger"
-      ],
-      [
-        "94",
-        "Stjepan Zjacic"
-      ],
-      [
-        "102",
-        "Tomislav Gomerčić"
-      ]
-    ],
     "zoneTimes": [
       {
         "close": "2018-05-26T14:00:00Z",
@@ -596,44 +548,6 @@
     "stopped": null,
     "startGates": [
       "2018-05-27T11:00:00Z"
-    ],
-    "absent": [
-      [
-        "13",
-        "Balazs Szatmari"
-      ],
-      [
-        "50",
-        "Josip Osmann"
-      ],
-      [
-        "53",
-        "Konstantin Rakić"
-      ],
-      [
-        "82",
-        "Richard Edlinger"
-      ],
-      [
-        "86",
-        "Sandi Krč"
-      ],
-      [
-        "88",
-        "Sandor Roza"
-      ],
-      [
-        "94",
-        "Stjepan Zjacic"
-      ],
-      [
-        "102",
-        "Tomislav Gomerčić"
-      ],
-      [
-        "113",
-        "Zsolt Sandor"
-      ]
     ],
     "zoneTimes": [
       {

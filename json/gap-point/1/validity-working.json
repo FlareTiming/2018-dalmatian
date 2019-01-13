@@ -7,13 +7,13 @@
     "gsBestTime": null
   },
   "launch": {
-    "flying": 23,
-    "present": 26,
+    "flying": 29,
+    "present": 29,
     "nominalLaunch": 0.96
   },
   "distance": {
     "area": 14.6679652,
-    "flying": 23,
+    "flying": 29,
     "nominalGoal": 0.2,
     "nominalDistance": "25.0 km",
     "minimumDistance": "1.0 km",
