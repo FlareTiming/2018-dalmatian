@@ -2803,7 +2803,7 @@ table th {
   .is-size-7-fullhd {
     font-size: 0.75rem !important; } }
 
-.has-text-centered, .th-start, .th-end, .th-time, .td-start, .td-end, .td-time, .tr-dnf td.td-dnf, .tr-give td.td-missing {
+.has-text-centered, .th-start-start, .th-start-gate, .th-end, .th-pace, .th-time, .td-start-start, .td-start-gate, .td-end, .td-pace, .td-time, .tr-dnf td.td-dnf, .tr-give td.td-missing {
   text-align: center !important; }
 
 .has-text-justified {
@@ -2812,7 +2812,7 @@ table th {
 .has-text-left, .th-tp-lng, .td-tp-latl, .th-tp-close, .td-tp-close {
   text-align: left !important; }
 
-.has-text-right, .th-speed, .th-distance-points, .th-total-points, .th-speed-units, .th-best-distance, .th-landed-distance, .th-best-distance-units, .th-landed-distance-units, .th-reach-alloc, .th-effort-alloc, .th-distance-alloc, .th-leading-alloc, .th-time-alloc, .th-arrival-alloc, .th-task-alloc, .th-distance-validity, .th-time-validity, .th-task-validity, .th-distance-weight, .th-leading-weight, .th-time-weight, .th-arrival-weight, .th-placing, .th-reach-points, .th-effort-points, .th-lead-points, .th-time-points, .th-arrival-points, .td-placing, .td-speed, .td-speed-distance, .td-best-distance, .td-landed-distance, .td-reach-points, .td-effort-points, .td-distance-points, .td-leading-points, .td-time-points, .td-arrival-points, .td-total-points, .th-tp-distance-leg, .th-tp-distance-task, .th-tp-radius, .th-tp-lat, .td-tp-distance-leg, .td-tp-distance-task, .td-tp-radius, .td-tp-lat, .th-tp-open, .td-tp-open, .th-tp-altitude, .td-tp-altitude, .th-tp-give, .td-tp-give {
+.has-text-right, .th-speed, .th-distance-points, .th-total-points, .th-speed-units, .th-min-distance, .th-best-distance, .th-landed-distance, .th-min-distance-units, .th-best-distance-units, .th-landed-distance-units, .th-reach-alloc, .th-effort-alloc, .th-distance-alloc, .th-leading-alloc, .th-time-alloc, .th-arrival-alloc, .th-task-alloc, .th-distance-validity, .th-time-validity, .th-task-validity, .th-distance-weight, .th-leading-weight, .th-time-weight, .th-arrival-weight, .th-placing, .th-reach-points, .th-effort-points, .th-lead-points, .th-time-points, .th-arrival-points, .td-placing, .td-speed, .td-speed-distance, .td-min-distance, .td-best-distance, .td-landed-distance, .td-reach-points, .td-effort-points, .td-distance-points, .td-leading-points, .td-time-points, .td-arrival-points, .td-total-points, .th-tp-distance-leg, .th-tp-distance-task, .th-tp-radius, .th-tp-lat, .td-tp-distance-leg, .td-tp-distance-task, .td-tp-radius, .td-tp-lat, .th-tp-open, .td-tp-open, .th-tp-altitude, .td-tp-altitude, .th-tp-give, .td-tp-give {
   text-align: right !important; }
 
 @media screen and (max-width: 768px) {
@@ -3025,19 +3025,19 @@ a.has-text-link:hover, a.has-text-link:focus {
 .has-background-link {
   background-color: #3273dc !important; }
 
-.has-text-info, .td-time, .td-tp-distance-leg {
+.has-text-info, tr.pilot-dfnt .td-pilot, table:not(.sg) .td-pace, table.sg .td-time, tr.pilot-dfnt .td-best-distance:not(.award-free), tr.pilot-dfnt .td-landed-distance:not(.award-free), .td-tp-distance-leg {
   color: #209cee !important; }
 
-a.has-text-info:hover, a.td-time:hover, a.td-tp-distance-leg:hover, a.has-text-info:focus, a.td-time:focus, a.td-tp-distance-leg:focus {
+a.has-text-info:hover, tr.pilot-dfnt a.td-pilot:hover, table:not(.sg) a.td-pace:hover, table.sg a.td-time:hover, tr.pilot-dfnt a.td-best-distance:hover:not(.award-free), tr.pilot-dfnt a.td-landed-distance:hover:not(.award-free), a.td-tp-distance-leg:hover, a.has-text-info:focus, tr.pilot-dfnt a.td-pilot:focus, table:not(.sg) a.td-pace:focus, table.sg a.td-time:focus, tr.pilot-dfnt a.td-best-distance:focus:not(.award-free), tr.pilot-dfnt a.td-landed-distance:focus:not(.award-free), a.td-tp-distance-leg:focus {
   color: #0f81cc !important; }
 
 .has-background-info {
   background-color: #209cee !important; }
 
-.has-text-success, .td-start, .td-tp-open, tr.start-speed > .td-tp-name {
+.has-text-success, table:not(.sg) .td-start-start, table.sg .td-start-gate, .td-tp-open, tr.start-speed > .td-tp-name {
   color: #23d160 !important; }
 
-a.has-text-success:hover, a.td-start:hover, a.td-tp-open:hover, tr.start-speed > a.td-tp-name:hover, a.has-text-success:focus, a.td-start:focus, a.td-tp-open:focus, tr.start-speed > a.td-tp-name:focus {
+a.has-text-success:hover, table:not(.sg) a.td-start-start:hover, table.sg a.td-start-gate:hover, a.td-tp-open:hover, tr.start-speed > a.td-tp-name:hover, a.has-text-success:focus, table:not(.sg) a.td-start-start:focus, table.sg a.td-start-gate:focus, a.td-tp-open:focus, tr.start-speed > a.td-tp-name:focus {
   color: #1ca64c !important; }
 
 .has-background-success {
@@ -3052,10 +3052,10 @@ a.has-text-warning:hover, a.has-text-warning:focus {
 .has-background-warning {
   background-color: #ffdd57 !important; }
 
-.has-text-danger, .td-end, .td-tp-close, tr.end-speed > .td-tp-name {
+.has-text-danger, table:not(.sg) .th-start-gate, table:not(.sg) .th-time, table.pg .th-arrival-points, .pg.not, .sg.not, .td-end, tr.pilot-dfnt .td-best-distance.award-free, tr.pilot-dfnt .td-landed-distance.award-free, table.pg .th-effort-points, .td-tp-close, tr.end-speed > .td-tp-name {
   color: #ff3860 !important; }
 
-a.has-text-danger:hover, a.td-end:hover, a.td-tp-close:hover, tr.end-speed > a.td-tp-name:hover, a.has-text-danger:focus, a.td-end:focus, a.td-tp-close:focus, tr.end-speed > a.td-tp-name:focus {
+a.has-text-danger:hover, table:not(.sg) a.th-start-gate:hover, table:not(.sg) a.th-time:hover, table.pg a.th-arrival-points:hover, a.pg.not:hover, a.sg.not:hover, a.td-end:hover, tr.pilot-dfnt a.td-best-distance.award-free:hover, tr.pilot-dfnt a.td-landed-distance.award-free:hover, table.pg a.th-effort-points:hover, a.td-tp-close:hover, tr.end-speed > a.td-tp-name:hover, a.has-text-danger:focus, table:not(.sg) a.th-start-gate:focus, table:not(.sg) a.th-time:focus, table.pg a.th-arrival-points:focus, a.pg.not:focus, a.sg.not:focus, a.td-end:focus, tr.pilot-dfnt a.td-best-distance.award-free:focus, tr.pilot-dfnt a.td-landed-distance.award-free:focus, table.pg a.th-effort-points:focus, a.td-tp-close:focus, tr.end-speed > a.td-tp-name:focus {
   color: #ff0537 !important; }
 
 .has-background-danger {
@@ -3729,62 +3729,62 @@ a.box:active {
         border-color: whitesmoke;
         box-shadow: none;
         color: whitesmoke; }
-  .button.is-primary, .button.th-points, .button.th-total-points {
+  .button.is-primary, .button.th-points, .button.th-total-points, .button.th-geo-path {
     background-color: #00d1b2;
     border-color: transparent;
     color: #fff; }
-    .button.is-primary:hover, .button.th-points:hover, .button.th-total-points:hover, .button.is-primary.is-hovered, .button.is-hovered.th-points, .button.is-hovered.th-total-points {
+    .button.is-primary:hover, .button.th-points:hover, .button.th-total-points:hover, .button.th-geo-path:hover, .button.is-primary.is-hovered, .button.is-hovered.th-points, .button.is-hovered.th-total-points, .button.is-hovered.th-geo-path {
       background-color: #00c4a7;
       border-color: transparent;
       color: #fff; }
-    .button.is-primary:focus, .button.th-points:focus, .button.th-total-points:focus, .button.is-primary.is-focused, .button.is-focused.th-points, .button.is-focused.th-total-points {
+    .button.is-primary:focus, .button.th-points:focus, .button.th-total-points:focus, .button.th-geo-path:focus, .button.is-primary.is-focused, .button.is-focused.th-points, .button.is-focused.th-total-points, .button.is-focused.th-geo-path {
       border-color: transparent;
       color: #fff; }
-      .button.is-primary:focus:not(:active), .button.th-points:focus:not(:active), .button.th-total-points:focus:not(:active), .button.is-primary.is-focused:not(:active), .button.is-focused.th-points:not(:active), .button.is-focused.th-total-points:not(:active) {
+      .button.is-primary:focus:not(:active), .button.th-points:focus:not(:active), .button.th-total-points:focus:not(:active), .button.th-geo-path:focus:not(:active), .button.is-primary.is-focused:not(:active), .button.is-focused.th-points:not(:active), .button.is-focused.th-total-points:not(:active), .button.is-focused.th-geo-path:not(:active) {
         box-shadow: 0 0 0 0.125em rgba(0, 209, 178, 0.25); }
-    .button.is-primary:active, .button.th-points:active, .button.th-total-points:active, .button.is-primary.is-active, .button.is-active.th-points, .button.is-active.th-total-points {
+    .button.is-primary:active, .button.th-points:active, .button.th-total-points:active, .button.th-geo-path:active, .button.is-primary.is-active, .button.is-active.th-points, .button.is-active.th-total-points, .button.is-active.th-geo-path {
       background-color: #00b89c;
       border-color: transparent;
       color: #fff; }
-    .button.is-primary[disabled], .button.th-points[disabled], .button.th-total-points[disabled] {
+    .button.is-primary[disabled], .button.th-points[disabled], .button.th-total-points[disabled], .button.th-geo-path[disabled] {
       background-color: #00d1b2;
       border-color: transparent;
       box-shadow: none; }
-    .button.is-primary.is-inverted, .button.is-inverted.th-points, .button.is-inverted.th-total-points {
+    .button.is-primary.is-inverted, .button.is-inverted.th-points, .button.is-inverted.th-total-points, .button.is-inverted.th-geo-path {
       background-color: #fff;
       color: #00d1b2; }
-      .button.is-primary.is-inverted:hover, .button.is-inverted.th-points:hover, .button.is-inverted.th-total-points:hover {
+      .button.is-primary.is-inverted:hover, .button.is-inverted.th-points:hover, .button.is-inverted.th-total-points:hover, .button.is-inverted.th-geo-path:hover {
         background-color: #f2f2f2; }
-      .button.is-primary.is-inverted[disabled], .button.is-inverted.th-points[disabled], .button.is-inverted.th-total-points[disabled] {
+      .button.is-primary.is-inverted[disabled], .button.is-inverted.th-points[disabled], .button.is-inverted.th-total-points[disabled], .button.is-inverted.th-geo-path[disabled] {
         background-color: #fff;
         border-color: transparent;
         box-shadow: none;
         color: #00d1b2; }
-    .button.is-primary.is-loading::after, .button.is-loading.th-points::after, .button.is-loading.th-total-points::after {
+    .button.is-primary.is-loading::after, .button.is-loading.th-points::after, .button.is-loading.th-total-points::after, .button.is-loading.th-geo-path::after {
       border-color: transparent transparent #fff #fff !important; }
-    .button.is-primary.is-outlined, .button.is-outlined.th-points, .button.is-outlined.th-total-points {
+    .button.is-primary.is-outlined, .button.is-outlined.th-points, .button.is-outlined.th-total-points, .button.is-outlined.th-geo-path {
       background-color: transparent;
       border-color: #00d1b2;
       color: #00d1b2; }
-      .button.is-primary.is-outlined:hover, .button.is-outlined.th-points:hover, .button.is-outlined.th-total-points:hover, .button.is-primary.is-outlined:focus, .button.is-outlined.th-points:focus, .button.is-outlined.th-total-points:focus {
+      .button.is-primary.is-outlined:hover, .button.is-outlined.th-points:hover, .button.is-outlined.th-total-points:hover, .button.is-outlined.th-geo-path:hover, .button.is-primary.is-outlined:focus, .button.is-outlined.th-points:focus, .button.is-outlined.th-total-points:focus, .button.is-outlined.th-geo-path:focus {
         background-color: #00d1b2;
         border-color: #00d1b2;
         color: #fff; }
-      .button.is-primary.is-outlined.is-loading::after, .button.is-outlined.is-loading.th-points::after, .button.is-outlined.is-loading.th-total-points::after {
+      .button.is-primary.is-outlined.is-loading::after, .button.is-outlined.is-loading.th-points::after, .button.is-outlined.is-loading.th-total-points::after, .button.is-outlined.is-loading.th-geo-path::after {
         border-color: transparent transparent #00d1b2 #00d1b2 !important; }
-      .button.is-primary.is-outlined[disabled], .button.is-outlined.th-points[disabled], .button.is-outlined.th-total-points[disabled] {
+      .button.is-primary.is-outlined[disabled], .button.is-outlined.th-points[disabled], .button.is-outlined.th-total-points[disabled], .button.is-outlined.th-geo-path[disabled] {
         background-color: transparent;
         border-color: #00d1b2;
         box-shadow: none;
         color: #00d1b2; }
-    .button.is-primary.is-inverted.is-outlined, .button.is-inverted.is-outlined.th-points, .button.is-inverted.is-outlined.th-total-points {
+    .button.is-primary.is-inverted.is-outlined, .button.is-inverted.is-outlined.th-points, .button.is-inverted.is-outlined.th-total-points, .button.is-inverted.is-outlined.th-geo-path {
       background-color: transparent;
       border-color: #fff;
       color: #fff; }
-      .button.is-primary.is-inverted.is-outlined:hover, .button.is-inverted.is-outlined.th-points:hover, .button.is-inverted.is-outlined.th-total-points:hover, .button.is-primary.is-inverted.is-outlined:focus, .button.is-inverted.is-outlined.th-points:focus, .button.is-inverted.is-outlined.th-total-points:focus {
+      .button.is-primary.is-inverted.is-outlined:hover, .button.is-inverted.is-outlined.th-points:hover, .button.is-inverted.is-outlined.th-total-points:hover, .button.is-inverted.is-outlined.th-geo-path:hover, .button.is-primary.is-inverted.is-outlined:focus, .button.is-inverted.is-outlined.th-points:focus, .button.is-inverted.is-outlined.th-total-points:focus, .button.is-inverted.is-outlined.th-geo-path:focus {
         background-color: #fff;
         color: #00d1b2; }
-      .button.is-primary.is-inverted.is-outlined[disabled], .button.is-inverted.is-outlined.th-points[disabled], .button.is-inverted.is-outlined.th-total-points[disabled] {
+      .button.is-primary.is-inverted.is-outlined[disabled], .button.is-inverted.is-outlined.th-points[disabled], .button.is-inverted.is-outlined.th-total-points[disabled], .button.is-inverted.is-outlined.th-geo-path[disabled] {
         background-color: transparent;
         border-color: #fff;
         box-shadow: none;
@@ -3849,62 +3849,62 @@ a.box:active {
         border-color: #fff;
         box-shadow: none;
         color: #fff; }
-  .button.is-info, .button.th-distance {
+  .button.is-info, .button.th-distance, .button.th-geo-network {
     background-color: #209cee;
     border-color: transparent;
     color: #fff; }
-    .button.is-info:hover, .button.th-distance:hover, .button.is-info.is-hovered, .button.is-hovered.th-distance {
+    .button.is-info:hover, .button.th-distance:hover, .button.th-geo-network:hover, .button.is-info.is-hovered, .button.is-hovered.th-distance, .button.is-hovered.th-geo-network {
       background-color: #1496ed;
       border-color: transparent;
       color: #fff; }
-    .button.is-info:focus, .button.th-distance:focus, .button.is-info.is-focused, .button.is-focused.th-distance {
+    .button.is-info:focus, .button.th-distance:focus, .button.th-geo-network:focus, .button.is-info.is-focused, .button.is-focused.th-distance, .button.is-focused.th-geo-network {
       border-color: transparent;
       color: #fff; }
-      .button.is-info:focus:not(:active), .button.th-distance:focus:not(:active), .button.is-info.is-focused:not(:active), .button.is-focused.th-distance:not(:active) {
+      .button.is-info:focus:not(:active), .button.th-distance:focus:not(:active), .button.th-geo-network:focus:not(:active), .button.is-info.is-focused:not(:active), .button.is-focused.th-distance:not(:active), .button.is-focused.th-geo-network:not(:active) {
         box-shadow: 0 0 0 0.125em rgba(32, 156, 238, 0.25); }
-    .button.is-info:active, .button.th-distance:active, .button.is-info.is-active, .button.is-active.th-distance {
+    .button.is-info:active, .button.th-distance:active, .button.th-geo-network:active, .button.is-info.is-active, .button.is-active.th-distance, .button.is-active.th-geo-network {
       background-color: #118fe4;
       border-color: transparent;
       color: #fff; }
-    .button.is-info[disabled], .button.th-distance[disabled] {
+    .button.is-info[disabled], .button.th-distance[disabled], .button.th-geo-network[disabled] {
       background-color: #209cee;
       border-color: transparent;
       box-shadow: none; }
-    .button.is-info.is-inverted, .button.is-inverted.th-distance {
+    .button.is-info.is-inverted, .button.is-inverted.th-distance, .button.is-inverted.th-geo-network {
       background-color: #fff;
       color: #209cee; }
-      .button.is-info.is-inverted:hover, .button.is-inverted.th-distance:hover {
+      .button.is-info.is-inverted:hover, .button.is-inverted.th-distance:hover, .button.is-inverted.th-geo-network:hover {
         background-color: #f2f2f2; }
-      .button.is-info.is-inverted[disabled], .button.is-inverted.th-distance[disabled] {
+      .button.is-info.is-inverted[disabled], .button.is-inverted.th-distance[disabled], .button.is-inverted.th-geo-network[disabled] {
         background-color: #fff;
         border-color: transparent;
         box-shadow: none;
         color: #209cee; }
-    .button.is-info.is-loading::after, .button.is-loading.th-distance::after {
+    .button.is-info.is-loading::after, .button.is-loading.th-distance::after, .button.is-loading.th-geo-network::after {
       border-color: transparent transparent #fff #fff !important; }
-    .button.is-info.is-outlined, .button.is-outlined.th-distance {
+    .button.is-info.is-outlined, .button.is-outlined.th-distance, .button.is-outlined.th-geo-network {
       background-color: transparent;
       border-color: #209cee;
       color: #209cee; }
-      .button.is-info.is-outlined:hover, .button.is-outlined.th-distance:hover, .button.is-info.is-outlined:focus, .button.is-outlined.th-distance:focus {
+      .button.is-info.is-outlined:hover, .button.is-outlined.th-distance:hover, .button.is-outlined.th-geo-network:hover, .button.is-info.is-outlined:focus, .button.is-outlined.th-distance:focus, .button.is-outlined.th-geo-network:focus {
         background-color: #209cee;
         border-color: #209cee;
         color: #fff; }
-      .button.is-info.is-outlined.is-loading::after, .button.is-outlined.is-loading.th-distance::after {
+      .button.is-info.is-outlined.is-loading::after, .button.is-outlined.is-loading.th-distance::after, .button.is-outlined.is-loading.th-geo-network::after {
         border-color: transparent transparent #209cee #209cee !important; }
-      .button.is-info.is-outlined[disabled], .button.is-outlined.th-distance[disabled] {
+      .button.is-info.is-outlined[disabled], .button.is-outlined.th-distance[disabled], .button.is-outlined.th-geo-network[disabled] {
         background-color: transparent;
         border-color: #209cee;
         box-shadow: none;
         color: #209cee; }
-    .button.is-info.is-inverted.is-outlined, .button.is-inverted.is-outlined.th-distance {
+    .button.is-info.is-inverted.is-outlined, .button.is-inverted.is-outlined.th-distance, .button.is-inverted.is-outlined.th-geo-network {
       background-color: transparent;
       border-color: #fff;
       color: #fff; }
-      .button.is-info.is-inverted.is-outlined:hover, .button.is-inverted.is-outlined.th-distance:hover, .button.is-info.is-inverted.is-outlined:focus, .button.is-inverted.is-outlined.th-distance:focus {
+      .button.is-info.is-inverted.is-outlined:hover, .button.is-inverted.is-outlined.th-distance:hover, .button.is-inverted.is-outlined.th-geo-network:hover, .button.is-info.is-inverted.is-outlined:focus, .button.is-inverted.is-outlined.th-distance:focus, .button.is-inverted.is-outlined.th-geo-network:focus {
         background-color: #fff;
         color: #209cee; }
-      .button.is-info.is-inverted.is-outlined[disabled], .button.is-inverted.is-outlined.th-distance[disabled] {
+      .button.is-info.is-inverted.is-outlined[disabled], .button.is-inverted.is-outlined.th-distance[disabled], .button.is-inverted.is-outlined.th-geo-network[disabled] {
         background-color: transparent;
         border-color: #fff;
         box-shadow: none;
@@ -3969,62 +3969,62 @@ a.box:active {
         border-color: #fff;
         box-shadow: none;
         color: #fff; }
-  .button.is-warning {
+  .button.is-warning, .button.th-geo-how-far {
     background-color: #ffdd57;
     border-color: transparent;
     color: rgba(0, 0, 0, 0.7); }
-    .button.is-warning:hover, .button.is-warning.is-hovered {
+    .button.is-warning:hover, .button.th-geo-how-far:hover, .button.is-warning.is-hovered, .button.is-hovered.th-geo-how-far {
       background-color: #ffdb4a;
       border-color: transparent;
       color: rgba(0, 0, 0, 0.7); }
-    .button.is-warning:focus, .button.is-warning.is-focused {
+    .button.is-warning:focus, .button.th-geo-how-far:focus, .button.is-warning.is-focused, .button.is-focused.th-geo-how-far {
       border-color: transparent;
       color: rgba(0, 0, 0, 0.7); }
-      .button.is-warning:focus:not(:active), .button.is-warning.is-focused:not(:active) {
+      .button.is-warning:focus:not(:active), .button.th-geo-how-far:focus:not(:active), .button.is-warning.is-focused:not(:active), .button.is-focused.th-geo-how-far:not(:active) {
         box-shadow: 0 0 0 0.125em rgba(255, 221, 87, 0.25); }
-    .button.is-warning:active, .button.is-warning.is-active {
+    .button.is-warning:active, .button.th-geo-how-far:active, .button.is-warning.is-active, .button.is-active.th-geo-how-far {
       background-color: #ffd83d;
       border-color: transparent;
       color: rgba(0, 0, 0, 0.7); }
-    .button.is-warning[disabled] {
+    .button.is-warning[disabled], .button.th-geo-how-far[disabled] {
       background-color: #ffdd57;
       border-color: transparent;
       box-shadow: none; }
-    .button.is-warning.is-inverted {
+    .button.is-warning.is-inverted, .button.is-inverted.th-geo-how-far {
       background-color: rgba(0, 0, 0, 0.7);
       color: #ffdd57; }
-      .button.is-warning.is-inverted:hover {
+      .button.is-warning.is-inverted:hover, .button.is-inverted.th-geo-how-far:hover {
         background-color: rgba(0, 0, 0, 0.7); }
-      .button.is-warning.is-inverted[disabled] {
+      .button.is-warning.is-inverted[disabled], .button.is-inverted.th-geo-how-far[disabled] {
         background-color: rgba(0, 0, 0, 0.7);
         border-color: transparent;
         box-shadow: none;
         color: #ffdd57; }
-    .button.is-warning.is-loading::after {
+    .button.is-warning.is-loading::after, .button.is-loading.th-geo-how-far::after {
       border-color: transparent transparent rgba(0, 0, 0, 0.7) rgba(0, 0, 0, 0.7) !important; }
-    .button.is-warning.is-outlined {
+    .button.is-warning.is-outlined, .button.is-outlined.th-geo-how-far {
       background-color: transparent;
       border-color: #ffdd57;
       color: #ffdd57; }
-      .button.is-warning.is-outlined:hover, .button.is-warning.is-outlined:focus {
+      .button.is-warning.is-outlined:hover, .button.is-outlined.th-geo-how-far:hover, .button.is-warning.is-outlined:focus, .button.is-outlined.th-geo-how-far:focus {
         background-color: #ffdd57;
         border-color: #ffdd57;
         color: rgba(0, 0, 0, 0.7); }
-      .button.is-warning.is-outlined.is-loading::after {
+      .button.is-warning.is-outlined.is-loading::after, .button.is-outlined.is-loading.th-geo-how-far::after {
         border-color: transparent transparent #ffdd57 #ffdd57 !important; }
-      .button.is-warning.is-outlined[disabled] {
+      .button.is-warning.is-outlined[disabled], .button.is-outlined.th-geo-how-far[disabled] {
         background-color: transparent;
         border-color: #ffdd57;
         box-shadow: none;
         color: #ffdd57; }
-    .button.is-warning.is-inverted.is-outlined {
+    .button.is-warning.is-inverted.is-outlined, .button.is-inverted.is-outlined.th-geo-how-far {
       background-color: transparent;
       border-color: rgba(0, 0, 0, 0.7);
       color: rgba(0, 0, 0, 0.7); }
-      .button.is-warning.is-inverted.is-outlined:hover, .button.is-warning.is-inverted.is-outlined:focus {
+      .button.is-warning.is-inverted.is-outlined:hover, .button.is-inverted.is-outlined.th-geo-how-far:hover, .button.is-warning.is-inverted.is-outlined:focus, .button.is-inverted.is-outlined.th-geo-how-far:focus {
         background-color: rgba(0, 0, 0, 0.7);
         color: #ffdd57; }
-      .button.is-warning.is-inverted.is-outlined[disabled] {
+      .button.is-warning.is-inverted.is-outlined[disabled], .button.is-inverted.is-outlined.th-geo-how-far[disabled] {
         background-color: transparent;
         border-color: rgba(0, 0, 0, 0.7);
         box-shadow: none;
@@ -4416,24 +4416,29 @@ a.box:active {
     .textarea.is-dark:active,
     .textarea.is-dark.is-active {
       box-shadow: 0 0 0 0.125em rgba(54, 54, 54, 0.25); }
-  .input.is-primary, .input.th-points, .input.th-total-points,
+  .input.is-primary, .input.th-points, .input.th-total-points, .input.th-geo-path,
   .textarea.is-primary,
   .textarea.th-points,
-  .textarea.th-total-points {
+  .textarea.th-total-points,
+  .textarea.th-geo-path {
     border-color: #00d1b2; }
-    .input.is-primary:focus, .input.th-points:focus, .input.th-total-points:focus, .input.is-primary.is-focused, .input.is-focused.th-points, .input.is-focused.th-total-points, .input.is-primary:active, .input.th-points:active, .input.th-total-points:active, .input.is-primary.is-active, .input.is-active.th-points, .input.is-active.th-total-points,
+    .input.is-primary:focus, .input.th-points:focus, .input.th-total-points:focus, .input.th-geo-path:focus, .input.is-primary.is-focused, .input.is-focused.th-points, .input.is-focused.th-total-points, .input.is-focused.th-geo-path, .input.is-primary:active, .input.th-points:active, .input.th-total-points:active, .input.th-geo-path:active, .input.is-primary.is-active, .input.is-active.th-points, .input.is-active.th-total-points, .input.is-active.th-geo-path,
     .textarea.is-primary:focus,
     .textarea.th-points:focus,
     .textarea.th-total-points:focus,
+    .textarea.th-geo-path:focus,
     .textarea.is-primary.is-focused,
     .textarea.is-focused.th-points,
     .textarea.is-focused.th-total-points,
+    .textarea.is-focused.th-geo-path,
     .textarea.is-primary:active,
     .textarea.th-points:active,
     .textarea.th-total-points:active,
+    .textarea.th-geo-path:active,
     .textarea.is-primary.is-active,
     .textarea.is-active.th-points,
-    .textarea.is-active.th-total-points {
+    .textarea.is-active.th-total-points,
+    .textarea.is-active.th-geo-path {
       box-shadow: 0 0 0 0.125em rgba(0, 209, 178, 0.25); }
   .input.is-link, .input.th-speed-section, .input.th-speed, .input.th-distance-points-breakdown, .input.th-distance-points,
   .textarea.is-link,
@@ -4464,19 +4469,24 @@ a.box:active {
     .textarea.is-active.th-distance-points-breakdown,
     .textarea.is-active.th-distance-points {
       box-shadow: 0 0 0 0.125em rgba(50, 115, 220, 0.25); }
-  .input.is-info, .input.th-distance,
+  .input.is-info, .input.th-distance, .input.th-geo-network,
   .textarea.is-info,
-  .textarea.th-distance {
+  .textarea.th-distance,
+  .textarea.th-geo-network {
     border-color: #209cee; }
-    .input.is-info:focus, .input.th-distance:focus, .input.is-info.is-focused, .input.is-focused.th-distance, .input.is-info:active, .input.th-distance:active, .input.is-info.is-active, .input.is-active.th-distance,
+    .input.is-info:focus, .input.th-distance:focus, .input.th-geo-network:focus, .input.is-info.is-focused, .input.is-focused.th-distance, .input.is-focused.th-geo-network, .input.is-info:active, .input.th-distance:active, .input.th-geo-network:active, .input.is-info.is-active, .input.is-active.th-distance, .input.is-active.th-geo-network,
     .textarea.is-info:focus,
     .textarea.th-distance:focus,
+    .textarea.th-geo-network:focus,
     .textarea.is-info.is-focused,
     .textarea.is-focused.th-distance,
+    .textarea.is-focused.th-geo-network,
     .textarea.is-info:active,
     .textarea.th-distance:active,
+    .textarea.th-geo-network:active,
     .textarea.is-info.is-active,
-    .textarea.is-active.th-distance {
+    .textarea.is-active.th-distance,
+    .textarea.is-active.th-geo-network {
       box-shadow: 0 0 0 0.125em rgba(32, 156, 238, 0.25); }
   .input.is-success,
   .textarea.is-success {
@@ -4487,14 +4497,19 @@ a.box:active {
     .textarea.is-success:active,
     .textarea.is-success.is-active {
       box-shadow: 0 0 0 0.125em rgba(35, 209, 96, 0.25); }
-  .input.is-warning,
-  .textarea.is-warning {
+  .input.is-warning, .input.th-geo-how-far,
+  .textarea.is-warning,
+  .textarea.th-geo-how-far {
     border-color: #ffdd57; }
-    .input.is-warning:focus, .input.is-warning.is-focused, .input.is-warning:active, .input.is-warning.is-active,
+    .input.is-warning:focus, .input.th-geo-how-far:focus, .input.is-warning.is-focused, .input.is-focused.th-geo-how-far, .input.is-warning:active, .input.th-geo-how-far:active, .input.is-warning.is-active, .input.is-active.th-geo-how-far,
     .textarea.is-warning:focus,
+    .textarea.th-geo-how-far:focus,
     .textarea.is-warning.is-focused,
+    .textarea.is-focused.th-geo-how-far,
     .textarea.is-warning:active,
-    .textarea.is-warning.is-active {
+    .textarea.th-geo-how-far:active,
+    .textarea.is-warning.is-active,
+    .textarea.is-active.th-geo-how-far {
       box-shadow: 0 0 0 0.125em rgba(255, 221, 87, 0.25); }
   .input.is-danger,
   .textarea.is-danger {
@@ -4664,13 +4679,13 @@ a.box:active {
       border-color: #292929; }
     .select.is-dark select:focus, .select.is-dark select.is-focused, .select.is-dark select:active, .select.is-dark select.is-active {
       box-shadow: 0 0 0 0.125em rgba(54, 54, 54, 0.25); }
-  .select.is-primary:not(:hover)::after, .select.th-points:not(:hover)::after, .select.th-total-points:not(:hover)::after {
+  .select.is-primary:not(:hover)::after, .select.th-points:not(:hover)::after, .select.th-total-points:not(:hover)::after, .select.th-geo-path:not(:hover)::after {
     border-color: #00d1b2; }
-  .select.is-primary select, .select.th-points select, .select.th-total-points select {
+  .select.is-primary select, .select.th-points select, .select.th-total-points select, .select.th-geo-path select {
     border-color: #00d1b2; }
-    .select.is-primary select:hover, .select.th-points select:hover, .select.th-total-points select:hover, .select.is-primary select.is-hovered, .select.th-points select.is-hovered, .select.th-total-points select.is-hovered {
+    .select.is-primary select:hover, .select.th-points select:hover, .select.th-total-points select:hover, .select.th-geo-path select:hover, .select.is-primary select.is-hovered, .select.th-points select.is-hovered, .select.th-total-points select.is-hovered, .select.th-geo-path select.is-hovered {
       border-color: #00b89c; }
-    .select.is-primary select:focus, .select.th-points select:focus, .select.th-total-points select:focus, .select.is-primary select.is-focused, .select.th-points select.is-focused, .select.th-total-points select.is-focused, .select.is-primary select:active, .select.th-points select:active, .select.th-total-points select:active, .select.is-primary select.is-active, .select.th-points select.is-active, .select.th-total-points select.is-active {
+    .select.is-primary select:focus, .select.th-points select:focus, .select.th-total-points select:focus, .select.th-geo-path select:focus, .select.is-primary select.is-focused, .select.th-points select.is-focused, .select.th-total-points select.is-focused, .select.th-geo-path select.is-focused, .select.is-primary select:active, .select.th-points select:active, .select.th-total-points select:active, .select.th-geo-path select:active, .select.is-primary select.is-active, .select.th-points select.is-active, .select.th-total-points select.is-active, .select.th-geo-path select.is-active {
       box-shadow: 0 0 0 0.125em rgba(0, 209, 178, 0.25); }
   .select.is-link:not(:hover)::after, .select.th-speed-section:not(:hover)::after, .select.th-speed:not(:hover)::after, .select.th-distance-points-breakdown:not(:hover)::after, .select.th-distance-points:not(:hover)::after {
     border-color: #3273dc; }
@@ -4680,13 +4695,13 @@ a.box:active {
       border-color: #2366d1; }
     .select.is-link select:focus, .select.th-speed-section select:focus, .select.th-speed select:focus, .select.th-distance-points-breakdown select:focus, .select.th-distance-points select:focus, .select.is-link select.is-focused, .select.th-speed-section select.is-focused, .select.th-speed select.is-focused, .select.th-distance-points-breakdown select.is-focused, .select.th-distance-points select.is-focused, .select.is-link select:active, .select.th-speed-section select:active, .select.th-speed select:active, .select.th-distance-points-breakdown select:active, .select.th-distance-points select:active, .select.is-link select.is-active, .select.th-speed-section select.is-active, .select.th-speed select.is-active, .select.th-distance-points-breakdown select.is-active, .select.th-distance-points select.is-active {
       box-shadow: 0 0 0 0.125em rgba(50, 115, 220, 0.25); }
-  .select.is-info:not(:hover)::after, .select.th-distance:not(:hover)::after {
+  .select.is-info:not(:hover)::after, .select.th-distance:not(:hover)::after, .select.th-geo-network:not(:hover)::after {
     border-color: #209cee; }
-  .select.is-info select, .select.th-distance select {
+  .select.is-info select, .select.th-distance select, .select.th-geo-network select {
     border-color: #209cee; }
-    .select.is-info select:hover, .select.th-distance select:hover, .select.is-info select.is-hovered, .select.th-distance select.is-hovered {
+    .select.is-info select:hover, .select.th-distance select:hover, .select.th-geo-network select:hover, .select.is-info select.is-hovered, .select.th-distance select.is-hovered, .select.th-geo-network select.is-hovered {
       border-color: #118fe4; }
-    .select.is-info select:focus, .select.th-distance select:focus, .select.is-info select.is-focused, .select.th-distance select.is-focused, .select.is-info select:active, .select.th-distance select:active, .select.is-info select.is-active, .select.th-distance select.is-active {
+    .select.is-info select:focus, .select.th-distance select:focus, .select.th-geo-network select:focus, .select.is-info select.is-focused, .select.th-distance select.is-focused, .select.th-geo-network select.is-focused, .select.is-info select:active, .select.th-distance select:active, .select.th-geo-network select:active, .select.is-info select.is-active, .select.th-distance select.is-active, .select.th-geo-network select.is-active {
       box-shadow: 0 0 0 0.125em rgba(32, 156, 238, 0.25); }
   .select.is-success:not(:hover)::after {
     border-color: #23d160; }
@@ -4696,13 +4711,13 @@ a.box:active {
       border-color: #20bc56; }
     .select.is-success select:focus, .select.is-success select.is-focused, .select.is-success select:active, .select.is-success select.is-active {
       box-shadow: 0 0 0 0.125em rgba(35, 209, 96, 0.25); }
-  .select.is-warning:not(:hover)::after {
+  .select.is-warning:not(:hover)::after, .select.th-geo-how-far:not(:hover)::after {
     border-color: #ffdd57; }
-  .select.is-warning select {
+  .select.is-warning select, .select.th-geo-how-far select {
     border-color: #ffdd57; }
-    .select.is-warning select:hover, .select.is-warning select.is-hovered {
+    .select.is-warning select:hover, .select.th-geo-how-far select:hover, .select.is-warning select.is-hovered, .select.th-geo-how-far select.is-hovered {
       border-color: #ffd83d; }
-    .select.is-warning select:focus, .select.is-warning select.is-focused, .select.is-warning select:active, .select.is-warning select.is-active {
+    .select.is-warning select:focus, .select.th-geo-how-far select:focus, .select.is-warning select.is-focused, .select.th-geo-how-far select.is-focused, .select.is-warning select:active, .select.th-geo-how-far select:active, .select.is-warning select.is-active, .select.th-geo-how-far select.is-active {
       box-shadow: 0 0 0 0.125em rgba(255, 221, 87, 0.25); }
   .select.is-danger:not(:hover)::after {
     border-color: #ff3860; }
@@ -4807,19 +4822,19 @@ a.box:active {
     background-color: #292929;
     border-color: transparent;
     color: whitesmoke; }
-  .file.is-primary .file-cta, .file.th-points .file-cta, .file.th-total-points .file-cta {
+  .file.is-primary .file-cta, .file.th-points .file-cta, .file.th-total-points .file-cta, .file.th-geo-path .file-cta {
     background-color: #00d1b2;
     border-color: transparent;
     color: #fff; }
-  .file.is-primary:hover .file-cta, .file.th-points:hover .file-cta, .file.th-total-points:hover .file-cta, .file.is-primary.is-hovered .file-cta, .file.is-hovered.th-points .file-cta, .file.is-hovered.th-total-points .file-cta {
+  .file.is-primary:hover .file-cta, .file.th-points:hover .file-cta, .file.th-total-points:hover .file-cta, .file.th-geo-path:hover .file-cta, .file.is-primary.is-hovered .file-cta, .file.is-hovered.th-points .file-cta, .file.is-hovered.th-total-points .file-cta, .file.is-hovered.th-geo-path .file-cta {
     background-color: #00c4a7;
     border-color: transparent;
     color: #fff; }
-  .file.is-primary:focus .file-cta, .file.th-points:focus .file-cta, .file.th-total-points:focus .file-cta, .file.is-primary.is-focused .file-cta, .file.is-focused.th-points .file-cta, .file.is-focused.th-total-points .file-cta {
+  .file.is-primary:focus .file-cta, .file.th-points:focus .file-cta, .file.th-total-points:focus .file-cta, .file.th-geo-path:focus .file-cta, .file.is-primary.is-focused .file-cta, .file.is-focused.th-points .file-cta, .file.is-focused.th-total-points .file-cta, .file.is-focused.th-geo-path .file-cta {
     border-color: transparent;
     box-shadow: 0 0 0.5em rgba(0, 209, 178, 0.25);
     color: #fff; }
-  .file.is-primary:active .file-cta, .file.th-points:active .file-cta, .file.th-total-points:active .file-cta, .file.is-primary.is-active .file-cta, .file.is-active.th-points .file-cta, .file.is-active.th-total-points .file-cta {
+  .file.is-primary:active .file-cta, .file.th-points:active .file-cta, .file.th-total-points:active .file-cta, .file.th-geo-path:active .file-cta, .file.is-primary.is-active .file-cta, .file.is-active.th-points .file-cta, .file.is-active.th-total-points .file-cta, .file.is-active.th-geo-path .file-cta {
     background-color: #00b89c;
     border-color: transparent;
     color: #fff; }
@@ -4839,19 +4854,19 @@ a.box:active {
     background-color: #2366d1;
     border-color: transparent;
     color: #fff; }
-  .file.is-info .file-cta, .file.th-distance .file-cta {
+  .file.is-info .file-cta, .file.th-distance .file-cta, .file.th-geo-network .file-cta {
     background-color: #209cee;
     border-color: transparent;
     color: #fff; }
-  .file.is-info:hover .file-cta, .file.th-distance:hover .file-cta, .file.is-info.is-hovered .file-cta, .file.is-hovered.th-distance .file-cta {
+  .file.is-info:hover .file-cta, .file.th-distance:hover .file-cta, .file.th-geo-network:hover .file-cta, .file.is-info.is-hovered .file-cta, .file.is-hovered.th-distance .file-cta, .file.is-hovered.th-geo-network .file-cta {
     background-color: #1496ed;
     border-color: transparent;
     color: #fff; }
-  .file.is-info:focus .file-cta, .file.th-distance:focus .file-cta, .file.is-info.is-focused .file-cta, .file.is-focused.th-distance .file-cta {
+  .file.is-info:focus .file-cta, .file.th-distance:focus .file-cta, .file.th-geo-network:focus .file-cta, .file.is-info.is-focused .file-cta, .file.is-focused.th-distance .file-cta, .file.is-focused.th-geo-network .file-cta {
     border-color: transparent;
     box-shadow: 0 0 0.5em rgba(32, 156, 238, 0.25);
     color: #fff; }
-  .file.is-info:active .file-cta, .file.th-distance:active .file-cta, .file.is-info.is-active .file-cta, .file.is-active.th-distance .file-cta {
+  .file.is-info:active .file-cta, .file.th-distance:active .file-cta, .file.th-geo-network:active .file-cta, .file.is-info.is-active .file-cta, .file.is-active.th-distance .file-cta, .file.is-active.th-geo-network .file-cta {
     background-color: #118fe4;
     border-color: transparent;
     color: #fff; }
@@ -4871,19 +4886,19 @@ a.box:active {
     background-color: #20bc56;
     border-color: transparent;
     color: #fff; }
-  .file.is-warning .file-cta {
+  .file.is-warning .file-cta, .file.th-geo-how-far .file-cta {
     background-color: #ffdd57;
     border-color: transparent;
     color: rgba(0, 0, 0, 0.7); }
-  .file.is-warning:hover .file-cta, .file.is-warning.is-hovered .file-cta {
+  .file.is-warning:hover .file-cta, .file.th-geo-how-far:hover .file-cta, .file.is-warning.is-hovered .file-cta, .file.is-hovered.th-geo-how-far .file-cta {
     background-color: #ffdb4a;
     border-color: transparent;
     color: rgba(0, 0, 0, 0.7); }
-  .file.is-warning:focus .file-cta, .file.is-warning.is-focused .file-cta {
+  .file.is-warning:focus .file-cta, .file.th-geo-how-far:focus .file-cta, .file.is-warning.is-focused .file-cta, .file.is-focused.th-geo-how-far .file-cta {
     border-color: transparent;
     box-shadow: 0 0 0.5em rgba(255, 221, 87, 0.25);
     color: rgba(0, 0, 0, 0.7); }
-  .file.is-warning:active .file-cta, .file.is-warning.is-active .file-cta {
+  .file.is-warning:active .file-cta, .file.th-geo-how-far:active .file-cta, .file.is-warning.is-active .file-cta, .file.is-active.th-geo-how-far .file-cta {
     background-color: #ffd83d;
     border-color: transparent;
     color: rgba(0, 0, 0, 0.7); }
@@ -5049,15 +5064,15 @@ a.box:active {
     color: whitesmoke; }
   .help.is-dark {
     color: #363636; }
-  .help.is-primary, .help.th-points, .help.th-total-points {
+  .help.is-primary, .help.th-points, .help.th-total-points, .help.th-geo-path {
     color: #00d1b2; }
   .help.is-link, .help.th-speed-section, .help.th-speed, .help.th-distance-points-breakdown, .help.th-distance-points {
     color: #3273dc; }
-  .help.is-info, .help.th-distance {
+  .help.is-info, .help.th-distance, .help.th-geo-network {
     color: #209cee; }
   .help.is-success {
     color: #23d160; }
-  .help.is-warning {
+  .help.is-warning, .help.th-geo-how-far {
     color: #ffdd57; }
   .help.is-danger {
     color: #ff3860; }
@@ -5382,19 +5397,19 @@ a.box:active {
   .notification.is-dark {
     background-color: #363636;
     color: whitesmoke; }
-  .notification.is-primary, .notification.th-points, .notification.th-total-points {
+  .notification.is-primary, .notification.th-points, .notification.th-total-points, .notification.th-geo-path {
     background-color: #00d1b2;
     color: #fff; }
   .notification.is-link, .notification.th-speed-section, .notification.th-speed, .notification.th-distance-points-breakdown, .notification.th-distance-points {
     background-color: #3273dc;
     color: #fff; }
-  .notification.is-info, .notification.th-distance {
+  .notification.is-info, .notification.th-distance, .notification.th-geo-network {
     background-color: #209cee;
     color: #fff; }
   .notification.is-success {
     background-color: #23d160;
     color: #fff; }
-  .notification.is-warning {
+  .notification.is-warning, .notification.th-geo-how-far {
     background-color: #ffdd57;
     color: rgba(0, 0, 0, 0.7); }
   .notification.is-danger {
@@ -5444,11 +5459,11 @@ a.box:active {
     background-color: #363636; }
   .progress.is-dark::-ms-fill {
     background-color: #363636; }
-  .progress.is-primary::-webkit-progress-value, .progress.th-points::-webkit-progress-value, .progress.th-total-points::-webkit-progress-value {
+  .progress.is-primary::-webkit-progress-value, .progress.th-points::-webkit-progress-value, .progress.th-total-points::-webkit-progress-value, .progress.th-geo-path::-webkit-progress-value {
     background-color: #00d1b2; }
-  .progress.is-primary::-moz-progress-bar, .progress.th-points::-moz-progress-bar, .progress.th-total-points::-moz-progress-bar {
+  .progress.is-primary::-moz-progress-bar, .progress.th-points::-moz-progress-bar, .progress.th-total-points::-moz-progress-bar, .progress.th-geo-path::-moz-progress-bar {
     background-color: #00d1b2; }
-  .progress.is-primary::-ms-fill, .progress.th-points::-ms-fill, .progress.th-total-points::-ms-fill {
+  .progress.is-primary::-ms-fill, .progress.th-points::-ms-fill, .progress.th-total-points::-ms-fill, .progress.th-geo-path::-ms-fill {
     background-color: #00d1b2; }
   .progress.is-link::-webkit-progress-value, .progress.th-speed-section::-webkit-progress-value, .progress.th-speed::-webkit-progress-value, .progress.th-distance-points-breakdown::-webkit-progress-value, .progress.th-distance-points::-webkit-progress-value {
     background-color: #3273dc; }
@@ -5456,11 +5471,11 @@ a.box:active {
     background-color: #3273dc; }
   .progress.is-link::-ms-fill, .progress.th-speed-section::-ms-fill, .progress.th-speed::-ms-fill, .progress.th-distance-points-breakdown::-ms-fill, .progress.th-distance-points::-ms-fill {
     background-color: #3273dc; }
-  .progress.is-info::-webkit-progress-value, .progress.th-distance::-webkit-progress-value {
+  .progress.is-info::-webkit-progress-value, .progress.th-distance::-webkit-progress-value, .progress.th-geo-network::-webkit-progress-value {
     background-color: #209cee; }
-  .progress.is-info::-moz-progress-bar, .progress.th-distance::-moz-progress-bar {
+  .progress.is-info::-moz-progress-bar, .progress.th-distance::-moz-progress-bar, .progress.th-geo-network::-moz-progress-bar {
     background-color: #209cee; }
-  .progress.is-info::-ms-fill, .progress.th-distance::-ms-fill {
+  .progress.is-info::-ms-fill, .progress.th-distance::-ms-fill, .progress.th-geo-network::-ms-fill {
     background-color: #209cee; }
   .progress.is-success::-webkit-progress-value {
     background-color: #23d160; }
@@ -5468,11 +5483,11 @@ a.box:active {
     background-color: #23d160; }
   .progress.is-success::-ms-fill {
     background-color: #23d160; }
-  .progress.is-warning::-webkit-progress-value {
+  .progress.is-warning::-webkit-progress-value, .progress.th-geo-how-far::-webkit-progress-value {
     background-color: #ffdd57; }
-  .progress.is-warning::-moz-progress-bar {
+  .progress.is-warning::-moz-progress-bar, .progress.th-geo-how-far::-moz-progress-bar {
     background-color: #ffdd57; }
-  .progress.is-warning::-ms-fill {
+  .progress.is-warning::-ms-fill, .progress.th-geo-how-far::-ms-fill {
     background-color: #ffdd57; }
   .progress.is-danger::-webkit-progress-value {
     background-color: #ff3860; }
@@ -5516,10 +5531,11 @@ a.box:active {
       background-color: #363636;
       border-color: #363636;
       color: whitesmoke; }
-    .table td.is-primary, .table td.th-points, .table td.th-total-points,
+    .table td.is-primary, .table td.th-points, .table td.th-total-points, .table td.th-geo-path,
     .table th.is-primary,
     .table th.th-points,
-    .table th.th-total-points {
+    .table th.th-total-points,
+    .table th.th-geo-path {
       background-color: #00d1b2;
       border-color: #00d1b2;
       color: #fff; }
@@ -5532,9 +5548,10 @@ a.box:active {
       background-color: #3273dc;
       border-color: #3273dc;
       color: #fff; }
-    .table td.is-info, .table td.th-distance,
+    .table td.is-info, .table td.th-distance, .table td.th-geo-network,
     .table th.is-info,
-    .table th.th-distance {
+    .table th.th-distance,
+    .table th.th-geo-network {
       background-color: #209cee;
       border-color: #209cee;
       color: #fff; }
@@ -5543,8 +5560,9 @@ a.box:active {
       background-color: #23d160;
       border-color: #23d160;
       color: #fff; }
-    .table td.is-warning,
-    .table th.is-warning {
+    .table td.is-warning, .table td.th-geo-how-far,
+    .table th.is-warning,
+    .table th.th-geo-how-far {
       background-color: #ffdd57;
       border-color: #ffdd57;
       color: rgba(0, 0, 0, 0.7); }
@@ -5677,19 +5695,19 @@ a.box:active {
   .tag:not(body).is-dark {
     background-color: #363636;
     color: whitesmoke; }
-  .tag:not(body).is-primary, .tag.th-points:not(body), .tag.th-total-points:not(body) {
+  .tag:not(body).is-primary, .tag.th-points:not(body), .tag.th-total-points:not(body), .tag.th-geo-path:not(body) {
     background-color: #00d1b2;
     color: #fff; }
   .tag:not(body).is-link, .tag.th-speed-section:not(body), .tag.th-speed:not(body), .tag.th-distance-points-breakdown:not(body), .tag.th-distance-points:not(body) {
     background-color: #3273dc;
     color: #fff; }
-  .tag:not(body).is-info, .tag.th-distance:not(body) {
+  .tag:not(body).is-info, .tag.th-distance:not(body), .tag.th-geo-network:not(body) {
     background-color: #209cee;
     color: #fff; }
   .tag:not(body).is-success {
     background-color: #23d160;
     color: #fff; }
-  .tag:not(body).is-warning {
+  .tag:not(body).is-warning, .tag.th-geo-how-far:not(body) {
     background-color: #ffdd57;
     color: rgba(0, 0, 0, 0.7); }
   .tag:not(body).is-danger {
@@ -6238,12 +6256,12 @@ a.list-item {
     .message.is-dark .message-body {
       border-color: #363636;
       color: #2a2a2a; }
-  .message.is-primary, .message.th-points, .message.th-total-points {
+  .message.is-primary, .message.th-points, .message.th-total-points, .message.th-geo-path {
     background-color: #f5fffd; }
-    .message.is-primary .message-header, .message.th-points .message-header, .message.th-total-points .message-header {
+    .message.is-primary .message-header, .message.th-points .message-header, .message.th-total-points .message-header, .message.th-geo-path .message-header {
       background-color: #00d1b2;
       color: #fff; }
-    .message.is-primary .message-body, .message.th-points .message-body, .message.th-total-points .message-body {
+    .message.is-primary .message-body, .message.th-points .message-body, .message.th-total-points .message-body, .message.th-geo-path .message-body {
       border-color: #00d1b2;
       color: #021310; }
   .message.is-link, .message.th-speed-section, .message.th-speed, .message.th-distance-points-breakdown, .message.th-distance-points {
@@ -6254,12 +6272,12 @@ a.list-item {
     .message.is-link .message-body, .message.th-speed-section .message-body, .message.th-speed .message-body, .message.th-distance-points-breakdown .message-body, .message.th-distance-points .message-body {
       border-color: #3273dc;
       color: #22509a; }
-  .message.is-info, .message.th-distance {
+  .message.is-info, .message.th-distance, .message.th-geo-network {
     background-color: #f6fbfe; }
-    .message.is-info .message-header, .message.th-distance .message-header {
+    .message.is-info .message-header, .message.th-distance .message-header, .message.th-geo-network .message-header {
       background-color: #209cee;
       color: #fff; }
-    .message.is-info .message-body, .message.th-distance .message-body {
+    .message.is-info .message-body, .message.th-distance .message-body, .message.th-geo-network .message-body {
       border-color: #209cee;
       color: #12537e; }
   .message.is-success {
@@ -6270,12 +6288,12 @@ a.list-item {
     .message.is-success .message-body {
       border-color: #23d160;
       color: #0e301a; }
-  .message.is-warning {
+  .message.is-warning, .message.th-geo-how-far {
     background-color: #fffdf5; }
-    .message.is-warning .message-header {
+    .message.is-warning .message-header, .message.th-geo-how-far .message-header {
       background-color: #ffdd57;
       color: rgba(0, 0, 0, 0.7); }
-    .message.is-warning .message-body {
+    .message.is-warning .message-body, .message.th-geo-how-far .message-body {
       border-color: #ffdd57;
       color: #3b3108; }
   .message.is-danger {
@@ -6565,72 +6583,86 @@ a.list-item {
       .navbar.is-dark .navbar-dropdown a.navbar-item.is-active {
         background-color: #363636;
         color: whitesmoke; } }
-  .navbar.is-primary, .navbar.th-points, .navbar.th-total-points {
+  .navbar.is-primary, .navbar.th-points, .navbar.th-total-points, .navbar.th-geo-path {
     background-color: #00d1b2;
     color: #fff; }
-    .navbar.is-primary .navbar-brand > .navbar-item, .navbar.th-points .navbar-brand > .navbar-item, .navbar.th-total-points .navbar-brand > .navbar-item,
+    .navbar.is-primary .navbar-brand > .navbar-item, .navbar.th-points .navbar-brand > .navbar-item, .navbar.th-total-points .navbar-brand > .navbar-item, .navbar.th-geo-path .navbar-brand > .navbar-item,
     .navbar.is-primary .navbar-brand .navbar-link,
     .navbar.th-points .navbar-brand .navbar-link,
-    .navbar.th-total-points .navbar-brand .navbar-link {
+    .navbar.th-total-points .navbar-brand .navbar-link,
+    .navbar.th-geo-path .navbar-brand .navbar-link {
       color: #fff; }
-    .navbar.is-primary .navbar-brand > a.navbar-item:hover, .navbar.th-points .navbar-brand > a.navbar-item:hover, .navbar.th-total-points .navbar-brand > a.navbar-item:hover, .navbar.is-primary .navbar-brand > a.navbar-item.is-active, .navbar.th-points .navbar-brand > a.navbar-item.is-active, .navbar.th-total-points .navbar-brand > a.navbar-item.is-active,
+    .navbar.is-primary .navbar-brand > a.navbar-item:hover, .navbar.th-points .navbar-brand > a.navbar-item:hover, .navbar.th-total-points .navbar-brand > a.navbar-item:hover, .navbar.th-geo-path .navbar-brand > a.navbar-item:hover, .navbar.is-primary .navbar-brand > a.navbar-item.is-active, .navbar.th-points .navbar-brand > a.navbar-item.is-active, .navbar.th-total-points .navbar-brand > a.navbar-item.is-active, .navbar.th-geo-path .navbar-brand > a.navbar-item.is-active,
     .navbar.is-primary .navbar-brand .navbar-link:hover,
     .navbar.th-points .navbar-brand .navbar-link:hover,
     .navbar.th-total-points .navbar-brand .navbar-link:hover,
+    .navbar.th-geo-path .navbar-brand .navbar-link:hover,
     .navbar.is-primary .navbar-brand .navbar-link.is-active,
     .navbar.th-points .navbar-brand .navbar-link.is-active,
-    .navbar.th-total-points .navbar-brand .navbar-link.is-active {
+    .navbar.th-total-points .navbar-brand .navbar-link.is-active,
+    .navbar.th-geo-path .navbar-brand .navbar-link.is-active {
       background-color: #00b89c;
       color: #fff; }
-    .navbar.is-primary .navbar-brand .navbar-link::after, .navbar.th-points .navbar-brand .navbar-link::after, .navbar.th-total-points .navbar-brand .navbar-link::after {
+    .navbar.is-primary .navbar-brand .navbar-link::after, .navbar.th-points .navbar-brand .navbar-link::after, .navbar.th-total-points .navbar-brand .navbar-link::after, .navbar.th-geo-path .navbar-brand .navbar-link::after {
       border-color: #fff; }
-    .navbar.is-primary .navbar-burger, .navbar.th-points .navbar-burger, .navbar.th-total-points .navbar-burger {
+    .navbar.is-primary .navbar-burger, .navbar.th-points .navbar-burger, .navbar.th-total-points .navbar-burger, .navbar.th-geo-path .navbar-burger {
       color: #fff; }
     @media screen and (min-width: 1088px) {
-      .navbar.is-primary .navbar-start > .navbar-item, .navbar.th-points .navbar-start > .navbar-item, .navbar.th-total-points .navbar-start > .navbar-item,
+      .navbar.is-primary .navbar-start > .navbar-item, .navbar.th-points .navbar-start > .navbar-item, .navbar.th-total-points .navbar-start > .navbar-item, .navbar.th-geo-path .navbar-start > .navbar-item,
       .navbar.is-primary .navbar-start .navbar-link,
       .navbar.th-points .navbar-start .navbar-link,
       .navbar.th-total-points .navbar-start .navbar-link,
+      .navbar.th-geo-path .navbar-start .navbar-link,
       .navbar.is-primary .navbar-end > .navbar-item,
       .navbar.th-points .navbar-end > .navbar-item,
       .navbar.th-total-points .navbar-end > .navbar-item,
+      .navbar.th-geo-path .navbar-end > .navbar-item,
       .navbar.is-primary .navbar-end .navbar-link,
       .navbar.th-points .navbar-end .navbar-link,
-      .navbar.th-total-points .navbar-end .navbar-link {
+      .navbar.th-total-points .navbar-end .navbar-link,
+      .navbar.th-geo-path .navbar-end .navbar-link {
         color: #fff; }
-      .navbar.is-primary .navbar-start > a.navbar-item:hover, .navbar.th-points .navbar-start > a.navbar-item:hover, .navbar.th-total-points .navbar-start > a.navbar-item:hover, .navbar.is-primary .navbar-start > a.navbar-item.is-active, .navbar.th-points .navbar-start > a.navbar-item.is-active, .navbar.th-total-points .navbar-start > a.navbar-item.is-active,
+      .navbar.is-primary .navbar-start > a.navbar-item:hover, .navbar.th-points .navbar-start > a.navbar-item:hover, .navbar.th-total-points .navbar-start > a.navbar-item:hover, .navbar.th-geo-path .navbar-start > a.navbar-item:hover, .navbar.is-primary .navbar-start > a.navbar-item.is-active, .navbar.th-points .navbar-start > a.navbar-item.is-active, .navbar.th-total-points .navbar-start > a.navbar-item.is-active, .navbar.th-geo-path .navbar-start > a.navbar-item.is-active,
       .navbar.is-primary .navbar-start .navbar-link:hover,
       .navbar.th-points .navbar-start .navbar-link:hover,
       .navbar.th-total-points .navbar-start .navbar-link:hover,
+      .navbar.th-geo-path .navbar-start .navbar-link:hover,
       .navbar.is-primary .navbar-start .navbar-link.is-active,
       .navbar.th-points .navbar-start .navbar-link.is-active,
       .navbar.th-total-points .navbar-start .navbar-link.is-active,
+      .navbar.th-geo-path .navbar-start .navbar-link.is-active,
       .navbar.is-primary .navbar-end > a.navbar-item:hover,
       .navbar.th-points .navbar-end > a.navbar-item:hover,
       .navbar.th-total-points .navbar-end > a.navbar-item:hover,
+      .navbar.th-geo-path .navbar-end > a.navbar-item:hover,
       .navbar.is-primary .navbar-end > a.navbar-item.is-active,
       .navbar.th-points .navbar-end > a.navbar-item.is-active,
       .navbar.th-total-points .navbar-end > a.navbar-item.is-active,
+      .navbar.th-geo-path .navbar-end > a.navbar-item.is-active,
       .navbar.is-primary .navbar-end .navbar-link:hover,
       .navbar.th-points .navbar-end .navbar-link:hover,
       .navbar.th-total-points .navbar-end .navbar-link:hover,
+      .navbar.th-geo-path .navbar-end .navbar-link:hover,
       .navbar.is-primary .navbar-end .navbar-link.is-active,
       .navbar.th-points .navbar-end .navbar-link.is-active,
-      .navbar.th-total-points .navbar-end .navbar-link.is-active {
+      .navbar.th-total-points .navbar-end .navbar-link.is-active,
+      .navbar.th-geo-path .navbar-end .navbar-link.is-active {
         background-color: #00b89c;
         color: #fff; }
-      .navbar.is-primary .navbar-start .navbar-link::after, .navbar.th-points .navbar-start .navbar-link::after, .navbar.th-total-points .navbar-start .navbar-link::after,
+      .navbar.is-primary .navbar-start .navbar-link::after, .navbar.th-points .navbar-start .navbar-link::after, .navbar.th-total-points .navbar-start .navbar-link::after, .navbar.th-geo-path .navbar-start .navbar-link::after,
       .navbar.is-primary .navbar-end .navbar-link::after,
       .navbar.th-points .navbar-end .navbar-link::after,
-      .navbar.th-total-points .navbar-end .navbar-link::after {
+      .navbar.th-total-points .navbar-end .navbar-link::after,
+      .navbar.th-geo-path .navbar-end .navbar-link::after {
         border-color: #fff; }
-      .navbar.is-primary .navbar-item.has-dropdown:hover .navbar-link, .navbar.th-points .navbar-item.has-dropdown:hover .navbar-link, .navbar.th-total-points .navbar-item.has-dropdown:hover .navbar-link,
+      .navbar.is-primary .navbar-item.has-dropdown:hover .navbar-link, .navbar.th-points .navbar-item.has-dropdown:hover .navbar-link, .navbar.th-total-points .navbar-item.has-dropdown:hover .navbar-link, .navbar.th-geo-path .navbar-item.has-dropdown:hover .navbar-link,
       .navbar.is-primary .navbar-item.has-dropdown.is-active .navbar-link,
       .navbar.th-points .navbar-item.has-dropdown.is-active .navbar-link,
-      .navbar.th-total-points .navbar-item.has-dropdown.is-active .navbar-link {
+      .navbar.th-total-points .navbar-item.has-dropdown.is-active .navbar-link,
+      .navbar.th-geo-path .navbar-item.has-dropdown.is-active .navbar-link {
         background-color: #00b89c;
         color: #fff; }
-      .navbar.is-primary .navbar-dropdown a.navbar-item.is-active, .navbar.th-points .navbar-dropdown a.navbar-item.is-active, .navbar.th-total-points .navbar-dropdown a.navbar-item.is-active {
+      .navbar.is-primary .navbar-dropdown a.navbar-item.is-active, .navbar.th-points .navbar-dropdown a.navbar-item.is-active, .navbar.th-total-points .navbar-dropdown a.navbar-item.is-active, .navbar.th-geo-path .navbar-dropdown a.navbar-item.is-active {
         background-color: #00d1b2;
         color: #fff; } }
   .navbar.is-link, .navbar.th-speed-section, .navbar.th-speed, .navbar.th-distance-points-breakdown, .navbar.th-distance-points {
@@ -6729,58 +6761,72 @@ a.list-item {
       .navbar.is-link .navbar-dropdown a.navbar-item.is-active, .navbar.th-speed-section .navbar-dropdown a.navbar-item.is-active, .navbar.th-speed .navbar-dropdown a.navbar-item.is-active, .navbar.th-distance-points-breakdown .navbar-dropdown a.navbar-item.is-active, .navbar.th-distance-points .navbar-dropdown a.navbar-item.is-active {
         background-color: #3273dc;
         color: #fff; } }
-  .navbar.is-info, .navbar.th-distance {
+  .navbar.is-info, .navbar.th-distance, .navbar.th-geo-network {
     background-color: #209cee;
     color: #fff; }
-    .navbar.is-info .navbar-brand > .navbar-item, .navbar.th-distance .navbar-brand > .navbar-item,
+    .navbar.is-info .navbar-brand > .navbar-item, .navbar.th-distance .navbar-brand > .navbar-item, .navbar.th-geo-network .navbar-brand > .navbar-item,
     .navbar.is-info .navbar-brand .navbar-link,
-    .navbar.th-distance .navbar-brand .navbar-link {
+    .navbar.th-distance .navbar-brand .navbar-link,
+    .navbar.th-geo-network .navbar-brand .navbar-link {
       color: #fff; }
-    .navbar.is-info .navbar-brand > a.navbar-item:hover, .navbar.th-distance .navbar-brand > a.navbar-item:hover, .navbar.is-info .navbar-brand > a.navbar-item.is-active, .navbar.th-distance .navbar-brand > a.navbar-item.is-active,
+    .navbar.is-info .navbar-brand > a.navbar-item:hover, .navbar.th-distance .navbar-brand > a.navbar-item:hover, .navbar.th-geo-network .navbar-brand > a.navbar-item:hover, .navbar.is-info .navbar-brand > a.navbar-item.is-active, .navbar.th-distance .navbar-brand > a.navbar-item.is-active, .navbar.th-geo-network .navbar-brand > a.navbar-item.is-active,
     .navbar.is-info .navbar-brand .navbar-link:hover,
     .navbar.th-distance .navbar-brand .navbar-link:hover,
+    .navbar.th-geo-network .navbar-brand .navbar-link:hover,
     .navbar.is-info .navbar-brand .navbar-link.is-active,
-    .navbar.th-distance .navbar-brand .navbar-link.is-active {
+    .navbar.th-distance .navbar-brand .navbar-link.is-active,
+    .navbar.th-geo-network .navbar-brand .navbar-link.is-active {
       background-color: #118fe4;
       color: #fff; }
-    .navbar.is-info .navbar-brand .navbar-link::after, .navbar.th-distance .navbar-brand .navbar-link::after {
+    .navbar.is-info .navbar-brand .navbar-link::after, .navbar.th-distance .navbar-brand .navbar-link::after, .navbar.th-geo-network .navbar-brand .navbar-link::after {
       border-color: #fff; }
-    .navbar.is-info .navbar-burger, .navbar.th-distance .navbar-burger {
+    .navbar.is-info .navbar-burger, .navbar.th-distance .navbar-burger, .navbar.th-geo-network .navbar-burger {
       color: #fff; }
     @media screen and (min-width: 1088px) {
-      .navbar.is-info .navbar-start > .navbar-item, .navbar.th-distance .navbar-start > .navbar-item,
+      .navbar.is-info .navbar-start > .navbar-item, .navbar.th-distance .navbar-start > .navbar-item, .navbar.th-geo-network .navbar-start > .navbar-item,
       .navbar.is-info .navbar-start .navbar-link,
       .navbar.th-distance .navbar-start .navbar-link,
+      .navbar.th-geo-network .navbar-start .navbar-link,
       .navbar.is-info .navbar-end > .navbar-item,
       .navbar.th-distance .navbar-end > .navbar-item,
+      .navbar.th-geo-network .navbar-end > .navbar-item,
       .navbar.is-info .navbar-end .navbar-link,
-      .navbar.th-distance .navbar-end .navbar-link {
+      .navbar.th-distance .navbar-end .navbar-link,
+      .navbar.th-geo-network .navbar-end .navbar-link {
         color: #fff; }
-      .navbar.is-info .navbar-start > a.navbar-item:hover, .navbar.th-distance .navbar-start > a.navbar-item:hover, .navbar.is-info .navbar-start > a.navbar-item.is-active, .navbar.th-distance .navbar-start > a.navbar-item.is-active,
+      .navbar.is-info .navbar-start > a.navbar-item:hover, .navbar.th-distance .navbar-start > a.navbar-item:hover, .navbar.th-geo-network .navbar-start > a.navbar-item:hover, .navbar.is-info .navbar-start > a.navbar-item.is-active, .navbar.th-distance .navbar-start > a.navbar-item.is-active, .navbar.th-geo-network .navbar-start > a.navbar-item.is-active,
       .navbar.is-info .navbar-start .navbar-link:hover,
       .navbar.th-distance .navbar-start .navbar-link:hover,
+      .navbar.th-geo-network .navbar-start .navbar-link:hover,
       .navbar.is-info .navbar-start .navbar-link.is-active,
       .navbar.th-distance .navbar-start .navbar-link.is-active,
+      .navbar.th-geo-network .navbar-start .navbar-link.is-active,
       .navbar.is-info .navbar-end > a.navbar-item:hover,
       .navbar.th-distance .navbar-end > a.navbar-item:hover,
+      .navbar.th-geo-network .navbar-end > a.navbar-item:hover,
       .navbar.is-info .navbar-end > a.navbar-item.is-active,
       .navbar.th-distance .navbar-end > a.navbar-item.is-active,
+      .navbar.th-geo-network .navbar-end > a.navbar-item.is-active,
       .navbar.is-info .navbar-end .navbar-link:hover,
       .navbar.th-distance .navbar-end .navbar-link:hover,
+      .navbar.th-geo-network .navbar-end .navbar-link:hover,
       .navbar.is-info .navbar-end .navbar-link.is-active,
-      .navbar.th-distance .navbar-end .navbar-link.is-active {
+      .navbar.th-distance .navbar-end .navbar-link.is-active,
+      .navbar.th-geo-network .navbar-end .navbar-link.is-active {
         background-color: #118fe4;
         color: #fff; }
-      .navbar.is-info .navbar-start .navbar-link::after, .navbar.th-distance .navbar-start .navbar-link::after,
+      .navbar.is-info .navbar-start .navbar-link::after, .navbar.th-distance .navbar-start .navbar-link::after, .navbar.th-geo-network .navbar-start .navbar-link::after,
       .navbar.is-info .navbar-end .navbar-link::after,
-      .navbar.th-distance .navbar-end .navbar-link::after {
+      .navbar.th-distance .navbar-end .navbar-link::after,
+      .navbar.th-geo-network .navbar-end .navbar-link::after {
         border-color: #fff; }
-      .navbar.is-info .navbar-item.has-dropdown:hover .navbar-link, .navbar.th-distance .navbar-item.has-dropdown:hover .navbar-link,
+      .navbar.is-info .navbar-item.has-dropdown:hover .navbar-link, .navbar.th-distance .navbar-item.has-dropdown:hover .navbar-link, .navbar.th-geo-network .navbar-item.has-dropdown:hover .navbar-link,
       .navbar.is-info .navbar-item.has-dropdown.is-active .navbar-link,
-      .navbar.th-distance .navbar-item.has-dropdown.is-active .navbar-link {
+      .navbar.th-distance .navbar-item.has-dropdown.is-active .navbar-link,
+      .navbar.th-geo-network .navbar-item.has-dropdown.is-active .navbar-link {
         background-color: #118fe4;
         color: #fff; }
-      .navbar.is-info .navbar-dropdown a.navbar-item.is-active, .navbar.th-distance .navbar-dropdown a.navbar-item.is-active {
+      .navbar.is-info .navbar-dropdown a.navbar-item.is-active, .navbar.th-distance .navbar-dropdown a.navbar-item.is-active, .navbar.th-geo-network .navbar-dropdown a.navbar-item.is-active {
         background-color: #209cee;
         color: #fff; } }
   .navbar.is-success {
@@ -6823,44 +6869,58 @@ a.list-item {
       .navbar.is-success .navbar-dropdown a.navbar-item.is-active {
         background-color: #23d160;
         color: #fff; } }
-  .navbar.is-warning {
+  .navbar.is-warning, .navbar.th-geo-how-far {
     background-color: #ffdd57;
     color: rgba(0, 0, 0, 0.7); }
-    .navbar.is-warning .navbar-brand > .navbar-item,
-    .navbar.is-warning .navbar-brand .navbar-link {
+    .navbar.is-warning .navbar-brand > .navbar-item, .navbar.th-geo-how-far .navbar-brand > .navbar-item,
+    .navbar.is-warning .navbar-brand .navbar-link,
+    .navbar.th-geo-how-far .navbar-brand .navbar-link {
       color: rgba(0, 0, 0, 0.7); }
-    .navbar.is-warning .navbar-brand > a.navbar-item:hover, .navbar.is-warning .navbar-brand > a.navbar-item.is-active,
+    .navbar.is-warning .navbar-brand > a.navbar-item:hover, .navbar.th-geo-how-far .navbar-brand > a.navbar-item:hover, .navbar.is-warning .navbar-brand > a.navbar-item.is-active, .navbar.th-geo-how-far .navbar-brand > a.navbar-item.is-active,
     .navbar.is-warning .navbar-brand .navbar-link:hover,
-    .navbar.is-warning .navbar-brand .navbar-link.is-active {
+    .navbar.th-geo-how-far .navbar-brand .navbar-link:hover,
+    .navbar.is-warning .navbar-brand .navbar-link.is-active,
+    .navbar.th-geo-how-far .navbar-brand .navbar-link.is-active {
       background-color: #ffd83d;
       color: rgba(0, 0, 0, 0.7); }
-    .navbar.is-warning .navbar-brand .navbar-link::after {
+    .navbar.is-warning .navbar-brand .navbar-link::after, .navbar.th-geo-how-far .navbar-brand .navbar-link::after {
       border-color: rgba(0, 0, 0, 0.7); }
-    .navbar.is-warning .navbar-burger {
+    .navbar.is-warning .navbar-burger, .navbar.th-geo-how-far .navbar-burger {
       color: rgba(0, 0, 0, 0.7); }
     @media screen and (min-width: 1088px) {
-      .navbar.is-warning .navbar-start > .navbar-item,
+      .navbar.is-warning .navbar-start > .navbar-item, .navbar.th-geo-how-far .navbar-start > .navbar-item,
       .navbar.is-warning .navbar-start .navbar-link,
+      .navbar.th-geo-how-far .navbar-start .navbar-link,
       .navbar.is-warning .navbar-end > .navbar-item,
-      .navbar.is-warning .navbar-end .navbar-link {
+      .navbar.th-geo-how-far .navbar-end > .navbar-item,
+      .navbar.is-warning .navbar-end .navbar-link,
+      .navbar.th-geo-how-far .navbar-end .navbar-link {
         color: rgba(0, 0, 0, 0.7); }
-      .navbar.is-warning .navbar-start > a.navbar-item:hover, .navbar.is-warning .navbar-start > a.navbar-item.is-active,
+      .navbar.is-warning .navbar-start > a.navbar-item:hover, .navbar.th-geo-how-far .navbar-start > a.navbar-item:hover, .navbar.is-warning .navbar-start > a.navbar-item.is-active, .navbar.th-geo-how-far .navbar-start > a.navbar-item.is-active,
       .navbar.is-warning .navbar-start .navbar-link:hover,
+      .navbar.th-geo-how-far .navbar-start .navbar-link:hover,
       .navbar.is-warning .navbar-start .navbar-link.is-active,
+      .navbar.th-geo-how-far .navbar-start .navbar-link.is-active,
       .navbar.is-warning .navbar-end > a.navbar-item:hover,
+      .navbar.th-geo-how-far .navbar-end > a.navbar-item:hover,
       .navbar.is-warning .navbar-end > a.navbar-item.is-active,
+      .navbar.th-geo-how-far .navbar-end > a.navbar-item.is-active,
       .navbar.is-warning .navbar-end .navbar-link:hover,
-      .navbar.is-warning .navbar-end .navbar-link.is-active {
+      .navbar.th-geo-how-far .navbar-end .navbar-link:hover,
+      .navbar.is-warning .navbar-end .navbar-link.is-active,
+      .navbar.th-geo-how-far .navbar-end .navbar-link.is-active {
         background-color: #ffd83d;
         color: rgba(0, 0, 0, 0.7); }
-      .navbar.is-warning .navbar-start .navbar-link::after,
-      .navbar.is-warning .navbar-end .navbar-link::after {
+      .navbar.is-warning .navbar-start .navbar-link::after, .navbar.th-geo-how-far .navbar-start .navbar-link::after,
+      .navbar.is-warning .navbar-end .navbar-link::after,
+      .navbar.th-geo-how-far .navbar-end .navbar-link::after {
         border-color: rgba(0, 0, 0, 0.7); }
-      .navbar.is-warning .navbar-item.has-dropdown:hover .navbar-link,
-      .navbar.is-warning .navbar-item.has-dropdown.is-active .navbar-link {
+      .navbar.is-warning .navbar-item.has-dropdown:hover .navbar-link, .navbar.th-geo-how-far .navbar-item.has-dropdown:hover .navbar-link,
+      .navbar.is-warning .navbar-item.has-dropdown.is-active .navbar-link,
+      .navbar.th-geo-how-far .navbar-item.has-dropdown.is-active .navbar-link {
         background-color: #ffd83d;
         color: rgba(0, 0, 0, 0.7); }
-      .navbar.is-warning .navbar-dropdown a.navbar-item.is-active {
+      .navbar.is-warning .navbar-dropdown a.navbar-item.is-active, .navbar.th-geo-how-far .navbar-dropdown a.navbar-item.is-active {
         background-color: #ffdd57;
         color: rgba(0, 0, 0, 0.7); } }
   .navbar.is-danger {
@@ -8877,59 +8937,64 @@ label.panel-block {
       @media screen and (max-width: 768px) {
         .hero.is-dark.is-bold .navbar-menu {
           background-image: linear-gradient(141deg, #1f191a 0%, #363636 71%, #46403f 100%); } }
-  .hero.is-primary, .hero.th-points, .hero.th-total-points {
+  .hero.is-primary, .hero.th-points, .hero.th-total-points, .hero.th-geo-path {
     background-color: #00d1b2;
     color: #fff; }
-    .hero.is-primary a:not(.button):not(.dropdown-item):not(.tag), .hero.th-points a:not(.button):not(.dropdown-item):not(.tag), .hero.th-total-points a:not(.button):not(.dropdown-item):not(.tag),
+    .hero.is-primary a:not(.button):not(.dropdown-item):not(.tag), .hero.th-points a:not(.button):not(.dropdown-item):not(.tag), .hero.th-total-points a:not(.button):not(.dropdown-item):not(.tag), .hero.th-geo-path a:not(.button):not(.dropdown-item):not(.tag),
     .hero.is-primary strong,
     .hero.th-points strong,
-    .hero.th-total-points strong {
+    .hero.th-total-points strong,
+    .hero.th-geo-path strong {
       color: inherit; }
-    .hero.is-primary .title, .hero.th-points .title, .hero.th-total-points .title {
+    .hero.is-primary .title, .hero.th-points .title, .hero.th-total-points .title, .hero.th-geo-path .title {
       color: #fff; }
-    .hero.is-primary .subtitle, .hero.th-points .subtitle, .hero.th-total-points .subtitle {
+    .hero.is-primary .subtitle, .hero.th-points .subtitle, .hero.th-total-points .subtitle, .hero.th-geo-path .subtitle {
       color: rgba(255, 255, 255, 0.9); }
-      .hero.is-primary .subtitle a:not(.button), .hero.th-points .subtitle a:not(.button), .hero.th-total-points .subtitle a:not(.button),
+      .hero.is-primary .subtitle a:not(.button), .hero.th-points .subtitle a:not(.button), .hero.th-total-points .subtitle a:not(.button), .hero.th-geo-path .subtitle a:not(.button),
       .hero.is-primary .subtitle strong,
       .hero.th-points .subtitle strong,
-      .hero.th-total-points .subtitle strong {
+      .hero.th-total-points .subtitle strong,
+      .hero.th-geo-path .subtitle strong {
         color: #fff; }
     @media screen and (max-width: 1087px) {
-      .hero.is-primary .navbar-menu, .hero.th-points .navbar-menu, .hero.th-total-points .navbar-menu {
+      .hero.is-primary .navbar-menu, .hero.th-points .navbar-menu, .hero.th-total-points .navbar-menu, .hero.th-geo-path .navbar-menu {
         background-color: #00d1b2; } }
-    .hero.is-primary .navbar-item, .hero.th-points .navbar-item, .hero.th-total-points .navbar-item,
+    .hero.is-primary .navbar-item, .hero.th-points .navbar-item, .hero.th-total-points .navbar-item, .hero.th-geo-path .navbar-item,
     .hero.is-primary .navbar-link,
     .hero.th-points .navbar-link,
-    .hero.th-total-points .navbar-link {
+    .hero.th-total-points .navbar-link,
+    .hero.th-geo-path .navbar-link {
       color: rgba(255, 255, 255, 0.7); }
-    .hero.is-primary a.navbar-item:hover, .hero.th-points a.navbar-item:hover, .hero.th-total-points a.navbar-item:hover, .hero.is-primary a.navbar-item.is-active, .hero.th-points a.navbar-item.is-active, .hero.th-total-points a.navbar-item.is-active,
+    .hero.is-primary a.navbar-item:hover, .hero.th-points a.navbar-item:hover, .hero.th-total-points a.navbar-item:hover, .hero.th-geo-path a.navbar-item:hover, .hero.is-primary a.navbar-item.is-active, .hero.th-points a.navbar-item.is-active, .hero.th-total-points a.navbar-item.is-active, .hero.th-geo-path a.navbar-item.is-active,
     .hero.is-primary .navbar-link:hover,
     .hero.th-points .navbar-link:hover,
     .hero.th-total-points .navbar-link:hover,
+    .hero.th-geo-path .navbar-link:hover,
     .hero.is-primary .navbar-link.is-active,
     .hero.th-points .navbar-link.is-active,
-    .hero.th-total-points .navbar-link.is-active {
+    .hero.th-total-points .navbar-link.is-active,
+    .hero.th-geo-path .navbar-link.is-active {
       background-color: #00b89c;
       color: #fff; }
-    .hero.is-primary .tabs a, .hero.th-points .tabs a, .hero.th-total-points .tabs a {
+    .hero.is-primary .tabs a, .hero.th-points .tabs a, .hero.th-total-points .tabs a, .hero.th-geo-path .tabs a {
       color: #fff;
       opacity: 0.9; }
-      .hero.is-primary .tabs a:hover, .hero.th-points .tabs a:hover, .hero.th-total-points .tabs a:hover {
+      .hero.is-primary .tabs a:hover, .hero.th-points .tabs a:hover, .hero.th-total-points .tabs a:hover, .hero.th-geo-path .tabs a:hover {
         opacity: 1; }
-    .hero.is-primary .tabs li.is-active a, .hero.th-points .tabs li.is-active a, .hero.th-total-points .tabs li.is-active a {
+    .hero.is-primary .tabs li.is-active a, .hero.th-points .tabs li.is-active a, .hero.th-total-points .tabs li.is-active a, .hero.th-geo-path .tabs li.is-active a {
       opacity: 1; }
-    .hero.is-primary .tabs.is-boxed a, .hero.th-points .tabs.is-boxed a, .hero.th-total-points .tabs.is-boxed a, .hero.is-primary .tabs.is-toggle a, .hero.th-points .tabs.is-toggle a, .hero.th-total-points .tabs.is-toggle a {
+    .hero.is-primary .tabs.is-boxed a, .hero.th-points .tabs.is-boxed a, .hero.th-total-points .tabs.is-boxed a, .hero.th-geo-path .tabs.is-boxed a, .hero.is-primary .tabs.is-toggle a, .hero.th-points .tabs.is-toggle a, .hero.th-total-points .tabs.is-toggle a, .hero.th-geo-path .tabs.is-toggle a {
       color: #fff; }
-      .hero.is-primary .tabs.is-boxed a:hover, .hero.th-points .tabs.is-boxed a:hover, .hero.th-total-points .tabs.is-boxed a:hover, .hero.is-primary .tabs.is-toggle a:hover, .hero.th-points .tabs.is-toggle a:hover, .hero.th-total-points .tabs.is-toggle a:hover {
+      .hero.is-primary .tabs.is-boxed a:hover, .hero.th-points .tabs.is-boxed a:hover, .hero.th-total-points .tabs.is-boxed a:hover, .hero.th-geo-path .tabs.is-boxed a:hover, .hero.is-primary .tabs.is-toggle a:hover, .hero.th-points .tabs.is-toggle a:hover, .hero.th-total-points .tabs.is-toggle a:hover, .hero.th-geo-path .tabs.is-toggle a:hover {
         background-color: rgba(10, 10, 10, 0.1); }
-    .hero.is-primary .tabs.is-boxed li.is-active a, .hero.th-points .tabs.is-boxed li.is-active a, .hero.th-total-points .tabs.is-boxed li.is-active a, .hero.is-primary .tabs.is-boxed li.is-active a:hover, .hero.th-points .tabs.is-boxed li.is-active a:hover, .hero.th-total-points .tabs.is-boxed li.is-active a:hover, .hero.is-primary .tabs.is-toggle li.is-active a, .hero.th-points .tabs.is-toggle li.is-active a, .hero.th-total-points .tabs.is-toggle li.is-active a, .hero.is-primary .tabs.is-toggle li.is-active a:hover, .hero.th-points .tabs.is-toggle li.is-active a:hover, .hero.th-total-points .tabs.is-toggle li.is-active a:hover {
+    .hero.is-primary .tabs.is-boxed li.is-active a, .hero.th-points .tabs.is-boxed li.is-active a, .hero.th-total-points .tabs.is-boxed li.is-active a, .hero.th-geo-path .tabs.is-boxed li.is-active a, .hero.is-primary .tabs.is-boxed li.is-active a:hover, .hero.th-points .tabs.is-boxed li.is-active a:hover, .hero.th-total-points .tabs.is-boxed li.is-active a:hover, .hero.th-geo-path .tabs.is-boxed li.is-active a:hover, .hero.is-primary .tabs.is-toggle li.is-active a, .hero.th-points .tabs.is-toggle li.is-active a, .hero.th-total-points .tabs.is-toggle li.is-active a, .hero.th-geo-path .tabs.is-toggle li.is-active a, .hero.is-primary .tabs.is-toggle li.is-active a:hover, .hero.th-points .tabs.is-toggle li.is-active a:hover, .hero.th-total-points .tabs.is-toggle li.is-active a:hover, .hero.th-geo-path .tabs.is-toggle li.is-active a:hover {
       background-color: #fff;
       border-color: #fff;
       color: #00d1b2; }
-    .hero.is-primary.is-bold, .hero.is-bold.th-points, .hero.is-bold.th-total-points {
+    .hero.is-primary.is-bold, .hero.is-bold.th-points, .hero.is-bold.th-total-points, .hero.is-bold.th-geo-path {
       background-image: linear-gradient(141deg, #009e6c 0%, #00d1b2 71%, #00e7eb 100%); }
       @media screen and (max-width: 768px) {
-        .hero.is-primary.is-bold .navbar-menu, .hero.is-bold.th-points .navbar-menu, .hero.is-bold.th-total-points .navbar-menu {
+        .hero.is-primary.is-bold .navbar-menu, .hero.is-bold.th-points .navbar-menu, .hero.is-bold.th-total-points .navbar-menu, .hero.is-bold.th-geo-path .navbar-menu {
           background-image: linear-gradient(141deg, #009e6c 0%, #00d1b2 71%, #00e7eb 100%); } }
   .hero.is-link, .hero.th-speed-section, .hero.th-speed, .hero.th-distance-points-breakdown, .hero.th-distance-points {
     background-color: #3273dc;
@@ -8995,54 +9060,59 @@ label.panel-block {
       @media screen and (max-width: 768px) {
         .hero.is-link.is-bold .navbar-menu, .hero.is-bold.th-speed-section .navbar-menu, .hero.is-bold.th-speed .navbar-menu, .hero.is-bold.th-distance-points-breakdown .navbar-menu, .hero.is-bold.th-distance-points .navbar-menu {
           background-image: linear-gradient(141deg, #1577c6 0%, #3273dc 71%, #4366e5 100%); } }
-  .hero.is-info, .hero.th-distance {
+  .hero.is-info, .hero.th-distance, .hero.th-geo-network {
     background-color: #209cee;
     color: #fff; }
-    .hero.is-info a:not(.button):not(.dropdown-item):not(.tag), .hero.th-distance a:not(.button):not(.dropdown-item):not(.tag),
+    .hero.is-info a:not(.button):not(.dropdown-item):not(.tag), .hero.th-distance a:not(.button):not(.dropdown-item):not(.tag), .hero.th-geo-network a:not(.button):not(.dropdown-item):not(.tag),
     .hero.is-info strong,
-    .hero.th-distance strong {
+    .hero.th-distance strong,
+    .hero.th-geo-network strong {
       color: inherit; }
-    .hero.is-info .title, .hero.th-distance .title {
+    .hero.is-info .title, .hero.th-distance .title, .hero.th-geo-network .title {
       color: #fff; }
-    .hero.is-info .subtitle, .hero.th-distance .subtitle {
+    .hero.is-info .subtitle, .hero.th-distance .subtitle, .hero.th-geo-network .subtitle {
       color: rgba(255, 255, 255, 0.9); }
-      .hero.is-info .subtitle a:not(.button), .hero.th-distance .subtitle a:not(.button),
+      .hero.is-info .subtitle a:not(.button), .hero.th-distance .subtitle a:not(.button), .hero.th-geo-network .subtitle a:not(.button),
       .hero.is-info .subtitle strong,
-      .hero.th-distance .subtitle strong {
+      .hero.th-distance .subtitle strong,
+      .hero.th-geo-network .subtitle strong {
         color: #fff; }
     @media screen and (max-width: 1087px) {
-      .hero.is-info .navbar-menu, .hero.th-distance .navbar-menu {
+      .hero.is-info .navbar-menu, .hero.th-distance .navbar-menu, .hero.th-geo-network .navbar-menu {
         background-color: #209cee; } }
-    .hero.is-info .navbar-item, .hero.th-distance .navbar-item,
+    .hero.is-info .navbar-item, .hero.th-distance .navbar-item, .hero.th-geo-network .navbar-item,
     .hero.is-info .navbar-link,
-    .hero.th-distance .navbar-link {
+    .hero.th-distance .navbar-link,
+    .hero.th-geo-network .navbar-link {
       color: rgba(255, 255, 255, 0.7); }
-    .hero.is-info a.navbar-item:hover, .hero.th-distance a.navbar-item:hover, .hero.is-info a.navbar-item.is-active, .hero.th-distance a.navbar-item.is-active,
+    .hero.is-info a.navbar-item:hover, .hero.th-distance a.navbar-item:hover, .hero.th-geo-network a.navbar-item:hover, .hero.is-info a.navbar-item.is-active, .hero.th-distance a.navbar-item.is-active, .hero.th-geo-network a.navbar-item.is-active,
     .hero.is-info .navbar-link:hover,
     .hero.th-distance .navbar-link:hover,
+    .hero.th-geo-network .navbar-link:hover,
     .hero.is-info .navbar-link.is-active,
-    .hero.th-distance .navbar-link.is-active {
+    .hero.th-distance .navbar-link.is-active,
+    .hero.th-geo-network .navbar-link.is-active {
       background-color: #118fe4;
       color: #fff; }
-    .hero.is-info .tabs a, .hero.th-distance .tabs a {
+    .hero.is-info .tabs a, .hero.th-distance .tabs a, .hero.th-geo-network .tabs a {
       color: #fff;
       opacity: 0.9; }
-      .hero.is-info .tabs a:hover, .hero.th-distance .tabs a:hover {
+      .hero.is-info .tabs a:hover, .hero.th-distance .tabs a:hover, .hero.th-geo-network .tabs a:hover {
         opacity: 1; }
-    .hero.is-info .tabs li.is-active a, .hero.th-distance .tabs li.is-active a {
+    .hero.is-info .tabs li.is-active a, .hero.th-distance .tabs li.is-active a, .hero.th-geo-network .tabs li.is-active a {
       opacity: 1; }
-    .hero.is-info .tabs.is-boxed a, .hero.th-distance .tabs.is-boxed a, .hero.is-info .tabs.is-toggle a, .hero.th-distance .tabs.is-toggle a {
+    .hero.is-info .tabs.is-boxed a, .hero.th-distance .tabs.is-boxed a, .hero.th-geo-network .tabs.is-boxed a, .hero.is-info .tabs.is-toggle a, .hero.th-distance .tabs.is-toggle a, .hero.th-geo-network .tabs.is-toggle a {
       color: #fff; }
-      .hero.is-info .tabs.is-boxed a:hover, .hero.th-distance .tabs.is-boxed a:hover, .hero.is-info .tabs.is-toggle a:hover, .hero.th-distance .tabs.is-toggle a:hover {
+      .hero.is-info .tabs.is-boxed a:hover, .hero.th-distance .tabs.is-boxed a:hover, .hero.th-geo-network .tabs.is-boxed a:hover, .hero.is-info .tabs.is-toggle a:hover, .hero.th-distance .tabs.is-toggle a:hover, .hero.th-geo-network .tabs.is-toggle a:hover {
         background-color: rgba(10, 10, 10, 0.1); }
-    .hero.is-info .tabs.is-boxed li.is-active a, .hero.th-distance .tabs.is-boxed li.is-active a, .hero.is-info .tabs.is-boxed li.is-active a:hover, .hero.th-distance .tabs.is-boxed li.is-active a:hover, .hero.is-info .tabs.is-toggle li.is-active a, .hero.th-distance .tabs.is-toggle li.is-active a, .hero.is-info .tabs.is-toggle li.is-active a:hover, .hero.th-distance .tabs.is-toggle li.is-active a:hover {
+    .hero.is-info .tabs.is-boxed li.is-active a, .hero.th-distance .tabs.is-boxed li.is-active a, .hero.th-geo-network .tabs.is-boxed li.is-active a, .hero.is-info .tabs.is-boxed li.is-active a:hover, .hero.th-distance .tabs.is-boxed li.is-active a:hover, .hero.th-geo-network .tabs.is-boxed li.is-active a:hover, .hero.is-info .tabs.is-toggle li.is-active a, .hero.th-distance .tabs.is-toggle li.is-active a, .hero.th-geo-network .tabs.is-toggle li.is-active a, .hero.is-info .tabs.is-toggle li.is-active a:hover, .hero.th-distance .tabs.is-toggle li.is-active a:hover, .hero.th-geo-network .tabs.is-toggle li.is-active a:hover {
       background-color: #fff;
       border-color: #fff;
       color: #209cee; }
-    .hero.is-info.is-bold, .hero.is-bold.th-distance {
+    .hero.is-info.is-bold, .hero.is-bold.th-distance, .hero.is-bold.th-geo-network {
       background-image: linear-gradient(141deg, #04a6d7 0%, #209cee 71%, #3287f5 100%); }
       @media screen and (max-width: 768px) {
-        .hero.is-info.is-bold .navbar-menu, .hero.is-bold.th-distance .navbar-menu {
+        .hero.is-info.is-bold .navbar-menu, .hero.is-bold.th-distance .navbar-menu, .hero.is-bold.th-geo-network .navbar-menu {
           background-image: linear-gradient(141deg, #04a6d7 0%, #209cee 71%, #3287f5 100%); } }
   .hero.is-success {
     background-color: #23d160;
@@ -9088,49 +9158,54 @@ label.panel-block {
       @media screen and (max-width: 768px) {
         .hero.is-success.is-bold .navbar-menu {
           background-image: linear-gradient(141deg, #12af2f 0%, #23d160 71%, #2ce28a 100%); } }
-  .hero.is-warning {
+  .hero.is-warning, .hero.th-geo-how-far {
     background-color: #ffdd57;
     color: rgba(0, 0, 0, 0.7); }
-    .hero.is-warning a:not(.button):not(.dropdown-item):not(.tag),
-    .hero.is-warning strong {
+    .hero.is-warning a:not(.button):not(.dropdown-item):not(.tag), .hero.th-geo-how-far a:not(.button):not(.dropdown-item):not(.tag),
+    .hero.is-warning strong,
+    .hero.th-geo-how-far strong {
       color: inherit; }
-    .hero.is-warning .title {
+    .hero.is-warning .title, .hero.th-geo-how-far .title {
       color: rgba(0, 0, 0, 0.7); }
-    .hero.is-warning .subtitle {
+    .hero.is-warning .subtitle, .hero.th-geo-how-far .subtitle {
       color: rgba(0, 0, 0, 0.9); }
-      .hero.is-warning .subtitle a:not(.button),
-      .hero.is-warning .subtitle strong {
+      .hero.is-warning .subtitle a:not(.button), .hero.th-geo-how-far .subtitle a:not(.button),
+      .hero.is-warning .subtitle strong,
+      .hero.th-geo-how-far .subtitle strong {
         color: rgba(0, 0, 0, 0.7); }
     @media screen and (max-width: 1087px) {
-      .hero.is-warning .navbar-menu {
+      .hero.is-warning .navbar-menu, .hero.th-geo-how-far .navbar-menu {
         background-color: #ffdd57; } }
-    .hero.is-warning .navbar-item,
-    .hero.is-warning .navbar-link {
+    .hero.is-warning .navbar-item, .hero.th-geo-how-far .navbar-item,
+    .hero.is-warning .navbar-link,
+    .hero.th-geo-how-far .navbar-link {
       color: rgba(0, 0, 0, 0.7); }
-    .hero.is-warning a.navbar-item:hover, .hero.is-warning a.navbar-item.is-active,
+    .hero.is-warning a.navbar-item:hover, .hero.th-geo-how-far a.navbar-item:hover, .hero.is-warning a.navbar-item.is-active, .hero.th-geo-how-far a.navbar-item.is-active,
     .hero.is-warning .navbar-link:hover,
-    .hero.is-warning .navbar-link.is-active {
+    .hero.th-geo-how-far .navbar-link:hover,
+    .hero.is-warning .navbar-link.is-active,
+    .hero.th-geo-how-far .navbar-link.is-active {
       background-color: #ffd83d;
       color: rgba(0, 0, 0, 0.7); }
-    .hero.is-warning .tabs a {
+    .hero.is-warning .tabs a, .hero.th-geo-how-far .tabs a {
       color: rgba(0, 0, 0, 0.7);
       opacity: 0.9; }
-      .hero.is-warning .tabs a:hover {
+      .hero.is-warning .tabs a:hover, .hero.th-geo-how-far .tabs a:hover {
         opacity: 1; }
-    .hero.is-warning .tabs li.is-active a {
+    .hero.is-warning .tabs li.is-active a, .hero.th-geo-how-far .tabs li.is-active a {
       opacity: 1; }
-    .hero.is-warning .tabs.is-boxed a, .hero.is-warning .tabs.is-toggle a {
+    .hero.is-warning .tabs.is-boxed a, .hero.th-geo-how-far .tabs.is-boxed a, .hero.is-warning .tabs.is-toggle a, .hero.th-geo-how-far .tabs.is-toggle a {
       color: rgba(0, 0, 0, 0.7); }
-      .hero.is-warning .tabs.is-boxed a:hover, .hero.is-warning .tabs.is-toggle a:hover {
+      .hero.is-warning .tabs.is-boxed a:hover, .hero.th-geo-how-far .tabs.is-boxed a:hover, .hero.is-warning .tabs.is-toggle a:hover, .hero.th-geo-how-far .tabs.is-toggle a:hover {
         background-color: rgba(10, 10, 10, 0.1); }
-    .hero.is-warning .tabs.is-boxed li.is-active a, .hero.is-warning .tabs.is-boxed li.is-active a:hover, .hero.is-warning .tabs.is-toggle li.is-active a, .hero.is-warning .tabs.is-toggle li.is-active a:hover {
+    .hero.is-warning .tabs.is-boxed li.is-active a, .hero.th-geo-how-far .tabs.is-boxed li.is-active a, .hero.is-warning .tabs.is-boxed li.is-active a:hover, .hero.th-geo-how-far .tabs.is-boxed li.is-active a:hover, .hero.is-warning .tabs.is-toggle li.is-active a, .hero.th-geo-how-far .tabs.is-toggle li.is-active a, .hero.is-warning .tabs.is-toggle li.is-active a:hover, .hero.th-geo-how-far .tabs.is-toggle li.is-active a:hover {
       background-color: rgba(0, 0, 0, 0.7);
       border-color: rgba(0, 0, 0, 0.7);
       color: #ffdd57; }
-    .hero.is-warning.is-bold {
+    .hero.is-warning.is-bold, .hero.is-bold.th-geo-how-far {
       background-image: linear-gradient(141deg, #ffaf24 0%, #ffdd57 71%, #fffa70 100%); }
       @media screen and (max-width: 768px) {
-        .hero.is-warning.is-bold .navbar-menu {
+        .hero.is-warning.is-bold .navbar-menu, .hero.is-bold.th-geo-how-far .navbar-menu {
           background-image: linear-gradient(141deg, #ffaf24 0%, #ffdd57 71%, #fffa70 100%); } }
   .hero.is-danger {
     background-color: #ff3860;
@@ -9260,10 +9335,37 @@ body, input, button, select, textarea {
 .box span.tag {
   border-radius: 0; }
 
+table:not(.sg) .th-start-gate, table:not(.sg) .th-time {
+  text-decoration: line-through; }
+
+table.pg .th-arrival-points {
+  text-decoration: line-through; }
+
+.pg.not, .sg.not {
+  text-decoration: line-through; }
+
+.td-pilot {
+  width: 10vw; }
+
+table:not(.sg) .td-time {
+  color: transparent; }
+
+tr.pilot-dfnt .td-best-distance.award-free, tr.pilot-dfnt .td-landed-distance.award-free {
+  text-decoration: line-through; }
+
+table.pg .th-effort-points {
+  text-decoration: line-through; }
+
+table.pg .td-effort-points, table.pg .td-arrival-points {
+  color: transparent; }
+
 .tr-dnf td.td-dnf, .tr-give td.td-missing {
   border: 1px solid #dbdbdb;
   vertical-align: middle;
   background-color: #fafafa;
   background-image: repeating-linear-gradient(-45deg, white, white 30px, #fafafa 30px, #fafafa 60px); }
+
+table td.td-geo-plane, table td.td-geo-pythagorus {
+  vertical-align: middle; }
 
 /*# sourceMappingURL=styles.css.map*/
