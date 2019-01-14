@@ -9,7 +9,7 @@
         "time": 369.6,
         "reach": 431.276,
         "distance": 431.276,
-        "leading": 199,
+        "leading": 191,
         "effort": 0,
         "arrival": 0
       },
@@ -23,7 +23,7 @@
         "ssDistance": "25.749 km",
         "gsVelocity": "23.90 km / h"
       },
-      "total": 1000,
+      "total": 992,
       "landedDistance": "26.388 km",
       "place": "1",
       "reachDistance": "26.388 km"
@@ -39,7 +39,7 @@
         "time": 328.5,
         "reach": 431.276,
         "distance": 431.276,
-        "leading": 198.9,
+        "leading": 186,
         "effort": 0,
         "arrival": 0
       },
@@ -53,7 +53,7 @@
         "ssDistance": "25.749 km",
         "gsVelocity": "23.10 km / h"
       },
-      "total": 959,
+      "total": 946,
       "landedDistance": "26.388 km",
       "place": "2",
       "reachDistance": "26.388 km"
@@ -99,7 +99,7 @@
         "time": 200.9,
         "reach": 431.276,
         "distance": 431.276,
-        "leading": 197.8,
+        "leading": 76.7,
         "effort": 0,
         "arrival": 0
       },
@@ -113,7 +113,7 @@
         "ssDistance": "25.749 km",
         "gsVelocity": "18.40 km / h"
       },
-      "total": 830,
+      "total": 709,
       "landedDistance": "26.388 km",
       "place": "4",
       "reachDistance": "26.388 km"
@@ -129,7 +129,7 @@
         "time": 181.4,
         "reach": 431.276,
         "distance": 431.276,
-        "leading": 197.8,
+        "leading": 75.7,
         "effort": 0,
         "arrival": 0
       },
@@ -143,9 +143,39 @@
         "ssDistance": "25.749 km",
         "gsVelocity": "17.70 km / h"
       },
-      "total": 811,
+      "total": 688,
       "landedDistance": "26.388 km",
       "place": "5",
+      "reachDistance": "26.388 km"
+    }
+  ],
+  [
+    [
+      "114",
+      "Joan Brito"
+    ],
+    {
+      "breakdown": {
+        "time": 126.3,
+        "reach": 431.276,
+        "distance": 431.276,
+        "leading": 115.9,
+        "effort": 0,
+        "arrival": 0
+      },
+      "velocity": {
+        "gs": "2018-05-27T11:00:00Z",
+        "ssVelocity": "15.90 km / h",
+        "ssElapsed": "1.619444 h",
+        "gsElapsed": "1.632500 h",
+        "es": "2018-05-27T12:37:57Z",
+        "ss": "2018-05-27T11:00:47Z",
+        "ssDistance": "25.749 km",
+        "gsVelocity": "15.80 km / h"
+      },
+      "total": 674,
+      "landedDistance": "26.388 km",
+      "place": "6",
       "reachDistance": "26.388 km"
     }
   ],
@@ -159,7 +189,7 @@
         "time": 144.5,
         "reach": 431.276,
         "distance": 431.276,
-        "leading": 197.9,
+        "leading": 85.5,
         "effort": 0,
         "arrival": 0
       },
@@ -173,37 +203,7 @@
         "ssDistance": "25.749 km",
         "gsVelocity": "16.40 km / h"
       },
-      "total": 774,
-      "landedDistance": "26.388 km",
-      "place": "6",
-      "reachDistance": "26.388 km"
-    }
-  ],
-  [
-    [
-      "9",
-      "Antoni Buljan"
-    ],
-    {
-      "breakdown": {
-        "time": 142,
-        "reach": 431.276,
-        "distance": 431.276,
-        "leading": 197.5,
-        "effort": 0,
-        "arrival": 0
-      },
-      "velocity": {
-        "gs": "2018-05-27T11:00:00Z",
-        "ssVelocity": "19.63 km / h",
-        "ssElapsed": "1.311667 h",
-        "gsElapsed": "1.580000 h",
-        "es": "2018-05-27T12:34:48Z",
-        "ss": "2018-05-27T11:16:06Z",
-        "ssDistance": "25.749 km",
-        "gsVelocity": "16.30 km / h"
-      },
-      "total": 771,
+      "total": 661,
       "landedDistance": "26.388 km",
       "place": "7",
       "reachDistance": "26.388 km"
@@ -219,7 +219,7 @@
         "time": 128.9,
         "reach": 431.276,
         "distance": 431.276,
-        "leading": 197.7,
+        "leading": 70.2,
         "effort": 0,
         "arrival": 0
       },
@@ -233,7 +233,7 @@
         "ssDistance": "25.749 km",
         "gsVelocity": "15.90 km / h"
       },
-      "total": 758,
+      "total": 630,
       "landedDistance": "26.388 km",
       "place": "8",
       "reachDistance": "26.388 km"
@@ -241,29 +241,29 @@
   ],
   [
     [
-      "114",
-      "Joan Brito"
+      "9",
+      "Antoni Buljan"
     ],
     {
       "breakdown": {
-        "time": 126.3,
+        "time": 142,
         "reach": 431.276,
         "distance": 431.276,
-        "leading": 198.2,
+        "leading": 50.5,
         "effort": 0,
         "arrival": 0
       },
       "velocity": {
         "gs": "2018-05-27T11:00:00Z",
-        "ssVelocity": "15.90 km / h",
-        "ssElapsed": "1.619444 h",
-        "gsElapsed": "1.632500 h",
-        "es": "2018-05-27T12:37:57Z",
-        "ss": "2018-05-27T11:00:47Z",
+        "ssVelocity": "19.63 km / h",
+        "ssElapsed": "1.311667 h",
+        "gsElapsed": "1.580000 h",
+        "es": "2018-05-27T12:34:48Z",
+        "ss": "2018-05-27T11:16:06Z",
         "ssDistance": "25.749 km",
-        "gsVelocity": "15.80 km / h"
+        "gsVelocity": "16.30 km / h"
       },
-      "total": 756,
+      "total": 624,
       "landedDistance": "26.388 km",
       "place": "9",
       "reachDistance": "26.388 km"
@@ -279,7 +279,7 @@
         "time": 89.4,
         "reach": 431.276,
         "distance": 431.276,
-        "leading": 197.4,
+        "leading": 38.6,
         "effort": 0,
         "arrival": 0
       },
@@ -293,39 +293,9 @@
         "ssDistance": "25.749 km",
         "gsVelocity": "14.60 km / h"
       },
-      "total": 718,
+      "total": 559,
       "landedDistance": "26.388 km",
       "place": "10",
-      "reachDistance": "26.388 km"
-    }
-  ],
-  [
-    [
-      "63",
-      "Marketa Tomaskova"
-    ],
-    {
-      "breakdown": {
-        "time": 12.4,
-        "reach": 431.276,
-        "distance": 431.276,
-        "leading": 197.2,
-        "effort": 0,
-        "arrival": 0
-      },
-      "velocity": {
-        "gs": "2018-05-27T11:00:00Z",
-        "ssVelocity": "12.62 km / h",
-        "ssElapsed": "2.041111 h",
-        "gsElapsed": "2.064722 h",
-        "es": "2018-05-27T13:03:53Z",
-        "ss": "2018-05-27T11:01:25Z",
-        "ssDistance": "25.749 km",
-        "gsVelocity": "12.50 km / h"
-      },
-      "total": 641,
-      "landedDistance": "26.388 km",
-      "place": "11",
       "reachDistance": "26.388 km"
     }
   ],
@@ -339,7 +309,7 @@
         "time": 0,
         "reach": 405.061,
         "distance": 405.061,
-        "leading": 0,
+        "leading": 102.7,
         "effort": 0,
         "arrival": 0
       },
@@ -353,70 +323,10 @@
         "ssDistance": null,
         "gsVelocity": null
       },
-      "total": 405,
+      "total": 508,
       "landedDistance": "24.671 km",
-      "place": "12",
+      "place": "11",
       "reachDistance": "24.784 km"
-    }
-  ],
-  [
-    [
-      "37",
-      "Igor Eržen"
-    ],
-    {
-      "breakdown": {
-        "time": 0,
-        "reach": 377.294,
-        "distance": 377.294,
-        "leading": 0,
-        "effort": 0,
-        "arrival": 0
-      },
-      "velocity": {
-        "gs": "2018-05-27T11:00:00Z",
-        "ssVelocity": null,
-        "ssElapsed": null,
-        "gsElapsed": null,
-        "es": null,
-        "ss": "2018-05-27T11:02:32Z",
-        "ssDistance": null,
-        "gsVelocity": null
-      },
-      "total": 377,
-      "landedDistance": "23.085 km",
-      "place": "13",
-      "reachDistance": "23.085 km"
-    }
-  ],
-  [
-    [
-      "57",
-      "Lara Leban"
-    ],
-    {
-      "breakdown": {
-        "time": 0,
-        "reach": 375.087,
-        "distance": 375.087,
-        "leading": 0,
-        "effort": 0,
-        "arrival": 0
-      },
-      "velocity": {
-        "gs": "2018-05-27T11:00:00Z",
-        "ssVelocity": null,
-        "ssElapsed": null,
-        "gsElapsed": null,
-        "es": null,
-        "ss": "2018-05-27T11:04:19Z",
-        "ssDistance": null,
-        "gsVelocity": null
-      },
-      "total": 375,
-      "landedDistance": "22.950 km",
-      "place": "14",
-      "reachDistance": "22.950 km"
     }
   ],
   [
@@ -429,7 +339,7 @@
         "time": 0,
         "reach": 364.088,
         "distance": 364.088,
-        "leading": 0,
+        "leading": 121.6,
         "effort": 0,
         "arrival": 0
       },
@@ -443,10 +353,100 @@
         "ssDistance": null,
         "gsVelocity": null
       },
-      "total": 364,
+      "total": 486,
       "landedDistance": "22.278 km",
-      "place": "15",
+      "place": "12",
       "reachDistance": "22.277 km"
+    }
+  ],
+  [
+    [
+      "37",
+      "Igor Eržen"
+    ],
+    {
+      "breakdown": {
+        "time": 0,
+        "reach": 377.294,
+        "distance": 377.294,
+        "leading": 104.1,
+        "effort": 0,
+        "arrival": 0
+      },
+      "velocity": {
+        "gs": "2018-05-27T11:00:00Z",
+        "ssVelocity": null,
+        "ssElapsed": null,
+        "gsElapsed": null,
+        "es": null,
+        "ss": "2018-05-27T11:02:32Z",
+        "ssDistance": null,
+        "gsVelocity": null
+      },
+      "total": 481,
+      "landedDistance": "23.085 km",
+      "place": "13",
+      "reachDistance": "23.085 km"
+    }
+  ],
+  [
+    [
+      "63",
+      "Marketa Tomaskova"
+    ],
+    {
+      "breakdown": {
+        "time": 12.4,
+        "reach": 431.276,
+        "distance": 431.276,
+        "leading": 20,
+        "effort": 0,
+        "arrival": 0
+      },
+      "velocity": {
+        "gs": "2018-05-27T11:00:00Z",
+        "ssVelocity": "12.62 km / h",
+        "ssElapsed": "2.041111 h",
+        "gsElapsed": "2.064722 h",
+        "es": "2018-05-27T13:03:53Z",
+        "ss": "2018-05-27T11:01:25Z",
+        "ssDistance": "25.749 km",
+        "gsVelocity": "12.50 km / h"
+      },
+      "total": 464,
+      "landedDistance": "26.388 km",
+      "place": "14",
+      "reachDistance": "26.388 km"
+    }
+  ],
+  [
+    [
+      "57",
+      "Lara Leban"
+    ],
+    {
+      "breakdown": {
+        "time": 0,
+        "reach": 375.087,
+        "distance": 375.087,
+        "leading": 55.2,
+        "effort": 0,
+        "arrival": 0
+      },
+      "velocity": {
+        "gs": "2018-05-27T11:00:00Z",
+        "ssVelocity": null,
+        "ssElapsed": null,
+        "gsElapsed": null,
+        "es": null,
+        "ss": "2018-05-27T11:04:19Z",
+        "ssDistance": null,
+        "gsVelocity": null
+      },
+      "total": 430,
+      "landedDistance": "22.950 km",
+      "place": "15",
+      "reachDistance": "22.950 km"
     }
   ],
   [
