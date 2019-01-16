@@ -279,7 +279,7 @@
         "time": 0,
         "reach": 48.17,
         "distance": 48.17,
-        "leading": 1,
+        "leading": 0.5,
         "effort": 0,
         "arrival": 0
       },
@@ -295,7 +295,7 @@
       },
       "total": 49,
       "landedDistance": "5.128 km",
-      "place": "10=",
+      "place": "10",
       "reachDistance": "5.298 km"
     }
   ],
@@ -309,7 +309,7 @@
         "time": 0,
         "reach": 47.024,
         "distance": 47.024,
-        "leading": 1.6,
+        "leading": 0.8,
         "effort": 0,
         "arrival": 0
       },
@@ -323,9 +323,9 @@
         "ssDistance": null,
         "gsVelocity": null
       },
-      "total": 49,
+      "total": 48,
       "landedDistance": "5.111 km",
-      "place": "10=",
+      "place": "11",
       "reachDistance": "5.172 km"
     }
   ],
@@ -357,36 +357,6 @@
       "landedDistance": "3.306 km",
       "place": "12",
       "reachDistance": "3.361 km"
-    }
-  ],
-  [
-    [
-      "73",
-      "Mitja Jug"
-    ],
-    {
-      "breakdown": {
-        "time": 0,
-        "reach": 19.046,
-        "distance": 19.046,
-        "leading": 9,
-        "effort": 0,
-        "arrival": 0
-      },
-      "velocity": {
-        "gs": "2018-05-24T10:30:00Z",
-        "ssVelocity": null,
-        "ssElapsed": null,
-        "gsElapsed": null,
-        "es": null,
-        "ss": "2018-05-24T10:43:40Z",
-        "ssDistance": null,
-        "gsVelocity": null
-      },
-      "total": 28,
-      "landedDistance": "2.082 km",
-      "place": "13=",
-      "reachDistance": "2.095 km"
     }
   ],
   [
@@ -475,7 +445,7 @@
       },
       "total": 26,
       "landedDistance": "2.905 km",
-      "place": "16=",
+      "place": "15=",
       "reachDistance": "2.905 km"
     }
   ],
@@ -489,7 +459,7 @@
         "time": 0,
         "reach": 25.056,
         "distance": 25.056,
-        "leading": 1.2,
+        "leading": 0.6,
         "effort": 0,
         "arrival": 0
       },
@@ -505,21 +475,21 @@
       },
       "total": 26,
       "landedDistance": "2.756 km",
-      "place": "16=",
+      "place": "15=",
       "reachDistance": "2.756 km"
     }
   ],
   [
     [
-      "46",
-      "Jerko Odžak"
+      "73",
+      "Mitja Jug"
     ],
     {
       "breakdown": {
         "time": 0,
-        "reach": 9.093,
-        "distance": 9.093,
-        "leading": 9.8,
+        "reach": 19.046,
+        "distance": 19.046,
+        "leading": 4.5,
         "effort": 0,
         "arrival": 0
       },
@@ -529,14 +499,14 @@
         "ssElapsed": null,
         "gsElapsed": null,
         "es": null,
-        "ss": "2018-05-24T11:09:05Z",
+        "ss": "2018-05-24T10:43:40Z",
         "ssDistance": null,
         "gsVelocity": null
       },
-      "total": 19,
-      "landedDistance": "0.597 km",
-      "place": "18=",
-      "reachDistance": "0.682 km"
+      "total": 24,
+      "landedDistance": "2.082 km",
+      "place": "17",
+      "reachDistance": "2.095 km"
     }
   ],
   [
@@ -549,7 +519,7 @@
         "time": 0,
         "reach": 11.963,
         "distance": 11.963,
-        "leading": 6.8,
+        "leading": 3.4,
         "effort": 0,
         "arrival": 0
       },
@@ -563,10 +533,40 @@
         "ssDistance": null,
         "gsVelocity": null
       },
-      "total": 19,
+      "total": 15,
       "landedDistance": "0.566 km",
-      "place": "18=",
+      "place": "18",
       "reachDistance": "1.316 km"
+    }
+  ],
+  [
+    [
+      "46",
+      "Jerko Odžak"
+    ],
+    {
+      "breakdown": {
+        "time": 0,
+        "reach": 9.093,
+        "distance": 9.093,
+        "leading": 4.9,
+        "effort": 0,
+        "arrival": 0
+      },
+      "velocity": {
+        "gs": "2018-05-24T10:30:00Z",
+        "ssVelocity": null,
+        "ssElapsed": null,
+        "gsElapsed": null,
+        "es": null,
+        "ss": "2018-05-24T11:09:05Z",
+        "ssDistance": null,
+        "gsVelocity": null
+      },
+      "total": 14,
+      "landedDistance": "0.597 km",
+      "place": "19",
+      "reachDistance": "0.682 km"
     }
   ],
   [
