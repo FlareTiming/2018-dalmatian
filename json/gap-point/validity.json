@@ -1,15 +1,15 @@
 [
   {
-    "time": 1,
+    "time": 0.694,
     "launch": 1,
-    "distance": 0.28,
-    "task": 0.28
+    "distance": 0.224,
+    "task": 0.156
   },
   {
-    "time": 0.999,
+    "time": 0.956,
     "launch": 1,
-    "distance": 0.881,
-    "task": 0.88
+    "distance": 0.779,
+    "task": 0.744
   },
   {
     "time": 1,

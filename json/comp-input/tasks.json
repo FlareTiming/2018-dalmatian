@@ -154,7 +154,8 @@
       7
     ],
     "stopped": {
-      "announced": "2018-05-24T12:23:00Z"
+      "announced": "2018-05-24T12:23:00Z",
+      "retroactive": "2018-05-24T12:18:00Z"
     },
     "startGates": [
       "2018-05-24T10:30:00Z"
@@ -365,7 +366,8 @@
       9
     ],
     "stopped": {
-      "announced": "2018-05-26T12:10:00Z"
+      "announced": "2018-05-26T12:10:00Z",
+      "retroactive": "2018-05-26T12:05:00Z"
     },
     "startGates": [
       "2018-05-26T11:00:00Z"
