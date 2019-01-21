@@ -16,6 +16,7 @@ curl -X GET -H "Accept:application/json" http://localhost:3000/gap-point/validit
 curl -X GET -H "Accept:application/json" http://localhost:3000/gap-point/pilots-status | jq > json/gap-point/pilots-status.json
 
 mkdir json/cross-zone
+mkdir json/cross-zone/track-flying-section
 mkdir json/pilot-track
 for t in {1..3}
     do
@@ -37,10 +38,10 @@ for t in {1..3}
         curl -X GET -H "Accept:application/json" http://localhost:3000/gap-point/$t/validity-working | jq > json/gap-point/$t/validity-working.json
         curl -X GET -H "Accept:application/json" http://localhost:3000/gap-point/$t/score | jq > json/gap-point/$t/score.json
 
-        mkdir json/cross-zone/$t
+        mkdir json/cross-zone/track-flying-section/$t
         for p in {4,9,13,16,21,23,26,37,40,41,46,114,54,57,63,72,73,74,80,82,86,88,91,95,98,101,102,113}
             do
-            curl -X GET -H "Accept:application/json" http://localhost:3000/cross-zone/$t/$p/track-flying-section | jq > json/cross-zone/$t/$p/track-flying-section.json
+            curl -X GET -H "Accept:application/json" http://localhost:3000/cross-zone/track-flying-section/$t/$p | jq > json/cross-zone/track-flying-section/$t/$p.json
             done
         mkdir json/pilot-track/$t
         for p in {4,9,13,16,21,23,26,37,40,41,46,114,54,57,63,72,73,74,80,82,86,88,91,95,98,101,102,113}
