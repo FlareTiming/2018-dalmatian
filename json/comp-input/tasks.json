@@ -157,9 +157,14 @@
       "announced": "2018-05-24T12:23:00Z",
       "retroactive": "2018-05-24T12:18:00Z"
     },
+    "taskTweak": {
+      "arrivalWeightScaling": null,
+      "leadingWeightScaling": 1
+    },
     "startGates": [
       "2018-05-24T10:30:00Z"
     ],
+    "penalties": [],
     "zoneTimes": [
       {
         "close": "2018-05-24T14:00:00Z",
@@ -369,9 +374,14 @@
       "announced": "2018-05-26T12:10:00Z",
       "retroactive": "2018-05-26T12:05:00Z"
     },
+    "taskTweak": {
+      "arrivalWeightScaling": null,
+      "leadingWeightScaling": 1
+    },
     "startGates": [
       "2018-05-26T11:00:00Z"
     ],
+    "penalties": [],
     "zoneTimes": [
       {
         "close": "2018-05-26T14:00:00Z",
@@ -548,9 +558,14 @@
       7
     ],
     "stopped": null,
+    "taskTweak": {
+      "arrivalWeightScaling": null,
+      "leadingWeightScaling": 1
+    },
     "startGates": [
       "2018-05-27T11:00:00Z"
     ],
+    "penalties": [],
     "zoneTimes": [
       {
         "close": "2018-05-27T14:00:00Z",

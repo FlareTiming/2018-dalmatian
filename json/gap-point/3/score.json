@@ -13,6 +13,7 @@
         "effort": 0,
         "arrival": 0
       },
+      "stoppedAlt": null,
       "velocity": {
         "gs": "2018-05-27T11:00:00Z",
         "ssVelocity": "24.32 km / h",
@@ -43,6 +44,7 @@
         "effort": 0,
         "arrival": 0
       },
+      "stoppedAlt": null,
       "velocity": {
         "gs": "2018-05-27T11:00:00Z",
         "ssVelocity": "23.58 km / h",
@@ -73,6 +75,7 @@
         "effort": 0,
         "arrival": 0
       },
+      "stoppedAlt": null,
       "velocity": {
         "gs": "2018-05-27T11:00:00Z",
         "ssVelocity": "20.03 km / h",
@@ -103,6 +106,7 @@
         "effort": 0,
         "arrival": 0
       },
+      "stoppedAlt": null,
       "velocity": {
         "gs": "2018-05-27T11:00:00Z",
         "ssVelocity": "19.28 km / h",
@@ -133,6 +137,7 @@
         "effort": 0,
         "arrival": 0
       },
+      "stoppedAlt": null,
       "velocity": {
         "gs": "2018-05-27T11:00:00Z",
         "ssVelocity": "22.67 km / h",
@@ -163,6 +168,7 @@
         "effort": 0,
         "arrival": 0
       },
+      "stoppedAlt": null,
       "velocity": {
         "gs": "2018-05-27T11:00:00Z",
         "ssVelocity": "20.23 km / h",
@@ -193,6 +199,7 @@
         "effort": 0,
         "arrival": 0
       },
+      "stoppedAlt": null,
       "velocity": {
         "gs": "2018-05-27T11:00:00Z",
         "ssVelocity": "16.95 km / h",
@@ -223,6 +230,7 @@
         "effort": 0,
         "arrival": 0
       },
+      "stoppedAlt": null,
       "velocity": {
         "gs": "2018-05-27T11:00:00Z",
         "ssVelocity": "15.90 km / h",
@@ -253,6 +261,7 @@
         "effort": 0,
         "arrival": 0
       },
+      "stoppedAlt": null,
       "velocity": {
         "gs": "2018-05-27T11:00:00Z",
         "ssVelocity": "19.63 km / h",
@@ -283,6 +292,7 @@
         "effort": 0,
         "arrival": 0
       },
+      "stoppedAlt": null,
       "velocity": {
         "gs": "2018-05-27T11:00:00Z",
         "ssVelocity": "16.09 km / h",
@@ -313,6 +323,7 @@
         "effort": 0,
         "arrival": 0
       },
+      "stoppedAlt": null,
       "velocity": {
         "gs": "2018-05-27T11:00:00Z",
         "ssVelocity": "17.24 km / h",
@@ -343,6 +354,7 @@
         "effort": 0,
         "arrival": 0
       },
+      "stoppedAlt": "0.000 m",
       "velocity": {
         "gs": "2018-05-27T11:00:00Z",
         "ssVelocity": null,
@@ -373,6 +385,7 @@
         "effort": 0,
         "arrival": 0
       },
+      "stoppedAlt": null,
       "velocity": {
         "gs": "2018-05-27T11:00:00Z",
         "ssVelocity": "12.62 km / h",
@@ -403,6 +416,7 @@
         "effort": 0,
         "arrival": 0
       },
+      "stoppedAlt": "367.000 m",
       "velocity": {
         "gs": "2018-05-27T11:00:00Z",
         "ssVelocity": null,
@@ -433,6 +447,7 @@
         "effort": 0,
         "arrival": 0
       },
+      "stoppedAlt": "381.000 m",
       "velocity": {
         "gs": "2018-05-27T11:00:00Z",
         "ssVelocity": null,
@@ -463,6 +478,7 @@
         "effort": 0,
         "arrival": 0
       },
+      "stoppedAlt": "380.000 m",
       "velocity": {
         "gs": "2018-05-27T11:00:00Z",
         "ssVelocity": null,
@@ -493,6 +509,7 @@
         "effort": 0,
         "arrival": 0
       },
+      "stoppedAlt": "387.000 m",
       "velocity": {
         "gs": "2018-05-27T11:00:00Z",
         "ssVelocity": null,
@@ -523,6 +540,7 @@
         "effort": 0,
         "arrival": 0
       },
+      "stoppedAlt": "532.000 m",
       "velocity": {
         "gs": "2018-05-27T11:00:00Z",
         "ssVelocity": null,
@@ -553,6 +571,7 @@
         "effort": 0,
         "arrival": 0
       },
+      "stoppedAlt": "484.000 m",
       "velocity": {
         "gs": "2018-05-27T11:00:00Z",
         "ssVelocity": null,
@@ -583,6 +602,7 @@
         "effort": 0,
         "arrival": 0
       },
+      "stoppedAlt": "0.000 m",
       "velocity": {
         "gs": "2018-05-27T11:00:00Z",
         "ssVelocity": null,
@@ -613,6 +633,7 @@
         "effort": 0,
         "arrival": 0
       },
+      "stoppedAlt": null,
       "velocity": null,
       "total": 15,
       "landedDistance": "0.000 km",

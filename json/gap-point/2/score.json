@@ -13,6 +13,7 @@
         "effort": 0,
         "arrival": 0
       },
+      "stoppedAlt": "891.000 m",
       "velocity": {
         "gs": "2018-05-26T11:00:00Z",
         "ssVelocity": null,
@@ -43,6 +44,7 @@
         "effort": 0,
         "arrival": 0
       },
+      "stoppedAlt": "830.000 m",
       "velocity": {
         "gs": "2018-05-26T11:00:00Z",
         "ssVelocity": null,
@@ -73,6 +75,7 @@
         "effort": 0,
         "arrival": 0
       },
+      "stoppedAlt": "912.000 m",
       "velocity": {
         "gs": "2018-05-26T11:00:00Z",
         "ssVelocity": null,
@@ -103,6 +106,7 @@
         "effort": 0,
         "arrival": 0
       },
+      "stoppedAlt": "889.000 m",
       "velocity": {
         "gs": "2018-05-26T11:00:00Z",
         "ssVelocity": null,
@@ -133,6 +137,7 @@
         "effort": 0,
         "arrival": 0
       },
+      "stoppedAlt": "867.000 m",
       "velocity": {
         "gs": "2018-05-26T11:00:00Z",
         "ssVelocity": null,
@@ -163,6 +168,7 @@
         "effort": 0,
         "arrival": 0
       },
+      "stoppedAlt": "767.000 m",
       "velocity": {
         "gs": "2018-05-26T11:00:00Z",
         "ssVelocity": null,
@@ -193,6 +199,7 @@
         "effort": 0,
         "arrival": 0
       },
+      "stoppedAlt": "560.000 m",
       "velocity": {
         "gs": "2018-05-26T11:00:00Z",
         "ssVelocity": null,
@@ -223,6 +230,7 @@
         "effort": 0,
         "arrival": 0
       },
+      "stoppedAlt": "533.000 m",
       "velocity": {
         "gs": "2018-05-26T11:00:00Z",
         "ssVelocity": null,
@@ -253,6 +261,7 @@
         "effort": 0,
         "arrival": 0
       },
+      "stoppedAlt": "769.000 m",
       "velocity": {
         "gs": "2018-05-26T11:00:00Z",
         "ssVelocity": null,
@@ -283,6 +292,7 @@
         "effort": 0,
         "arrival": 0
       },
+      "stoppedAlt": "849.000 m",
       "velocity": {
         "gs": "2018-05-26T11:00:00Z",
         "ssVelocity": null,
@@ -313,6 +323,7 @@
         "effort": 0,
         "arrival": 0
       },
+      "stoppedAlt": "410.000 m",
       "velocity": {
         "gs": "2018-05-26T11:00:00Z",
         "ssVelocity": null,
@@ -343,6 +354,7 @@
         "effort": 0,
         "arrival": 0
       },
+      "stoppedAlt": "487.000 m",
       "velocity": {
         "gs": "2018-05-26T11:00:00Z",
         "ssVelocity": null,
@@ -373,6 +385,7 @@
         "effort": 0,
         "arrival": 0
       },
+      "stoppedAlt": "482.000 m",
       "velocity": {
         "gs": "2018-05-26T11:00:00Z",
         "ssVelocity": null,
@@ -403,6 +416,7 @@
         "effort": 0,
         "arrival": 0
       },
+      "stoppedAlt": "545.000 m",
       "velocity": {
         "gs": "2018-05-26T11:00:00Z",
         "ssVelocity": null,
@@ -433,6 +447,7 @@
         "effort": 0,
         "arrival": 0
       },
+      "stoppedAlt": "0.000 m",
       "velocity": {
         "gs": "2018-05-26T11:00:00Z",
         "ssVelocity": null,
@@ -463,6 +478,7 @@
         "effort": 0,
         "arrival": 0
       },
+      "stoppedAlt": "820.000 m",
       "velocity": {
         "gs": "2018-05-26T11:00:00Z",
         "ssVelocity": null,
@@ -493,6 +509,7 @@
         "effort": 0,
         "arrival": 0
       },
+      "stoppedAlt": "0.000 m",
       "velocity": {
         "gs": "2018-05-26T11:00:00Z",
         "ssVelocity": null,
@@ -523,6 +540,7 @@
         "effort": 0,
         "arrival": 0
       },
+      "stoppedAlt": "392.000 m",
       "velocity": {
         "gs": "2018-05-26T11:00:00Z",
         "ssVelocity": null,
@@ -553,6 +571,7 @@
         "effort": 0,
         "arrival": 0
       },
+      "stoppedAlt": "469.000 m",
       "velocity": {
         "gs": "2018-05-26T11:00:00Z",
         "ssVelocity": null,
@@ -583,6 +602,7 @@
         "effort": 0,
         "arrival": 0
       },
+      "stoppedAlt": "501.000 m",
       "velocity": {
         "gs": "2018-05-26T11:00:00Z",
         "ssVelocity": null,
@@ -613,6 +633,7 @@
         "effort": 0,
         "arrival": 0
       },
+      "stoppedAlt": "0.000 m",
       "velocity": {
         "gs": "2018-05-26T11:00:00Z",
         "ssVelocity": null,
@@ -643,6 +664,7 @@
         "effort": 0,
         "arrival": 0
       },
+      "stoppedAlt": "472.000 m",
       "velocity": {
         "gs": "2018-05-26T11:00:00Z",
         "ssVelocity": null,
@@ -673,6 +695,7 @@
         "effort": 0,
         "arrival": 0
       },
+      "stoppedAlt": null,
       "velocity": null,
       "total": 33,
       "landedDistance": "0.000 km",
