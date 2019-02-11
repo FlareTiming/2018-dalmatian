@@ -17,8 +17,7 @@
       "effort": 0,
       "arrival": 0
     },
-    "taskPoints": 148,
-    "penalties": []
+    "taskPoints": 148
   },
   {
     "goalRatio": 0,
@@ -38,8 +37,7 @@
       "effort": 0,
       "arrival": 0
     },
-    "taskPoints": 747,
-    "penalties": []
+    "taskPoints": 747
   },
   {
     "goalRatio": 0.57142857,
@@ -59,7 +57,6 @@
       "effort": 0,
       "arrival": 0
     },
-    "taskPoints": 1000,
-    "penalties": []
+    "taskPoints": 1000
   }
 ]

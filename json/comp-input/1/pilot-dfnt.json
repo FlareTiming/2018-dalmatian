@@ -1,14 +1,47 @@
 [
-  [
-    "82",
-    "Richard Edlinger"
-  ],
-  [
-    "88",
-    "Sandor Roza"
-  ],
-  [
-    "113",
-    "Zsolt Sandor"
-  ]
+  {
+    "awardedReach": {
+      "awardedFrac": 0,
+      "awardedMade": "0.000000 km",
+      "awardedTask": "29.668000 km"
+    },
+    "pilot": [
+      "82",
+      "Richard Edlinger"
+    ],
+    "awardedVelocity": {
+      "es": null,
+      "ss": null
+    }
+  },
+  {
+    "awardedReach": {
+      "awardedFrac": 0,
+      "awardedMade": "0.000000 km",
+      "awardedTask": "29.668000 km"
+    },
+    "pilot": [
+      "88",
+      "Sandor Roza"
+    ],
+    "awardedVelocity": {
+      "es": null,
+      "ss": null
+    }
+  },
+  {
+    "awardedReach": {
+      "awardedFrac": 0,
+      "awardedMade": "0.000000 km",
+      "awardedTask": "29.668000 km"
+    },
+    "pilot": [
+      "113",
+      "Zsolt Sandor"
+    ],
+    "awardedVelocity": {
+      "es": null,
+      "ss": null
+    }
+  }
 ]

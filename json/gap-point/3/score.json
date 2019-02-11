@@ -14,6 +14,7 @@
         "arrival": 0
       },
       "stoppedAlt": null,
+      "penaltyReason": "",
       "velocity": {
         "gs": "2018-05-27T11:00:00Z",
         "ssVelocity": "24.32 km / h",
@@ -26,6 +27,7 @@
       },
       "total": 996,
       "landedDistance": "26.388 km",
+      "penalties": [],
       "place": "1",
       "reachDistance": "26.388 km"
     }
@@ -45,6 +47,7 @@
         "arrival": 0
       },
       "stoppedAlt": null,
+      "penaltyReason": "",
       "velocity": {
         "gs": "2018-05-27T11:00:00Z",
         "ssVelocity": "23.58 km / h",
@@ -57,6 +60,7 @@
       },
       "total": 938,
       "landedDistance": "26.388 km",
+      "penalties": [],
       "place": "2",
       "reachDistance": "26.388 km"
     }
@@ -76,6 +80,7 @@
         "arrival": 0
       },
       "stoppedAlt": null,
+      "penaltyReason": "",
       "velocity": {
         "gs": "2018-05-27T11:00:00Z",
         "ssVelocity": "20.03 km / h",
@@ -88,6 +93,7 @@
       },
       "total": 831,
       "landedDistance": "26.388 km",
+      "penalties": [],
       "place": "3",
       "reachDistance": "26.388 km"
     }
@@ -107,6 +113,7 @@
         "arrival": 0
       },
       "stoppedAlt": null,
+      "penaltyReason": "",
       "velocity": {
         "gs": "2018-05-27T11:00:00Z",
         "ssVelocity": "19.28 km / h",
@@ -119,6 +126,7 @@
       },
       "total": 726,
       "landedDistance": "26.388 km",
+      "penalties": [],
       "place": "4",
       "reachDistance": "26.388 km"
     }
@@ -138,6 +146,7 @@
         "arrival": 0
       },
       "stoppedAlt": null,
+      "penaltyReason": "",
       "velocity": {
         "gs": "2018-05-27T11:00:00Z",
         "ssVelocity": "22.67 km / h",
@@ -150,6 +159,7 @@
       },
       "total": 709,
       "landedDistance": "26.388 km",
+      "penalties": [],
       "place": "5",
       "reachDistance": "26.388 km"
     }
@@ -169,6 +179,7 @@
         "arrival": 0
       },
       "stoppedAlt": null,
+      "penaltyReason": "",
       "velocity": {
         "gs": "2018-05-27T11:00:00Z",
         "ssVelocity": "20.23 km / h",
@@ -181,6 +192,7 @@
       },
       "total": 682,
       "landedDistance": "26.388 km",
+      "penalties": [],
       "place": "6",
       "reachDistance": "26.388 km"
     }
@@ -200,6 +212,7 @@
         "arrival": 0
       },
       "stoppedAlt": null,
+      "penaltyReason": "",
       "velocity": {
         "gs": "2018-05-27T11:00:00Z",
         "ssVelocity": "16.95 km / h",
@@ -212,6 +225,7 @@
       },
       "total": 638,
       "landedDistance": "26.388 km",
+      "penalties": [],
       "place": "7",
       "reachDistance": "26.388 km"
     }
@@ -231,6 +245,7 @@
         "arrival": 0
       },
       "stoppedAlt": null,
+      "penaltyReason": "",
       "velocity": {
         "gs": "2018-05-27T11:00:00Z",
         "ssVelocity": "15.90 km / h",
@@ -243,6 +258,7 @@
       },
       "total": 629,
       "landedDistance": "26.388 km",
+      "penalties": [],
       "place": "8",
       "reachDistance": "26.388 km"
     }
@@ -262,6 +278,7 @@
         "arrival": 0
       },
       "stoppedAlt": null,
+      "penaltyReason": "",
       "velocity": {
         "gs": "2018-05-27T11:00:00Z",
         "ssVelocity": "19.63 km / h",
@@ -274,6 +291,7 @@
       },
       "total": 616,
       "landedDistance": "26.388 km",
+      "penalties": [],
       "place": "9",
       "reachDistance": "26.388 km"
     }
@@ -293,6 +311,7 @@
         "arrival": 0
       },
       "stoppedAlt": null,
+      "penaltyReason": "",
       "velocity": {
         "gs": "2018-05-27T11:00:00Z",
         "ssVelocity": "16.09 km / h",
@@ -305,6 +324,7 @@
       },
       "total": 609,
       "landedDistance": "26.388 km",
+      "penalties": [],
       "place": "10",
       "reachDistance": "26.388 km"
     }
@@ -324,6 +344,7 @@
         "arrival": 0
       },
       "stoppedAlt": null,
+      "penaltyReason": "",
       "velocity": {
         "gs": "2018-05-27T11:00:00Z",
         "ssVelocity": "17.24 km / h",
@@ -336,6 +357,7 @@
       },
       "total": 539,
       "landedDistance": "26.388 km",
+      "penalties": [],
       "place": "11",
       "reachDistance": "26.388 km"
     }
@@ -355,6 +377,7 @@
         "arrival": 0
       },
       "stoppedAlt": "0.000 m",
+      "penaltyReason": "",
       "velocity": {
         "gs": "2018-05-27T11:00:00Z",
         "ssVelocity": null,
@@ -367,6 +390,7 @@
       },
       "total": 429,
       "landedDistance": "24.676 km",
+      "penalties": [],
       "place": "12",
       "reachDistance": "24.789 km"
     }
@@ -386,6 +410,7 @@
         "arrival": 0
       },
       "stoppedAlt": null,
+      "penaltyReason": "",
       "velocity": {
         "gs": "2018-05-27T11:00:00Z",
         "ssVelocity": "12.62 km / h",
@@ -398,6 +423,7 @@
       },
       "total": 426,
       "landedDistance": "26.388 km",
+      "penalties": [],
       "place": "13",
       "reachDistance": "26.388 km"
     }
@@ -417,6 +443,7 @@
         "arrival": 0
       },
       "stoppedAlt": "367.000 m",
+      "penaltyReason": "",
       "velocity": {
         "gs": "2018-05-27T11:00:00Z",
         "ssVelocity": null,
@@ -429,6 +456,7 @@
       },
       "total": 404,
       "landedDistance": "23.090 km",
+      "penalties": [],
       "place": "14",
       "reachDistance": "23.090 km"
     }
@@ -448,6 +476,7 @@
         "arrival": 0
       },
       "stoppedAlt": "381.000 m",
+      "penaltyReason": "",
       "velocity": {
         "gs": "2018-05-27T11:00:00Z",
         "ssVelocity": null,
@@ -460,6 +489,7 @@
       },
       "total": 401,
       "landedDistance": "22.283 km",
+      "penalties": [],
       "place": "15",
       "reachDistance": "22.282 km"
     }
@@ -479,6 +509,7 @@
         "arrival": 0
       },
       "stoppedAlt": "380.000 m",
+      "penaltyReason": "",
       "velocity": {
         "gs": "2018-05-27T11:00:00Z",
         "ssVelocity": null,
@@ -491,6 +522,7 @@
       },
       "total": 376,
       "landedDistance": "22.955 km",
+      "penalties": [],
       "place": "16",
       "reachDistance": "22.955 km"
     }
@@ -510,6 +542,7 @@
         "arrival": 0
       },
       "stoppedAlt": "387.000 m",
+      "penaltyReason": "",
       "velocity": {
         "gs": "2018-05-27T11:00:00Z",
         "ssVelocity": null,
@@ -522,6 +555,7 @@
       },
       "total": 241,
       "landedDistance": "14.248 km",
+      "penalties": [],
       "place": "17",
       "reachDistance": "15.955 km"
     }
@@ -541,6 +575,7 @@
         "arrival": 0
       },
       "stoppedAlt": "532.000 m",
+      "penaltyReason": "",
       "velocity": {
         "gs": "2018-05-27T11:00:00Z",
         "ssVelocity": null,
@@ -553,6 +588,7 @@
       },
       "total": 49,
       "landedDistance": "3.214 km",
+      "penalties": [],
       "place": "18",
       "reachDistance": "3.216 km"
     }
@@ -572,6 +608,7 @@
         "arrival": 0
       },
       "stoppedAlt": "484.000 m",
+      "penaltyReason": "",
       "velocity": {
         "gs": "2018-05-27T11:00:00Z",
         "ssVelocity": null,
@@ -584,6 +621,7 @@
       },
       "total": 29,
       "landedDistance": "-0.044 km",
+      "penalties": [],
       "place": "19",
       "reachDistance": "1.907 km"
     }
@@ -603,6 +641,7 @@
         "arrival": 0
       },
       "stoppedAlt": "0.000 m",
+      "penaltyReason": "",
       "velocity": {
         "gs": "2018-05-27T11:00:00Z",
         "ssVelocity": null,
@@ -615,6 +654,7 @@
       },
       "total": 15,
       "landedDistance": "-0.195 km",
+      "penalties": [],
       "place": "20=",
       "reachDistance": "0.172 km"
     }
@@ -634,9 +674,11 @@
         "arrival": 0
       },
       "stoppedAlt": null,
+      "penaltyReason": "",
       "velocity": null,
       "total": 15,
       "landedDistance": "0.000 km",
+      "penalties": [],
       "place": "20=",
       "reachDistance": "0.000 km"
     }

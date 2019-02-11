@@ -1,6 +1,17 @@
 [
-  [
-    "91",
-    "Slava Jelić"
-  ]
+  {
+    "awardedReach": {
+      "awardedFrac": 0,
+      "awardedMade": "0.000000 km",
+      "awardedTask": "41.192000 km"
+    },
+    "pilot": [
+      "91",
+      "Slava Jelić"
+    ],
+    "awardedVelocity": {
+      "es": null,
+      "ss": null
+    }
+  }
 ]
