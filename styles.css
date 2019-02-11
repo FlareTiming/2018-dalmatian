@@ -2803,7 +2803,7 @@ table th {
   .is-size-7-fullhd {
     font-size: 0.75rem !important; } }
 
-.has-text-centered, .th-start-start, .th-start-gate, .th-end, .th-pace, .th-time, .td-start-start, .td-start-gate, .td-end, .td-pace, .td-time, .tr-dnf td.td-dnf, .tr-give td.td-missing {
+.has-text-centered, .th-start-start, .th-start-gate, .th-awarded-start, .th-end, .th-awarded-end, .th-pace, .th-time, .td-start-start, .td-start-gate, .td-awarded-start, .td-end, .td-awarded-end, .td-pace, .td-time, .tr-dnf td.td-dnf, .tr-give td.td-missing {
   text-align: center !important; }
 
 .has-text-justified {
@@ -2812,7 +2812,7 @@ table th {
 .has-text-left, .th-tp-lng, .td-tp-latl, .th-tp-close, .td-tp-close {
   text-align: left !important; }
 
-.has-text-right, .th-speed, .th-distance-points, .th-total-points, .th-speed-units, .th-min-distance, .th-best-distance, .th-alt-distance, .th-landed-distance, .th-min-distance-units, .th-best-distance-units, .th-alt-distance-units, .th-landed-distance-units, .th-reach-alloc, .th-effort-alloc, .th-distance-alloc, .th-leading-alloc, .th-time-alloc, .th-arrival-alloc, .th-task-alloc, .th-distance-validity, .th-time-validity, .th-task-validity, .th-distance-weight, .th-leading-weight, .th-time-weight, .th-arrival-weight, .th-placing, .th-reach-points, .th-effort-points, .th-lead-points, .th-time-points, .th-arrival-points, .td-placing, .td-speed, .td-speed-distance, .td-min-distance, .td-best-distance, .td-alt-distance, .td-landed-distance, .td-reach-points, .td-effort-points, .td-distance-points, .td-leading-points, .td-time-points, .td-arrival-points, .td-total-points, .th-tp-distance-leg, .th-tp-distance-task, .th-tp-distance-flip, .th-tp-radius, .th-tp-lat, .td-tp-distance-leg, .td-tp-distance-task, .td-tp-distance-flip, .td-tp-radius, .td-tp-lat, .th-tp-open, .td-tp-open, .th-tp-altitude, .td-tp-altitude, .th-tp-give, .td-tp-give, .th-penalty, .td-penalty {
+.has-text-right, .th-speed, .th-distance-points, .th-total-points, .th-speed-units, .th-min-distance, .th-best-distance, .th-alt-distance, .th-landed-distance, .th-min-distance-units, .th-best-distance-units, .th-alt-distance-units, .th-landed-distance-units, .th-reach-alloc, .th-effort-alloc, .th-distance-alloc, .th-leading-alloc, .th-time-alloc, .th-arrival-alloc, .th-task-alloc, .th-distance-validity, .th-time-validity, .th-task-validity, .th-distance-weight, .th-leading-weight, .th-time-weight, .th-arrival-weight, .th-placing, .th-reach-points, .th-effort-points, .th-lead-points, .th-time-points, .th-arrival-points, .td-placing, .td-speed, .td-speed-distance, .td-min-distance, .td-best-distance, .td-alt-distance, .td-landed-distance, .td-reach-points, .td-effort-points, .td-distance-points, .td-leading-points, .td-time-points, .td-arrival-points, .td-total-points, .th-tp-distance-leg, .th-tp-distance-task, .th-tp-distance-flip, .th-tp-radius, .th-tp-lat, .td-tp-distance-leg, .td-tp-distance-task, .td-tp-distance-flip, .td-tp-radius, .td-tp-lat, .th-tp-open, .td-tp-open, .th-tp-altitude, .td-tp-altitude, .th-tp-give, .td-tp-give, .th-penalty, .td-penalty, .th-awarded-reach, .td-awarded-reach {
   text-align: right !important; }
 
 @media screen and (max-width: 768px) {
@@ -3034,10 +3034,10 @@ a.has-text-info:hover, tr.pilot-dfnt a.td-pilot:hover, table:not(.sg) a.td-pace:
 .has-background-info {
   background-color: #209cee !important; }
 
-.has-text-success, table:not(.sg) .td-start-start, table.sg .td-start-gate, .td-tp-open, tr.start-speed > .td-tp-name {
+.has-text-success, table:not(.sg) .td-start-start, table.sg .td-start-gate, .td-awarded-start, .td-tp-open, tr.start-speed > .td-tp-name {
   color: #23d160 !important; }
 
-a.has-text-success:hover, table:not(.sg) a.td-start-start:hover, table.sg a.td-start-gate:hover, a.td-tp-open:hover, tr.start-speed > a.td-tp-name:hover, a.has-text-success:focus, table:not(.sg) a.td-start-start:focus, table.sg a.td-start-gate:focus, a.td-tp-open:focus, tr.start-speed > a.td-tp-name:focus {
+a.has-text-success:hover, table:not(.sg) a.td-start-start:hover, table.sg a.td-start-gate:hover, a.td-awarded-start:hover, a.td-tp-open:hover, tr.start-speed > a.td-tp-name:hover, a.has-text-success:focus, table:not(.sg) a.td-start-start:focus, table.sg a.td-start-gate:focus, a.td-awarded-start:focus, a.td-tp-open:focus, tr.start-speed > a.td-tp-name:focus {
   color: #1ca64c !important; }
 
 .has-background-success {
@@ -3052,10 +3052,10 @@ a.has-text-warning:hover, a.has-text-warning:focus {
 .has-background-warning {
   background-color: #ffdd57 !important; }
 
-.has-text-danger, table:not(.sg) .th-start-gate, table:not(.sg) .th-time, .th-time-points.gr-zero, table.pg .th-arrival-points, table.hg .th-arrival-points.gr-zero, .pg.not, .sg.not, span.gr-zero, .td-end, tr.pilot-dfnt .td-best-distance.award-free, tr.pilot-dfnt .td-landed-distance.award-free, table.pg .th-effort-points, .td-tp-distance-flip, .td-tp-close, tr.end-speed > .td-tp-name {
+.has-text-danger, table:not(.sg) .th-start-gate, table:not(.sg) .th-time, .th-time-points.gr-zero, table.pg .th-arrival-points, table.hg .th-arrival-points.gr-zero, .pg.not, .sg.not, span.gr-zero, .td-end, .td-awarded-end, tr.pilot-dfnt .td-best-distance.award-free, tr.pilot-dfnt .td-landed-distance.award-free, table.pg .th-effort-points, .td-tp-distance-flip, .td-tp-close, tr.end-speed > .td-tp-name {
   color: #ff3860 !important; }
 
-a.has-text-danger:hover, table:not(.sg) a.th-start-gate:hover, table:not(.sg) a.th-time:hover, a.th-time-points.gr-zero:hover, table.pg a.th-arrival-points:hover, table.hg a.th-arrival-points.gr-zero:hover, a.pg.not:hover, a.sg.not:hover, a.td-end:hover, tr.pilot-dfnt a.td-best-distance.award-free:hover, tr.pilot-dfnt a.td-landed-distance.award-free:hover, table.pg a.th-effort-points:hover, a.td-tp-distance-flip:hover, a.td-tp-close:hover, tr.end-speed > a.td-tp-name:hover, a.has-text-danger:focus, table:not(.sg) a.th-start-gate:focus, table:not(.sg) a.th-time:focus, a.th-time-points.gr-zero:focus, table.pg a.th-arrival-points:focus, table.hg a.th-arrival-points.gr-zero:focus, a.pg.not:focus, a.sg.not:focus, a.td-end:focus, tr.pilot-dfnt a.td-best-distance.award-free:focus, tr.pilot-dfnt a.td-landed-distance.award-free:focus, table.pg a.th-effort-points:focus, a.td-tp-distance-flip:focus, a.td-tp-close:focus, tr.end-speed > a.td-tp-name:focus {
+a.has-text-danger:hover, table:not(.sg) a.th-start-gate:hover, table:not(.sg) a.th-time:hover, a.th-time-points.gr-zero:hover, table.pg a.th-arrival-points:hover, table.hg a.th-arrival-points.gr-zero:hover, a.pg.not:hover, a.sg.not:hover, a.td-end:hover, a.td-awarded-end:hover, tr.pilot-dfnt a.td-best-distance.award-free:hover, tr.pilot-dfnt a.td-landed-distance.award-free:hover, table.pg a.th-effort-points:hover, a.td-tp-distance-flip:hover, a.td-tp-close:hover, tr.end-speed > a.td-tp-name:hover, a.has-text-danger:focus, table:not(.sg) a.th-start-gate:focus, table:not(.sg) a.th-time:focus, a.th-time-points.gr-zero:focus, table.pg a.th-arrival-points:focus, table.hg a.th-arrival-points.gr-zero:focus, a.pg.not:focus, a.sg.not:focus, a.td-end:focus, a.td-awarded-end:focus, tr.pilot-dfnt a.td-best-distance.award-free:focus, tr.pilot-dfnt a.td-landed-distance.award-free:focus, table.pg a.th-effort-points:focus, a.td-tp-distance-flip:focus, a.td-tp-close:focus, tr.end-speed > a.td-tp-name:focus {
   color: #ff0537 !important; }
 
 .has-background-danger {
