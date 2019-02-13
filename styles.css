@@ -9392,4 +9392,23 @@ table td.td-geo-plane, table td.td-geo-pythagorus {
 .subtitle + .subtitle {
   margin-top: -1.25rem; }
 
+.function-plot .top-right-legend {
+  font-size: 10px;
+  fill: transparent; }
+
+.function-plot .title {
+  font-size: 14px; }
+
+.legend-distance {
+  color: blue; }
+
+.legend-time {
+  color: green; }
+
+.legend-leading {
+  color: red; }
+
+.legend-arrival {
+  color: purple; }
+
 /*# sourceMappingURL=styles.css.map*/
