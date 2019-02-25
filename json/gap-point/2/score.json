@@ -9,7 +9,7 @@
         "time": 0,
         "reach": 672.03,
         "distance": 672.03,
-        "leading": 12.2,
+        "leading": 12.1,
         "effort": 0,
         "arrival": 0
       },
@@ -211,7 +211,7 @@
         "effort": 0,
         "arrival": 0
       },
-      "stoppedAlt": "560.000 m",
+      "stoppedAlt": "945.000 m",
       "penaltyReason": "",
       "velocity": {
         "gs": "2018-05-26T11:00:00Z",
@@ -224,7 +224,7 @@
         "gsVelocity": null
       },
       "total": 652,
-      "landedDistance": "19.521 km",
+      "landedDistance": "14.393 km",
       "penalties": [],
       "place": "7",
       "reachDistance": "19.520 km"
@@ -240,7 +240,7 @@
         "time": 0,
         "reach": 616.605,
         "distance": 616.605,
-        "leading": 7.9,
+        "leading": 7.8,
         "effort": 0,
         "arrival": 0
       },
@@ -273,7 +273,7 @@
         "time": 0,
         "reach": 590.986,
         "distance": 590.986,
-        "leading": 7.8,
+        "leading": 7.7,
         "effort": 0,
         "arrival": 0
       },
@@ -339,7 +339,7 @@
         "time": 0,
         "reach": 551.355,
         "distance": 551.355,
-        "leading": 7.8,
+        "leading": 7.7,
         "effort": 0,
         "arrival": 0
       },
@@ -372,7 +372,7 @@
         "time": 0,
         "reach": 526.759,
         "distance": 526.759,
-        "leading": 9,
+        "leading": 8.9,
         "effort": 0,
         "arrival": 0
       },
@@ -405,7 +405,7 @@
         "time": 0,
         "reach": 350.824,
         "distance": 350.824,
-        "leading": 7,
+        "leading": 6.9,
         "effort": 0,
         "arrival": 0
       },
@@ -430,39 +430,6 @@
   ],
   [
     [
-      "4",
-      "Alojz Tovornik"
-    ],
-    {
-      "breakdown": {
-        "time": 0,
-        "reach": 292.267,
-        "distance": 292.267,
-        "leading": 3.4,
-        "effort": 0,
-        "arrival": 0
-      },
-      "stoppedAlt": "545.000 m",
-      "penaltyReason": "",
-      "velocity": {
-        "gs": "2018-05-26T11:00:00Z",
-        "ssVelocity": null,
-        "ssElapsed": null,
-        "gsElapsed": null,
-        "es": null,
-        "ss": "2018-05-26T11:29:56Z",
-        "ssDistance": null,
-        "gsVelocity": null
-      },
-      "total": 296,
-      "landedDistance": "8.864 km",
-      "penalties": [],
-      "place": "14",
-      "reachDistance": "8.864 km"
-    }
-  ],
-  [
-    [
       "113",
       "Zsolt Sandor"
     ],
@@ -471,7 +438,7 @@
         "time": 0,
         "reach": 231.501,
         "distance": 231.501,
-        "leading": 3.3,
+        "leading": 3.2,
         "effort": 0,
         "arrival": 0
       },
@@ -490,7 +457,7 @@
       "total": 235,
       "landedDistance": "6.933 km",
       "penalties": [],
-      "place": "15=",
+      "place": "14",
       "reachDistance": "7.021 km"
     }
   ],
@@ -520,10 +487,10 @@
         "ssDistance": null,
         "gsVelocity": null
       },
-      "total": 235,
+      "total": 234,
       "landedDistance": "6.924 km",
       "penalties": [],
-      "place": "15=",
+      "place": "15",
       "reachDistance": "7.011 km"
     }
   ],
@@ -537,7 +504,7 @@
         "time": 0,
         "reach": 189.76,
         "distance": 189.76,
-        "leading": 2.9,
+        "leading": 2.8,
         "effort": 0,
         "arrival": 0
       },
@@ -556,7 +523,7 @@
       "total": 193,
       "landedDistance": "5.756 km",
       "penalties": [],
-      "place": "17",
+      "place": "16",
       "reachDistance": "5.755 km"
     }
   ],
@@ -570,7 +537,7 @@
         "time": 0,
         "reach": 181.088,
         "distance": 181.088,
-        "leading": 3.3,
+        "leading": 3.2,
         "effort": 0,
         "arrival": 0
       },
@@ -589,7 +556,7 @@
       "total": 184,
       "landedDistance": "4.442 km",
       "penalties": [],
-      "place": "18",
+      "place": "17",
       "reachDistance": "5.492 km"
     }
   ],
@@ -603,7 +570,7 @@
         "time": 0,
         "reach": 114.849,
         "distance": 114.849,
-        "leading": 2.2,
+        "leading": 2.1,
         "effort": 0,
         "arrival": 0
       },
@@ -622,7 +589,7 @@
       "total": 117,
       "landedDistance": "2.912 km",
       "penalties": [],
-      "place": "19",
+      "place": "18",
       "reachDistance": "3.483 km"
     }
   ],
@@ -655,7 +622,7 @@
       "total": 79,
       "landedDistance": "2.317 km",
       "penalties": [],
-      "place": "20",
+      "place": "19",
       "reachDistance": "2.317 km"
     }
   ],
@@ -688,7 +655,7 @@
       "total": 67,
       "landedDistance": "1.950 km",
       "penalties": [],
-      "place": "21",
+      "place": "20",
       "reachDistance": "1.952 km"
     }
   ],
@@ -721,7 +688,7 @@
       "total": 33,
       "landedDistance": "0.028 km",
       "penalties": [],
-      "place": "22=",
+      "place": "21=",
       "reachDistance": "0.810 km"
     }
   ],
@@ -745,7 +712,7 @@
       "total": 33,
       "landedDistance": "0.000 km",
       "penalties": [],
-      "place": "22=",
+      "place": "21=",
       "reachDistance": "0.000 km"
     }
   ]
