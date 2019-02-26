@@ -34,6 +34,7 @@ for t in {1..3}
         curl -X GET -H "Accept:application/json" http://localhost:3000/task-length/$t/projected-edge-planar | jq > json/task-length/$t/projected-edge-planar.json
 
         mkdir json/mask-track/$t
+        curl -X GET -H "Accept:application/json" http://localhost:3000/mask-track/$t/reach | jq > json/mask-track/$t/reach.json
         curl -X GET -H "Accept:application/json" http://localhost:3000/mask-track/$t/arrival | jq > json/mask-track/$t/arrival.json
         curl -X GET -H "Accept:application/json" http://localhost:3000/mask-track/$t/lead | jq > json/mask-track/$t/lead.json
         curl -X GET -H "Accept:application/json" http://localhost:3000/mask-track/$t/time | jq > json/mask-track/$t/time.json
