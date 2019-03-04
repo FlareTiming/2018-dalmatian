@@ -9399,8 +9399,11 @@ table td.td-geo-plane, table td.td-geo-pythagorus {
 .function-plot .title {
   font-size: 14px; }
 
-.legend-distance {
+.legend-reach {
   color: #377eb8; }
+
+.legend-effort {
+  color: #ff7f00; }
 
 .legend-time {
   color: #4daf4a; }
