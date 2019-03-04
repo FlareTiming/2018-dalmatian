@@ -19,6 +19,7 @@ mkdir json/cross-zone
 mkdir json/cross-zone/track-flying-section
 mkdir json/pilot-track
 mkdir json/mask-track
+mkdir json/land-out
 for t in {1..3}
     do
         mkdir json/comp-input/$t
@@ -38,6 +39,9 @@ for t in {1..3}
         curl -X GET -H "Accept:application/json" http://localhost:3000/mask-track/$t/arrival | jq > json/mask-track/$t/arrival.json
         curl -X GET -H "Accept:application/json" http://localhost:3000/mask-track/$t/lead | jq > json/mask-track/$t/lead.json
         curl -X GET -H "Accept:application/json" http://localhost:3000/mask-track/$t/time | jq > json/mask-track/$t/time.json
+
+        mkdir json/land-out/$t
+        curl -X GET -H "Accept:application/json" http://localhost:3000/land-out/$t/effort | jq > json/land-out/$t/effort.json
 
         mkdir json/gap-point/$t
         curl -X GET -H "Accept:application/json" http://localhost:3000/gap-point/$t/pilot-df | jq > json/gap-point/$t/pilot-df.json

@@ -1,0 +1,232 @@
+[
+  [
+    [
+      "98",
+      "Tomas Svoboda"
+    ],
+    {
+      "frac": 1,
+      "effort": "20.383000 km"
+    }
+  ],
+  [
+    [
+      "72",
+      "Mitja Jančič"
+    ],
+    {
+      "frac": 0.98529412,
+      "effort": "20.207000 km"
+    }
+  ],
+  [
+    [
+      "26",
+      "Dušan Durkovič"
+    ],
+    {
+      "frac": 0.98529412,
+      "effort": "20.278000 km"
+    }
+  ],
+  [
+    [
+      "101",
+      "Tomaž Toplak"
+    ],
+    {
+      "frac": 0.95588236,
+      "effort": "20.110000 km"
+    }
+  ],
+  [
+    [
+      "74",
+      "Nuno Filipe da Fonseca Bastos Gomes"
+    ],
+    {
+      "frac": 0.95588236,
+      "effort": "20.145000 km"
+    }
+  ],
+  [
+    [
+      "54",
+      "Krešo  Kovačič"
+    ],
+    {
+      "frac": 0.9117647,
+      "effort": "20.009000 km"
+    }
+  ],
+  [
+    [
+      "41",
+      "Ivo Duarte"
+    ],
+    {
+      "frac": 0.85294118,
+      "effort": "19.521000 km"
+    }
+  ],
+  [
+    [
+      "95",
+      "Stojan Kranjc"
+    ],
+    {
+      "frac": 0.77941176,
+      "effort": "18.702000 km"
+    }
+  ],
+  [
+    [
+      "16",
+      "Bruno Matos"
+    ],
+    {
+      "frac": 0.69117648,
+      "effort": "17.924000 km"
+    }
+  ],
+  [
+    [
+      "114",
+      "Joan Brito"
+    ],
+    {
+      "frac": 0.5882353,
+      "effort": "17.016000 km"
+    }
+  ],
+  [
+    [
+      "37",
+      "Igor Eržen"
+    ],
+    {
+      "frac": 0.51470588,
+      "effort": "16.722000 km"
+    }
+  ],
+  [
+    [
+      "57",
+      "Lara Leban"
+    ],
+    {
+      "frac": 0.44117648,
+      "effort": "15.976000 km"
+    }
+  ],
+  [
+    [
+      "86",
+      "Sandi Krč"
+    ],
+    {
+      "frac": 0.36764706,
+      "effort": "9.371000 km"
+    }
+  ],
+  [
+    [
+      "4",
+      "Alojz Tovornik"
+    ],
+    {
+      "frac": 0.35294118,
+      "effort": "8.864000 km"
+    }
+  ],
+  [
+    [
+      "13",
+      "Balazs Szatmari"
+    ],
+    {
+      "frac": 0.32352942,
+      "effort": "6.924000 km"
+    }
+  ],
+  [
+    [
+      "113",
+      "Zsolt Sandor"
+    ],
+    {
+      "frac": 0.32352942,
+      "effort": "6.933000 km"
+    }
+  ],
+  [
+    [
+      "63",
+      "Marketa Tomaskova"
+    ],
+    {
+      "frac": 0.27941176,
+      "effort": "5.756000 km"
+    }
+  ],
+  [
+    [
+      "46",
+      "Jerko Odžak"
+    ],
+    {
+      "frac": 0.25,
+      "effort": "4.442000 km"
+    }
+  ],
+  [
+    [
+      "73",
+      "Mitja Jug"
+    ],
+    {
+      "frac": 0.20588236,
+      "effort": "2.912000 km"
+    }
+  ],
+  [
+    [
+      "21",
+      "Damir Kalinger"
+    ],
+    {
+      "frac": 0.1617647,
+      "effort": "2.317000 km"
+    }
+  ],
+  [
+    [
+      "40",
+      "Ivica Huljek"
+    ],
+    {
+      "frac": 0.11764706,
+      "effort": "1.950000 km"
+    }
+  ],
+  [
+    [
+      "9",
+      "Antoni Buljan"
+    ],
+    {
+      "frac": 0.05882352,
+      "effort": "0.028000 km"
+    }
+  ],
+  [
+    [
+      "91",
+      "Slava Jelić"
+    ],
+    {
+      "frac": 0.05882352,
+      "effort": "1.000000 km"
+    }
+  ]
+]
