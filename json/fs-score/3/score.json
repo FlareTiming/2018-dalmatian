@@ -1,0 +1,420 @@
+[
+  [
+    [
+      "37",
+      "Igor Eržen"
+    ],
+    {
+      "ssElapsed": null,
+      "time": 0,
+      "distance": 348.2,
+      "distanceMade": "22.930000 km",
+      "es": null,
+      "leading": 51.9,
+      "total": 400,
+      "distanceFrac": 0.874123208295212,
+      "ss": "2018-05-27T11:00:00Z",
+      "arrival": 0,
+      "place": "14"
+    }
+  ],
+  [
+    [
+      "98",
+      "Tomas Svoboda"
+    ],
+    {
+      "ssElapsed": "1.116389 h",
+      "time": 441,
+      "distance": 398.4,
+      "distanceMade": "26.232000 km",
+      "es": "2018-05-27T12:06:59Z",
+      "leading": 98.3,
+      "total": 938,
+      "distanceFrac": 1,
+      "ss": "2018-05-27T11:00:00Z",
+      "arrival": 0,
+      "place": "2"
+    }
+  ],
+  [
+    [
+      "40",
+      "Ivica Huljek"
+    ],
+    {
+      "ssElapsed": null,
+      "time": 0,
+      "distance": 15.2,
+      "distanceMade": "1.000000 km",
+      "es": null,
+      "leading": 0,
+      "total": 15,
+      "distanceFrac": 0.03812137846904544,
+      "ss": "2018-05-27T11:00:00Z",
+      "arrival": 0,
+      "place": "20"
+    }
+  ],
+  [
+    [
+      "54",
+      "Krešo  Kovačič"
+    ],
+    {
+      "ssElapsed": null,
+      "time": 0,
+      "distance": 374,
+      "distanceMade": "24.629000 km",
+      "es": null,
+      "leading": 52.8,
+      "total": 427,
+      "distanceFrac": 0.9388914303141201,
+      "ss": "2018-05-27T11:00:00Z",
+      "arrival": 0,
+      "place": "12"
+    }
+  ],
+  [
+    [
+      "26",
+      "Dušan Durkovič"
+    ],
+    {
+      "ssElapsed": "1.283611 h",
+      "time": 327.6,
+      "distance": 398.4,
+      "distanceMade": "26.232000 km",
+      "es": "2018-05-27T12:17:01Z",
+      "leading": 105.3,
+      "total": 831,
+      "distanceFrac": 1,
+      "ss": "2018-05-27T11:00:00Z",
+      "arrival": 0,
+      "place": "3"
+    }
+  ],
+  [
+    [
+      "114",
+      "Joan Brito"
+    ],
+    {
+      "ssElapsed": "1.632500 h",
+      "time": 169.5,
+      "distance": 398.4,
+      "distanceMade": "26.232000 km",
+      "es": "2018-05-27T12:37:57Z",
+      "leading": 60.3,
+      "total": 628,
+      "distanceFrac": 1,
+      "ss": "2018-05-27T11:00:00Z",
+      "arrival": 0,
+      "place": "8"
+    }
+  ],
+  [
+    [
+      "74",
+      "Nuno Filipe da Fonseca Bastos Gomes"
+    ],
+    {
+      "ssElapsed": "1.455278 h",
+      "time": 243.5,
+      "distance": 398.4,
+      "distanceMade": "26.232000 km",
+      "es": "2018-05-27T12:27:19Z",
+      "leading": 36.9,
+      "total": 679,
+      "distanceFrac": 1,
+      "ss": "2018-05-27T11:00:00Z",
+      "arrival": 0,
+      "place": "6"
+    }
+  ],
+  [
+    [
+      "16",
+      "Bruno Matos"
+    ],
+    {
+      "ssElapsed": "1.077778 h",
+      "time": 496.3,
+      "distance": 398.4,
+      "distanceMade": "26.232000 km",
+      "es": "2018-05-27T12:04:40Z",
+      "leading": 101.3,
+      "total": 996,
+      "distanceFrac": 1,
+      "ss": "2018-05-27T11:00:00Z",
+      "arrival": 0,
+      "place": "1"
+    }
+  ],
+  [
+    [
+      "41",
+      "Ivo Duarte"
+    ],
+    {
+      "ssElapsed": null,
+      "time": 0,
+      "distance": 337.1,
+      "distanceMade": "22.196000 km",
+      "es": null,
+      "leading": 60.4,
+      "total": 398,
+      "distanceFrac": 0.8461421164989326,
+      "ss": "2018-05-27T11:00:00Z",
+      "arrival": 0,
+      "place": "15"
+    }
+  ],
+  [
+    [
+      "9",
+      "Antoni Buljan"
+    ],
+    {
+      "ssElapsed": "1.579167 h",
+      "time": 190.8,
+      "distance": 398.4,
+      "distanceMade": "26.232000 km",
+      "es": "2018-05-27T12:34:45Z",
+      "leading": 25.3,
+      "total": 615,
+      "distanceFrac": 1,
+      "ss": "2018-05-27T11:00:00Z",
+      "arrival": 0,
+      "place": "9"
+    }
+  ],
+  [
+    [
+      "72",
+      "Mitja Jančič"
+    ],
+    {
+      "ssElapsed": "1.623889 h",
+      "time": 172.9,
+      "distance": 398.4,
+      "distanceMade": "26.232000 km",
+      "es": "2018-05-27T12:37:26Z",
+      "leading": 35.6,
+      "total": 607,
+      "distanceFrac": 1,
+      "ss": "2018-05-27T11:00:00Z",
+      "arrival": 0,
+      "place": "10"
+    }
+  ],
+  [
+    [
+      "91",
+      "Slava Jelić"
+    ],
+    {
+      "ssElapsed": null,
+      "time": 0,
+      "distance": 15.2,
+      "distanceMade": "1.000000 km",
+      "es": null,
+      "leading": 0,
+      "total": 15,
+      "distanceFrac": 0.03812137846904544,
+      "ss": null,
+      "arrival": 0,
+      "place": "20"
+    }
+  ],
+  [
+    [
+      "63",
+      "Marketa Tomaskova"
+    ],
+    {
+      "ssElapsed": "2.064444 h",
+      "time": 16.6,
+      "distance": 398.4,
+      "distanceMade": "26.232000 km",
+      "es": "2018-05-27T13:03:52Z",
+      "leading": 8.3,
+      "total": 423,
+      "distanceFrac": 1,
+      "ss": "2018-05-27T11:00:00Z",
+      "arrival": 0,
+      "place": "13"
+    }
+  ],
+  [
+    [
+      "73",
+      "Mitja Jug"
+    ],
+    {
+      "ssElapsed": "1.571389 h",
+      "time": 194,
+      "distance": 398.4,
+      "distanceMade": "26.232000 km",
+      "es": "2018-05-27T12:34:17Z",
+      "leading": 43.9,
+      "total": 636,
+      "distanceFrac": 1,
+      "ss": "2018-05-27T11:00:00Z",
+      "arrival": 0,
+      "place": "7"
+    }
+  ],
+  [
+    [
+      "101",
+      "Tomaž Toplak"
+    ],
+    {
+      "ssElapsed": "1.398056 h",
+      "time": 269.7,
+      "distance": 398.4,
+      "distanceMade": "26.232000 km",
+      "es": "2018-05-27T12:23:53Z",
+      "leading": 39.2,
+      "total": 707,
+      "distanceFrac": 1,
+      "ss": "2018-05-27T11:00:00Z",
+      "arrival": 0,
+      "place": "5"
+    }
+  ],
+  [
+    [
+      "95",
+      "Stojan Kranjc"
+    ],
+    {
+      "ssElapsed": "1.763333 h",
+      "time": 120,
+      "distance": 398.4,
+      "distanceMade": "26.232000 km",
+      "es": "2018-05-27T12:45:48Z",
+      "leading": 18.6,
+      "total": 537,
+      "distanceFrac": 1,
+      "ss": "2018-05-27T11:00:00Z",
+      "arrival": 0,
+      "place": "11"
+    }
+  ],
+  [
+    [
+      "4",
+      "Alojz Tovornik"
+    ],
+    {
+      "ssElapsed": "1.408056 h",
+      "time": 265,
+      "distance": 398.4,
+      "distanceMade": "26.232000 km",
+      "es": "2018-05-27T12:24:29Z",
+      "leading": 61.8,
+      "total": 725,
+      "distanceFrac": 1,
+      "ss": "2018-05-27T11:00:00Z",
+      "arrival": 0,
+      "place": "4"
+    }
+  ],
+  [
+    [
+      "23",
+      "David Šiljeg"
+    ],
+    {
+      "ssElapsed": null,
+      "time": 0,
+      "distance": 239.4,
+      "distanceMade": "15.764000 km",
+      "es": null,
+      "leading": 0,
+      "total": 239,
+      "distanceFrac": 0.6009454101860324,
+      "ss": "2018-05-27T11:00:00Z",
+      "arrival": 0,
+      "place": "17"
+    }
+  ],
+  [
+    [
+      "21",
+      "Damir Kalinger"
+    ],
+    {
+      "ssElapsed": null,
+      "time": 0,
+      "distance": 0,
+      "distanceMade": "0.000000 km",
+      "es": null,
+      "leading": 0,
+      "total": 0,
+      "distanceFrac": 0,
+      "ss": null,
+      "arrival": 0,
+      "place": "22"
+    }
+  ],
+  [
+    [
+      "57",
+      "Lara Leban"
+    ],
+    {
+      "ssElapsed": null,
+      "time": 0,
+      "distance": 346.2,
+      "distanceMade": "22.795000 km",
+      "es": null,
+      "leading": 25.7,
+      "total": 372,
+      "distanceFrac": 0.8689768222018909,
+      "ss": "2018-05-27T11:00:00Z",
+      "arrival": 0,
+      "place": "16"
+    }
+  ],
+  [
+    [
+      "80",
+      "Ricardo Nicolau Soares Terra de Oliveira Figueiredo"
+    ],
+    {
+      "ssElapsed": null,
+      "time": 0,
+      "distance": 45.3,
+      "distanceMade": "2.984000 km",
+      "es": null,
+      "leading": 0,
+      "total": 45,
+      "distanceFrac": 0.11375419335163159,
+      "ss": "2018-05-27T11:00:00Z",
+      "arrival": 0,
+      "place": "18"
+    }
+  ],
+  [
+    [
+      "46",
+      "Jerko Odžak"
+    ],
+    {
+      "ssElapsed": null,
+      "time": 0,
+      "distance": 25.4,
+      "distanceMade": "1.675000 km",
+      "es": null,
+      "leading": 0,
+      "total": 25,
+      "distanceFrac": 0.06385330893565111,
+      "ss": "2018-05-27T11:00:00Z",
+      "arrival": 0,
+      "place": "19"
+    }
+  ]
+]

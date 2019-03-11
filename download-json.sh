@@ -15,6 +15,7 @@ curl -X GET -H "Accept:application/json" http://localhost:3000/gap-point/allocat
 curl -X GET -H "Accept:application/json" http://localhost:3000/gap-point/validity | jq > json/gap-point/validity.json
 curl -X GET -H "Accept:application/json" http://localhost:3000/gap-point/pilots-status | jq > json/gap-point/pilots-status.json
 
+mkdir json/fs-score
 mkdir json/cross-zone
 mkdir json/cross-zone/track-flying-section
 mkdir json/pilot-track
@@ -26,6 +27,9 @@ for t in {1..3}
         curl -X GET -H "Accept:application/json" http://localhost:3000/comp-input/$t/pilot-abs | jq > json/comp-input/$t/pilot-abs.json
         curl -X GET -H "Accept:application/json" http://localhost:3000/comp-input/$t/pilot-dfnt | jq > json/comp-input/$t/pilot-dfnt.json
         curl -X GET -H "Accept:application/json" http://localhost:3000/comp-input/$t/pilot-dnf | jq > json/comp-input/$t/pilot-dnf.json
+
+        mkdir json/fs-score/$t
+        curl -X GET -H "Accept:application/json" http://localhost:3000/fs-score/$t/score | jq > json/fs-score/$t/score.json
 
         mkdir json/task-length/$t
         curl -X GET -H "Accept:application/json" http://localhost:3000/task-length/$t/spherical-edge | jq > json/task-length/$t/spherical-edge.json
