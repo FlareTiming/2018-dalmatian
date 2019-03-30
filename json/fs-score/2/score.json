@@ -1,171 +1,23 @@
 [
   [
     [
-      "86",
-      "Sandi Krč"
-    ],
-    {
-      "ssElapsed": null,
-      "time": 0,
-      "distance": 225.8,
-      "distanceMade": "10.603000 km",
-      "es": null,
-      "leading": 15.6,
-      "total": 241,
-      "distanceFrac": 0.25740435035929304,
-      "ss": "2018-05-26T11:00:00Z",
-      "arrival": 0,
-      "place": "13"
-    }
-  ],
-  [
-    [
-      "95",
-      "Stojan Kranjc"
-    ],
-    {
-      "ssElapsed": null,
-      "time": 0,
-      "distance": 418.8,
-      "distanceMade": "19.665000 km",
-      "es": null,
-      "leading": 17.8,
-      "total": 437,
-      "distanceFrac": 0.47739852398523985,
-      "ss": "2018-05-26T11:00:00Z",
-      "arrival": 0,
-      "place": "9"
-    }
-  ],
-  [
-    [
-      "57",
-      "Lara Leban"
-    ],
-    {
-      "ssElapsed": null,
-      "time": 0,
-      "distance": 340,
-      "distanceMade": "15.967000 km",
-      "es": null,
-      "leading": 20.2,
-      "total": 360,
-      "distanceFrac": 0.3876238104486308,
-      "ss": "2018-05-26T11:00:00Z",
-      "arrival": 0,
-      "place": "12"
-    }
-  ],
-  [
-    [
-      "4",
-      "Alojz Tovornik"
-    ],
-    {
-      "ssElapsed": null,
-      "time": 0,
-      "distance": 208.5,
-      "distanceMade": "9.791000 km",
-      "es": null,
-      "leading": 7.5,
-      "total": 216,
-      "distanceFrac": 0.23769178481258496,
-      "ss": "2018-05-26T11:00:00Z",
-      "arrival": 0,
-      "place": "14"
-    }
-  ],
-  [
-    [
-      "16",
-      "Bruno Matos"
-    ],
-    {
-      "ssElapsed": null,
-      "time": 0,
-      "distance": 421.5,
-      "distanceMade": "19.792000 km",
-      "es": null,
-      "leading": 17.6,
-      "total": 439,
-      "distanceFrac": 0.4804816469217324,
-      "ss": "2018-05-26T11:00:00Z",
-      "arrival": 0,
-      "place": "8"
-    }
-  ],
-  [
-    [
-      "26",
-      "Dušan Durkovič"
-    ],
-    {
-      "ssElapsed": null,
-      "time": 0,
-      "distance": 476.8,
-      "distanceMade": "22.388000 km",
-      "es": null,
-      "leading": 26.7,
-      "total": 504,
-      "distanceFrac": 0.5435035929306662,
-      "ss": "2018-05-26T11:00:00Z",
-      "arrival": 0,
-      "place": "4"
-    }
-  ],
-  [
-    [
-      "63",
-      "Marketa Tomaskova"
-    ],
-    {
-      "ssElapsed": null,
-      "time": 0,
-      "distance": 121.4,
-      "distanceMade": "5.700000 km",
-      "es": null,
-      "leading": 6.1,
-      "total": 128,
-      "distanceFrac": 0.13837638376383765,
-      "ss": "2018-05-26T11:00:00Z",
-      "arrival": 0,
-      "place": "17"
-    }
-  ],
-  [
-    [
-      "72",
-      "Mitja Jančič"
-    ],
-    {
-      "ssElapsed": null,
-      "time": 0,
-      "distance": 480.2,
-      "distanceMade": "22.548000 km",
-      "es": null,
-      "leading": 25.9,
-      "total": 506,
-      "distanceFrac": 0.5473878422994757,
-      "ss": "2018-05-26T11:00:00Z",
-      "arrival": 0,
-      "place": "3"
-    }
-  ],
-  [
-    [
       "98",
       "Tomas Svoboda"
     ],
     {
-      "ssElapsed": null,
+      "timeElapsed": null,
+      "leadingFrac": 0.92929293,
       "time": 0,
       "distance": 484,
+      "leadingCoef": 1.10421443,
       "distanceMade": "22.729000 km",
       "es": null,
       "leading": 27.6,
       "total": 512,
       "distanceFrac": 0.5517818993979413,
       "ss": "2018-05-26T11:00:00Z",
+      "timeFrac": 0,
+      "leadingArea": "3286865.0000 km^2 s",
       "arrival": 0,
       "place": "1"
     }
@@ -176,55 +28,67 @@
       "Tomaž Toplak"
     ],
     {
-      "ssElapsed": null,
+      "timeElapsed": null,
+      "leadingFrac": 0.94276094,
       "time": 0,
       "distance": 480.7,
+      "leadingCoef": 1.09895781,
       "distanceMade": "22.571000 km",
       "es": null,
       "leading": 28,
       "total": 509,
       "distanceFrac": 0.547946203146242,
       "ss": "2018-05-26T11:00:00Z",
+      "timeFrac": 0,
+      "leadingArea": "3271218.0000 km^2 s",
       "arrival": 0,
       "place": "2"
     }
   ],
   [
     [
-      "114",
-      "Joan Brito"
+      "72",
+      "Mitja Jančič"
     ],
     {
-      "ssElapsed": null,
+      "timeElapsed": null,
+      "leadingFrac": 0.87205387,
       "time": 0,
-      "distance": 409,
-      "distanceMade": "19.204000 km",
+      "distance": 480.2,
+      "leadingCoef": 1.13165995,
+      "distanceMade": "22.548000 km",
       "es": null,
-      "leading": 16.2,
-      "total": 425,
-      "distanceFrac": 0.46620703049135753,
+      "leading": 25.9,
+      "total": 506,
+      "distanceFrac": 0.5473878422994757,
       "ss": "2018-05-26T11:00:00Z",
+      "timeFrac": 0,
+      "leadingArea": "3368561.0000 km^2 s",
       "arrival": 0,
-      "place": "10"
+      "place": "3"
     }
   ],
   [
     [
-      "41",
-      "Ivo Duarte"
+      "26",
+      "Dušan Durkovič"
     ],
     {
-      "ssElapsed": null,
+      "timeElapsed": null,
+      "leadingFrac": 0.8989899,
       "time": 0,
-      "distance": 437.4,
-      "distanceMade": "20.539000 km",
+      "distance": 476.8,
+      "leadingCoef": 1.1176069,
+      "distanceMade": "22.388000 km",
       "es": null,
-      "leading": 20,
-      "total": 457,
-      "distanceFrac": 0.4986162361623616,
+      "leading": 26.7,
+      "total": 504,
+      "distanceFrac": 0.5435035929306662,
       "ss": "2018-05-26T11:00:00Z",
+      "timeFrac": 0,
+      "leadingArea": "3326730.0000 km^2 s",
       "arrival": 0,
-      "place": "7"
+      "place": "4"
     }
   ],
   [
@@ -233,36 +97,136 @@
       "Nuno Filipe da Fonseca Bastos Gomes"
     ],
     {
-      "ssElapsed": null,
+      "timeElapsed": null,
+      "leadingFrac": 0.81481481,
       "time": 0,
       "distance": 476.9,
+      "leadingCoef": 1.16623146,
       "distanceMade": "22.396000 km",
       "es": null,
       "leading": 24.2,
       "total": 501,
       "distanceFrac": 0.5436978053991066,
       "ss": "2018-05-26T11:00:00Z",
+      "timeFrac": 0,
+      "leadingArea": "3471469.0000 km^2 s",
       "arrival": 0,
       "place": "5"
     }
   ],
   [
     [
-      "73",
-      "Mitja Jug"
+      "54",
+      "Krešo  Kovačič"
     ],
     {
-      "ssElapsed": null,
+      "timeElapsed": null,
+      "leadingFrac": 1,
       "time": 0,
-      "distance": 73,
-      "distanceMade": "3.427000 km",
+      "distance": 465.7,
+      "leadingCoef": 1.08490294,
+      "distanceMade": "21.869000 km",
       "es": null,
-      "leading": 4.4,
-      "total": 77,
-      "distanceFrac": 0.083195766168188,
+      "leading": 29.7,
+      "total": 495,
+      "distanceFrac": 0.5309040590405905,
       "ss": "2018-05-26T11:00:00Z",
+      "timeFrac": 0,
+      "leadingArea": "3229382.0000 km^2 s",
       "arrival": 0,
-      "place": "19"
+      "place": "6"
+    }
+  ],
+  [
+    [
+      "41",
+      "Ivo Duarte"
+    ],
+    {
+      "timeElapsed": null,
+      "leadingFrac": 0.67340067,
+      "time": 0,
+      "distance": 437.4,
+      "leadingCoef": 1.27963928,
+      "distanceMade": "20.539000 km",
+      "es": null,
+      "leading": 20,
+      "total": 457,
+      "distanceFrac": 0.4986162361623616,
+      "ss": "2018-05-26T11:00:00Z",
+      "timeFrac": 0,
+      "leadingArea": "3809045.0000 km^2 s",
+      "arrival": 0,
+      "place": "7"
+    }
+  ],
+  [
+    [
+      "16",
+      "Bruno Matos"
+    ],
+    {
+      "timeElapsed": null,
+      "leadingFrac": 0.59259259,
+      "time": 0,
+      "distance": 421.5,
+      "leadingCoef": 1.35542131,
+      "distanceMade": "19.792000 km",
+      "es": null,
+      "leading": 17.6,
+      "total": 439,
+      "distanceFrac": 0.4804816469217324,
+      "ss": "2018-05-26T11:00:00Z",
+      "timeFrac": 0,
+      "leadingArea": "4034622.0000 km^2 s",
+      "arrival": 0,
+      "place": "8"
+    }
+  ],
+  [
+    [
+      "95",
+      "Stojan Kranjc"
+    ],
+    {
+      "timeElapsed": null,
+      "leadingFrac": 0.5993266,
+      "time": 0,
+      "distance": 418.8,
+      "leadingCoef": 1.34711308,
+      "distanceMade": "19.665000 km",
+      "es": null,
+      "leading": 17.8,
+      "total": 437,
+      "distanceFrac": 0.47739852398523985,
+      "ss": "2018-05-26T11:00:00Z",
+      "timeFrac": 0,
+      "leadingArea": "4009891.0000 km^2 s",
+      "arrival": 0,
+      "place": "9"
+    }
+  ],
+  [
+    [
+      "114",
+      "Joan Brito"
+    ],
+    {
+      "timeElapsed": null,
+      "leadingFrac": 0.54545455,
+      "time": 0,
+      "distance": 409,
+      "leadingCoef": 1.40444064,
+      "distanceMade": "19.204000 km",
+      "es": null,
+      "leading": 16.2,
+      "total": 425,
+      "distanceFrac": 0.46620703049135753,
+      "ss": "2018-05-26T11:00:00Z",
+      "timeFrac": 0,
+      "leadingArea": "4180535.0000 km^2 s",
+      "arrival": 0,
+      "place": "10"
     }
   ],
   [
@@ -271,36 +235,205 @@
       "Igor Eržen"
     ],
     {
-      "ssElapsed": null,
+      "timeElapsed": null,
+      "leadingFrac": 0.58922559,
       "time": 0,
       "distance": 355.9,
+      "leadingCoef": 1.35818409,
       "distanceMade": "16.713000 km",
       "es": null,
       "leading": 17.5,
       "total": 373,
       "distanceFrac": 0.405734123130705,
       "ss": "2018-05-26T11:00:00Z",
+      "timeFrac": 0,
+      "leadingArea": "4042845.0000 km^2 s",
       "arrival": 0,
       "place": "11"
     }
   ],
   [
     [
-      "9",
-      "Antoni Buljan"
+      "57",
+      "Lara Leban"
     ],
     {
-      "ssElapsed": null,
+      "timeElapsed": null,
+      "leadingFrac": 0.68013468,
       "time": 0,
-      "distance": 21.3,
-      "distanceMade": "1.000000 km",
+      "distance": 340,
+      "leadingCoef": 1.2721155,
+      "distanceMade": "15.967000 km",
       "es": null,
-      "leading": 3.8,
-      "total": 25,
-      "distanceFrac": 0.024276558555059235,
+      "leading": 20.2,
+      "total": 360,
+      "distanceFrac": 0.3876238104486308,
       "ss": "2018-05-26T11:00:00Z",
+      "timeFrac": 0,
+      "leadingArea": "3786649.0000 km^2 s",
       "arrival": 0,
-      "place": "22"
+      "place": "12"
+    }
+  ],
+  [
+    [
+      "86",
+      "Sandi Krč"
+    ],
+    {
+      "timeElapsed": null,
+      "leadingFrac": 0.52525253,
+      "time": 0,
+      "distance": 225.8,
+      "leadingCoef": 1.42618835,
+      "distanceMade": "10.603000 km",
+      "es": null,
+      "leading": 15.6,
+      "total": 241,
+      "distanceFrac": 0.25740435035929304,
+      "ss": "2018-05-26T11:00:00Z",
+      "timeFrac": 0,
+      "leadingArea": "4245271.0000 km^2 s",
+      "arrival": 0,
+      "place": "13"
+    }
+  ],
+  [
+    [
+      "4",
+      "Alojz Tovornik"
+    ],
+    {
+      "timeElapsed": null,
+      "leadingFrac": 0.25252525,
+      "time": 0,
+      "distance": 208.5,
+      "leadingCoef": 1.7581822,
+      "distanceMade": "9.791000 km",
+      "es": null,
+      "leading": 7.5,
+      "total": 216,
+      "distanceFrac": 0.23769178481258496,
+      "ss": "2018-05-26T11:00:00Z",
+      "timeFrac": 0,
+      "leadingArea": "5233502.0000 km^2 s",
+      "arrival": 0,
+      "place": "14"
+    }
+  ],
+  [
+    [
+      "13",
+      "Balazs Szatmari"
+    ],
+    {
+      "timeElapsed": null,
+      "leadingFrac": 0.25589226,
+      "time": 0,
+      "distance": 195.8,
+      "leadingCoef": 1.75403681,
+      "distanceMade": "9.196000 km",
+      "es": null,
+      "leading": 7.6,
+      "total": 203,
+      "distanceFrac": 0.22324723247232472,
+      "ss": "2018-05-26T11:00:00Z",
+      "timeFrac": 0,
+      "leadingArea": "5221162.0000 km^2 s",
+      "arrival": 0,
+      "place": "15"
+    }
+  ],
+  [
+    [
+      "113",
+      "Zsolt Sandor"
+    ],
+    {
+      "timeElapsed": null,
+      "leadingFrac": 0.25252525,
+      "time": 0,
+      "distance": 148.5,
+      "leadingCoef": 1.75607782,
+      "distanceMade": "6.973000 km",
+      "es": null,
+      "leading": 7.5,
+      "total": 156,
+      "distanceFrac": 0.16928044280442806,
+      "ss": "2018-05-26T11:00:00Z",
+      "timeFrac": 0,
+      "leadingArea": "5227238.0000 km^2 s",
+      "arrival": 0,
+      "place": "16"
+    }
+  ],
+  [
+    [
+      "63",
+      "Marketa Tomaskova"
+    ],
+    {
+      "timeElapsed": null,
+      "leadingFrac": 0.20538721,
+      "time": 0,
+      "distance": 121.4,
+      "leadingCoef": 1.82437518,
+      "distanceMade": "5.700000 km",
+      "es": null,
+      "leading": 6.1,
+      "total": 128,
+      "distanceFrac": 0.13837638376383765,
+      "ss": "2018-05-26T11:00:00Z",
+      "timeFrac": 0,
+      "leadingArea": "5430535.0000 km^2 s",
+      "arrival": 0,
+      "place": "17"
+    }
+  ],
+  [
+    [
+      "46",
+      "Jerko Odžak"
+    ],
+    {
+      "timeElapsed": null,
+      "leadingFrac": 0.24579125,
+      "time": 0,
+      "distance": 115.8,
+      "leadingCoef": 1.76797432,
+      "distanceMade": "5.437000 km",
+      "es": null,
+      "leading": 7.3,
+      "total": 123,
+      "distanceFrac": 0.13199164886385706,
+      "ss": "2018-05-26T11:00:00Z",
+      "timeFrac": 0,
+      "leadingArea": "5262650.0000 km^2 s",
+      "arrival": 0,
+      "place": "18"
+    }
+  ],
+  [
+    [
+      "73",
+      "Mitja Jug"
+    ],
+    {
+      "timeElapsed": null,
+      "leadingFrac": 0.14814815,
+      "time": 0,
+      "distance": 73,
+      "leadingCoef": 1.90118063,
+      "distanceMade": "3.427000 km",
+      "es": null,
+      "leading": 4.4,
+      "total": 77,
+      "distanceFrac": 0.083195766168188,
+      "ss": "2018-05-26T11:00:00Z",
+      "timeFrac": 0,
+      "leadingArea": "5659159.0000 km^2 s",
+      "arrival": 0,
+      "place": "19"
     }
   ],
   [
@@ -309,15 +442,19 @@
       "Damir Kalinger"
     ],
     {
-      "ssElapsed": null,
+      "timeElapsed": null,
+      "leadingFrac": 0.1952862,
       "time": 0,
       "distance": 48.2,
+      "leadingCoef": 1.83744937,
       "distanceMade": "2.265000 km",
       "es": null,
       "leading": 5.8,
       "total": 54,
       "distanceFrac": 0.05498640512720917,
       "ss": "2018-05-26T11:00:00Z",
+      "timeFrac": 0,
+      "leadingArea": "5469453.0000 km^2 s",
       "arrival": 0,
       "place": "20"
     }
@@ -328,74 +465,44 @@
       "Ivica Huljek"
     ],
     {
-      "ssElapsed": null,
+      "timeElapsed": null,
+      "leadingFrac": 0.18855219,
       "time": 0,
       "distance": 40.4,
+      "leadingCoef": 1.84642663,
       "distanceMade": "1.898000 km",
       "es": null,
       "leading": 5.6,
       "total": 46,
       "distanceFrac": 0.04607690813750243,
       "ss": "2018-05-26T11:00:00Z",
+      "timeFrac": 0,
+      "leadingArea": "5496175.0000 km^2 s",
       "arrival": 0,
       "place": "21"
     }
   ],
   [
     [
-      "113",
-      "Zsolt Sandor"
+      "9",
+      "Antoni Buljan"
     ],
     {
-      "ssElapsed": null,
+      "timeElapsed": null,
+      "leadingFrac": 0.12794613,
       "time": 0,
-      "distance": 148.5,
-      "distanceMade": "6.973000 km",
+      "distance": 21.3,
+      "leadingCoef": 1.93094551,
+      "distanceMade": "1.000000 km",
       "es": null,
-      "leading": 7.5,
-      "total": 156,
-      "distanceFrac": 0.16928044280442806,
+      "leading": 3.8,
+      "total": 25,
+      "distanceFrac": 0.024276558555059235,
       "ss": "2018-05-26T11:00:00Z",
+      "timeFrac": 0,
+      "leadingArea": "5747759.0000 km^2 s",
       "arrival": 0,
-      "place": "16"
-    }
-  ],
-  [
-    [
-      "46",
-      "Jerko Odžak"
-    ],
-    {
-      "ssElapsed": null,
-      "time": 0,
-      "distance": 115.8,
-      "distanceMade": "5.437000 km",
-      "es": null,
-      "leading": 7.3,
-      "total": 123,
-      "distanceFrac": 0.13199164886385706,
-      "ss": "2018-05-26T11:00:00Z",
-      "arrival": 0,
-      "place": "18"
-    }
-  ],
-  [
-    [
-      "13",
-      "Balazs Szatmari"
-    ],
-    {
-      "ssElapsed": null,
-      "time": 0,
-      "distance": 195.8,
-      "distanceMade": "9.196000 km",
-      "es": null,
-      "leading": 7.6,
-      "total": 203,
-      "distanceFrac": 0.22324723247232472,
-      "ss": "2018-05-26T11:00:00Z",
-      "arrival": 0,
-      "place": "15"
+      "place": "22"
     }
   ],
   [
@@ -404,55 +511,21 @@
       "Slava Jelić"
     ],
     {
-      "ssElapsed": null,
+      "timeElapsed": null,
+      "leadingFrac": 0,
       "time": 0,
       "distance": 21.3,
+      "leadingCoef": 0,
       "distanceMade": "1.000000 km",
       "es": null,
       "leading": 0,
       "total": 21,
       "distanceFrac": 0.024276558555059235,
       "ss": null,
+      "timeFrac": 0,
+      "leadingArea": "0.0000 km^2 s",
       "arrival": 0,
       "place": "23"
-    }
-  ],
-  [
-    [
-      "80",
-      "Ricardo Nicolau Soares Terra de Oliveira Figueiredo"
-    ],
-    {
-      "ssElapsed": null,
-      "time": 0,
-      "distance": 0,
-      "distanceMade": "0.000000 km",
-      "es": null,
-      "leading": 0,
-      "total": 0,
-      "distanceFrac": 0,
-      "ss": null,
-      "arrival": 0,
-      "place": "24"
-    }
-  ],
-  [
-    [
-      "54",
-      "Krešo  Kovačič"
-    ],
-    {
-      "ssElapsed": null,
-      "time": 0,
-      "distance": 465.7,
-      "distanceMade": "21.869000 km",
-      "es": null,
-      "leading": 29.7,
-      "total": 495,
-      "distanceFrac": 0.5309040590405905,
-      "ss": "2018-05-26T11:00:00Z",
-      "arrival": 0,
-      "place": "6"
     }
   ]
 ]
