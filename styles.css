@@ -2838,13 +2838,13 @@ table th {
   .is-size-7-fullhd {
     font-size: 0.75rem !important; } }
 
-.has-text-centered, .td-norm.td-norm-start, .td-norm.td-norm-end, .th-norm.th-start, .th-norm.th-time-diff, .td-norm.td-time-diff, .th-norm.th-norm-pace, .td-norm.td-norm-pace, .th-start-start, .th-start-gate, .th-awarded-start, .th-end, .th-awarded-end, .th-pace, .th-time, .td-start-start, .td-start-gate, .td-awarded-start, .td-end, .td-awarded-end, .td-pace, .td-time, .tr-dnf td.td-dnf, .tr-give td.td-missing {
+.has-text-centered, .th-start-start, .th-start-gate, .th-awarded-start, .th-end, .th-awarded-end, .th-pace, .th-time, .td-start-start, .td-start-gate, .td-awarded-start, .td-end, .td-awarded-end, .td-pace, .td-time, .tr-dnf td.td-dnf, .tr-give td.td-missing {
   text-align: center !important; }
 
 .has-text-justified {
   text-align: justify !important; }
 
-.has-text-left, .th-tp-lng, .td-tp-latl, .th-tp-close, .td-tp-close, #score-points .th-time-points,
+.has-text-left, .td-norm.td-norm-start, .td-norm.td-norm-end, .th-norm.th-start, .th-norm.th-end, .th-norm.th-time-diff, .td-norm.td-time-diff, .th-norm.th-norm-pace, .td-norm.td-norm-pace, .th-tp-lng, .td-tp-latl, .th-tp-close, .td-tp-close, #score-points .th-time-points,
 #score-points .th-leading-points,
 #score-points .th-arrival-points,
 #score-points .th-total-points {
