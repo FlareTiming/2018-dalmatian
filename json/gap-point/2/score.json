@@ -7,9 +7,9 @@
     {
       "breakdown": {
         "time": 0,
-        "reach": 669.638,
-        "distance": 669.638,
-        "leading": 12.1,
+        "reach": 543.695,
+        "distance": 543.695,
+        "leading": 31,
         "effort": 0,
         "arrival": 0
       },
@@ -25,44 +25,11 @@
         "ssDistance": null,
         "gsVelocity": null
       },
-      "total": 682,
-      "landedDistance": "20.355 km",
+      "total": 575,
+      "landedDistance": "26.250 km",
       "penalties": [],
       "place": "1",
-      "reachDistance": "20.356 km"
-    }
-  ],
-  [
-    [
-      "26",
-      "Dušan Durkovič"
-    ],
-    {
-      "breakdown": {
-        "time": 0,
-        "reach": 666.184,
-        "distance": 666.184,
-        "leading": 11.8,
-        "effort": 0,
-        "arrival": 0
-      },
-      "stoppedAlt": "830.000 m",
-      "penaltyReason": "",
-      "velocity": {
-        "gs": "2018-05-26T11:00:00Z",
-        "ssVelocity": null,
-        "ssElapsed": null,
-        "gsElapsed": null,
-        "es": null,
-        "ss": "2018-05-26T11:10:34.894552452327Z",
-        "ssDistance": null,
-        "gsVelocity": null
-      },
-      "total": 678,
-      "landedDistance": "20.251 km",
-      "penalties": [],
-      "place": "2",
-      "reachDistance": "20.251 km"
+      "reachDistance": "22.716 km"
     }
   ],
   [
@@ -73,9 +40,9 @@
     {
       "breakdown": {
         "time": 0,
-        "reach": 664.177,
-        "distance": 664.177,
-        "leading": 12.3,
+        "reach": 539.674,
+        "distance": 539.674,
+        "leading": 31.4,
         "effort": 0,
         "arrival": 0
       },
@@ -91,11 +58,11 @@
         "ssDistance": null,
         "gsVelocity": null
       },
-      "total": 676,
-      "landedDistance": "20.081 km",
+      "total": 571,
+      "landedDistance": "26.495 km",
       "penalties": [],
-      "place": "3",
-      "reachDistance": "20.190 km"
+      "place": "2",
+      "reachDistance": "22.548 km"
     }
   ],
   [
@@ -106,9 +73,9 @@
     {
       "breakdown": {
         "time": 0,
-        "reach": 663.848,
-        "distance": 663.848,
-        "leading": 11.4,
+        "reach": 539.291,
+        "distance": 539.291,
+        "leading": 29.3,
         "effort": 0,
         "arrival": 0
       },
@@ -124,11 +91,44 @@
         "ssDistance": null,
         "gsVelocity": null
       },
-      "total": 675,
-      "landedDistance": "20.180 km",
+      "total": 569,
+      "landedDistance": "26.303 km",
+      "penalties": [],
+      "place": "3",
+      "reachDistance": "22.532 km"
+    }
+  ],
+  [
+    [
+      "26",
+      "Dušan Durkovič"
+    ],
+    {
+      "breakdown": {
+        "time": 0,
+        "reach": 535.341,
+        "distance": 535.341,
+        "leading": 30.1,
+        "effort": 0,
+        "arrival": 0
+      },
+      "stoppedAlt": "830.000 m",
+      "penaltyReason": "",
+      "velocity": {
+        "gs": "2018-05-26T11:00:00Z",
+        "ssVelocity": null,
+        "ssElapsed": null,
+        "gsElapsed": null,
+        "es": null,
+        "ss": "2018-05-26T11:10:34.894552452327Z",
+        "ssDistance": null,
+        "gsVelocity": null
+      },
+      "total": 565,
+      "landedDistance": "26.292 km",
       "penalties": [],
       "place": "4",
-      "reachDistance": "20.180 km"
+      "reachDistance": "22.367 km"
     }
   ],
   [
@@ -139,9 +139,9 @@
     {
       "breakdown": {
         "time": 0,
-        "reach": 661.809,
-        "distance": 661.809,
-        "leading": 10.5,
+        "reach": 535.676,
+        "distance": 535.676,
+        "leading": 27,
         "effort": 0,
         "arrival": 0
       },
@@ -157,11 +157,11 @@
         "ssDistance": null,
         "gsVelocity": null
       },
-      "total": 672,
-      "landedDistance": "20.117 km",
+      "total": 563,
+      "landedDistance": "26.390 km",
       "penalties": [],
       "place": "5",
-      "reachDistance": "20.118 km"
+      "reachDistance": "22.381 km"
     }
   ],
   [
@@ -172,9 +172,9 @@
     {
       "breakdown": {
         "time": 0,
-        "reach": 657.335,
-        "distance": 657.335,
-        "leading": 13,
+        "reach": 522.871,
+        "distance": 522.871,
+        "leading": 33.3,
         "effort": 0,
         "arrival": 0
       },
@@ -190,11 +190,11 @@
         "ssDistance": null,
         "gsVelocity": null
       },
-      "total": 670,
-      "landedDistance": "19.982 km",
+      "total": 556,
+      "landedDistance": "20.047 km",
       "penalties": [],
       "place": "6",
-      "reachDistance": "19.982 km"
+      "reachDistance": "21.846 km"
     }
   ],
   [
@@ -205,9 +205,9 @@
     {
       "breakdown": {
         "time": 0,
-        "reach": 641.182,
-        "distance": 641.182,
-        "leading": 8.8,
+        "reach": 491.301,
+        "distance": 491.301,
+        "leading": 22.4,
         "effort": 0,
         "arrival": 0
       },
@@ -223,44 +223,11 @@
         "ssDistance": null,
         "gsVelocity": null
       },
-      "total": 650,
+      "total": 514,
       "landedDistance": "19.490 km",
       "penalties": [],
       "place": "7",
-      "reachDistance": "19.491 km"
-    }
-  ],
-  [
-    [
-      "95",
-      "Stojan Kranjc"
-    ],
-    {
-      "breakdown": {
-        "time": 0,
-        "reach": 614.207,
-        "distance": 614.207,
-        "leading": 7.8,
-        "effort": 0,
-        "arrival": 0
-      },
-      "stoppedAlt": "533.000 m",
-      "penaltyReason": "",
-      "velocity": {
-        "gs": "2018-05-26T11:00:00Z",
-        "ssVelocity": null,
-        "ssElapsed": null,
-        "gsElapsed": null,
-        "es": null,
-        "ss": "2018-05-26T11:11:13.348640671877Z",
-        "ssDistance": null,
-        "gsVelocity": null
-      },
-      "total": 622,
-      "landedDistance": "18.671 km",
-      "penalties": [],
-      "place": "8",
-      "reachDistance": "18.671 km"
+      "reachDistance": "20.527 km"
     }
   ],
   [
@@ -271,9 +238,9 @@
     {
       "breakdown": {
         "time": 0,
-        "reach": 588.679,
-        "distance": 588.679,
-        "leading": 7.7,
+        "reach": 473.159,
+        "distance": 473.159,
+        "leading": 19.7,
         "effort": 0,
         "arrival": 0
       },
@@ -289,11 +256,44 @@
         "ssDistance": null,
         "gsVelocity": null
       },
-      "total": 596,
+      "total": 493,
       "landedDistance": "17.894 km",
       "penalties": [],
+      "place": "8",
+      "reachDistance": "19.769 km"
+    }
+  ],
+  [
+    [
+      "95",
+      "Stojan Kranjc"
+    ],
+    {
+      "breakdown": {
+        "time": 0,
+        "reach": 470.143,
+        "distance": 470.143,
+        "leading": 20,
+        "effort": 0,
+        "arrival": 0
+      },
+      "stoppedAlt": "533.000 m",
+      "penaltyReason": "",
+      "velocity": {
+        "gs": "2018-05-26T11:00:00Z",
+        "ssVelocity": null,
+        "ssElapsed": null,
+        "gsElapsed": null,
+        "es": null,
+        "ss": "2018-05-26T11:11:13.348640671877Z",
+        "ssDistance": null,
+        "gsVelocity": null
+      },
+      "total": 490,
+      "landedDistance": "18.671 km",
+      "penalties": [],
       "place": "9",
-      "reachDistance": "17.895 km"
+      "reachDistance": "19.643 km"
     }
   ],
   [
@@ -304,9 +304,9 @@
     {
       "breakdown": {
         "time": 0,
-        "reach": 558.808,
-        "distance": 558.808,
-        "leading": 7.1,
+        "reach": 459.109,
+        "distance": 459.109,
+        "leading": 18.1,
         "effort": 0,
         "arrival": 0
       },
@@ -322,11 +322,11 @@
         "ssDistance": null,
         "gsVelocity": null
       },
-      "total": 566,
+      "total": 477,
       "landedDistance": "16.987 km",
       "penalties": [],
       "place": "10",
-      "reachDistance": "16.987 km"
+      "reachDistance": "19.182 km"
     }
   ],
   [
@@ -337,9 +337,9 @@
     {
       "breakdown": {
         "time": 0,
-        "reach": 549.071,
-        "distance": 549.071,
-        "leading": 7.7,
+        "reach": 409.923,
+        "distance": 409.923,
+        "leading": 19.7,
         "effort": 0,
         "arrival": 0
       },
@@ -355,11 +355,11 @@
         "ssDistance": null,
         "gsVelocity": null
       },
-      "total": 557,
+      "total": 430,
       "landedDistance": "16.690 km",
       "penalties": [],
       "place": "11",
-      "reachDistance": "16.691 km"
+      "reachDistance": "17.127 km"
     }
   ],
   [
@@ -370,9 +370,9 @@
     {
       "breakdown": {
         "time": 0,
-        "reach": 524.53,
-        "distance": 524.53,
-        "leading": 8.9,
+        "reach": 400.373,
+        "distance": 400.373,
+        "leading": 22.8,
         "effort": 0,
         "arrival": 0
       },
@@ -388,11 +388,11 @@
         "ssDistance": null,
         "gsVelocity": null
       },
-      "total": 533,
+      "total": 423,
       "landedDistance": "15.945 km",
       "penalties": [],
       "place": "12",
-      "reachDistance": "15.945 km"
+      "reachDistance": "16.728 km"
     }
   ],
   [
@@ -403,9 +403,9 @@
     {
       "breakdown": {
         "time": 0,
-        "reach": 348.563,
-        "distance": 348.563,
-        "leading": 6.9,
+        "reach": 286.443,
+        "distance": 286.443,
+        "leading": 17.6,
         "effort": 0,
         "arrival": 0
       },
@@ -421,11 +421,11 @@
         "ssDistance": null,
         "gsVelocity": null
       },
-      "total": 355,
+      "total": 304,
       "landedDistance": "9.324 km",
       "penalties": [],
       "place": "13",
-      "reachDistance": "10.596 km"
+      "reachDistance": "11.968 km"
     }
   ],
   [
@@ -436,9 +436,9 @@
     {
       "breakdown": {
         "time": 0,
-        "reach": 290.138,
-        "distance": 290.138,
-        "leading": 3.3,
+        "reach": 234.456,
+        "distance": 234.456,
+        "leading": 8.4,
         "effort": 0,
         "arrival": 0
       },
@@ -454,44 +454,11 @@
         "ssDistance": null,
         "gsVelocity": null
       },
-      "total": 293,
+      "total": 243,
       "landedDistance": "8.819 km",
       "penalties": [],
       "place": "14",
-      "reachDistance": "8.820 km"
-    }
-  ],
-  [
-    [
-      "113",
-      "Zsolt Sandor"
-    ],
-    {
-      "breakdown": {
-        "time": 0,
-        "reach": 229.476,
-        "distance": 229.476,
-        "leading": 3.2,
-        "effort": 0,
-        "arrival": 0
-      },
-      "stoppedAlt": "0.000 m",
-      "penaltyReason": "",
-      "velocity": {
-        "gs": "2018-05-26T11:00:00Z",
-        "ssVelocity": null,
-        "ssElapsed": null,
-        "gsElapsed": null,
-        "es": null,
-        "ss": "2018-05-26T11:25:23.267377983476Z",
-        "ssDistance": null,
-        "gsVelocity": null
-      },
-      "total": 233,
-      "landedDistance": "6.887 km",
-      "penalties": [],
-      "place": "15",
-      "reachDistance": "6.976 km"
+      "reachDistance": "9.796 km"
     }
   ],
   [
@@ -502,9 +469,9 @@
     {
       "breakdown": {
         "time": 0,
-        "reach": 229.147,
-        "distance": 229.147,
-        "leading": 3.2,
+        "reach": 220.143,
+        "distance": 220.143,
+        "leading": 8.3,
         "effort": 0,
         "arrival": 0
       },
@@ -520,24 +487,24 @@
         "ssDistance": null,
         "gsVelocity": null
       },
-      "total": 232,
+      "total": 228,
       "landedDistance": "6.879 km",
       "penalties": [],
-      "place": "16",
-      "reachDistance": "6.966 km"
+      "place": "15",
+      "reachDistance": "9.198 km"
     }
   ],
   [
     [
-      "63",
-      "Marketa Tomaskova"
+      "113",
+      "Zsolt Sandor"
     ],
     {
       "breakdown": {
         "time": 0,
-        "reach": 187.533,
-        "distance": 187.533,
-        "leading": 2.8,
+        "reach": 166.96,
+        "distance": 166.96,
+        "leading": 8.2,
         "effort": 0,
         "arrival": 0
       },
@@ -549,15 +516,15 @@
         "ssElapsed": null,
         "gsElapsed": null,
         "es": null,
-        "ss": "2018-05-26T11:35:38.948438866939Z",
+        "ss": "2018-05-26T11:25:23.267377983476Z",
         "ssDistance": null,
         "gsVelocity": null
       },
-      "total": 190,
-      "landedDistance": "5.700 km",
+      "total": 175,
+      "landedDistance": "6.887 km",
       "penalties": [],
-      "place": "17",
-      "reachDistance": "5.701 km"
+      "place": "16",
+      "reachDistance": "6.976 km"
     }
   ],
   [
@@ -568,9 +535,9 @@
     {
       "breakdown": {
         "time": 0,
-        "reach": 178.881,
-        "distance": 178.881,
-        "leading": 3.1,
+        "reach": 161.694,
+        "distance": 161.694,
+        "leading": 8,
         "effort": 0,
         "arrival": 0
       },
@@ -586,11 +553,44 @@
         "ssDistance": null,
         "gsVelocity": null
       },
-      "total": 182,
+      "total": 170,
       "landedDistance": "4.386 km",
       "penalties": [],
+      "place": "17",
+      "reachDistance": "6.756 km"
+    }
+  ],
+  [
+    [
+      "63",
+      "Marketa Tomaskova"
+    ],
+    {
+      "breakdown": {
+        "time": 0,
+        "reach": 136.443,
+        "distance": 136.443,
+        "leading": 7.2,
+        "effort": 0,
+        "arrival": 0
+      },
+      "stoppedAlt": "0.000 m",
+      "penaltyReason": "",
+      "velocity": {
+        "gs": "2018-05-26T11:00:00Z",
+        "ssVelocity": null,
+        "ssElapsed": null,
+        "gsElapsed": null,
+        "es": null,
+        "ss": "2018-05-26T11:35:38.948438866939Z",
+        "ssDistance": null,
+        "gsVelocity": null
+      },
+      "total": 144,
+      "landedDistance": "5.700 km",
+      "penalties": [],
       "place": "18",
-      "reachDistance": "5.438 km"
+      "reachDistance": "5.701 km"
     }
   ],
   [
@@ -601,9 +601,9 @@
     {
       "breakdown": {
         "time": 0,
-        "reach": 112.758,
-        "distance": 112.758,
-        "leading": 2.1,
+        "reach": 105.112,
+        "distance": 105.112,
+        "leading": 5.3,
         "effort": 0,
         "arrival": 0
       },
@@ -619,11 +619,11 @@
         "ssDistance": null,
         "gsVelocity": null
       },
-      "total": 115,
+      "total": 110,
       "landedDistance": "2.856 km",
       "penalties": [],
       "place": "19",
-      "reachDistance": "3.428 km"
+      "reachDistance": "4.392 km"
     }
   ],
   [
@@ -634,9 +634,9 @@
     {
       "breakdown": {
         "time": 0,
-        "reach": 74.4,
-        "distance": 74.4,
-        "leading": 2.5,
+        "reach": 73.375,
+        "distance": 73.375,
+        "leading": 6.5,
         "effort": 0,
         "arrival": 0
       },
@@ -652,44 +652,11 @@
         "ssDistance": null,
         "gsVelocity": null
       },
-      "total": 77,
+      "total": 80,
       "landedDistance": "2.261 km",
       "penalties": [],
       "place": "20",
-      "reachDistance": "2.262 km"
-    }
-  ],
-  [
-    [
-      "40",
-      "Ivica Huljek"
-    ],
-    {
-      "breakdown": {
-        "time": 0,
-        "reach": 62.425,
-        "distance": 62.425,
-        "leading": 2.4,
-        "effort": 0,
-        "arrival": 0
-      },
-      "stoppedAlt": "0.000 m",
-      "penaltyReason": "",
-      "velocity": {
-        "gs": "2018-05-26T11:00:00Z",
-        "ssVelocity": null,
-        "ssElapsed": null,
-        "gsElapsed": null,
-        "es": null,
-        "ss": "2018-05-26T11:21:17.69746818068Z",
-        "ssDistance": null,
-        "gsVelocity": null
-      },
-      "total": 65,
-      "landedDistance": "1.894 km",
-      "penalties": [],
-      "place": "21",
-      "reachDistance": "1.898 km"
+      "reachDistance": "3.066 km"
     }
   ],
   [
@@ -700,8 +667,8 @@
     {
       "breakdown": {
         "time": 0,
-        "reach": 32.897,
-        "distance": 32.897,
+        "reach": 58.87,
+        "distance": 58.87,
         "leading": 0,
         "effort": 0,
         "arrival": 0
@@ -718,11 +685,44 @@
         "ssDistance": null,
         "gsVelocity": null
       },
-      "total": 33,
+      "total": 59,
       "landedDistance": "-0.037 km",
       "penalties": [],
-      "place": "22=",
-      "reachDistance": "0.750 km"
+      "place": "21",
+      "reachDistance": "2.460 km"
+    }
+  ],
+  [
+    [
+      "40",
+      "Ivica Huljek"
+    ],
+    {
+      "breakdown": {
+        "time": 0,
+        "reach": 45.419,
+        "distance": 45.419,
+        "leading": 6.3,
+        "effort": 0,
+        "arrival": 0
+      },
+      "stoppedAlt": "0.000 m",
+      "penaltyReason": "",
+      "velocity": {
+        "gs": "2018-05-26T11:00:00Z",
+        "ssVelocity": null,
+        "ssElapsed": null,
+        "gsElapsed": null,
+        "es": null,
+        "ss": "2018-05-26T11:21:17.69746818068Z",
+        "ssDistance": null,
+        "gsVelocity": null
+      },
+      "total": 52,
+      "landedDistance": "1.894 km",
+      "penalties": [],
+      "place": "22",
+      "reachDistance": "1.898 km"
     }
   ],
   [
@@ -733,8 +733,8 @@
     {
       "breakdown": {
         "time": 0,
-        "reach": 32.897,
-        "distance": 32.897,
+        "reach": 23.935,
+        "distance": 23.935,
         "leading": 0,
         "effort": 0,
         "arrival": 0
@@ -742,10 +742,10 @@
       "stoppedAlt": null,
       "penaltyReason": "",
       "velocity": null,
-      "total": 33,
+      "total": 24,
       "landedDistance": "0.000 km",
       "penalties": [],
-      "place": "22=",
+      "place": "23",
       "reachDistance": "0.000 km"
     }
   ]

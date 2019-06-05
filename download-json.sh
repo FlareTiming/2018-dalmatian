@@ -18,6 +18,8 @@ curl -X GET -H "Accept:application/json" http://localhost:3000/gap-point/pilots-
 mkdir json/fs-score
 mkdir json/cross-zone
 mkdir json/cross-zone/track-flying-section
+mkdir json/peg-frame
+mkdir json/peg-frame/track-scored-section
 mkdir json/tag-zone
 mkdir json/pilot-track
 mkdir json/mask-track
@@ -41,6 +43,7 @@ for t in {1..3}
 
         mkdir json/mask-track/$t
         curl -X GET -H "Accept:application/json" http://localhost:3000/mask-track/$t/reach | jq > json/mask-track/$t/reach.json
+        curl -X GET -H "Accept:application/json" http://localhost:3000/mask-track/$t/reach | jq > json/mask-track/$t/bonus-reach.json
         curl -X GET -H "Accept:application/json" http://localhost:3000/mask-track/$t/arrival | jq > json/mask-track/$t/arrival.json
         curl -X GET -H "Accept:application/json" http://localhost:3000/mask-track/$t/lead | jq > json/mask-track/$t/lead.json
         curl -X GET -H "Accept:application/json" http://localhost:3000/mask-track/$t/time | jq > json/mask-track/$t/time.json
@@ -55,11 +58,13 @@ for t in {1..3}
         curl -X GET -H "Accept:application/json" http://localhost:3000/gap-point/$t/score | jq > json/gap-point/$t/score.json
 
         mkdir json/cross-zone/track-flying-section/$t
+        mkdir json/peg-frame/track-scored-section/$t
         mkdir json/tag-zone/$t
         mkdir json/pilot-track/$t
         for p in {4,9,13,16,21,23,26,37,40,41,46,114,54,57,63,72,73,74,80,82,86,88,91,95,98,101,102,113}
             do
             curl -X GET -H "Accept:application/json" http://localhost:3000/cross-zone/track-flying-section/$t/$p | jq > json/cross-zone/track-flying-section/$t/$p.json
+            curl -X GET -H "Accept:application/json" http://localhost:3000/peg-frame/track-scored-section/$t/$p | jq > json/peg-frame/track-scored-section/$t/$p.json
             curl -X GET -H "Accept:application/json" http://localhost:3000/tag-zone/$t/$p | jq > json/tag-zone/$t/$p.json
             curl -X GET -H "Accept:application/json" http://localhost:3000/pilot-track/$t/$p | jq > json/pilot-track/$t/$p.json
             done

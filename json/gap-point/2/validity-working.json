@@ -3,7 +3,7 @@
     "ssBestTime": null,
     "nominalDistance": "25.0 km",
     "nominalTime": "1.000000 h",
-    "bestDistance": "20.4 km",
+    "bestDistance": "22.716 km",
     "gsBestTime": null
   },
   "launch": {
@@ -16,8 +16,18 @@
     "flying": 23,
     "nominalGoal": 0.2,
     "nominalDistance": "25.0 km",
-    "minimumDistance": "1.0 km",
+    "minimumDistance": "1.000 km",
     "sum": "257.8 km",
-    "bestDistance": "20.4 km"
+    "bestDistance": "22.716 km"
+  },
+  "stop": {
+    "pilotsAtEss": 0,
+    "flownStdDev": "7.814 km",
+    "launchToEssDistance": "41.172 km",
+    "flying": 23,
+    "landed": 8,
+    "stillFlying": 14,
+    "flownMean": "14.071 km",
+    "bestDistance": "22.716 km"
   }
 }
