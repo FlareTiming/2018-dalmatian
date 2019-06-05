@@ -41,7 +41,11 @@ for t in {1..3}
         curl -X GET -H "Accept:application/json" http://localhost:3000/task-length/$t/projected-edge-ellipsoid | jq > json/task-length/$t/projected-edge-ellipsoid.json
         curl -X GET -H "Accept:application/json" http://localhost:3000/task-length/$t/projected-edge-planar | jq > json/task-length/$t/projected-edge-planar.json
 
+        mkdir json/cross-zone/$t
+        curl -X GET -H "Accept:application/json" http://localhost:3000/cross-zone/$t/flying-times | jq > json/cross-zone/$t/flying-times.json
+
         mkdir json/mask-track/$t
+        curl -X GET -H "Accept:application/json" http://localhost:3000/mask-track/$t/reach-stats | jq > json/mask-track/$t/reach-stats.json
         curl -X GET -H "Accept:application/json" http://localhost:3000/mask-track/$t/reach | jq > json/mask-track/$t/reach.json
         curl -X GET -H "Accept:application/json" http://localhost:3000/mask-track/$t/reach | jq > json/mask-track/$t/bonus-reach.json
         curl -X GET -H "Accept:application/json" http://localhost:3000/mask-track/$t/arrival | jq > json/mask-track/$t/arrival.json
