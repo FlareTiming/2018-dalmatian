@@ -3,15 +3,15 @@
     "time": 0.768,
     "launch": 1,
     "distance": 0.212,
-    "task": 0.149,
-    "stop": 0.913
+    "task": 0.146,
+    "stop": 0.896
   },
   {
     "time": 0.986,
     "launch": 1,
     "distance": 0.778,
-    "task": 0.604,
-    "stop": 0.787
+    "task": 0.552,
+    "stop": 0.72
   },
   {
     "time": 1,

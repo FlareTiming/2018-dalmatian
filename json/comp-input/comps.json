@@ -1,6 +1,6 @@
 {
   "civilId": "12859",
-  "earthMath": "Vincenty",
+  "earthMath": "Haversines",
   "discipline": "pg",
   "location": "Hrvace, Croatia",
   "to": "2018-05-27",
@@ -10,14 +10,13 @@
     "timeZoneMinutes": 120
   },
   "earth": {
-    "ellipsoid": {
-      "equatorialR": "6378137.0 m",
-      "recipF": 298.257223563
+    "sphere": {
+      "radius": "6371000.0 m"
     }
   },
   "give": {
-    "giveDistance": "5.0 m",
-    "giveFraction": 0.0005
+    "giveDistance": null,
+    "giveFraction": 0.005
   },
   "scoreBack": "300.000 s"
 }

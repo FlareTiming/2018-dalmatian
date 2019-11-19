@@ -6,7 +6,7 @@
     ],
     {
       "frac": 1,
-      "effort": "24.670000 km"
+      "effort": "24.470000 km"
     }
   ],
   [
@@ -15,8 +15,8 @@
       "Igor Eržen"
     ],
     {
-      "frac": 0.94117648,
-      "effort": "23.084000 km"
+      "frac": 0.9665272,
+      "effort": "22.883000 km"
     }
   ],
   [
@@ -25,8 +25,8 @@
       "Lara Leban"
     ],
     {
-      "frac": 0.82352942,
-      "effort": "22.949000 km"
+      "frac": 0.9623431,
+      "effort": "22.749000 km"
     }
   ],
   [
@@ -35,8 +35,8 @@
       "Ivo Duarte"
     ],
     {
-      "frac": 0.64705882,
-      "effort": "22.277000 km"
+      "frac": 0.91841004,
+      "effort": "22.076000 km"
     }
   ],
   [
@@ -45,8 +45,8 @@
       "David Šiljeg"
     ],
     {
-      "frac": 0.4117647,
-      "effort": "14.229000 km"
+      "frac": 0.28661088,
+      "effort": "14.026000 km"
     }
   ],
   [
@@ -55,28 +55,8 @@
       "Ricardo Nicolau Soares Terra de Oliveira Figueiredo"
     ],
     {
-      "frac": 0.17647058,
-      "effort": "3.171000 km"
-    }
-  ],
-  [
-    [
-      "40",
-      "Ivica Huljek"
-    ],
-    {
-      "frac": 0.11764706,
-      "effort": "-0.236000 km"
-    }
-  ],
-  [
-    [
-      "46",
-      "Jerko Odžak"
-    ],
-    {
-      "frac": 0.11764706,
-      "effort": "-0.087000 km"
+      "frac": 0.08995816,
+      "effort": "2.969000 km"
     }
   ],
   [
@@ -85,8 +65,28 @@
       "Slava Jelić"
     ],
     {
-      "frac": 0.11764706,
+      "frac": 0.0502092,
       "effort": "1.000000 km"
+    }
+  ],
+  [
+    [
+      "46",
+      "Jerko Odžak"
+    ],
+    {
+      "frac": 0.0083682,
+      "effort": "-0.272000 km"
+    }
+  ],
+  [
+    [
+      "40",
+      "Ivica Huljek"
+    ],
+    {
+      "frac": 0.0083682,
+      "effort": "-0.258000 km"
     }
   ]
 ]

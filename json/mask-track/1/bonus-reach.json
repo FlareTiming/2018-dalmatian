@@ -5,7 +5,7 @@
       "Tomas Svoboda"
     ],
     {
-      "reach": "13.644542 km",
+      "reach": "13.644382 km",
       "frac": 1
     }
   ],
@@ -15,8 +15,8 @@
       "Tomaž Toplak"
     ],
     {
-      "reach": "12.541542 km",
-      "frac": 0.91916182
+      "reach": "12.540382 km",
+      "frac": 0.91908758
     }
   ],
   [
@@ -25,8 +25,8 @@
       "Bruno Matos"
     ],
     {
-      "reach": "11.093542 km",
-      "frac": 0.8130388
+      "reach": "11.092382 km",
+      "frac": 0.81296331
     }
   ],
   [
@@ -35,8 +35,8 @@
       "Lara Leban"
     ],
     {
-      "reach": "9.101542 km",
-      "frac": 0.66704635
+      "reach": "9.100382 km",
+      "frac": 0.66696916
     }
   ],
   [
@@ -45,8 +45,8 @@
       "Mitja Jančič"
     ],
     {
-      "reach": "9.018542 km",
-      "frac": 0.66096334
+      "reach": "9.017382 km",
+      "frac": 0.66088607
     }
   ],
   [
@@ -55,8 +55,8 @@
       "Joan Brito"
     ],
     {
-      "reach": "8.216542 km",
-      "frac": 0.60218525
+      "reach": "8.215382 km",
+      "frac": 0.6021073
     }
   ],
   [
@@ -65,8 +65,8 @@
       "Ivo Duarte"
     ],
     {
-      "reach": "8.208542 km",
-      "frac": 0.60159894
+      "reach": "8.208382 km",
+      "frac": 0.60159427
     }
   ],
   [
@@ -75,8 +75,8 @@
       "Dušan Durkovič"
     ],
     {
-      "reach": "6.794542 km",
-      "frac": 0.49796776
+      "reach": "6.793382 km",
+      "frac": 0.49788858
     }
   ],
   [
@@ -85,8 +85,8 @@
       "Sandi Krč"
     ],
     {
-      "reach": "6.773542 km",
-      "frac": 0.49642868
+      "reach": "6.772382 km",
+      "frac": 0.49634949
     }
   ],
   [
@@ -95,8 +95,8 @@
       "Alojz Tovornik"
     ],
     {
-      "reach": "5.521542 km",
-      "frac": 0.40467038
+      "reach": "5.521382 km",
+      "frac": 0.4046634
     }
   ],
   [
@@ -105,8 +105,8 @@
       "Balazs Szatmari"
     ],
     {
-      "reach": "4.795542 km",
-      "frac": 0.35146229
+      "reach": "4.794382 km",
+      "frac": 0.3513814
     }
   ],
   [
@@ -115,8 +115,8 @@
       "Igor Eržen"
     ],
     {
-      "reach": "4.182542 km",
-      "frac": 0.3065359
+      "reach": "4.181382 km",
+      "frac": 0.30645448
     }
   ],
   [
@@ -125,8 +125,8 @@
       "Nuno Filipe da Fonseca Bastos Gomes"
     ],
     {
-      "reach": "3.508542 km",
-      "frac": 0.25713886
+      "reach": "3.507382 km",
+      "frac": 0.25705686
     }
   ],
   [
@@ -135,8 +135,8 @@
       "Damir Kalinger"
     ],
     {
-      "reach": "3.443542 km",
-      "frac": 0.25237505
+      "reach": "3.443382 km",
+      "frac": 0.25236629
     }
   ],
   [
@@ -145,8 +145,8 @@
       "Antoni Buljan"
     ],
     {
-      "reach": "3.335542 km",
-      "frac": 0.2444598
+      "reach": "3.334382 km",
+      "frac": 0.24437765
     }
   ],
   [
@@ -155,8 +155,8 @@
       "Mitja Jug"
     ],
     {
-      "reach": "3.058542 km",
-      "frac": 0.22415864
+      "reach": "3.058382 km",
+      "frac": 0.22414954
     }
   ],
   [
@@ -165,8 +165,8 @@
       "Krešo  Kovačič"
     ],
     {
-      "reach": "2.904542 km",
-      "frac": 0.21287208
+      "reach": "2.904382 km",
+      "frac": 0.21286285
     }
   ],
   [
@@ -175,8 +175,8 @@
       "Ricardo Nicolau Soares Terra de Oliveira Figueiredo"
     ],
     {
-      "reach": "2.648542 km",
-      "frac": 0.19411
+      "reach": "2.648382 km",
+      "frac": 0.19410055
     }
   ],
   [
@@ -185,8 +185,8 @@
       "Jerko Odžak"
     ],
     {
-      "reach": "2.257542 km",
-      "frac": 0.16545385
+      "reach": "2.256382 km",
+      "frac": 0.16537077
     }
   ],
   [
@@ -195,8 +195,8 @@
       "David Šiljeg"
     ],
     {
-      "reach": "2.185542 km",
-      "frac": 0.16017701
+      "reach": "2.184382 km",
+      "frac": 0.16009388
     }
   ],
   [
@@ -205,8 +205,58 @@
       "Ivica Huljek"
     ],
     {
-      "reach": "0.886542 km",
-      "frac": 0.06497411
+      "reach": "0.886382 km",
+      "frac": 0.06496315
+    }
+  ],
+  [
+    [
+      "102",
+      "Tomislav Gomerčić"
+    ],
+    {
+      "reach": "0.676382 km",
+      "frac": 0.0495722
+    }
+  ],
+  [
+    [
+      "63",
+      "Marketa Tomaskova"
+    ],
+    {
+      "reach": "0.559382 km",
+      "frac": 0.04099724
+    }
+  ],
+  [
+    [
+      "82",
+      "Richard Edlinger"
+    ],
+    {
+      "reach": "0.000000 km",
+      "frac": 0
+    }
+  ],
+  [
+    [
+      "88",
+      "Sandor Roza"
+    ],
+    {
+      "reach": "0.000000 km",
+      "frac": 0
+    }
+  ],
+  [
+    [
+      "113",
+      "Zsolt Sandor"
+    ],
+    {
+      "reach": "0.000000 km",
+      "frac": 0
     }
   ]
 ]

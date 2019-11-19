@@ -1,9 +1,16 @@
 [
   {
     "awardedReach": {
-      "awardedFrac": 0,
-      "awardedMade": "0.000000 km",
-      "awardedTask": "26.232000 km"
+      "extra": {
+        "awardedFrac": 0,
+        "awardedMade": "0.000000 km",
+        "awardedTask": "26.232000 km"
+      },
+      "flown": {
+        "awardedFrac": 0,
+        "awardedMade": "0.000000 km",
+        "awardedTask": "26.232000 km"
+      }
     },
     "pilot": [
       "91",

@@ -5,7 +5,7 @@
       "Bruno Matos"
     ],
     {
-      "reach": "26.387593 km",
+      "reach": "26.187198 km",
       "frac": 1
     }
   ],
@@ -15,7 +15,7 @@
       "Tomas Svoboda"
     ],
     {
-      "reach": "26.387593 km",
+      "reach": "26.187198 km",
       "frac": 1
     }
   ],
@@ -25,7 +25,7 @@
       "Dušan Durkovič"
     ],
     {
-      "reach": "26.387593 km",
+      "reach": "26.187198 km",
       "frac": 1
     }
   ],
@@ -35,7 +35,7 @@
       "Tomaž Toplak"
     ],
     {
-      "reach": "26.387593 km",
+      "reach": "26.187198 km",
       "frac": 1
     }
   ],
@@ -45,7 +45,7 @@
       "Alojz Tovornik"
     ],
     {
-      "reach": "26.387593 km",
+      "reach": "26.187198 km",
       "frac": 1
     }
   ],
@@ -55,7 +55,7 @@
       "Nuno Filipe da Fonseca Bastos Gomes"
     ],
     {
-      "reach": "26.387593 km",
+      "reach": "26.187198 km",
       "frac": 1
     }
   ],
@@ -65,7 +65,7 @@
       "Mitja Jug"
     ],
     {
-      "reach": "26.387593 km",
+      "reach": "26.187198 km",
       "frac": 1
     }
   ],
@@ -75,7 +75,7 @@
       "Antoni Buljan"
     ],
     {
-      "reach": "26.387593 km",
+      "reach": "26.187198 km",
       "frac": 1
     }
   ],
@@ -85,7 +85,7 @@
       "Mitja Jančič"
     ],
     {
-      "reach": "26.387593 km",
+      "reach": "26.187198 km",
       "frac": 1
     }
   ],
@@ -95,7 +95,7 @@
       "Joan Brito"
     ],
     {
-      "reach": "26.387593 km",
+      "reach": "26.187198 km",
       "frac": 1
     }
   ],
@@ -105,7 +105,7 @@
       "Stojan Kranjc"
     ],
     {
-      "reach": "26.387593 km",
+      "reach": "26.187198 km",
       "frac": 1
     }
   ],
@@ -115,7 +115,7 @@
       "Marketa Tomaskova"
     ],
     {
-      "reach": "26.387593 km",
+      "reach": "26.187198 km",
       "frac": 1
     }
   ],
@@ -125,8 +125,8 @@
       "Krešo  Kovačič"
     ],
     {
-      "reach": "24.783593 km",
-      "frac": 0.93921386
+      "reach": "24.584198 km",
+      "frac": 0.93878688
     }
   ],
   [
@@ -135,8 +135,8 @@
       "Igor Eržen"
     ],
     {
-      "reach": "23.084593 km",
-      "frac": 0.87482754
+      "reach": "22.884198 km",
+      "frac": 0.87386967
     }
   ],
   [
@@ -145,8 +145,8 @@
       "Lara Leban"
     ],
     {
-      "reach": "22.949593 km",
-      "frac": 0.8697115
+      "reach": "22.749198 km",
+      "frac": 0.86871448
     }
   ],
   [
@@ -155,8 +155,8 @@
       "Ivo Duarte"
     ],
     {
-      "reach": "22.276593 km",
-      "frac": 0.84420709
+      "reach": "22.076198 km",
+      "frac": 0.8430149
     }
   ],
   [
@@ -165,8 +165,8 @@
       "David Šiljeg"
     ],
     {
-      "reach": "15.937593 km",
-      "frac": 0.60398055
+      "reach": "15.737198 km",
+      "frac": 0.60095005
     }
   ],
   [
@@ -175,8 +175,8 @@
       "Ricardo Nicolau Soares Terra de Oliveira Figueiredo"
     ],
     {
-      "reach": "3.173593 km",
-      "frac": 0.12026838
+      "reach": "2.971198 km",
+      "frac": 0.11345994
     }
   ],
   [
@@ -185,8 +185,18 @@
       "Jerko Odžak"
     ],
     {
-      "reach": "1.864593 km",
-      "frac": 0.07066173
+      "reach": "1.675198 km",
+      "frac": 0.06397011
+    }
+  ],
+  [
+    [
+      "91",
+      "Slava Jelić"
+    ],
+    {
+      "reach": "0.000000 km",
+      "frac": 0
     }
   ],
   [
@@ -195,8 +205,8 @@
       "Ivica Huljek"
     ],
     {
-      "reach": "0.125593 km",
-      "frac": 0.00475955
+      "reach": "-0.066802 km",
+      "frac": -0.00255094
     }
   ]
 ]
