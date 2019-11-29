@@ -1,1 +1,176 @@
-null
+{
+  "chunking": {
+    "endChunk": [
+      272,
+      "27.2 km"
+    ],
+    "startChunk": [
+      0,
+      "0.0 km"
+    ],
+    "sumOf": 504
+  },
+  "bestDistance": null,
+  "difficulty": [
+    {
+      "endChunk": "1.1 km",
+      "down": 2,
+      "chunk": 10,
+      "startChunk": "1.0 km",
+      "frac": 0.04365079,
+      "downers": [
+        [
+          "40",
+          "Ivica Huljek"
+        ],
+        [
+          "91",
+          "Slava Jelić"
+        ]
+      ],
+      "downward": 2,
+      "rel": 0.00396825,
+      "endAhead": "9.7 km",
+      "downs": [
+        "1.000 km",
+        "1.000 km"
+      ]
+    },
+    {
+      "endChunk": "1.7 km",
+      "down": 1,
+      "chunk": 16,
+      "startChunk": "1.6 km",
+      "frac": 0.05555556,
+      "downers": [
+        [
+          "46",
+          "Jerko Odžak"
+        ]
+      ],
+      "downward": 1,
+      "rel": 0.00198413,
+      "endAhead": "10.3 km",
+      "downs": [
+        "1.675 km"
+      ]
+    },
+    {
+      "endChunk": "3.0 km",
+      "down": 1,
+      "chunk": 29,
+      "startChunk": "2.9 km",
+      "frac": 0.06845238,
+      "downers": [
+        [
+          "80",
+          "Ricardo Nicolau Soares Terra de Oliveira Figueiredo"
+        ]
+      ],
+      "downward": 0,
+      "rel": 0.00099206,
+      "endAhead": "11.6 km",
+      "downs": [
+        "2.984 km"
+      ]
+    },
+    {
+      "endChunk": "15.8 km",
+      "down": 1,
+      "chunk": 157,
+      "startChunk": "15.7 km",
+      "frac": 0.2093254,
+      "downers": [
+        [
+          "23",
+          "David Šiljeg"
+        ]
+      ],
+      "downward": 3,
+      "rel": 0.00396825,
+      "endAhead": "24.4 km",
+      "downs": [
+        "15.764 km"
+      ]
+    },
+    {
+      "endChunk": "22.2 km",
+      "down": 1,
+      "chunk": 221,
+      "startChunk": "22.1 km",
+      "frac": 0.46130952,
+      "downers": [
+        [
+          "41",
+          "Ivo Duarte"
+        ]
+      ],
+      "downward": 3,
+      "rel": 0.00396825,
+      "endAhead": "30.8 km",
+      "downs": [
+        "22.196 km"
+      ]
+    },
+    {
+      "endChunk": "22.8 km",
+      "down": 1,
+      "chunk": 227,
+      "startChunk": "22.7 km",
+      "frac": 0.47916667,
+      "downers": [
+        [
+          "57",
+          "Lara Leban"
+        ]
+      ],
+      "downward": 2,
+      "rel": 0.00297619,
+      "endAhead": "31.4 km",
+      "downs": [
+        "22.795 km"
+      ]
+    },
+    {
+      "endChunk": "23.0 km",
+      "down": 1,
+      "chunk": 229,
+      "startChunk": "22.9 km",
+      "frac": 0.48313492,
+      "downers": [
+        [
+          "37",
+          "Igor Eržen"
+        ]
+      ],
+      "downward": 1,
+      "rel": 0.00198413,
+      "endAhead": "31.6 km",
+      "downs": [
+        "22.930 km"
+      ]
+    },
+    {
+      "endChunk": "24.7 km",
+      "down": 1,
+      "chunk": 246,
+      "startChunk": "24.6 km",
+      "frac": 0.5,
+      "downers": [
+        [
+          "54",
+          "Krešo  Kovačič"
+        ]
+      ],
+      "downward": 0,
+      "rel": 0.00099206,
+      "endAhead": "33.3 km",
+      "downs": [
+        "24.629 km"
+      ]
+    }
+  ],
+  "lookahead": 87,
+  "minDistance": "0.000 km",
+  "landout": 9
+}
