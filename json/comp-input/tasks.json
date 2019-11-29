@@ -206,7 +206,11 @@
         "close": "2018-05-24T14:00:00Z",
         "open": "2018-05-24T10:30:00Z"
       }
-    ]
+    ],
+    "earlyStart": {
+      "earlyPenalty": "0 s",
+      "earliest": "0 s"
+    }
   },
   {
     "taskName": "Task 2",
@@ -436,7 +440,11 @@
         "close": "2018-05-26T14:00:00Z",
         "open": "2018-05-26T11:00:00Z"
       }
-    ]
+    ],
+    "earlyStart": {
+      "earlyPenalty": "0 s",
+      "earliest": "0 s"
+    }
   },
   {
     "taskName": "Task 3",
@@ -619,6 +627,10 @@
         "close": "2018-05-27T14:00:00Z",
         "open": "2018-05-27T11:00:00Z"
       }
-    ]
+    ],
+    "earlyStart": {
+      "earlyPenalty": "0 s",
+      "earliest": "0 s"
+    }
   }
 ]

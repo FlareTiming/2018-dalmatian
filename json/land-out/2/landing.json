@@ -1,0 +1,347 @@
+{
+  "chunking": {
+    "endChunk": [
+      211,
+      "21.1 km"
+    ],
+    "startChunk": [
+      0,
+      "0.0 km"
+    ],
+    "sumOf": 479
+  },
+  "bestDistance": "20.365516 km",
+  "difficulty": [
+    {
+      "endChunk": "0.2 km",
+      "down": 1,
+      "chunk": 1,
+      "startChunk": "0.1 km",
+      "frac": 0.00939457,
+      "downers": [
+        [
+          "9",
+          "Antoni Buljan"
+        ]
+      ],
+      "downward": 5,
+      "rel": 0.00521921,
+      "endAhead": "3.2 km",
+      "downs": [
+        "0.125 km"
+      ]
+    },
+    {
+      "endChunk": "1.1 km",
+      "down": 1,
+      "chunk": 10,
+      "startChunk": "1.0 km",
+      "frac": 0.04697286,
+      "downers": [
+        [
+          "91",
+          "Slava Jelić"
+        ]
+      ],
+      "downward": 4,
+      "rel": 0.00417537,
+      "endAhead": "4.1 km",
+      "downs": [
+        "1.000 km"
+      ]
+    },
+    {
+      "endChunk": "2.1 km",
+      "down": 1,
+      "chunk": 20,
+      "startChunk": "2.0 km",
+      "frac": 0.08350731,
+      "downers": [
+        [
+          "40",
+          "Ivica Huljek"
+        ]
+      ],
+      "downward": 4,
+      "rel": 0.00417537,
+      "endAhead": "5.1 km",
+      "downs": [
+        "2.052 km"
+      ]
+    },
+    {
+      "endChunk": "2.5 km",
+      "down": 1,
+      "chunk": 24,
+      "startChunk": "2.4 km",
+      "frac": 0.0960334,
+      "downers": [
+        [
+          "21",
+          "Damir Kalinger"
+        ]
+      ],
+      "downward": 3,
+      "rel": 0.00313152,
+      "endAhead": "5.5 km",
+      "downs": [
+        "2.418 km"
+      ]
+    },
+    {
+      "endChunk": "3.1 km",
+      "down": 1,
+      "chunk": 30,
+      "startChunk": "3.0 km",
+      "frac": 0.11064718,
+      "downers": [
+        [
+          "73",
+          "Mitja Jug"
+        ]
+      ],
+      "downward": 3,
+      "rel": 0.00313152,
+      "endAhead": "6.1 km",
+      "downs": [
+        "3.014 km"
+      ]
+    },
+    {
+      "endChunk": "4.6 km",
+      "down": 1,
+      "chunk": 45,
+      "startChunk": "4.5 km",
+      "frac": 0.15240084,
+      "downers": [
+        [
+          "46",
+          "Jerko Odžak"
+        ]
+      ],
+      "downward": 4,
+      "rel": 0.00417537,
+      "endAhead": "7.6 km",
+      "downs": [
+        "4.544 km"
+      ]
+    },
+    {
+      "endChunk": "5.9 km",
+      "down": 1,
+      "chunk": 58,
+      "startChunk": "5.8 km",
+      "frac": 0.19311065,
+      "downers": [
+        [
+          "63",
+          "Marketa Tomaskova"
+        ]
+      ],
+      "downward": 3,
+      "rel": 0.00313152,
+      "endAhead": "8.9 km",
+      "downs": [
+        "5.858 km"
+      ]
+    },
+    {
+      "endChunk": "7.1 km",
+      "down": 2,
+      "chunk": 70,
+      "startChunk": "7.0 km",
+      "frac": 0.23590814,
+      "downers": [
+        [
+          "13",
+          "Balazs Szatmari"
+        ],
+        [
+          "113",
+          "Zsolt Sandor"
+        ]
+      ],
+      "downward": 4,
+      "rel": 0.00417537,
+      "endAhead": "10.1 km",
+      "downs": [
+        "7.030 km",
+        "7.040 km"
+      ]
+    },
+    {
+      "endChunk": "9.0 km",
+      "down": 1,
+      "chunk": 89,
+      "startChunk": "8.9 km",
+      "frac": 0.27557411,
+      "downers": [
+        [
+          "4",
+          "Alojz Tovornik"
+        ]
+      ],
+      "downward": 2,
+      "rel": 0.00208768,
+      "endAhead": "12.0 km",
+      "downs": [
+        "8.979 km"
+      ]
+    },
+    {
+      "endChunk": "9.5 km",
+      "down": 1,
+      "chunk": 94,
+      "startChunk": "9.4 km",
+      "frac": 0.28079332,
+      "downers": [
+        [
+          "86",
+          "Sandi Krč"
+        ]
+      ],
+      "downward": 1,
+      "rel": 0.00104384,
+      "endAhead": "12.5 km",
+      "downs": [
+        "9.486 km"
+      ]
+    },
+    {
+      "endChunk": "16.0 km",
+      "down": 1,
+      "chunk": 159,
+      "startChunk": "15.9 km",
+      "frac": 0.36951983,
+      "downers": [
+        [
+          "57",
+          "Lara Leban"
+        ]
+      ],
+      "downward": 5,
+      "rel": 0.00521921,
+      "endAhead": "19.0 km",
+      "downs": [
+        "15.958 km"
+      ]
+    },
+    {
+      "endChunk": "16.8 km",
+      "down": 1,
+      "chunk": 167,
+      "startChunk": "16.7 km",
+      "frac": 0.40501044,
+      "downers": [
+        [
+          "37",
+          "Igor Eržen"
+        ]
+      ],
+      "downward": 5,
+      "rel": 0.00521921,
+      "endAhead": "19.8 km",
+      "downs": [
+        "16.703 km"
+      ]
+    },
+    {
+      "endChunk": "17.0 km",
+      "down": 1,
+      "chunk": 169,
+      "startChunk": "16.9 km",
+      "frac": 0.41336117,
+      "downers": [
+        [
+          "114",
+          "Joan Brito"
+        ]
+      ],
+      "downward": 4,
+      "rel": 0.00417537,
+      "endAhead": "20.0 km",
+      "downs": [
+        "16.999 km"
+      ]
+    },
+    {
+      "endChunk": "18.0 km",
+      "down": 1,
+      "chunk": 179,
+      "startChunk": "17.9 km",
+      "frac": 0.45407098,
+      "downers": [
+        [
+          "16",
+          "Bruno Matos"
+        ]
+      ],
+      "downward": 4,
+      "rel": 0.00417537,
+      "endAhead": "21.0 km",
+      "downs": [
+        "17.907 km"
+      ]
+    },
+    {
+      "endChunk": "18.7 km",
+      "down": 1,
+      "chunk": 186,
+      "startChunk": "18.6 km",
+      "frac": 0.47599165,
+      "downers": [
+        [
+          "95",
+          "Stojan Kranjc"
+        ]
+      ],
+      "downward": 3,
+      "rel": 0.00313152,
+      "endAhead": "21.7 km",
+      "downs": [
+        "18.683 km"
+      ]
+    },
+    {
+      "endChunk": "19.6 km",
+      "down": 1,
+      "chunk": 195,
+      "startChunk": "19.5 km",
+      "frac": 0.49478079,
+      "downers": [
+        [
+          "41",
+          "Ivo Duarte"
+        ]
+      ],
+      "downward": 2,
+      "rel": 0.00208768,
+      "endAhead": "22.6 km",
+      "downs": [
+        "19.503 km"
+      ]
+    },
+    {
+      "endChunk": "20.1 km",
+      "down": 1,
+      "chunk": 200,
+      "startChunk": "20.0 km",
+      "frac": 0.5,
+      "downers": [
+        [
+          "54",
+          "Krešo  Kovačič"
+        ]
+      ],
+      "downward": 1,
+      "rel": 0.00104384,
+      "endAhead": "23.1 km",
+      "downs": [
+        "20.058 km"
+      ]
+    }
+  ],
+  "lookahead": 30,
+  "minDistance": "1.000 km",
+  "landout": 23
+}

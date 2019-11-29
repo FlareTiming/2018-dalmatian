@@ -1,17 +1,17 @@
 [
   {
-    "time": 0.768,
+    "time": 0.769,
     "launch": 1,
-    "distance": 0.212,
-    "task": 0.146,
+    "distance": 0.213,
+    "task": 0.147,
     "stop": 0.896
   },
   {
     "time": 0.986,
     "launch": 1,
-    "distance": 0.778,
-    "task": 0.552,
-    "stop": 0.72
+    "distance": 0.782,
+    "task": 0.553,
+    "stop": 0.717
   },
   {
     "time": 1,
