@@ -22,6 +22,7 @@ mkdir json/stats
 curl -X GET -H "Accept:application/json" http://localhost:3000/stats/point-diff | jq > json/stats/point-diff.json
 
 mkdir json/fs-route
+mkdir json/fs-mask-track
 mkdir json/fs-effort
 mkdir json/cross-zone
 mkdir json/cross-zone/track-flying-section
@@ -31,14 +32,18 @@ mkdir json/peg-frame/track-scored-section
 mkdir json/pilot-track
 mkdir json/mask-track
 mkdir json/land-out
+mkdir json/discard-further
 for t in {1..3}
     do
-        mkdir json/fs-effort/$t
-        curl -X GET -H "Accept:application/json" http://localhost:3000/fs-effort/$t/landing | jq > json/fs-effort/$t/landing.json
-
         mkdir json/fs-route/$t
         curl -X GET -H "Accept:application/json" http://localhost:3000/fs-route/$t/sphere | jq > json/fs-route/$t/sphere.json
         curl -X GET -H "Accept:application/json" http://localhost:3000/fs-route/$t/ellipse | jq > json/fs-route/$t/ellipse.json
+
+        mkdir json/fs-mask-track/$t
+        curl -X GET -H "Accept:application/json" http://localhost:3000/fs-mask-track/$t/arrival | jq > json/fs-mask-track/$t/arrival.json
+
+        mkdir json/fs-effort/$t
+        curl -X GET -H "Accept:application/json" http://localhost:3000/fs-effort/$t/landing | jq > json/fs-effort/$t/landing.json
 
         mkdir json/fs-score/$t
         curl -X GET -H "Accept:application/json" http://localhost:3000/fs-score/$t/score | jq > json/fs-score/$t/score.json
@@ -85,11 +90,13 @@ for t in {1..3}
         mkdir json/peg-frame/track-scored-section/$t
         mkdir json/tag-zone/$t
         mkdir json/pilot-track/$t
+        mkdir json/discard-further/$t
         for p in {4,9,13,16,21,23,26,37,40,41,46,114,54,57,63,72,73,74,80,82,86,88,91,95,98,101,102,113}
             do
             curl -X GET -H "Accept:application/json" http://localhost:3000/cross-zone/track-flying-section/$t/$p | jq > json/cross-zone/track-flying-section/$t/$p.json
             curl -X GET -H "Accept:application/json" http://localhost:3000/tag-zone/$t/$p | jq > json/tag-zone/$t/$p.json
             curl -X GET -H "Accept:application/json" http://localhost:3000/peg-frame/track-scored-section/$t/$p | jq > json/peg-frame/track-scored-section/$t/$p.json
             curl -X GET -H "Accept:application/json" http://localhost:3000/pilot-track/$t/$p | jq > json/pilot-track/$t/$p.json
+            curl -X GET -H "Accept:application/json" http://localhost:3000/discard-further/$t/$p | jq > json/discard-further/$t/$p.json
             done
     done

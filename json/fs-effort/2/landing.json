@@ -10,7 +10,7 @@
     ],
     "sumOf": 634
   },
-  "bestDistance": null,
+  "bestDistance": "20.361000 km",
   "difficulty": [
     {
       "endChunk": "1.1 km",
@@ -139,20 +139,20 @@
       "frac": 0.17744479,
       "downers": [
         [
-          "113",
-          "Zsolt Sandor"
-        ],
-        [
           "13",
           "Balazs Szatmari"
+        ],
+        [
+          "113",
+          "Zsolt Sandor"
         ]
       ],
       "downward": 1,
       "rel": 0.00236593,
       "endAhead": "9.9 km",
       "downs": [
-        "6.973 km",
-        "6.963 km"
+        "6.963 km",
+        "6.973 km"
       ]
     },
     {
@@ -334,20 +334,20 @@
       "frac": 0.49684543,
       "downers": [
         [
-          "72",
-          "Mitja Jančič"
-        ],
-        [
           "74",
           "Nuno Filipe da Fonseca Bastos Gomes"
+        ],
+        [
+          "72",
+          "Mitja Jančič"
         ]
       ],
       "downward": 3,
       "rel": 0.00394322,
       "endAhead": "23.1 km",
       "downs": [
-        "20.192 km",
-        "20.140 km"
+        "20.140 km",
+        "20.192 km"
       ]
     },
     {
@@ -358,20 +358,20 @@
       "frac": 0.49921136,
       "downers": [
         [
-          "26",
-          "Dušan Durkovič"
-        ],
-        [
           "101",
           "Tomaž Toplak"
+        ],
+        [
+          "26",
+          "Dušan Durkovič"
         ]
       ],
       "downward": 1,
       "rel": 0.00236593,
       "endAhead": "23.2 km",
       "downs": [
-        "20.265 km",
-        "20.212 km"
+        "20.212 km",
+        "20.265 km"
       ]
     },
     {
@@ -395,6 +395,6 @@
     }
   ],
   "lookahead": 30,
-  "minDistance": "0.000 km",
+  "minDistance": "1.000 km",
   "landout": 23
 }

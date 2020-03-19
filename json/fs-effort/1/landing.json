@@ -10,7 +10,7 @@
     ],
     "sumOf": 571
   },
-  "bestDistance": null,
+  "bestDistance": "11.405000 km",
   "difficulty": [
     {
       "endChunk": "1.1 km",
@@ -19,18 +19,6 @@
       "startChunk": "1.0 km",
       "frac": 0.14448336,
       "downers": [
-        [
-          "82",
-          "Richard Edlinger"
-        ],
-        [
-          "113",
-          "Zsolt Sandor"
-        ],
-        [
-          "88",
-          "Sandor Roza"
-        ],
         [
           "9",
           "Antoni Buljan"
@@ -54,6 +42,18 @@
         [
           "80",
           "Ricardo Nicolau Soares Terra de Oliveira Figueiredo"
+        ],
+        [
+          "82",
+          "Richard Edlinger"
+        ],
+        [
+          "88",
+          "Sandor Roza"
+        ],
+        [
+          "113",
+          "Zsolt Sandor"
         ]
       ],
       "downward": 6,
@@ -307,20 +307,20 @@
       "frac": 0.45096322,
       "downers": [
         [
-          "16",
-          "Bruno Matos"
-        ],
-        [
           "72",
           "Mitja Jančič"
+        ],
+        [
+          "16",
+          "Bruno Matos"
         ]
       ],
       "downward": 2,
       "rel": 0.00350263,
       "endAhead": "10.9 km",
       "downs": [
-        "7.995 km",
-        "7.955 km"
+        "7.955 km",
+        "7.995 km"
       ]
     },
     {
@@ -382,6 +382,6 @@
     }
   ],
   "lookahead": 30,
-  "minDistance": "0.000 km",
+  "minDistance": "1.000 km",
   "landout": 26
 }
