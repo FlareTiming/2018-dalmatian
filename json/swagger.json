@@ -1,0 +1,3037 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "0.25",
+    "title": "Gap Point API",
+    "license": {
+      "url": "http://mozilla.org/MPL/2.0/",
+      "name": "MPL"
+    },
+    "description": "The full set of endpoints served when the comp has been scored."
+  },
+  "paths": {
+    "/comp-input/comps": {
+      "get": {
+        "produces": [
+          "application/json;charset=utf-8"
+        ],
+        "responses": {
+          "200": {
+            "schema": {
+              "$ref": "#/definitions/Comp"
+            },
+            "description": ""
+          }
+        }
+      }
+    },
+    "/comp-input/nominals": {
+      "get": {
+        "produces": [
+          "application/json;charset=utf-8"
+        ],
+        "responses": {
+          "200": {
+            "schema": {
+              "$ref": "#/definitions/Nominal"
+            },
+            "description": ""
+          }
+        }
+      }
+    },
+    "/comp-input/tasks": {
+      "get": {
+        "produces": [
+          "application/json;charset=utf-8"
+        ],
+        "responses": {
+          "200": {
+            "schema": {
+              "items": {
+                "$ref": "#/definitions/Task"
+              },
+              "type": "array"
+            },
+            "description": ""
+          }
+        }
+      }
+    },
+    "/comp-input/pilots": {
+      "get": {
+        "produces": [
+          "application/json;charset=utf-8"
+        ],
+        "responses": {
+          "200": {
+            "schema": {
+              "items": {
+                "example": [
+                  "101",
+                  "Davis Straub"
+                ],
+                "items": {
+                  "type": "string"
+                },
+                "collectionFormat": null,
+                "type": "array"
+              },
+              "type": "array"
+            },
+            "description": ""
+          }
+        }
+      }
+    },
+    "/fs-effort/{task}/landing": {
+      "get": {
+        "produces": [
+          "application/json;charset=utf-8"
+        ],
+        "parameters": [
+          {
+            "maximum": 9223372036854776000,
+            "minimum": -9223372036854776000,
+            "required": true,
+            "in": "path",
+            "name": "task",
+            "type": "integer"
+          }
+        ],
+        "responses": {
+          "404": {
+            "description": "`task` not found"
+          },
+          "200": {
+            "schema": {
+              "$ref": "#/definitions/TaskLanding"
+            },
+            "description": ""
+          }
+        }
+      }
+    },
+    "/fs-route/{task}/sphere": {
+      "get": {
+        "produces": [
+          "application/json;charset=utf-8"
+        ],
+        "parameters": [
+          {
+            "maximum": 9223372036854776000,
+            "minimum": -9223372036854776000,
+            "required": true,
+            "in": "path",
+            "name": "task",
+            "type": "integer"
+          }
+        ],
+        "responses": {
+          "404": {
+            "description": "`task` not found"
+          },
+          "200": {
+            "schema": {
+              "$ref": "#/definitions/TrackLine"
+            },
+            "description": ""
+          }
+        }
+      }
+    },
+    "/fs-route/{task}/ellipse": {
+      "get": {
+        "produces": [
+          "application/json;charset=utf-8"
+        ],
+        "parameters": [
+          {
+            "maximum": 9223372036854776000,
+            "minimum": -9223372036854776000,
+            "required": true,
+            "in": "path",
+            "name": "task",
+            "type": "integer"
+          }
+        ],
+        "responses": {
+          "404": {
+            "description": "`task` not found"
+          },
+          "200": {
+            "schema": {
+              "$ref": "#/definitions/TrackLine"
+            },
+            "description": ""
+          }
+        }
+      }
+    },
+    "/fs-score/validity": {
+      "get": {
+        "produces": [
+          "application/json;charset=utf-8"
+        ],
+        "responses": {
+          "200": {
+            "schema": {
+              "items": {
+                "$ref": "#/definitions/Validity"
+              },
+              "type": "array"
+            },
+            "description": ""
+          }
+        }
+      }
+    },
+    "/fs-score/{task}/validity-working": {
+      "get": {
+        "produces": [
+          "application/json;charset=utf-8"
+        ],
+        "parameters": [
+          {
+            "maximum": 9223372036854776000,
+            "minimum": -9223372036854776000,
+            "required": true,
+            "in": "path",
+            "name": "task",
+            "type": "integer"
+          }
+        ],
+        "responses": {
+          "404": {
+            "description": "`task` not found"
+          },
+          "200": {
+            "schema": {
+              "$ref": "#/definitions/ValidityWorking"
+            },
+            "description": ""
+          }
+        }
+      }
+    },
+    "/fs-score/{task}/score": {
+      "get": {
+        "produces": [
+          "application/json;charset=utf-8"
+        ],
+        "parameters": [
+          {
+            "maximum": 9223372036854776000,
+            "minimum": -9223372036854776000,
+            "required": true,
+            "in": "path",
+            "name": "task",
+            "type": "integer"
+          }
+        ],
+        "responses": {
+          "404": {
+            "description": "`task` not found"
+          },
+          "200": {
+            "schema": {
+              "items": {
+                "example": [
+                  [
+                    "5",
+                    "Jonny Durand"
+                  ],
+                  {
+                    "timeElapsed": "2.469167 h",
+                    "reach": {
+                      "extra": "99.531000 km",
+                      "flown": "99.531000 km"
+                    },
+                    "breakdown": {
+                      "time": 493.7,
+                      "reach": 217.88,
+                      "distance": 435.8,
+                      "leading": 0,
+                      "effort": 217.88,
+                      "arrival": 70.5
+                    },
+                    "leadingCoef": 0,
+                    "landedMade": "99.530000 km",
+                    "es": "2017-04-09T06:08:09Z",
+                    "total": 1000,
+                    "ss": "2017-04-09T03:40:00Z",
+                    "leadingArea": "0.0000 km^2 s",
+                    "place": "1",
+                    "fractions": {
+                      "time": 1,
+                      "reach": 1,
+                      "distance": 1,
+                      "leading": 0,
+                      "effort": 1,
+                      "arrival": 1
+                    }
+                  }
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "description": ""
+          }
+        }
+      }
+    },
+    "/task-length/{task}/spherical-edge": {
+      "get": {
+        "produces": [
+          "application/json;charset=utf-8"
+        ],
+        "parameters": [
+          {
+            "maximum": 9223372036854776000,
+            "minimum": -9223372036854776000,
+            "required": true,
+            "in": "path",
+            "name": "task",
+            "type": "integer"
+          }
+        ],
+        "responses": {
+          "404": {
+            "description": "`task` not found"
+          },
+          "200": {
+            "schema": {
+              "$ref": "#/definitions/OptimalRoute"
+            },
+            "description": ""
+          }
+        }
+      }
+    },
+    "/task-length/{task}/ellipsoid-edge": {
+      "get": {
+        "produces": [
+          "application/json;charset=utf-8"
+        ],
+        "parameters": [
+          {
+            "maximum": 9223372036854776000,
+            "minimum": -9223372036854776000,
+            "required": true,
+            "in": "path",
+            "name": "task",
+            "type": "integer"
+          }
+        ],
+        "responses": {
+          "404": {
+            "description": "`task` not found"
+          },
+          "200": {
+            "schema": {
+              "$ref": "#/definitions/OptimalRoute"
+            },
+            "description": ""
+          }
+        }
+      }
+    },
+    "/task-length/{task}/projected-edge-spherical": {
+      "get": {
+        "produces": [
+          "application/json;charset=utf-8"
+        ],
+        "parameters": [
+          {
+            "maximum": 9223372036854776000,
+            "minimum": -9223372036854776000,
+            "required": true,
+            "in": "path",
+            "name": "task",
+            "type": "integer"
+          }
+        ],
+        "responses": {
+          "404": {
+            "description": "`task` not found"
+          },
+          "200": {
+            "schema": {
+              "$ref": "#/definitions/TrackLine"
+            },
+            "description": ""
+          }
+        }
+      }
+    },
+    "/task-length/{task}/projected-edge-ellipsoid": {
+      "get": {
+        "produces": [
+          "application/json;charset=utf-8"
+        ],
+        "parameters": [
+          {
+            "maximum": 9223372036854776000,
+            "minimum": -9223372036854776000,
+            "required": true,
+            "in": "path",
+            "name": "task",
+            "type": "integer"
+          }
+        ],
+        "responses": {
+          "404": {
+            "description": "`task` not found"
+          },
+          "200": {
+            "schema": {
+              "$ref": "#/definitions/TrackLine"
+            },
+            "description": ""
+          }
+        }
+      }
+    },
+    "/task-length/{task}/projected-edge-planar": {
+      "get": {
+        "produces": [
+          "application/json;charset=utf-8"
+        ],
+        "parameters": [
+          {
+            "maximum": 9223372036854776000,
+            "minimum": -9223372036854776000,
+            "required": true,
+            "in": "path",
+            "name": "task",
+            "type": "integer"
+          }
+        ],
+        "responses": {
+          "404": {
+            "description": "`task` not found"
+          },
+          "200": {
+            "schema": {
+              "$ref": "#/definitions/PlanarTrackLine"
+            },
+            "description": ""
+          }
+        }
+      }
+    },
+    "/task-length/task-lengths": {
+      "get": {
+        "produces": [
+          "application/json;charset=utf-8"
+        ],
+        "responses": {
+          "200": {
+            "schema": {
+              "example": [
+                "142.789048 km",
+                "185.745298 km",
+                "195.224984 km",
+                "388.750173 km",
+                "153.936362 km",
+                "166.415908 km",
+                "172.107822 km"
+              ],
+              "type": "string"
+            },
+            "description": ""
+          }
+        }
+      }
+    },
+    "/stats/point-diff": {
+      "get": {
+        "produces": [
+          "application/json;charset=utf-8"
+        ],
+        "responses": {
+          "200": {
+            "schema": {
+              "items": {
+                "example": [
+                  -16.82,
+                  50.94298381524192
+                ],
+                "type": "string",
+                "description": "The difference in the mean of the points and the standard deviation in the points for a task."
+              },
+              "type": "array"
+            },
+            "description": ""
+          }
+        }
+      }
+    },
+    "/gap-point/pilots-status": {
+      "get": {
+        "produces": [
+          "application/json;charset=utf-8"
+        ],
+        "responses": {
+          "200": {
+            "schema": {
+              "items": {
+                "example": [
+                  [
+                    "4",
+                    "Frank Chetcuti"
+                  ],
+                  [
+                    "DF",
+                    "DFNoTrack",
+                    "DF",
+                    "DFNoTrack",
+                    "DF",
+                    "ABS",
+                    "DF"
+                  ]
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "description": ""
+          }
+        }
+      }
+    },
+    "/gap-point/validity": {
+      "get": {
+        "produces": [
+          "application/json;charset=utf-8"
+        ],
+        "responses": {
+          "200": {
+            "schema": {
+              "items": {
+                "$ref": "#/definitions/Validity"
+              },
+              "type": "array"
+            },
+            "description": ""
+          }
+        }
+      }
+    },
+    "/gap-point/allocation": {
+      "get": {
+        "produces": [
+          "application/json;charset=utf-8"
+        ],
+        "responses": {
+          "200": {
+            "schema": {
+              "items": {
+                "example": {
+                  "goalRatio": 0.46808511,
+                  "points": {
+                    "time": 493.7,
+                    "reach": 217.88,
+                    "distance": 435.8,
+                    "leading": 0,
+                    "effort": 217.88,
+                    "arrival": 70.5
+                  },
+                  "weight": {
+                    "time": 0.4937,
+                    "reach": 0.2179,
+                    "distance": 0.4358,
+                    "leading": 0,
+                    "effort": 0.2179,
+                    "arrival": 0.0705
+                  },
+                  "taskPoints": 1000
+                },
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "description": ""
+          }
+        }
+      }
+    },
+    "/gap-point/{task}/score": {
+      "get": {
+        "produces": [
+          "application/json;charset=utf-8"
+        ],
+        "parameters": [
+          {
+            "maximum": 9223372036854776000,
+            "minimum": -9223372036854776000,
+            "required": true,
+            "in": "path",
+            "name": "task",
+            "type": "integer"
+          }
+        ],
+        "responses": {
+          "404": {
+            "description": "`task` not found"
+          },
+          "200": {
+            "schema": {
+              "items": {
+                "example": [
+                  [
+                    "5",
+                    "Jonny Durand"
+                  ],
+                  {
+                    "jump": null,
+                    "demeritPoint": 0,
+                    "reach": {
+                      "extra": "99.561 km",
+                      "flown": "99.561 km"
+                    },
+                    "breakdown": {
+                      "time": 493.7,
+                      "reach": 217.88,
+                      "distance": 435.761,
+                      "leading": 0,
+                      "effort": 217.88,
+                      "arrival": 70.5
+                    },
+                    "stoppedAlt": null,
+                    "demeritFrac": 0,
+                    "demeritReset": 0,
+                    "landedMade": "99.561 km",
+                    "subtotal": 1000,
+                    "penaltyReason": "",
+                    "penaltiesJump": [],
+                    "velocity": {
+                      "gs": "2017-04-09T03:40:00Z",
+                      "ssVelocity": "40.44 km / h",
+                      "ssElapsed": "2.462225 h",
+                      "gsElapsed": "2.469229 h",
+                      "es": "2017-04-09T06:08:09.222861501556Z",
+                      "ss": "2017-04-09T03:40:25.213746678338Z",
+                      "ssDistance": "99.561 km",
+                      "gsVelocity": "40.30 km / h"
+                    },
+                    "total": 1000,
+                    "penalties": [],
+                    "place": "1"
+                  }
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "description": ""
+          }
+        }
+      }
+    },
+    "/gap-point/{task}/validity-working": {
+      "get": {
+        "produces": [
+          "application/json;charset=utf-8"
+        ],
+        "parameters": [
+          {
+            "maximum": 9223372036854776000,
+            "minimum": -9223372036854776000,
+            "required": true,
+            "in": "path",
+            "name": "task",
+            "type": "integer"
+          }
+        ],
+        "responses": {
+          "404": {
+            "description": "`task` not found"
+          },
+          "200": {
+            "schema": {
+              "$ref": "#/definitions/ValidityWorking"
+            },
+            "description": ""
+          }
+        }
+      }
+    },
+    "/comp-input/{task}/pilot-abs": {
+      "get": {
+        "produces": [
+          "application/json;charset=utf-8"
+        ],
+        "parameters": [
+          {
+            "maximum": 9223372036854776000,
+            "minimum": -9223372036854776000,
+            "required": true,
+            "in": "path",
+            "name": "task",
+            "type": "integer"
+          }
+        ],
+        "responses": {
+          "404": {
+            "description": "`task` not found"
+          },
+          "200": {
+            "schema": {
+              "items": {
+                "example": [
+                  "101",
+                  "Davis Straub"
+                ],
+                "items": {
+                  "type": "string"
+                },
+                "collectionFormat": null,
+                "type": "array"
+              },
+              "type": "array"
+            },
+            "description": ""
+          }
+        }
+      }
+    },
+    "/comp-input/{task}/pilot-dnf": {
+      "get": {
+        "produces": [
+          "application/json;charset=utf-8"
+        ],
+        "parameters": [
+          {
+            "maximum": 9223372036854776000,
+            "minimum": -9223372036854776000,
+            "required": true,
+            "in": "path",
+            "name": "task",
+            "type": "integer"
+          }
+        ],
+        "responses": {
+          "404": {
+            "description": "`task` not found"
+          },
+          "200": {
+            "schema": {
+              "items": {
+                "example": [
+                  "101",
+                  "Davis Straub"
+                ],
+                "items": {
+                  "type": "string"
+                },
+                "collectionFormat": null,
+                "type": "array"
+              },
+              "type": "array"
+            },
+            "description": ""
+          }
+        }
+      }
+    },
+    "/comp-input/{task}/pilot-dfnt": {
+      "get": {
+        "produces": [
+          "application/json;charset=utf-8"
+        ],
+        "parameters": [
+          {
+            "maximum": 9223372036854776000,
+            "minimum": -9223372036854776000,
+            "required": true,
+            "in": "path",
+            "name": "task",
+            "type": "integer"
+          }
+        ],
+        "responses": {
+          "404": {
+            "description": "`task` not found"
+          },
+          "200": {
+            "schema": {
+              "items": {
+                "$ref": "#/definitions/DfNoTrackPilot"
+              },
+              "type": "array"
+            },
+            "description": ""
+          }
+        }
+      }
+    },
+    "/gap-point/{task}/pilot-nyp": {
+      "get": {
+        "produces": [
+          "application/json;charset=utf-8"
+        ],
+        "parameters": [
+          {
+            "maximum": 9223372036854776000,
+            "minimum": -9223372036854776000,
+            "required": true,
+            "in": "path",
+            "name": "task",
+            "type": "integer"
+          }
+        ],
+        "responses": {
+          "404": {
+            "description": "`task` not found"
+          },
+          "200": {
+            "schema": {
+              "items": {
+                "example": [
+                  "101",
+                  "Davis Straub"
+                ],
+                "items": {
+                  "type": "string"
+                },
+                "collectionFormat": null,
+                "type": "array"
+              },
+              "type": "array"
+            },
+            "description": ""
+          }
+        }
+      }
+    },
+    "/gap-point/{task}/pilot-df": {
+      "get": {
+        "produces": [
+          "application/json;charset=utf-8"
+        ],
+        "parameters": [
+          {
+            "maximum": 9223372036854776000,
+            "minimum": -9223372036854776000,
+            "required": true,
+            "in": "path",
+            "name": "task",
+            "type": "integer"
+          }
+        ],
+        "responses": {
+          "404": {
+            "description": "`task` not found"
+          },
+          "200": {
+            "schema": {
+              "items": {
+                "example": [
+                  "101",
+                  "Davis Straub"
+                ],
+                "items": {
+                  "type": "string"
+                },
+                "collectionFormat": null,
+                "type": "array"
+              },
+              "type": "array"
+            },
+            "description": ""
+          }
+        }
+      }
+    },
+    "/pilot-track/{task}/{pilot}": {
+      "get": {
+        "produces": [
+          "application/json;charset=utf-8"
+        ],
+        "parameters": [
+          {
+            "maximum": 9223372036854776000,
+            "minimum": -9223372036854776000,
+            "required": true,
+            "in": "path",
+            "name": "task",
+            "type": "integer"
+          },
+          {
+            "required": true,
+            "in": "path",
+            "name": "pilot",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "404": {
+            "description": "`task` or `pilot` not found"
+          },
+          "200": {
+            "schema": {
+              "$ref": "#/definitions/RawLatLngTrack"
+            },
+            "description": ""
+          }
+        }
+      }
+    },
+    "/discard-further/{task}/{pilot}": {
+      "get": {
+        "produces": [
+          "application/json;charset=utf-8"
+        ],
+        "parameters": [
+          {
+            "maximum": 9223372036854776000,
+            "minimum": -9223372036854776000,
+            "required": true,
+            "in": "path",
+            "name": "task",
+            "type": "integer"
+          },
+          {
+            "required": true,
+            "in": "path",
+            "name": "pilot",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "404": {
+            "description": "`task` or `pilot` not found"
+          },
+          "200": {
+            "schema": {
+              "$ref": "#/definitions/RawLeadingArea"
+            },
+            "description": ""
+          }
+        }
+      }
+    },
+    "/cross-zone/track-flying-section/{task}/{pilot}": {
+      "get": {
+        "produces": [
+          "application/json;charset=utf-8"
+        ],
+        "parameters": [
+          {
+            "maximum": 9223372036854776000,
+            "minimum": -9223372036854776000,
+            "required": true,
+            "in": "path",
+            "name": "task",
+            "type": "integer"
+          },
+          {
+            "required": true,
+            "in": "path",
+            "name": "pilot",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "404": {
+            "description": "`task` or `pilot` not found"
+          },
+          "200": {
+            "schema": {
+              "example": {
+                "flyingSeconds": [
+                  0,
+                  14257
+                ],
+                "loggedSeconds": 14257,
+                "loggedTimes": [
+                  "2017-04-12T01:55:24Z",
+                  "2017-04-12T05:53:01Z"
+                ],
+                "flyingFixes": [
+                  0,
+                  7672
+                ],
+                "flyingTimes": [
+                  "2017-04-12T01:55:24Z",
+                  "2017-04-12T05:53:01Z"
+                ],
+                "loggedFixes": 7673
+              },
+              "type": "string"
+            },
+            "description": ""
+          }
+        }
+      }
+    },
+    "/peg-frame/track-scored-section/{task}/{pilot}": {
+      "get": {
+        "produces": [
+          "application/json;charset=utf-8"
+        ],
+        "parameters": [
+          {
+            "maximum": 9223372036854776000,
+            "minimum": -9223372036854776000,
+            "required": true,
+            "in": "path",
+            "name": "task",
+            "type": "integer"
+          },
+          {
+            "required": true,
+            "in": "path",
+            "name": "pilot",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "404": {
+            "description": "`task` or `pilot` not found"
+          },
+          "200": {
+            "schema": {
+              "example": {
+                "scoredSeconds": [
+                  0,
+                  14257
+                ],
+                "scoredTimes": [
+                  "2017-04-12T01:55:24Z",
+                  "2017-04-12T05:53:01Z"
+                ],
+                "scoredFixes": [
+                  0,
+                  7672
+                ]
+              },
+              "type": "string"
+            },
+            "description": ""
+          }
+        }
+      }
+    },
+    "/cross-zone/{task}/flying-times": {
+      "get": {
+        "produces": [
+          "application/json;charset=utf-8"
+        ],
+        "parameters": [
+          {
+            "maximum": 9223372036854776000,
+            "minimum": -9223372036854776000,
+            "required": true,
+            "in": "path",
+            "name": "task",
+            "type": "integer"
+          }
+        ],
+        "responses": {
+          "404": {
+            "description": "`task` not found"
+          },
+          "200": {
+            "schema": {
+              "items": {
+                "example": [
+                  [
+                    "36",
+                    "Brad Porter"
+                  ],
+                  [
+                    "2017-04-12T01:55:24Z",
+                    "2017-04-12T05:53:01Z"
+                  ]
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "description": ""
+          }
+        }
+      }
+    },
+    "/tag-zone/{task}/{pilot}": {
+      "get": {
+        "produces": [
+          "application/json;charset=utf-8"
+        ],
+        "parameters": [
+          {
+            "maximum": 9223372036854776000,
+            "minimum": -9223372036854776000,
+            "required": true,
+            "in": "path",
+            "name": "task",
+            "type": "integer"
+          },
+          {
+            "required": true,
+            "in": "path",
+            "name": "pilot",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "404": {
+            "description": "`task` or `pilot` not found"
+          },
+          "200": {
+            "schema": {
+              "items": {
+                "$ref": "#/definitions/ZoneTag"
+              },
+              "type": "array"
+            },
+            "description": ""
+          }
+        }
+      }
+    },
+    "/mask-track/{task}/bolster-stats": {
+      "get": {
+        "produces": [
+          "application/json;charset=utf-8"
+        ],
+        "parameters": [
+          {
+            "maximum": 9223372036854776000,
+            "minimum": -9223372036854776000,
+            "required": true,
+            "in": "path",
+            "name": "task",
+            "type": "integer"
+          }
+        ],
+        "responses": {
+          "404": {
+            "description": "`task` not found"
+          },
+          "200": {
+            "schema": {
+              "$ref": "#/definitions/BolsterStats"
+            },
+            "description": ""
+          }
+        }
+      }
+    },
+    "/mask-track/{task}/bonus-bolster-stats": {
+      "get": {
+        "produces": [
+          "application/json;charset=utf-8"
+        ],
+        "parameters": [
+          {
+            "maximum": 9223372036854776000,
+            "minimum": -9223372036854776000,
+            "required": true,
+            "in": "path",
+            "name": "task",
+            "type": "integer"
+          }
+        ],
+        "responses": {
+          "404": {
+            "description": "`task` not found"
+          },
+          "200": {
+            "schema": {
+              "$ref": "#/definitions/BolsterStats"
+            },
+            "description": ""
+          }
+        }
+      }
+    },
+    "/mask-track/{task}/reach": {
+      "get": {
+        "produces": [
+          "application/json;charset=utf-8"
+        ],
+        "parameters": [
+          {
+            "maximum": 9223372036854776000,
+            "minimum": -9223372036854776000,
+            "required": true,
+            "in": "path",
+            "name": "task",
+            "type": "integer"
+          }
+        ],
+        "responses": {
+          "404": {
+            "description": "`task` not found"
+          },
+          "200": {
+            "schema": {
+              "items": {
+                "example": [
+                  [
+                    "42",
+                    "Mikhail Karmazin"
+                  ],
+                  {
+                    "reach": "111.259762 km",
+                    "frac": 1
+                  }
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "description": ""
+          }
+        }
+      }
+    },
+    "/mask-track/{task}/bonus-reach": {
+      "get": {
+        "produces": [
+          "application/json;charset=utf-8"
+        ],
+        "parameters": [
+          {
+            "maximum": 9223372036854776000,
+            "minimum": -9223372036854776000,
+            "required": true,
+            "in": "path",
+            "name": "task",
+            "type": "integer"
+          }
+        ],
+        "responses": {
+          "404": {
+            "description": "`task` not found"
+          },
+          "200": {
+            "schema": {
+              "items": {
+                "example": [
+                  [
+                    "42",
+                    "Mikhail Karmazin"
+                  ],
+                  {
+                    "reach": "111.259762 km",
+                    "frac": 1
+                  }
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "description": ""
+          }
+        }
+      }
+    },
+    "/fs-mask-track/{task}/arrival": {
+      "get": {
+        "produces": [
+          "application/json;charset=utf-8"
+        ],
+        "parameters": [
+          {
+            "maximum": 9223372036854776000,
+            "minimum": -9223372036854776000,
+            "required": true,
+            "in": "path",
+            "name": "task",
+            "type": "integer"
+          }
+        ],
+        "responses": {
+          "404": {
+            "description": "`task` not found"
+          },
+          "200": {
+            "schema": {
+              "items": {
+                "example": [
+                  [
+                    "33",
+                    "Niki Longshore"
+                  ],
+                  {
+                    "frac": 0.54348856,
+                    "lag": "0.215871 h",
+                    "rank": "8"
+                  }
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "description": ""
+          }
+        }
+      }
+    },
+    "/mask-track/{task}/arrival": {
+      "get": {
+        "produces": [
+          "application/json;charset=utf-8"
+        ],
+        "parameters": [
+          {
+            "maximum": 9223372036854776000,
+            "minimum": -9223372036854776000,
+            "required": true,
+            "in": "path",
+            "name": "task",
+            "type": "integer"
+          }
+        ],
+        "responses": {
+          "404": {
+            "description": "`task` not found"
+          },
+          "200": {
+            "schema": {
+              "items": {
+                "example": [
+                  [
+                    "33",
+                    "Niki Longshore"
+                  ],
+                  {
+                    "frac": 0.54348856,
+                    "lag": "0.215871 h",
+                    "rank": "8"
+                  }
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "description": ""
+          }
+        }
+      }
+    },
+    "/mask-track/{task}/lead": {
+      "get": {
+        "produces": [
+          "application/json;charset=utf-8"
+        ],
+        "parameters": [
+          {
+            "maximum": 9223372036854776000,
+            "minimum": -9223372036854776000,
+            "required": true,
+            "in": "path",
+            "name": "task",
+            "type": "integer"
+          }
+        ],
+        "responses": {
+          "404": {
+            "description": "`task` not found"
+          },
+          "200": {
+            "schema": {
+              "items": {
+                "example": [
+                  [
+                    "105",
+                    "Cory Barnwell"
+                  ],
+                  {
+                    "area": "42221610.0724 km^2 s",
+                    "frac": 0.80786961,
+                    "coef": 1.70921115
+                  }
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "description": ""
+          }
+        }
+      }
+    },
+    "/mask-track/{task}/time": {
+      "get": {
+        "produces": [
+          "application/json;charset=utf-8"
+        ],
+        "parameters": [
+          {
+            "maximum": 9223372036854776000,
+            "minimum": -9223372036854776000,
+            "required": true,
+            "in": "path",
+            "name": "task",
+            "type": "integer"
+          }
+        ],
+        "responses": {
+          "404": {
+            "description": "`task` not found"
+          },
+          "200": {
+            "schema": {
+              "items": {
+                "example": [
+                  [
+                    "101",
+                    "Davis Straub"
+                  ],
+                  {
+                    "time": "2.824138 h",
+                    "frac": 0.68107665
+                  }
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "description": ""
+          }
+        }
+      }
+    },
+    "/land-out/{task}/effort": {
+      "get": {
+        "produces": [
+          "application/json;charset=utf-8"
+        ],
+        "parameters": [
+          {
+            "maximum": 9223372036854776000,
+            "minimum": -9223372036854776000,
+            "required": true,
+            "in": "path",
+            "name": "task",
+            "type": "integer"
+          }
+        ],
+        "responses": {
+          "404": {
+            "description": "`task` not found"
+          },
+          "200": {
+            "schema": {
+              "items": {
+                "example": [
+                  [
+                    "106",
+                    "Larry Bunner"
+                  ],
+                  {
+                    "frac": 0.32864056,
+                    "effort": "24.828000 km"
+                  }
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "description": ""
+          }
+        }
+      }
+    },
+    "/land-out/{task}/landing": {
+      "get": {
+        "produces": [
+          "application/json;charset=utf-8"
+        ],
+        "parameters": [
+          {
+            "maximum": 9223372036854776000,
+            "minimum": -9223372036854776000,
+            "required": true,
+            "in": "path",
+            "name": "task",
+            "type": "integer"
+          }
+        ],
+        "responses": {
+          "404": {
+            "description": "`task` not found"
+          },
+          "200": {
+            "schema": {
+              "$ref": "#/definitions/TaskLanding"
+            },
+            "description": ""
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "Comp": {
+      "required": [
+        "civilId",
+        "compName",
+        "discipline",
+        "location",
+        "from",
+        "to",
+        "utcOffset",
+        "earth",
+        "earthMath"
+      ],
+      "properties": {
+        "civilId": {
+          "type": "string"
+        },
+        "compName": {
+          "type": "string"
+        },
+        "discipline": {
+          "$ref": "#/definitions/Discipline"
+        },
+        "location": {
+          "type": "string"
+        },
+        "from": {
+          "type": "string"
+        },
+        "to": {
+          "type": "string"
+        },
+        "utcOffset": {
+          "$ref": "#/definitions/UtcOffset"
+        },
+        "scoreBack": {
+          "pattern": "^[-+]?[0-9]*\\.?[0-9]{0,3} s$",
+          "example": "900.000 s",
+          "type": "string"
+        },
+        "give": {
+          "$ref": "#/definitions/Give"
+        },
+        "earth": {
+          "$ref": "#/definitions/EarthModel"
+        },
+        "earthMath": {
+          "$ref": "#/definitions/EarthMath"
+        }
+      },
+      "type": "object"
+    },
+    "Discipline": {
+      "type": "string",
+      "enum": [
+        "HangGliding",
+        "Paragliding"
+      ]
+    },
+    "UtcOffset": {
+      "required": [
+        "timeZoneMinutes"
+      ],
+      "properties": {
+        "timeZoneMinutes": {
+          "maximum": 9223372036854776000,
+          "minimum": -9223372036854776000,
+          "type": "integer"
+        }
+      },
+      "type": "object"
+    },
+    "Give": {
+      "required": [
+        "giveFraction"
+      ],
+      "properties": {
+        "giveFraction": {
+          "format": "double",
+          "type": "number"
+        },
+        "giveDistance": {
+          "pattern": "^[-+]?[0-9]*\\.?[0-9]{0,1} m$",
+          "example": "400.0 m",
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "EarthModel": {
+      "properties": {
+        "EarthAsSphere": {
+          "required": [
+            "radius"
+          ],
+          "type": "object",
+          "properties": {
+            "radius": {
+              "pattern": "^[-+]?[0-9]*\\.?[0-9]{0,1} m$",
+              "example": "400.0 m",
+              "type": "string"
+            }
+          }
+        },
+        "EarthAsEllipsoid": {
+          "$ref": "#/definitions/Ellipsoid"
+        },
+        "EarthAsFlat": {
+          "required": [
+            "projection"
+          ],
+          "type": "object",
+          "properties": {
+            "projection": {
+              "$ref": "#/definitions/Projection"
+            }
+          }
+        }
+      },
+      "maxProperties": 1,
+      "minProperties": 1,
+      "type": "object"
+    },
+    "Ellipsoid": {
+      "required": [
+        "equatorialR",
+        "recipF"
+      ],
+      "properties": {
+        "equatorialR": {
+          "pattern": "^[-+]?[0-9]*\\.?[0-9]{0,1} m$",
+          "example": "400.0 m",
+          "type": "string"
+        },
+        "recipF": {
+          "format": "double",
+          "type": "number"
+        }
+      },
+      "type": "object"
+    },
+    "Projection": {
+      "type": "string",
+      "enum": [
+        "UTM"
+      ]
+    },
+    "EarthMath": {
+      "type": "string",
+      "enum": [
+        "Pythagorus",
+        "Haversines",
+        "Vincenty",
+        "AndoyerLambert",
+        "ForsytheAndoyerLambert",
+        "FsAndoyer"
+      ]
+    },
+    "Nominal": {
+      "required": [
+        "launch",
+        "goal",
+        "distance",
+        "free",
+        "time"
+      ],
+      "properties": {
+        "launch": {
+          "$ref": "#/definitions/NominalLaunch"
+        },
+        "goal": {
+          "$ref": "#/definitions/NominalGoal"
+        },
+        "distance": {
+          "pattern": "^[-+]?[0-9]*\\.?[0-9]{0,1} km$",
+          "example": "120.0 km",
+          "type": "string"
+        },
+        "free": {
+          "pattern": "^[-+]?[0-9]*\\.?[0-9]{0,3} km$",
+          "example": "5.000 km",
+          "type": "string"
+        },
+        "time": {
+          "pattern": "^[-+]?[0-9]*\\.?[0-9]{0,3} h$",
+          "example": "2.000000 h",
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "NominalLaunch": {
+      "format": "double",
+      "type": "number"
+    },
+    "NominalGoal": {
+      "format": "double",
+      "type": "number"
+    },
+    "Task": {
+      "required": [
+        "taskName",
+        "zones",
+        "zoneTimes",
+        "startGates",
+        "earlyStart",
+        "penalsAuto",
+        "penals"
+      ],
+      "properties": {
+        "taskName": {
+          "type": "string"
+        },
+        "zones": {
+          "$ref": "#/definitions/Zones"
+        },
+        "speedSection": {
+          "minItems": 2,
+          "items": [
+            {
+              "maximum": 9223372036854776000,
+              "minimum": -9223372036854776000,
+              "type": "integer"
+            },
+            {
+              "maximum": 9223372036854776000,
+              "minimum": -9223372036854776000,
+              "type": "integer"
+            }
+          ],
+          "maxItems": 2,
+          "type": "array"
+        },
+        "zoneTimes": {
+          "items": {
+            "$ref": "#/definitions/OpenClose"
+          },
+          "type": "array"
+        },
+        "startGates": {
+          "items": {
+            "$ref": "#/definitions/StartGate"
+          },
+          "type": "array"
+        },
+        "stopped": {
+          "$ref": "#/definitions/TaskStop"
+        },
+        "taskTweak": {
+          "$ref": "#/definitions/Tweak"
+        },
+        "earlyStart": {
+          "$ref": "#/definitions/EarlyStart"
+        },
+        "penalsAuto": {
+          "example": [
+            [
+              [
+                "24",
+                "Brodrick Osborne"
+              ],
+              [
+                {
+                  "penalty-points": 5.7
+                }
+              ],
+              "Jumped the gun by 0:57"
+            ],
+            [
+              [
+                "34",
+                "Petr Polach"
+              ],
+              [
+                {
+                  "penalty-fraction": 1
+                }
+              ],
+              "Airspace Infringement"
+            ],
+            [
+              [
+                "75",
+                "Josh Woods"
+              ],
+              [
+                {
+                  "penalty-fraction": 0.1
+                }
+              ],
+              "Altitude violation of 01:41 - 10%"
+            ],
+            [
+              [
+                "105",
+                "Alan Arcos"
+              ],
+              [
+                {
+                  "penalty-fraction": -0.2
+                }
+              ],
+              "Handicap"
+            ]
+          ],
+          "type": "string"
+        },
+        "penals": {
+          "example": [
+            [
+              [
+                "24",
+                "Brodrick Osborne"
+              ],
+              [
+                {
+                  "penalty-points": 5.7
+                }
+              ],
+              "Jumped the gun by 0:57"
+            ],
+            [
+              [
+                "34",
+                "Petr Polach"
+              ],
+              [
+                {
+                  "penalty-fraction": 1
+                }
+              ],
+              "Airspace Infringement"
+            ],
+            [
+              [
+                "75",
+                "Josh Woods"
+              ],
+              [
+                {
+                  "penalty-fraction": 0.1
+                }
+              ],
+              "Altitude violation of 01:41 - 10%"
+            ],
+            [
+              [
+                "105",
+                "Alan Arcos"
+              ],
+              [
+                {
+                  "penalty-fraction": -0.2
+                }
+              ],
+              "Handicap"
+            ]
+          ],
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "Zones": {
+      "required": [
+        "raw"
+      ],
+      "properties": {
+        "raw": {
+          "items": {
+            "$ref": "#/definitions/RawZone"
+          },
+          "type": "array"
+        },
+        "raceKind": {
+          "$ref": "#/definitions/Race"
+        },
+        "openKind": {
+          "$ref": "#/definitions/OpenDistance"
+        }
+      },
+      "type": "object"
+    },
+    "RawZone": {
+      "required": [
+        "zoneName",
+        "lat",
+        "lng",
+        "radius"
+      ],
+      "properties": {
+        "zoneName": {
+          "type": "string"
+        },
+        "lat": {
+          "example": "32.2176",
+          "maximum": 90,
+          "format": "double",
+          "minimum": -90,
+          "type": "number"
+        },
+        "lng": {
+          "example": "-101.71603",
+          "maximum": 180,
+          "format": "double",
+          "minimum": -180,
+          "type": "number"
+        },
+        "radius": {
+          "pattern": "^[-+]?[0-9]*\\.?[0-9]{0,1} m$",
+          "example": "400.0 m",
+          "type": "string"
+        },
+        "giveIn": {
+          "pattern": "^[-+]?[0-9]*\\.?[0-9]{0,1} m$",
+          "example": "400.0 m",
+          "type": "string"
+        },
+        "giveOut": {
+          "pattern": "^[-+]?[0-9]*\\.?[0-9]{0,1} m$",
+          "example": "400.0 m",
+          "type": "string"
+        },
+        "alt": {
+          "pattern": "^[-+]?[0-9]*\\.?[0-9]{0,3} m$",
+          "example": "771.000 m",
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "Race": {
+      "required": [
+        "prolog",
+        "race"
+      ],
+      "properties": {
+        "prolog": {
+          "format": "double",
+          "type": "number"
+        },
+        "race": {
+          "format": "double",
+          "type": "number"
+        },
+        "race-ess": {
+          "format": "double",
+          "type": "number"
+        },
+        "epilog": {
+          "format": "double",
+          "type": "number"
+        },
+        "goal": {
+          "format": "double",
+          "type": "number"
+        },
+        "race-ess-is-goal": {
+          "format": "double",
+          "type": "number"
+        }
+      },
+      "type": "object"
+    },
+    "OpenDistance": {
+      "required": [
+        "prolog",
+        "open-mandatory",
+        "open-free"
+      ],
+      "properties": {
+        "prolog": {
+          "format": "double",
+          "type": "number"
+        },
+        "open-mandatory": {
+          "format": "double",
+          "type": "number"
+        },
+        "open-free": {
+          "format": "double",
+          "type": "number"
+        }
+      },
+      "type": "object"
+    },
+    "OpenClose": {
+      "required": [
+        "open",
+        "close"
+      ],
+      "properties": {
+        "open": {
+          "$ref": "#/definitions/UTCTime"
+        },
+        "close": {
+          "$ref": "#/definitions/UTCTime"
+        }
+      },
+      "type": "object"
+    },
+    "UTCTime": {
+      "example": "2016-07-22T00:00:00Z",
+      "format": "yyyy-mm-ddThh:MM:ssZ",
+      "type": "string"
+    },
+    "StartGate": {
+      "example": "2016-07-22T00:00:00Z",
+      "format": "yyyy-mm-ddThh:MM:ssZ",
+      "type": "string"
+    },
+    "TaskStop": {
+      "required": [
+        "announced",
+        "retroactive"
+      ],
+      "properties": {
+        "announced": {
+          "$ref": "#/definitions/UTCTime"
+        },
+        "retroactive": {
+          "$ref": "#/definitions/UTCTime"
+        }
+      },
+      "type": "object"
+    },
+    "Tweak": {
+      "required": [
+        "leadingAreaDistanceSquared",
+        "arrivalRank",
+        "arrivalTime"
+      ],
+      "properties": {
+        "leadingWeightScaling": {
+          "$ref": "#/definitions/LwScaling"
+        },
+        "leadingAreaDistanceSquared": {
+          "type": "boolean"
+        },
+        "arrivalRank": {
+          "type": "boolean"
+        },
+        "arrivalTime": {
+          "type": "boolean"
+        }
+      },
+      "type": "object"
+    },
+    "LwScaling": {
+      "format": "double",
+      "type": "number"
+    },
+    "EarlyStart": {
+      "required": [
+        "earliest",
+        "earlyPenalty",
+        "tooEarlyReset"
+      ],
+      "properties": {
+        "earliest": {
+          "pattern": "^[+]?[0-9]+ s$",
+          "example": "300 s",
+          "type": "string"
+        },
+        "earlyPenalty": {
+          "pattern": "^[+]?[0-9]+ s$",
+          "example": "3 s",
+          "type": "string"
+        },
+        "tooEarlyReset": {
+          "$ref": "#/definitions/TooEarlyPoints"
+        }
+      },
+      "type": "object"
+    },
+    "TooEarlyPoints": {
+      "maximum": 9223372036854776000,
+      "minimum": -9223372036854776000,
+      "type": "integer"
+    },
+    "TaskLanding": {
+      "required": [
+        "minDistance",
+        "landout"
+      ],
+      "properties": {
+        "minDistance": {
+          "pattern": "^[-+]?[0-9]*\\.?[0-9]{0,3} km$",
+          "example": "5.000 km",
+          "type": "string"
+        },
+        "bestDistance": {
+          "pattern": "^[-+]?[0-9]*\\.?[0-9]{0,6} km$",
+          "example": "126.747570 km",
+          "type": "string"
+        },
+        "landout": {
+          "maximum": 9223372036854776000,
+          "minimum": -9223372036854776000,
+          "type": "integer"
+        },
+        "lookahead": {
+          "$ref": "#/definitions/Lookahead"
+        },
+        "chunking": {
+          "$ref": "#/definitions/Chunking"
+        },
+        "difficulty": {
+          "items": {
+            "$ref": "#/definitions/ChunkDifficulty"
+          },
+          "type": "array"
+        }
+      },
+      "type": "object"
+    },
+    "Lookahead": {
+      "maximum": 9223372036854776000,
+      "minimum": -9223372036854776000,
+      "type": "integer"
+    },
+    "Chunking": {
+      "required": [
+        "sumOf",
+        "startChunk",
+        "endChunk"
+      ],
+      "properties": {
+        "sumOf": {
+          "$ref": "#/definitions/SumOfDifficulty"
+        },
+        "startChunk": {
+          "example": [
+            "1171",
+            "117.1 km"
+          ],
+          "type": "string"
+        },
+        "endChunk": {
+          "example": [
+            "1171",
+            "117.1 km"
+          ],
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "SumOfDifficulty": {
+      "type": "integer"
+    },
+    "ChunkDifficulty": {
+      "required": [
+        "chunk",
+        "startChunk",
+        "endChunk",
+        "endAhead",
+        "down",
+        "downs",
+        "downers",
+        "downward",
+        "rel",
+        "frac"
+      ],
+      "properties": {
+        "chunk": {
+          "$ref": "#/definitions/IxChunk"
+        },
+        "startChunk": {
+          "pattern": "^[-+]?[0-9]*\\.?[0-9]{0,1} km$",
+          "example": "62.2 km",
+          "type": "string"
+        },
+        "endChunk": {
+          "pattern": "^[-+]?[0-9]*\\.?[0-9]{0,1} km$",
+          "example": "62.2 km",
+          "type": "string"
+        },
+        "endAhead": {
+          "pattern": "^[-+]?[0-9]*\\.?[0-9]{0,1} km$",
+          "example": "62.2 km",
+          "type": "string"
+        },
+        "down": {
+          "maximum": 9223372036854776000,
+          "minimum": -9223372036854776000,
+          "type": "integer"
+        },
+        "downs": {
+          "items": {
+            "pattern": "^[-+]?[0-9]*\\.?[0-9]{0,3} km$",
+            "example": "62.255 km",
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "downers": {
+          "items": {
+            "example": [
+              "101",
+              "Davis Straub"
+            ],
+            "items": {
+              "type": "string"
+            },
+            "collectionFormat": null,
+            "type": "array"
+          },
+          "type": "array"
+        },
+        "downward": {
+          "maximum": 9223372036854776000,
+          "minimum": -9223372036854776000,
+          "type": "integer"
+        },
+        "rel": {
+          "$ref": "#/definitions/RelativeDifficulty"
+        },
+        "frac": {
+          "$ref": "#/definitions/DifficultyFraction"
+        }
+      },
+      "type": "object"
+    },
+    "IxChunk": {
+      "maximum": 9223372036854776000,
+      "minimum": -9223372036854776000,
+      "type": "integer"
+    },
+    "RelativeDifficulty": {
+      "format": "double",
+      "type": "number"
+    },
+    "DifficultyFraction": {
+      "format": "double",
+      "type": "number"
+    },
+    "TrackLine": {
+      "required": [
+        "distance",
+        "waypoints",
+        "legs",
+        "legsSum",
+        "flipSum"
+      ],
+      "properties": {
+        "distance": {
+          "pattern": "^[-+]?[0-9]*\\.?[0-9]{0,6} m$",
+          "example": "142.789048 km",
+          "type": "string"
+        },
+        "waypoints": {
+          "items": {
+            "$ref": "#/definitions/RawLatLng"
+          },
+          "type": "array"
+        },
+        "legs": {
+          "example": [
+            "142.789048 km",
+            "185.745298 km",
+            "195.224984 km",
+            "388.750173 km",
+            "153.936362 km",
+            "166.415908 km",
+            "172.107822 km"
+          ],
+          "type": "string"
+        },
+        "legsSum": {
+          "example": [
+            "142.789048 km",
+            "185.745298 km",
+            "195.224984 km",
+            "388.750173 km",
+            "153.936362 km",
+            "166.415908 km",
+            "172.107822 km"
+          ],
+          "type": "string"
+        },
+        "flipSum": {
+          "example": [
+            "142.789048 km",
+            "185.745298 km",
+            "195.224984 km",
+            "388.750173 km",
+            "153.936362 km",
+            "166.415908 km",
+            "172.107822 km"
+          ],
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "RawLatLng": {
+      "required": [
+        "lat",
+        "lng"
+      ],
+      "properties": {
+        "lat": {
+          "example": "32.2176",
+          "maximum": 90,
+          "format": "double",
+          "minimum": -90,
+          "type": "number"
+        },
+        "lng": {
+          "example": "-101.71603",
+          "maximum": 180,
+          "format": "double",
+          "minimum": -180,
+          "type": "number"
+        }
+      },
+      "type": "object"
+    },
+    "Validity": {
+      "required": [
+        "task",
+        "launch",
+        "distance",
+        "time"
+      ],
+      "properties": {
+        "task": {
+          "$ref": "#/definitions/TaskValidity"
+        },
+        "launch": {
+          "$ref": "#/definitions/LaunchValidity"
+        },
+        "distance": {
+          "$ref": "#/definitions/DistanceValidity"
+        },
+        "time": {
+          "$ref": "#/definitions/TimeValidity"
+        },
+        "stop": {
+          "$ref": "#/definitions/StopValidity"
+        }
+      },
+      "type": "object"
+    },
+    "TaskValidity": {
+      "format": "double",
+      "type": "number"
+    },
+    "LaunchValidity": {
+      "format": "double",
+      "type": "number"
+    },
+    "DistanceValidity": {
+      "format": "double",
+      "type": "number"
+    },
+    "TimeValidity": {
+      "format": "double",
+      "type": "number"
+    },
+    "StopValidity": {
+      "format": "double",
+      "type": "number"
+    },
+    "ValidityWorking": {
+      "required": [
+        "launch",
+        "distance",
+        "time"
+      ],
+      "properties": {
+        "launch": {
+          "$ref": "#/definitions/LaunchValidityWorking"
+        },
+        "distance": {
+          "$ref": "#/definitions/DistanceValidityWorking"
+        },
+        "time": {
+          "$ref": "#/definitions/TimeValidityWorking"
+        },
+        "stop": {
+          "$ref": "#/definitions/StopValidityWorking"
+        }
+      },
+      "type": "object"
+    },
+    "LaunchValidityWorking": {
+      "required": [
+        "flying",
+        "present",
+        "nominalLaunch"
+      ],
+      "properties": {
+        "flying": {
+          "$ref": "#/definitions/PilotsFlying"
+        },
+        "present": {
+          "$ref": "#/definitions/PilotsPresent"
+        },
+        "nominalLaunch": {
+          "$ref": "#/definitions/NominalLaunch"
+        }
+      },
+      "type": "object"
+    },
+    "PilotsFlying": {
+      "type": "integer"
+    },
+    "PilotsPresent": {
+      "type": "integer"
+    },
+    "DistanceValidityWorking": {
+      "required": [
+        "sum",
+        "flying",
+        "area",
+        "nominalGoal",
+        "nominalDistance",
+        "minimumDistance",
+        "reachMax"
+      ],
+      "properties": {
+        "sum": {
+          "pattern": "^[-+]?[0-9]*\\.?[0-9]{0,1} km$",
+          "example": "9487.1 km",
+          "type": "string"
+        },
+        "flying": {
+          "$ref": "#/definitions/PilotsFlying"
+        },
+        "area": {
+          "$ref": "#/definitions/NominalDistanceArea"
+        },
+        "nominalGoal": {
+          "$ref": "#/definitions/NominalGoal"
+        },
+        "nominalDistance": {
+          "pattern": "^[-+]?[0-9]*\\.?[0-9]{0,1} km$",
+          "example": "120.0 km",
+          "type": "string"
+        },
+        "minimumDistance": {
+          "pattern": "^[-+]?[0-9]*\\.?[0-9]{0,3} km$",
+          "example": "5.000 km",
+          "type": "string"
+        },
+        "reachMax": {
+          "$ref": "#/definitions/ReachToggle"
+        }
+      },
+      "type": "object"
+    },
+    "NominalDistanceArea": {
+      "format": "double",
+      "type": "number"
+    },
+    "ReachToggle": {
+      "required": [
+        "extra",
+        "flown"
+      ],
+      "properties": {
+        "extra": {
+          "example": {
+            "awardedFrac": 0.9948250462723964,
+            "awardedMade": "158.020000 km",
+            "awardedTask": "158.842000 km"
+          },
+          "type": "string"
+        },
+        "flown": {
+          "example": {
+            "awardedFrac": 0.9948250462723964,
+            "awardedMade": "158.020000 km",
+            "awardedTask": "158.842000 km"
+          },
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "TimeValidityWorking": {
+      "required": [
+        "nominalTime",
+        "nominalDistance",
+        "reachMax"
+      ],
+      "properties": {
+        "ssBestTime": {
+          "pattern": "^[-+]?[0-9]*\\.?[0-9]{0,6} h$",
+          "example": "3.718498 h",
+          "type": "string"
+        },
+        "gsBestTime": {
+          "pattern": "^[-+]?[0-9]*\\.?[0-9]{0,6} h$",
+          "example": "3.718498 h",
+          "type": "string"
+        },
+        "nominalTime": {
+          "pattern": "^[-+]?[0-9]*\\.?[0-9]{0,3} h$",
+          "example": "2.000000 h",
+          "type": "string"
+        },
+        "nominalDistance": {
+          "pattern": "^[-+]?[0-9]*\\.?[0-9]{0,1} km$",
+          "example": "120.0 km",
+          "type": "string"
+        },
+        "reachMax": {
+          "$ref": "#/definitions/ReachToggle"
+        }
+      },
+      "type": "object"
+    },
+    "StopValidityWorking": {
+      "required": [
+        "pilotsAtEss",
+        "landed",
+        "stillFlying",
+        "flying",
+        "reachStats"
+      ],
+      "properties": {
+        "pilotsAtEss": {
+          "$ref": "#/definitions/PilotsAtEss"
+        },
+        "landed": {
+          "$ref": "#/definitions/PilotsLanded"
+        },
+        "stillFlying": {
+          "$ref": "#/definitions/PilotsFlying"
+        },
+        "flying": {
+          "$ref": "#/definitions/PilotsFlying"
+        },
+        "launchToEssDistance": {
+          "pattern": "^[-+]?[0-9]*\\.?[0-9]{0,3} km$",
+          "example": "142.789 km",
+          "type": "string"
+        },
+        "reachStats": {
+          "$ref": "#/definitions/ReachToggle"
+        }
+      },
+      "type": "object"
+    },
+    "PilotsAtEss": {
+      "type": "integer"
+    },
+    "PilotsLanded": {
+      "type": "integer"
+    },
+    "OptimalRoute": {
+      "properties": {
+        "taskRoute": {
+          "$ref": "#/definitions/TrackLine"
+        },
+        "taskRouteSpeedSubset": {
+          "$ref": "#/definitions/TrackLine"
+        },
+        "speedRoute": {
+          "$ref": "#/definitions/TrackLine"
+        },
+        "stopRoute": {
+          "$ref": "#/definitions/TrackLine"
+        },
+        "startRoute": {
+          "$ref": "#/definitions/TrackLine"
+        }
+      },
+      "type": "object"
+    },
+    "PlanarTrackLine": {
+      "required": [
+        "distance",
+        "mappedZones",
+        "mappedPoints",
+        "legs",
+        "legsSum",
+        "flipSum"
+      ],
+      "properties": {
+        "distance": {
+          "pattern": "^[-+]?[0-9]*\\.?[0-9]{0,6} m$",
+          "example": "142.789048 km",
+          "type": "string"
+        },
+        "mappedZones": {
+          "items": {
+            "example": {
+              "lngZone": 55,
+              "latZone": "H"
+            },
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "mappedPoints": {
+          "items": {
+            "$ref": "#/definitions/EastingNorthing"
+          },
+          "type": "array"
+        },
+        "legs": {
+          "example": [
+            "142.789048 km",
+            "185.745298 km",
+            "195.224984 km",
+            "388.750173 km",
+            "153.936362 km",
+            "166.415908 km",
+            "172.107822 km"
+          ],
+          "type": "string"
+        },
+        "legsSum": {
+          "example": [
+            "142.789048 km",
+            "185.745298 km",
+            "195.224984 km",
+            "388.750173 km",
+            "153.936362 km",
+            "166.415908 km",
+            "172.107822 km"
+          ],
+          "type": "string"
+        },
+        "flipSum": {
+          "example": [
+            "142.789048 km",
+            "185.745298 km",
+            "195.224984 km",
+            "388.750173 km",
+            "153.936362 km",
+            "166.415908 km",
+            "172.107822 km"
+          ],
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "EastingNorthing": {
+      "required": [
+        "easting",
+        "northing"
+      ],
+      "properties": {
+        "easting": {
+          "format": "double",
+          "type": "number"
+        },
+        "northing": {
+          "format": "double",
+          "type": "number"
+        }
+      },
+      "type": "object"
+    },
+    "DfNoTrackPilot": {
+      "required": [
+        "pilot",
+        "awardedVelocity"
+      ],
+      "properties": {
+        "pilot": {
+          "example": [
+            "101",
+            "Davis Straub"
+          ],
+          "items": {
+            "type": "string"
+          },
+          "collectionFormat": null,
+          "type": "array"
+        },
+        "awardedReach": {
+          "$ref": "#/definitions/ReachToggle"
+        },
+        "awardedVelocity": {
+          "$ref": "#/definitions/AwardedVelocity"
+        }
+      },
+      "type": "object"
+    },
+    "AwardedVelocity": {
+      "properties": {
+        "ss": {
+          "$ref": "#/definitions/UTCTime"
+        },
+        "es": {
+          "$ref": "#/definitions/UTCTime"
+        }
+      },
+      "type": "object"
+    },
+    "RawLatLngTrack": {
+      "required": [
+        "mark0",
+        "fixes"
+      ],
+      "properties": {
+        "mark0": {
+          "$ref": "#/definitions/UTCTime"
+        },
+        "fixes": {
+          "items": {
+            "$ref": "#/definitions/Fix"
+          },
+          "type": "array"
+        }
+      },
+      "type": "object"
+    },
+    "Fix": {
+      "required": [
+        "fix",
+        "time",
+        "lat",
+        "lng",
+        "alt"
+      ],
+      "properties": {
+        "fix": {
+          "maximum": 9223372036854776000,
+          "minimum": -9223372036854776000,
+          "type": "integer"
+        },
+        "time": {
+          "$ref": "#/definitions/UTCTime"
+        },
+        "lat": {
+          "example": "32.2176",
+          "maximum": 90,
+          "format": "double",
+          "minimum": -90,
+          "type": "number"
+        },
+        "lng": {
+          "example": "-101.71603",
+          "maximum": 180,
+          "format": "double",
+          "minimum": -180,
+          "type": "number"
+        },
+        "alt": {
+          "$ref": "#/definitions/RawAlt"
+        }
+      },
+      "type": "object"
+    },
+    "Seconds": {
+      "type": "integer"
+    },
+    "LLA": {
+      "required": [
+        "llaLat",
+        "llaLng",
+        "llaAltGps"
+      ],
+      "properties": {
+        "llaLat": {
+          "$ref": "#/definitions/Latitude"
+        },
+        "llaLng": {
+          "$ref": "#/definitions/Longitude"
+        },
+        "llaAltGps": {
+          "$ref": "#/definitions/Altitude"
+        }
+      },
+      "type": "object"
+    },
+    "Latitude": {
+      "format": "double",
+      "type": "number"
+    },
+    "Longitude": {
+      "format": "double",
+      "type": "number"
+    },
+    "Altitude": {
+      "type": "integer"
+    },
+    "RawLeadingArea": {
+      "required": [
+        "ticks",
+        "areaWithDistanceSquared"
+      ],
+      "properties": {
+        "raceTime": {
+          "$ref": "#/definitions/RaceTime"
+        },
+        "raceDistance": {
+          "pattern": "^[-+]?[0-9]*\\.?[0-9]{0,6} m$",
+          "example": "142.789048 km",
+          "type": "string"
+        },
+        "ticks": {
+          "items": {
+            "$ref": "#/definitions/TickRow"
+          },
+          "type": "array"
+        },
+        "areaWithDistanceSquared": {
+          "$ref": "#/definitions/LeadingAreas"
+        }
+      },
+      "type": "object"
+    },
+    "RaceTime": {
+      "required": [
+        "openTask",
+        "closeTask",
+        "openClose"
+      ],
+      "properties": {
+        "openTask": {
+          "$ref": "#/definitions/UTCTime"
+        },
+        "closeTask": {
+          "$ref": "#/definitions/UTCTime"
+        },
+        "firstLead": {
+          "$ref": "#/definitions/FirstLead"
+        },
+        "firstStart": {
+          "$ref": "#/definitions/FirstStart"
+        },
+        "lastArrival": {
+          "$ref": "#/definitions/LastArrival"
+        },
+        "leadArrival": {
+          "$ref": "#/definitions/EssTime"
+        },
+        "leadAllDown": {
+          "$ref": "#/definitions/EssTime"
+        },
+        "leadClose": {
+          "$ref": "#/definitions/EssTime"
+        },
+        "tickClose": {
+          "$ref": "#/definitions/EssTime"
+        },
+        "openClose": {
+          "$ref": "#/definitions/EssTime"
+        }
+      },
+      "type": "object"
+    },
+    "FirstLead": {
+      "example": "2016-07-22T00:00:00Z",
+      "format": "yyyy-mm-ddThh:MM:ssZ",
+      "type": "string"
+    },
+    "FirstStart": {
+      "example": "2016-07-22T00:00:00Z",
+      "format": "yyyy-mm-ddThh:MM:ssZ",
+      "type": "string"
+    },
+    "LastArrival": {
+      "example": "2016-07-22T00:00:00Z",
+      "format": "yyyy-mm-ddThh:MM:ssZ",
+      "type": "string"
+    },
+    "EssTime": {
+      "format": "double",
+      "type": "number"
+    },
+    "TickRow": {
+      "required": [
+        "fixIdx",
+        "alt",
+        "zoneIdx",
+        "legIdx",
+        "togo"
+      ],
+      "properties": {
+        "fixIdx": {
+          "$ref": "#/definitions/FixIdx"
+        },
+        "alt": {
+          "$ref": "#/definitions/RawAlt"
+        },
+        "tickLead": {
+          "$ref": "#/definitions/LeadTick"
+        },
+        "tickRace": {
+          "$ref": "#/definitions/RaceTick"
+        },
+        "zoneIdx": {
+          "$ref": "#/definitions/ZoneIdx"
+        },
+        "legIdx": {
+          "$ref": "#/definitions/LegIdx"
+        },
+        "togo": {
+          "format": "double",
+          "type": "number"
+        }
+      },
+      "type": "object"
+    },
+    "FixIdx": {
+      "maximum": 9223372036854776000,
+      "minimum": -9223372036854776000,
+      "type": "integer"
+    },
+    "RawAlt": {
+      "format": "double",
+      "type": "number"
+    },
+    "LeadTick": {
+      "format": "double",
+      "type": "number"
+    },
+    "RaceTick": {
+      "format": "double",
+      "type": "number"
+    },
+    "ZoneIdx": {
+      "maximum": 9223372036854776000,
+      "minimum": -9223372036854776000,
+      "type": "integer"
+    },
+    "LegIdx": {
+      "maximum": 9223372036854776000,
+      "minimum": -9223372036854776000,
+      "type": "integer"
+    },
+    "LeadingAreas": {
+      "required": [
+        "areaFlown",
+        "areaAfterLanding",
+        "areaBeforeStart"
+      ],
+      "properties": {
+        "areaFlown": {
+          "$ref": "#/definitions/LeadingArea"
+        },
+        "areaAfterLanding": {
+          "$ref": "#/definitions/LeadingArea"
+        },
+        "areaBeforeStart": {
+          "$ref": "#/definitions/LeadingArea"
+        }
+      },
+      "type": "object"
+    },
+    "LeadingArea": {
+      "type": "string"
+    },
+    "ZoneTag": {
+      "required": [
+        "inter",
+        "cross"
+      ],
+      "properties": {
+        "inter": {
+          "$ref": "#/definitions/InterpolatedFix"
+        },
+        "cross": {
+          "$ref": "#/definitions/ZoneCross"
+        }
+      },
+      "type": "object"
+    },
+    "InterpolatedFix": {
+      "required": [
+        "fixFrac",
+        "time",
+        "lat",
+        "lng",
+        "alt"
+      ],
+      "properties": {
+        "fixFrac": {
+          "format": "double",
+          "type": "number"
+        },
+        "time": {
+          "$ref": "#/definitions/UTCTime"
+        },
+        "lat": {
+          "example": "32.2176",
+          "maximum": 90,
+          "format": "double",
+          "minimum": -90,
+          "type": "number"
+        },
+        "lng": {
+          "example": "-101.71603",
+          "maximum": 180,
+          "format": "double",
+          "minimum": -180,
+          "type": "number"
+        },
+        "alt": {
+          "$ref": "#/definitions/RawAlt"
+        }
+      },
+      "type": "object"
+    },
+    "ZoneCross": {
+      "required": [
+        "crossingPair",
+        "inZone"
+      ],
+      "properties": {
+        "crossingPair": {
+          "items": {
+            "$ref": "#/definitions/Fix"
+          },
+          "type": "array"
+        },
+        "inZone": {
+          "items": {
+            "type": "boolean"
+          },
+          "type": "array"
+        }
+      },
+      "type": "object"
+    },
+    "BolsterStats": {
+      "required": [
+        "bolster",
+        "reach"
+      ],
+      "properties": {
+        "bolster": {
+          "$ref": "#/definitions/ReachStats"
+        },
+        "reach": {
+          "$ref": "#/definitions/ReachStats"
+        }
+      },
+      "type": "object"
+    },
+    "ReachStats": {
+      "required": [
+        "max",
+        "mean",
+        "stdDev"
+      ],
+      "properties": {
+        "max": {
+          "pattern": "^[-+]?[0-9]*\\.?[0-9]{0,6} km$",
+          "example": "126.747570 km",
+          "type": "string"
+        },
+        "mean": {
+          "pattern": "^[-+]?[0-9]*\\.?[0-9]{0,6} km$",
+          "example": "106.814413 km",
+          "type": "string"
+        },
+        "stdDev": {
+          "pattern": "^[-+]?[0-9]*\\.?[0-9]{0,6} km$",
+          "example": "37.629588 km",
+          "type": "string"
+        }
+      },
+      "type": "object"
+    }
+  }
+}
