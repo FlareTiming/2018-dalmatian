@@ -17,7 +17,7 @@
       "down": 9,
       "chunk": 10,
       "startChunk": "1.0 km",
-      "frac": 0.14448336,
+      "frac": 0.14453125,
       "downers": [
         [
           "9",
@@ -76,7 +76,7 @@
       "down": 1,
       "chunk": 14,
       "startChunk": "1.4 km",
-      "frac": 0.16549912,
+      "frac": 0.16552734,
       "downers": [
         [
           "73",
@@ -95,7 +95,7 @@
       "down": 1,
       "chunk": 22,
       "startChunk": "2.2 km",
-      "frac": 0.21366025,
+      "frac": 0.21362305,
       "downers": [
         [
           "21",
@@ -114,7 +114,7 @@
       "down": 1,
       "chunk": 23,
       "startChunk": "2.3 km",
-      "frac": 0.21978984,
+      "frac": 0.21972656,
       "downers": [
         [
           "54",
@@ -133,7 +133,7 @@
       "down": 1,
       "chunk": 24,
       "startChunk": "2.4 km",
-      "frac": 0.22591944,
+      "frac": 0.22583008,
       "downers": [
         [
           "74",
@@ -152,7 +152,7 @@
       "down": 1,
       "chunk": 26,
       "startChunk": "2.6 km",
-      "frac": 0.23642732,
+      "frac": 0.23632812,
       "downers": [
         [
           "102",
@@ -171,7 +171,7 @@
       "down": 1,
       "chunk": 27,
       "startChunk": "2.7 km",
-      "frac": 0.2408056,
+      "frac": 0.24072266,
       "downers": [
         [
           "37",
@@ -190,7 +190,7 @@
       "down": 1,
       "chunk": 45,
       "startChunk": "4.5 km",
-      "frac": 0.32049037,
+      "frac": 0.32055664,
       "downers": [
         [
           "4",
@@ -209,7 +209,7 @@
       "down": 1,
       "chunk": 47,
       "startChunk": "4.7 km",
-      "frac": 0.32924694,
+      "frac": 0.3293457,
       "downers": [
         [
           "26",
@@ -228,7 +228,7 @@
       "down": 1,
       "chunk": 49,
       "startChunk": "4.9 km",
-      "frac": 0.33625219,
+      "frac": 0.33618164,
       "downers": [
         [
           "41",
@@ -247,7 +247,7 @@
       "down": 1,
       "chunk": 53,
       "startChunk": "5.3 km",
-      "frac": 0.35464098,
+      "frac": 0.35473633,
       "downers": [
         [
           "86",
@@ -266,7 +266,7 @@
       "down": 1,
       "chunk": 60,
       "startChunk": "6.0 km",
-      "frac": 0.38528897,
+      "frac": 0.38525391,
       "downers": [
         [
           "13",
@@ -285,7 +285,7 @@
       "down": 1,
       "chunk": 71,
       "startChunk": "7.1 km",
-      "frac": 0.42381786,
+      "frac": 0.42382812,
       "downers": [
         [
           "114",
@@ -304,7 +304,7 @@
       "down": 2,
       "chunk": 79,
       "startChunk": "7.9 km",
-      "frac": 0.45096322,
+      "frac": 0.45092773,
       "downers": [
         [
           "72",
@@ -328,7 +328,7 @@
       "down": 1,
       "chunk": 82,
       "startChunk": "8.2 km",
-      "frac": 0.45621716,
+      "frac": 0.45629883,
       "downers": [
         [
           "57",
@@ -347,7 +347,7 @@
       "down": 1,
       "chunk": 102,
       "startChunk": "10.2 km",
-      "frac": 0.48949212,
+      "frac": 0.48950195,
       "downers": [
         [
           "98",

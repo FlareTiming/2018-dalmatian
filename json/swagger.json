@@ -605,7 +605,11 @@
                     "landedMade": "99.561 km",
                     "subtotal": 1000,
                     "penaltyReason": "",
-                    "penaltiesJump": [],
+                    "penaltiesJump": {
+                      "adds": [],
+                      "resets": [],
+                      "muls": []
+                    },
                     "velocity": {
                       "gs": "2017-04-09T03:40:00Z",
                       "ssVelocity": "40.44 km / h",
@@ -617,7 +621,11 @@
                       "gsVelocity": "40.30 km / h"
                     },
                     "total": 1000,
-                    "penalties": [],
+                    "penalties": {
+                      "adds": [],
+                      "resets": [],
+                      "muls": []
+                    },
                     "place": "1"
                   }
                 ],
@@ -1056,6 +1064,40 @@
         }
       }
     },
+    "/cross-zone/{task}/{pilot}": {
+      "get": {
+        "produces": [
+          "application/json;charset=utf-8"
+        ],
+        "parameters": [
+          {
+            "maximum": 9223372036854776000,
+            "minimum": -9223372036854776000,
+            "required": true,
+            "in": "path",
+            "name": "task",
+            "type": "integer"
+          },
+          {
+            "required": true,
+            "in": "path",
+            "name": "pilot",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "404": {
+            "description": "`task` or `pilot` not found"
+          },
+          "200": {
+            "schema": {
+              "$ref": "#/definitions/TrackCross"
+            },
+            "description": ""
+          }
+        }
+      }
+    },
     "/tag-zone/{task}/{pilot}": {
       "get": {
         "produces": [
@@ -1426,7 +1468,7 @@
                     "Larry Bunner"
                   ],
                   {
-                    "frac": 0.32864056,
+                    "frac": 0.32861328,
                     "effort": "24.828000 km"
                   }
                 ],
@@ -1723,110 +1765,58 @@
           "$ref": "#/definitions/EarlyStart"
         },
         "penalsAuto": {
-          "example": [
-            [
-              [
-                "24",
-                "Brodrick Osborne"
-              ],
-              [
-                {
-                  "penalty-points": 5.7
-                }
-              ],
-              "Jumped the gun by 0:57"
+          "items": {
+            "minItems": 3,
+            "items": [
+              {
+                "example": [
+                  "101",
+                  "Davis Straub"
+                ],
+                "items": {
+                  "type": "string"
+                },
+                "collectionFormat": null,
+                "type": "array"
+              },
+              {
+                "$ref": "#/definitions/PenaltySeqs"
+              },
+              {
+                "type": "string"
+              }
             ],
-            [
-              [
-                "34",
-                "Petr Polach"
-              ],
-              [
-                {
-                  "penalty-fraction": 1
-                }
-              ],
-              "Airspace Infringement"
-            ],
-            [
-              [
-                "75",
-                "Josh Woods"
-              ],
-              [
-                {
-                  "penalty-fraction": 0.1
-                }
-              ],
-              "Altitude violation of 01:41 - 10%"
-            ],
-            [
-              [
-                "105",
-                "Alan Arcos"
-              ],
-              [
-                {
-                  "penalty-fraction": -0.2
-                }
-              ],
-              "Handicap"
-            ]
-          ],
-          "type": "string"
+            "maxItems": 3,
+            "type": "array"
+          },
+          "type": "array"
         },
         "penals": {
-          "example": [
-            [
-              [
-                "24",
-                "Brodrick Osborne"
-              ],
-              [
-                {
-                  "penalty-points": 5.7
-                }
-              ],
-              "Jumped the gun by 0:57"
+          "items": {
+            "minItems": 3,
+            "items": [
+              {
+                "example": [
+                  "101",
+                  "Davis Straub"
+                ],
+                "items": {
+                  "type": "string"
+                },
+                "collectionFormat": null,
+                "type": "array"
+              },
+              {
+                "$ref": "#/definitions/PenaltySeqs"
+              },
+              {
+                "type": "string"
+              }
             ],
-            [
-              [
-                "34",
-                "Petr Polach"
-              ],
-              [
-                {
-                  "penalty-fraction": 1
-                }
-              ],
-              "Airspace Infringement"
-            ],
-            [
-              [
-                "75",
-                "Josh Woods"
-              ],
-              [
-                {
-                  "penalty-fraction": 0.1
-                }
-              ],
-              "Altitude violation of 01:41 - 10%"
-            ],
-            [
-              [
-                "105",
-                "Alan Arcos"
-              ],
-              [
-                {
-                  "penalty-fraction": -0.2
-                }
-              ],
-              "Handicap"
-            ]
-          ],
-          "type": "string"
+            "maxItems": 3,
+            "type": "array"
+          },
+          "type": "array"
         }
       },
       "type": "object"
@@ -2038,15 +2028,43 @@
           "type": "string"
         },
         "tooEarlyReset": {
-          "$ref": "#/definitions/TooEarlyPoints"
+          "maximum": 9223372036854776000,
+          "minimum": -9223372036854776000,
+          "type": "integer"
         }
       },
       "type": "object"
     },
-    "TooEarlyPoints": {
-      "maximum": 9223372036854776000,
-      "minimum": -9223372036854776000,
-      "type": "integer"
+    "PenaltySeqs": {
+      "required": [
+        "muls",
+        "adds",
+        "resets"
+      ],
+      "properties": {
+        "muls": {
+          "items": {
+            "format": "double",
+            "type": "number"
+          },
+          "type": "array"
+        },
+        "adds": {
+          "items": {
+            "format": "double",
+            "type": "number"
+          },
+          "type": "array"
+        },
+        "resets": {
+          "items": {
+            "format": "double",
+            "type": "number"
+          },
+          "type": "array"
+        }
+      },
+      "type": "object"
     },
     "TaskLanding": {
       "required": [
@@ -2187,7 +2205,8 @@
           "$ref": "#/definitions/RelativeDifficulty"
         },
         "frac": {
-          "$ref": "#/definitions/DifficultyFraction"
+          "format": "double",
+          "type": "number"
         }
       },
       "type": "object"
@@ -2198,10 +2217,6 @@
       "type": "integer"
     },
     "RelativeDifficulty": {
-      "format": "double",
-      "type": "number"
-    },
-    "DifficultyFraction": {
       "format": "double",
       "type": "number"
     },
@@ -2921,6 +2936,94 @@
     "LeadingArea": {
       "type": "string"
     },
+    "TrackCross": {
+      "required": [
+        "zonesCrossSelected",
+        "zonesCrossNominees",
+        "startNominees",
+        "zonesCrossExcluded"
+      ],
+      "properties": {
+        "zonesCrossSelected": {
+          "items": {
+            "$ref": "#/definitions/ZoneCross"
+          },
+          "type": "array"
+        },
+        "zonesCrossNominees": {
+          "items": {
+            "items": {
+              "$ref": "#/definitions/ZoneCross"
+            },
+            "type": "array"
+          },
+          "type": "array"
+        },
+        "startSelected": {
+          "minItems": 2,
+          "items": [
+            {
+              "$ref": "#/definitions/StartGate"
+            },
+            {
+              "$ref": "#/definitions/ZoneCross"
+            }
+          ],
+          "maxItems": 2,
+          "type": "array"
+        },
+        "startNominees": {
+          "items": {
+            "minItems": 2,
+            "items": [
+              {
+                "$ref": "#/definitions/StartGate"
+              },
+              {
+                "items": {
+                  "$ref": "#/definitions/ZoneCross"
+                },
+                "type": "array"
+              }
+            ],
+            "maxItems": 2,
+            "type": "array"
+          },
+          "type": "array"
+        },
+        "zonesCrossExcluded": {
+          "items": {
+            "items": {
+              "$ref": "#/definitions/ZoneCross"
+            },
+            "type": "array"
+          },
+          "type": "array"
+        }
+      },
+      "type": "object"
+    },
+    "ZoneCross": {
+      "required": [
+        "crossingPair",
+        "inZone"
+      ],
+      "properties": {
+        "crossingPair": {
+          "items": {
+            "$ref": "#/definitions/Fix"
+          },
+          "type": "array"
+        },
+        "inZone": {
+          "items": {
+            "type": "boolean"
+          },
+          "type": "array"
+        }
+      },
+      "type": "object"
+    },
     "ZoneTag": {
       "required": [
         "inter",
@@ -2968,27 +3071,6 @@
         },
         "alt": {
           "$ref": "#/definitions/RawAlt"
-        }
-      },
-      "type": "object"
-    },
-    "ZoneCross": {
-      "required": [
-        "crossingPair",
-        "inZone"
-      ],
-      "properties": {
-        "crossingPair": {
-          "items": {
-            "$ref": "#/definitions/Fix"
-          },
-          "type": "array"
-        },
-        "inZone": {
-          "items": {
-            "type": "boolean"
-          },
-          "type": "array"
         }
       },
       "type": "object"

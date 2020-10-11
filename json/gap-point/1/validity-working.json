@@ -20,7 +20,7 @@
     "nominalGoal": 0.2,
     "nominalDistance": "25.0 km",
     "minimumDistance": "1.000 km",
-    "sum": "79.8 km",
+    "sum": "84.4 km",
     "reachMax": {
       "extra": "13.665382 km",
       "flown": "12.025382 km"
@@ -34,13 +34,13 @@
     "reachStats": {
       "extra": {
         "max": "13.665382 km",
-        "mean": "4.844992 km",
-        "stdDev": "3.902734 km"
+        "mean": "4.993338 km",
+        "stdDev": "3.971749 km"
       },
       "flown": {
         "max": "12.025382 km",
-        "mean": "3.893261 km",
-        "stdDev": "3.560779 km"
+        "mean": "4.066607 km",
+        "stdDev": "3.581164 km"
       }
     },
     "stillFlying": 6
