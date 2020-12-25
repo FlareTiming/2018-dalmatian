@@ -18,10 +18,13 @@ curl -X GET -H "Accept:application/json" http://localhost:3000/gap-point/validit
 curl -X GET -H "Accept:application/json" http://localhost:3000/gap-point/pilots-status | jq > json/gap-point/pilots-status.json
 
 mkdir json/fs-score
+mkdir json/as-score
 curl -X GET -H "Accept:application/json" http://localhost:3000/fs-score/validity | jq > json/fs-score/validity.json
 
 mkdir json/stats
-curl -X GET -H "Accept:application/json" http://localhost:3000/stats/point-diff | jq > json/stats/point-diff.json
+curl -X GET -H "Accept:application/json" http://localhost:3000/stats/point-diff-ft-as | jq > json/stats/point-diff-ft-as.json
+curl -X GET -H "Accept:application/json" http://localhost:3000/stats/point-diff-ft-fs | jq > json/stats/point-diff-ft-fs.json
+curl -X GET -H "Accept:application/json" http://localhost:3000/stats/point-diff-as-fs | jq > json/stats/point-diff-as-fs.json
 
 mkdir json/fs-route
 mkdir json/fs-mask-track
@@ -50,6 +53,8 @@ for t in {1..3}
         mkdir json/fs-score/$t
         curl -X GET -H "Accept:application/json" http://localhost:3000/fs-score/$t/score | jq > json/fs-score/$t/score.json
         curl -X GET -H "Accept:application/json" http://localhost:3000/fs-score/$t/validity-working | jq > json/fs-score/$t/validity-working.json
+        mkdir json/as-score/$t
+        curl -X GET -H "Accept:application/json" http://localhost:3000/as-score/$t/score | jq > json/as-score/$t/score.json
 
         mkdir json/comp-input/$t
         curl -X GET -H "Accept:application/json" http://localhost:3000/comp-input/$t/pilot-abs | jq > json/comp-input/$t/pilot-abs.json

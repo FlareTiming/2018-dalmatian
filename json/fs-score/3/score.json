@@ -754,5 +754,41 @@
         "arrival": 0
       }
     }
+  ],
+  [
+    [
+      "21",
+      "Damir Kalinger"
+    ],
+    {
+      "timeElapsed": null,
+      "reach": {
+        "extra": "0.000000 km",
+        "flown": "0.000000 km"
+      },
+      "breakdown": {
+        "time": 0,
+        "reach": 0,
+        "distance": 0,
+        "leading": 0,
+        "effort": 0,
+        "arrival": 0
+      },
+      "leadingCoef": 0,
+      "landedMade": "0.000000 km",
+      "es": null,
+      "total": 0,
+      "ss": null,
+      "leadingArea": null,
+      "place": "22",
+      "fractions": {
+        "time": 0,
+        "reach": 0,
+        "distance": 0,
+        "leading": 0,
+        "effort": 0,
+        "arrival": 0
+      }
+    }
   ]
 ]

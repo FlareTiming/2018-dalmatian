@@ -1,0 +1,866 @@
+[
+  [
+    [
+      "74",
+      "Nuno Filipe Da Fonseca Bastos Gomes"
+    ],
+    {
+      "timeElapsed": null,
+      "reach": {
+        "extra": "24.002570 km",
+        "flown": "20.534697 km"
+      },
+      "breakdown": {
+        "time": 0,
+        "reach": 0.428,
+        "distance": 264.902,
+        "leading": 17,
+        "effort": 0.467,
+        "arrival": 0
+      },
+      "leadingCoef": 1.16297638,
+      "landedMade": null,
+      "es": null,
+      "total": 281.897,
+      "ss": "2018-05-26T11:00:00Z",
+      "leadingArea": null,
+      "place": "1",
+      "fractions": {
+        "time": 0,
+        "reach": 0.85551969,
+        "distance": 1,
+        "leading": 1,
+        "effort": 0.93383789,
+        "arrival": 0
+      }
+    }
+  ],
+  [
+    [
+      "95",
+      "Stojan Kranjc"
+    ],
+    {
+      "timeElapsed": null,
+      "reach": {
+        "extra": "21.265967 km",
+        "flown": "19.090334 km"
+      },
+      "breakdown": {
+        "time": 0,
+        "reach": 0.398,
+        "distance": 234.7,
+        "leading": 11,
+        "effort": 0.443,
+        "arrival": 0
+      },
+      "leadingCoef": 1.38882334,
+      "landedMade": null,
+      "es": null,
+      "total": 245.701,
+      "ss": "2018-05-26T11:00:00Z",
+      "leadingArea": null,
+      "place": "2",
+      "fractions": {
+        "time": 0,
+        "reach": 0.7953444,
+        "distance": 0.88598709,
+        "leading": 0.64734299,
+        "effort": 0.88647461,
+        "arrival": 0
+      }
+    }
+  ],
+  [
+    [
+      "114",
+      "Joan Brito"
+    ],
+    {
+      "timeElapsed": null,
+      "reach": {
+        "extra": "20.805875 km",
+        "flown": "17.407646 km"
+      },
+      "breakdown": {
+        "time": 0,
+        "reach": 0.363,
+        "distance": 229.622,
+        "leading": 11.1,
+        "effort": 0.424,
+        "arrival": 0
+      },
+      "leadingCoef": 1.38431771,
+      "landedMade": null,
+      "es": null,
+      "total": 240.704,
+      "ss": "2018-05-26T11:00:00Z",
+      "leadingArea": null,
+      "place": "3",
+      "fractions": {
+        "time": 0,
+        "reach": 0.72524002,
+        "distance": 0.86681861,
+        "leading": 0.65204904,
+        "effort": 0.84741211,
+        "arrival": 0
+      }
+    }
+  ],
+  [
+    [
+      "57",
+      "Lara Leban"
+    ],
+    {
+      "timeElapsed": null,
+      "reach": {
+        "extra": "16.361722 km",
+        "flown": "16.361722 km"
+      },
+      "breakdown": {
+        "time": 0,
+        "reach": 0.341,
+        "distance": 180.575,
+        "leading": 10.5,
+        "effort": 0.424,
+        "arrival": 0
+      },
+      "leadingCoef": 1.41721623,
+      "landedMade": null,
+      "es": null,
+      "total": 191.084,
+      "ss": "2018-05-26T11:00:00Z",
+      "leadingArea": null,
+      "place": "4",
+      "fractions": {
+        "time": 0,
+        "reach": 0.68166456,
+        "distance": 0.6816654,
+        "leading": 0.61837327,
+        "effort": 0.84741211,
+        "arrival": 0
+      }
+    }
+  ],
+  [
+    [
+      "86",
+      "Sandi Krč"
+    ],
+    {
+      "timeElapsed": null,
+      "reach": {
+        "extra": "10.976917 km",
+        "flown": "10.976917 km"
+      },
+      "breakdown": {
+        "time": 0,
+        "reach": 0.229,
+        "distance": 121.146,
+        "leading": 8.2,
+        "effort": 0.398,
+        "arrival": 0
+      },
+      "leadingCoef": 1.56623444,
+      "landedMade": null,
+      "es": null,
+      "total": 129.32,
+      "ss": "2018-05-26T11:00:00Z",
+      "leadingArea": null,
+      "place": "5",
+      "fractions": {
+        "time": 0,
+        "reach": 0.45732201,
+        "distance": 0.45732257,
+        "leading": 0.48096289,
+        "effort": 0.79638672,
+        "arrival": 0
+      }
+    }
+  ],
+  [
+    [
+      "13",
+      "Balazs Szatmari"
+    ],
+    {
+      "timeElapsed": null,
+      "reach": {
+        "extra": "10.766478 km",
+        "flown": "7.329472 km"
+      },
+      "breakdown": {
+        "time": 0,
+        "reach": 0.153,
+        "distance": 118.823,
+        "leading": 6.1,
+        "effort": 0.347,
+        "arrival": 0
+      },
+      "leadingCoef": 1.7192607,
+      "landedMade": null,
+      "es": null,
+      "total": 124.887,
+      "ss": "2018-05-26T11:00:00Z",
+      "leadingArea": null,
+      "place": "6",
+      "fractions": {
+        "time": 0,
+        "reach": 0.30536158,
+        "distance": 0.44855522,
+        "leading": 0.35680759,
+        "effort": 0.69458008,
+        "arrival": 0
+      }
+    }
+  ],
+  [
+    [
+      "98",
+      "Tomas Svoboda"
+    ],
+    {
+      "timeElapsed": null,
+      "reach": {
+        "extra": "7.242597 km",
+        "flown": "0.745931 km"
+      },
+      "breakdown": {
+        "time": 0,
+        "reach": 0.016,
+        "distance": 79.932,
+        "leading": 6.6,
+        "effort": 0.059,
+        "arrival": 0
+      },
+      "leadingCoef": 1.67997843,
+      "landedMade": null,
+      "es": null,
+      "total": 86.517,
+      "ss": "2018-05-26T11:00:00Z",
+      "leadingArea": null,
+      "place": "7",
+      "fractions": {
+        "time": 0,
+        "reach": 0.03107708,
+        "distance": 0.30174258,
+        "leading": 0.38745517,
+        "effort": 0.11816406,
+        "arrival": 0
+      }
+    }
+  ],
+  [
+    [
+      "113",
+      "Zsolt Sandor"
+    ],
+    {
+      "timeElapsed": null,
+      "reach": {
+        "extra": "7.339870 km",
+        "flown": "7.339870 km"
+      },
+      "breakdown": {
+        "time": 0,
+        "reach": 0.153,
+        "distance": 81.006,
+        "leading": 3.8,
+        "effort": 0.347,
+        "arrival": 0
+      },
+      "leadingCoef": 1.89935765,
+      "landedMade": null,
+      "es": null,
+      "total": 84.822,
+      "ss": "2018-05-26T11:00:00Z",
+      "leadingArea": null,
+      "place": "8",
+      "fractions": {
+        "time": 0,
+        "reach": 0.3057948,
+        "distance": 0.30579518,
+        "leading": 0.22456597,
+        "effort": 0.69458008,
+        "arrival": 0
+      }
+    }
+  ],
+  [
+    [
+      "101",
+      "Tomaž Toplak"
+    ],
+    {
+      "timeElapsed": null,
+      "reach": {
+        "extra": "7.019832 km",
+        "flown": "1.059089 km"
+      },
+      "breakdown": {
+        "time": 0,
+        "reach": 0.022,
+        "distance": 77.474,
+        "leading": 6.4,
+        "effort": 0.061,
+        "arrival": 0
+      },
+      "leadingCoef": 1.69453105,
+      "landedMade": null,
+      "es": null,
+      "total": 83.864,
+      "ss": "2018-05-26T11:00:00Z",
+      "leadingArea": null,
+      "place": "9",
+      "fractions": {
+        "time": 0,
+        "reach": 0.04412394,
+        "distance": 0.2924617,
+        "leading": 0.37601379,
+        "effort": 0.12207031,
+        "arrival": 0
+      }
+    }
+  ],
+  [
+    [
+      "72",
+      "Mitja Jančič"
+    ],
+    {
+      "timeElapsed": null,
+      "reach": {
+        "extra": "6.621398 km",
+        "flown": "0.680429 km"
+      },
+      "breakdown": {
+        "time": 0,
+        "reach": 0.014,
+        "distance": 73.076,
+        "leading": 5.8,
+        "effort": 0.059,
+        "arrival": 0
+      },
+      "leadingCoef": 1.74009858,
+      "landedMade": null,
+      "es": null,
+      "total": 78.869,
+      "ss": "2018-05-26T11:00:00Z",
+      "leadingArea": null,
+      "place": "10",
+      "fractions": {
+        "time": 0,
+        "reach": 0.02834816,
+        "distance": 0.27586204,
+        "leading": 0.34084398,
+        "effort": 0.11816406,
+        "arrival": 0
+      }
+    }
+  ],
+  [
+    [
+      "16",
+      "Bruno Matos"
+    ],
+    {
+      "timeElapsed": null,
+      "reach": {
+        "extra": "6.423873 km",
+        "flown": "1.253550 km"
+      },
+      "breakdown": {
+        "time": 0,
+        "reach": 0.026,
+        "distance": 70.896,
+        "leading": 6.6,
+        "effort": 0.066,
+        "arrival": 0
+      },
+      "leadingCoef": 1.67947591,
+      "landedMade": null,
+      "es": null,
+      "total": 77.488,
+      "ss": "2018-05-26T11:00:00Z",
+      "leadingArea": null,
+      "place": "11",
+      "fractions": {
+        "time": 0,
+        "reach": 0.0522256,
+        "distance": 0.26763272,
+        "leading": 0.38785216,
+        "effort": 0.13232422,
+        "arrival": 0
+      }
+    }
+  ],
+  [
+    [
+      "26",
+      "Dušan Durkovič"
+    ],
+    {
+      "timeElapsed": null,
+      "reach": {
+        "extra": "6.489347 km",
+        "flown": "0.943669 km"
+      },
+      "breakdown": {
+        "time": 0,
+        "reach": 0.02,
+        "distance": 71.619,
+        "leading": 5.7,
+        "effort": 0.059,
+        "arrival": 0
+      },
+      "leadingCoef": 1.74942267,
+      "landedMade": null,
+      "es": null,
+      "total": 77.291,
+      "ss": "2018-05-26T11:00:00Z",
+      "leadingArea": null,
+      "place": "12",
+      "fractions": {
+        "time": 0,
+        "reach": 0.0393153,
+        "distance": 0.27036052,
+        "leading": 0.33376334,
+        "effort": 0.11816406,
+        "arrival": 0
+      }
+    }
+  ],
+  [
+    [
+      "54",
+      "Krešo  Kovačič"
+    ],
+    {
+      "timeElapsed": null,
+      "reach": {
+        "extra": "6.348708 km",
+        "flown": "0.616147 km"
+      },
+      "breakdown": {
+        "time": 0,
+        "reach": 0.013,
+        "distance": 70.067,
+        "leading": 5.5,
+        "effort": 0.059,
+        "arrival": 0
+      },
+      "leadingCoef": 1.76596772,
+      "landedMade": null,
+      "es": null,
+      "total": 75.527,
+      "ss": "2018-05-26T11:00:00Z",
+      "leadingArea": null,
+      "place": "13",
+      "fractions": {
+        "time": 0,
+        "reach": 0.02567,
+        "distance": 0.26450119,
+        "leading": 0.32129078,
+        "effort": 0.11816406,
+        "arrival": 0
+      }
+    }
+  ],
+  [
+    [
+      "63",
+      "Marketa Tomaskova"
+    ],
+    {
+      "timeElapsed": null,
+      "reach": {
+        "extra": "6.075787 km",
+        "flown": "6.075787 km"
+      },
+      "breakdown": {
+        "time": 0,
+        "reach": 0.127,
+        "distance": 67.055,
+        "leading": 3.1,
+        "effort": 0.309,
+        "arrival": 0
+      },
+      "leadingCoef": 1.9615729,
+      "landedMade": null,
+      "es": null,
+      "total": 70.139,
+      "ss": "2018-05-26T11:00:00Z",
+      "leadingArea": null,
+      "place": "14",
+      "fractions": {
+        "time": 0,
+        "reach": 0.25313037,
+        "distance": 0.25313068,
+        "leading": 0.18148249,
+        "effort": 0.61791992,
+        "arrival": 0
+      }
+    }
+  ],
+  [
+    [
+      "41",
+      "Ivo Duarte"
+    ],
+    {
+      "timeElapsed": null,
+      "reach": {
+        "extra": "5.533465 km",
+        "flown": "1.254809 km"
+      },
+      "breakdown": {
+        "time": 0,
+        "reach": 0.026,
+        "distance": 61.07,
+        "leading": 5.6,
+        "effort": 0.066,
+        "arrival": 0
+      },
+      "leadingCoef": 1.75534617,
+      "landedMade": null,
+      "es": null,
+      "total": 66.666,
+      "ss": "2018-05-26T11:00:00Z",
+      "leadingArea": null,
+      "place": "15",
+      "fractions": {
+        "time": 0,
+        "reach": 0.05227804,
+        "distance": 0.23053637,
+        "leading": 0.32928457,
+        "effort": 0.13232422,
+        "arrival": 0
+      }
+    }
+  ],
+  [
+    [
+      "4",
+      "Alojz Tovornik"
+    ],
+    {
+      "timeElapsed": null,
+      "reach": {
+        "extra": "3.851260 km",
+        "flown": "0.906282 km"
+      },
+      "breakdown": {
+        "time": 0,
+        "reach": 0.019,
+        "distance": 42.504,
+        "leading": 3.3,
+        "effort": 0.059,
+        "arrival": 0
+      },
+      "leadingCoef": 1.94127923,
+      "landedMade": null,
+      "es": null,
+      "total": 45.825,
+      "ss": "2018-05-26T11:00:00Z",
+      "leadingArea": null,
+      "place": "16",
+      "fractions": {
+        "time": 0,
+        "reach": 0.03775766,
+        "distance": 0.160452,
+        "leading": 0.19540849,
+        "effort": 0.11816406,
+        "arrival": 0
+      }
+    }
+  ],
+  [
+    [
+      "73",
+      "Mitja Jug"
+    ],
+    {
+      "timeElapsed": null,
+      "reach": {
+        "extra": "3.802560 km",
+        "flown": "3.802560 km"
+      },
+      "breakdown": {
+        "time": 0,
+        "reach": 0.079,
+        "distance": 41.967,
+        "leading": 2.1,
+        "effort": 0.153,
+        "arrival": 0
+      },
+      "leadingCoef": 2.04557231,
+      "landedMade": null,
+      "es": null,
+      "total": 44.092,
+      "ss": "2018-05-26T11:00:00Z",
+      "leadingArea": null,
+      "place": "17",
+      "fractions": {
+        "time": 0,
+        "reach": 0.15842283,
+        "distance": 0.15842303,
+        "leading": 0.12504782,
+        "effort": 0.30566406,
+        "arrival": 0
+      }
+    }
+  ],
+  [
+    [
+      "37",
+      "Igor Eržen"
+    ],
+    {
+      "timeElapsed": null,
+      "reach": {
+        "extra": "2.594966 km",
+        "flown": "2.594966 km"
+      },
+      "breakdown": {
+        "time": 0,
+        "reach": 0.054,
+        "distance": 28.639,
+        "leading": 1.9,
+        "effort": 0.1,
+        "arrival": 0
+      },
+      "leadingCoef": 2.06993396,
+      "landedMade": null,
+      "es": null,
+      "total": 30.492,
+      "ss": "2018-05-26T11:00:00Z",
+      "leadingArea": null,
+      "place": "18",
+      "fractions": {
+        "time": 0,
+        "reach": 0.10811188,
+        "distance": 0.10811201,
+        "leading": 0.10902056,
+        "effort": 0.20019531,
+        "arrival": 0
+      }
+    }
+  ],
+  [
+    [
+      "9",
+      "Antoni Buljan"
+    ],
+    {
+      "timeElapsed": null,
+      "reach": {
+        "extra": "1.116924 km",
+        "flown": "1.116924 km"
+      },
+      "breakdown": {
+        "time": 0,
+        "reach": 0.023,
+        "distance": 12.327,
+        "leading": 1.8,
+        "effort": 0.063,
+        "arrival": 0
+      },
+      "leadingCoef": 2.07349046,
+      "landedMade": null,
+      "es": null,
+      "total": 14.14,
+      "ss": "2018-05-26T11:00:00Z",
+      "leadingArea": null,
+      "place": "19",
+      "fractions": {
+        "time": 0,
+        "reach": 0.04653345,
+        "distance": 0.04653351,
+        "leading": 0.10669285,
+        "effort": 0.12573242,
+        "arrival": 0
+      }
+    }
+  ],
+  [
+    [
+      "46",
+      "Jerko Odžak"
+    ],
+    {
+      "timeElapsed": null,
+      "reach": {
+        "extra": "1.000000 km",
+        "flown": "0.731858 km"
+      },
+      "breakdown": {
+        "time": 0,
+        "reach": 0.015,
+        "distance": 11.036,
+        "leading": 1.8,
+        "effort": 0.059,
+        "arrival": 0
+      },
+      "leadingCoef": 2.07546697,
+      "landedMade": null,
+      "es": null,
+      "total": 12.828,
+      "ss": "2018-05-26T11:00:00Z",
+      "leadingArea": null,
+      "place": "20",
+      "fractions": {
+        "time": 0,
+        "reach": 0.03049076,
+        "distance": 0.0416622,
+        "leading": 0.10540054,
+        "effort": 0.11816406,
+        "arrival": 0
+      }
+    }
+  ],
+  [
+    [
+      "21",
+      "Damir Kalinger"
+    ],
+    {
+      "timeElapsed": null,
+      "reach": {
+        "extra": "1.000000 km",
+        "flown": "0.514466 km"
+      },
+      "breakdown": {
+        "time": 0,
+        "reach": 0.011,
+        "distance": 11.036,
+        "leading": 0,
+        "effort": 0.059,
+        "arrival": 0
+      },
+      "leadingCoef": 0,
+      "landedMade": null,
+      "es": null,
+      "total": 11.036,
+      "ss": null,
+      "leadingArea": null,
+      "place": "21",
+      "fractions": {
+        "time": 0,
+        "reach": 0.02143375,
+        "distance": 0.0416622,
+        "leading": 0,
+        "effort": 0.11816406,
+        "arrival": 0
+      }
+    }
+  ],
+  [
+    [
+      "40",
+      "Ivica Huljek"
+    ],
+    {
+      "timeElapsed": null,
+      "reach": {
+        "extra": "1.000000 km",
+        "flown": "0.909979 km"
+      },
+      "breakdown": {
+        "time": 0,
+        "reach": 0.019,
+        "distance": 11.036,
+        "leading": 0,
+        "effort": 0.059,
+        "arrival": 0
+      },
+      "leadingCoef": 0,
+      "landedMade": null,
+      "es": null,
+      "total": 11.036,
+      "ss": null,
+      "leadingArea": null,
+      "place": "21",
+      "fractions": {
+        "time": 0,
+        "reach": 0.03791168,
+        "distance": 0.0416622,
+        "leading": 0,
+        "effort": 0.11816406,
+        "arrival": 0
+      }
+    }
+  ],
+  [
+    [
+      "91",
+      "Slava Jelić"
+    ],
+    {
+      "timeElapsed": null,
+      "reach": {
+        "extra": "1.000000 km",
+        "flown": null
+      },
+      "breakdown": {
+        "time": 0,
+        "reach": 0,
+        "distance": 11.036,
+        "leading": 0,
+        "effort": 0.059,
+        "arrival": 0
+      },
+      "leadingCoef": 0,
+      "landedMade": null,
+      "es": null,
+      "total": 11.036,
+      "ss": null,
+      "leadingArea": null,
+      "place": "21",
+      "fractions": {
+        "time": 0,
+        "reach": 0,
+        "distance": 0.0416622,
+        "leading": 0,
+        "effort": 0.11816406,
+        "arrival": 0
+      }
+    }
+  ],
+  [
+    [
+      "80",
+      "Ricardo Nicolau Soares Terra De Oliveira Figueiredo"
+    ],
+    {
+      "timeElapsed": null,
+      "reach": {
+        "extra": null,
+        "flown": null
+      },
+      "breakdown": {
+        "time": 0,
+        "reach": 0,
+        "distance": 0,
+        "leading": 0,
+        "effort": 0.059,
+        "arrival": 0
+      },
+      "leadingCoef": 0,
+      "landedMade": null,
+      "es": null,
+      "total": 0,
+      "ss": null,
+      "leadingArea": null,
+      "place": "22",
+      "fractions": {
+        "time": 0,
+        "reach": 0,
+        "distance": 0,
+        "leading": 0,
+        "effort": 0.11816406,
+        "arrival": 0
+      }
+    }
+  ]
+]

@@ -1,5 +1,5 @@
 {
-  "lead-all-down": 8936,
+  "lead-all-down": 6191,
   "distance-time-before-start": [
     [
       0,
@@ -17,15 +17,15 @@
     ],
     [
       2.4080200000000005,
-      8936
+      6191
     ],
     [
       29.13702,
-      8936
+      6191
     ]
   ],
   "area-before-start": "2694161.2786 km^2 s",
-  "area-after-landing": "6384230.8448 km^2 s",
+  "area-after-landing": "4423094.5792 km^2 s",
   "race-distance": "29.137020 km",
   "distance-time": [
     [

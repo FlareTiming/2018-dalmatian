@@ -3,9 +3,13 @@
     6,
     637
   ],
+  "scoredWindowSeconds": 631,
   "scoredTimes": [
     "2018-05-26T11:22:19Z",
     "2018-05-26T11:32:50Z"
   ],
-  "scoredFixes": null
+  "scoredFixes": [
+    6,
+    637
+  ]
 }

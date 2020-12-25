@@ -8,32 +8,27 @@
       0,
       "0.0 km"
     ],
-    "sumOf": 481
+    "sumOf": 501
   },
   "bestDistance": "26.187198 km",
   "difficulty": [
     {
-      "endChunk": "0.1 km",
-      "down": 2,
-      "chunk": 0,
-      "startChunk": "0.0 km",
-      "frac": 0.00415039,
+      "endChunk": "0.3 km",
+      "down": 1,
+      "chunk": 2,
+      "startChunk": "0.2 km",
+      "frac": 0.01196289,
       "downers": [
-        [
-          "46",
-          "Jerko Odžak"
-        ],
         [
           "40",
           "Ivica Huljek"
         ]
       ],
       "downward": 4,
-      "rel": 0.004158,
-      "endAhead": "8.8 km",
+      "rel": 0.00399202,
+      "endAhead": "9.0 km",
       "downs": [
-        "0.005 km",
-        "0.019 km"
+        "0.200 km"
       ]
     },
     {
@@ -41,26 +36,45 @@
       "down": 1,
       "chunk": 10,
       "startChunk": "1.0 km",
-      "frac": 0.02490234,
+      "frac": 0.03588867,
       "downers": [
         [
           "91",
           "Slava Jelić"
         ]
       ],
-      "downward": 2,
-      "rel": 0.002079,
+      "downward": 3,
+      "rel": 0.00299401,
       "endAhead": "9.8 km",
       "downs": [
         "1.000 km"
       ]
     },
     {
-      "endChunk": "3.3 km",
+      "endChunk": "2.0 km",
       "down": 1,
-      "chunk": 32,
-      "startChunk": "3.2 km",
-      "frac": 0.04785156,
+      "chunk": 19,
+      "startChunk": "1.9 km",
+      "frac": 0.05395508,
+      "downers": [
+        [
+          "46",
+          "Jerko Odžak"
+        ]
+      ],
+      "downward": 2,
+      "rel": 0.00199601,
+      "endAhead": "10.7 km",
+      "downs": [
+        "1.904 km"
+      ]
+    },
+    {
+      "endChunk": "3.2 km",
+      "down": 1,
+      "chunk": 31,
+      "startChunk": "3.1 km",
+      "frac": 0.06591797,
       "downers": [
         [
           "80",
@@ -68,29 +82,29 @@
         ]
       ],
       "downward": 1,
-      "rel": 0.0010395,
-      "endAhead": "12.0 km",
+      "rel": 0.000998,
+      "endAhead": "11.9 km",
       "downs": [
-        "3.245 km"
+        "3.170 km"
       ]
     },
     {
-      "endChunk": "14.2 km",
+      "endChunk": "15.9 km",
       "down": 1,
-      "chunk": 141,
-      "startChunk": "14.1 km",
-      "frac": 0.14770508,
+      "chunk": 158,
+      "startChunk": "15.8 km",
+      "frac": 0.21264648,
       "downers": [
         [
           "23",
           "David Šiljeg"
         ]
       ],
-      "downward": 3,
-      "rel": 0.0031185,
-      "endAhead": "22.9 km",
+      "downward": 4,
+      "rel": 0.00399202,
+      "endAhead": "24.6 km",
       "downs": [
-        "14.163 km"
+        "15.862 km"
       ]
     },
     {
@@ -98,7 +112,7 @@
       "down": 1,
       "chunk": 220,
       "startChunk": "22.0 km",
-      "frac": 0.45947266,
+      "frac": 0.45996094,
       "downers": [
         [
           "41",
@@ -106,7 +120,7 @@
         ]
       ],
       "downward": 4,
-      "rel": 0.004158,
+      "rel": 0.00399202,
       "endAhead": "30.8 km",
       "downs": [
         "22.079 km"
@@ -117,7 +131,7 @@
       "down": 1,
       "chunk": 227,
       "startChunk": "22.7 km",
-      "frac": 0.48120117,
+      "frac": 0.48095703,
       "downers": [
         [
           "57",
@@ -125,7 +139,7 @@
         ]
       ],
       "downward": 3,
-      "rel": 0.0031185,
+      "rel": 0.00299401,
       "endAhead": "31.5 km",
       "downs": [
         "22.752 km"
@@ -136,7 +150,7 @@
       "down": 1,
       "chunk": 228,
       "startChunk": "22.8 km",
-      "frac": 0.48339844,
+      "frac": 0.4831543,
       "downers": [
         [
           "37",
@@ -144,17 +158,17 @@
         ]
       ],
       "downward": 2,
-      "rel": 0.002079,
+      "rel": 0.00199601,
       "endAhead": "31.6 km",
       "downs": [
-        "22.886 km"
+        "22.887 km"
       ]
     },
     {
-      "endChunk": "24.5 km",
+      "endChunk": "24.6 km",
       "down": 1,
-      "chunk": 244,
-      "startChunk": "24.4 km",
+      "chunk": 245,
+      "startChunk": "24.5 km",
       "frac": 0.5,
       "downers": [
         [
@@ -163,10 +177,10 @@
         ]
       ],
       "downward": 1,
-      "rel": 0.0010395,
-      "endAhead": "33.2 km",
+      "rel": 0.000998,
+      "endAhead": "33.3 km",
       "downs": [
-        "24.473 km"
+        "24.586 km"
       ]
     }
   ],

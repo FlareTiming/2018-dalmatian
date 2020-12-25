@@ -34,13 +34,13 @@
     "reachStats": {
       "extra": {
         "max": "26.233000 km",
-        "mean": "19.484286 km",
-        "stdDev": "10.232107 km"
+        "mean": "18.598636 km",
+        "stdDev": "10.789299 km"
       },
       "flown": {
         "max": "26.233000 km",
-        "mean": "20.369952 km",
-        "stdDev": "9.634437 km"
+        "mean": "19.444045 km",
+        "stdDev": "10.325045 km"
       }
     },
     "stillFlying": 21

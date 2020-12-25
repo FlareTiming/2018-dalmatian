@@ -3,9 +3,13 @@
     44,
     4673
   ],
+  "scoredWindowSeconds": 4629,
   "scoredTimes": [
     "2018-05-24T10:04:10Z",
     "2018-05-24T11:21:19Z"
   ],
-  "scoredFixes": null
+  "scoredFixes": [
+    44,
+    4673
+  ]
 }

@@ -6,7 +6,17 @@
     ],
     {
       "frac": 1,
-      "effort": "12.010000 km"
+      "effort": "12.025000 km"
+    }
+  ],
+  [
+    [
+      "98",
+      "Tomas Svoboda"
+    ],
+    {
+      "frac": 0.97900391,
+      "effort": "10.849000 km"
     }
   ],
   [
@@ -15,8 +25,8 @@
       "Lara Leban"
     ],
     {
-      "frac": 0.94287109,
-      "effort": "8.843000 km"
+      "frac": 0.91162109,
+      "effort": "8.847000 km"
     }
   ],
   [
@@ -25,8 +35,8 @@
       "Bruno Matos"
     ],
     {
-      "frac": 0.93896484,
-      "effort": "8.624000 km"
+      "frac": 0.90478516,
+      "effort": "8.623000 km"
     }
   ],
   [
@@ -35,8 +45,8 @@
       "Mitja Jančič"
     ],
     {
-      "frac": 0.93505859,
-      "effort": "8.542000 km"
+      "frac": 0.89941406,
+      "effort": "8.576000 km"
     }
   ],
   [
@@ -45,8 +55,8 @@
       "Joan Brito"
     ],
     {
-      "frac": 0.88964844,
-      "effort": "7.734000 km"
+      "frac": 0.84472656,
+      "effort": "7.797000 km"
     }
   ],
   [
@@ -55,18 +65,8 @@
       "Balazs Szatmari"
     ],
     {
-      "frac": 0.8515625,
-      "effort": "7.244000 km"
-    }
-  ],
-  [
-    [
-      "41",
-      "Ivo Duarte"
-    ],
-    {
-      "frac": 0.68554688,
-      "effort": "5.299000 km"
+      "frac": 0.76708984,
+      "effort": "6.653000 km"
     }
   ],
   [
@@ -75,18 +75,18 @@
       "Sandi Krč"
     ],
     {
-      "frac": 0.68017578,
-      "effort": "5.126000 km"
+      "frac": 0.70556641,
+      "effort": "5.938000 km"
     }
   ],
   [
     [
-      "4",
-      "Alojz Tovornik"
+      "41",
+      "Ivo Duarte"
     ],
     {
-      "frac": 0.68017578,
-      "effort": "5.138000 km"
+      "frac": 0.67724609,
+      "effort": "5.621000 km"
     }
   ],
   [
@@ -95,8 +95,18 @@
       "Dušan Durkovič"
     ],
     {
-      "frac": 0.68017578,
-      "effort": "5.156000 km"
+      "frac": 0.65429688,
+      "effort": "5.324000 km"
+    }
+  ],
+  [
+    [
+      "4",
+      "Alojz Tovornik"
+    ],
+    {
+      "frac": 0.63671875,
+      "effort": "5.198000 km"
     }
   ],
   [
@@ -105,8 +115,8 @@
       "Igor Eržen"
     ],
     {
-      "frac": 0.51806641,
-      "effort": "3.334000 km"
+      "frac": 0.47607422,
+      "effort": "3.387000 km"
     }
   ],
   [
@@ -115,8 +125,8 @@
       "Nuno Filipe da Fonseca Bastos Gomes"
     ],
     {
-      "frac": 0.48974609,
-      "effort": "3.083000 km"
+      "frac": 0.44970703,
+      "effort": "3.085000 km"
     }
   ],
   [
@@ -125,8 +135,8 @@
       "Krešo  Kovačič"
     ],
     {
-      "frac": 0.47802734,
-      "effort": "2.933000 km"
+      "frac": 0.43896484,
+      "effort": "2.932000 km"
     }
   ],
   [
@@ -135,8 +145,8 @@
       "Damir Kalinger"
     ],
     {
-      "frac": 0.45166016,
-      "effort": "2.784000 km"
+      "frac": 0.41796875,
+      "effort": "2.782000 km"
     }
   ],
   [
@@ -145,8 +155,18 @@
       "Mitja Jug"
     ],
     {
-      "frac": 0.36181641,
-      "effort": "2.110000 km"
+      "frac": 0.35644531,
+      "effort": "2.121000 km"
+    }
+  ],
+  [
+    [
+      "80",
+      "Ricardo Nicolau Soares Terra de Oliveira Figueiredo"
+    ],
+    {
+      "frac": 0.28564453,
+      "effort": "1.346000 km"
     }
   ],
   [
@@ -155,8 +175,8 @@
       "Antoni Buljan"
     ],
     {
-      "frac": 0.33349609,
-      "effort": "1.884000 km"
+      "frac": 0.27490234,
+      "effort": "1.245000 km"
     }
   ],
   [
@@ -165,7 +185,7 @@
       "Richard Edlinger"
     ],
     {
-      "frac": 0.24169922,
+      "frac": 0.25048828,
       "effort": "1.000000 km"
     }
   ],
@@ -175,7 +195,7 @@
       "Sandor Roza"
     ],
     {
-      "frac": 0.24169922,
+      "frac": 0.25048828,
       "effort": "1.000000 km"
     }
   ],
@@ -185,18 +205,8 @@
       "Zsolt Sandor"
     ],
     {
-      "frac": 0.24169922,
+      "frac": 0.25048828,
       "effort": "1.000000 km"
-    }
-  ],
-  [
-    [
-      "46",
-      "Jerko Odžak"
-    ],
-    {
-      "frac": 0.17333984,
-      "effort": "0.628000 km"
     }
   ],
   [
@@ -205,38 +215,8 @@
       "Ivica Huljek"
     ],
     {
-      "frac": 0.17333984,
-      "effort": "0.630000 km"
-    }
-  ],
-  [
-    [
-      "63",
-      "Marketa Tomaskova"
-    ],
-    {
-      "frac": 0.15234375,
-      "effort": "0.591000 km"
-    }
-  ],
-  [
-    [
-      "80",
-      "Ricardo Nicolau Soares Terra de Oliveira Figueiredo"
-    ],
-    {
-      "frac": 0.15234375,
-      "effort": "0.597000 km"
-    }
-  ],
-  [
-    [
-      "23",
-      "David Šiljeg"
-    ],
-    {
-      "frac": 0.10302734,
-      "effort": "0.359000 km"
+      "frac": 0.23291016,
+      "effort": "0.917000 km"
     }
   ],
   [
@@ -245,8 +225,38 @@
       "Tomislav Gomerčić"
     ],
     {
-      "frac": 0.078125,
-      "effort": "0.225000 km"
+      "frac": 0.19384766,
+      "effort": "0.707000 km"
+    }
+  ],
+  [
+    [
+      "46",
+      "Jerko Odžak"
+    ],
+    {
+      "frac": 0.19384766,
+      "effort": "0.712000 km"
+    }
+  ],
+  [
+    [
+      "63",
+      "Marketa Tomaskova"
+    ],
+    {
+      "frac": 0.14794922,
+      "effort": "0.590000 km"
+    }
+  ],
+  [
+    [
+      "23",
+      "David Šiljeg"
+    ],
+    {
+      "frac": 0.12353516,
+      "effort": "0.448000 km"
     }
   ]
 ]

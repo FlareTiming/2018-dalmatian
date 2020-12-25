@@ -166,6 +166,7 @@
       "retroactive": "2018-05-24T12:18:00Z"
     },
     "taskTweak": {
+      "essNotGoalScaling": 0,
       "arrivalTime": false,
       "leadingWeightScaling": 1,
       "leadingAreaDistanceSquared": true,
@@ -214,7 +215,8 @@
       "tooEarlyReset": 0,
       "earlyPenalty": "0 s",
       "earliest": "0 s"
-    }
+    },
+    "cancelled": false
   },
   {
     "taskName": "Task 2",
@@ -400,6 +402,7 @@
       "retroactive": "2018-05-26T12:05:00Z"
     },
     "taskTweak": {
+      "essNotGoalScaling": 0,
       "arrivalTime": false,
       "leadingWeightScaling": 1,
       "leadingAreaDistanceSquared": true,
@@ -452,7 +455,8 @@
       "tooEarlyReset": 0,
       "earlyPenalty": "0 s",
       "earliest": "0 s"
-    }
+    },
+    "cancelled": false
   },
   {
     "taskName": "Task 3",
@@ -599,6 +603,7 @@
     ],
     "stopped": null,
     "taskTweak": {
+      "essNotGoalScaling": 0,
       "arrivalTime": false,
       "leadingWeightScaling": 1,
       "leadingAreaDistanceSquared": true,
@@ -643,6 +648,7 @@
       "tooEarlyReset": 0,
       "earlyPenalty": "0 s",
       "earliest": "0 s"
-    }
+    },
+    "cancelled": false
   }
 ]

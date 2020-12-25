@@ -1,12 +1,62 @@
 [
   [
     [
+      "98",
+      "Tomas Svoboda"
+    ],
+    {
+      "frac": 1,
+      "effort": "20.366000 km"
+    }
+  ],
+  [
+    [
+      "26",
+      "Dušan Durkovič"
+    ],
+    {
+      "frac": 0.99853516,
+      "effort": "20.262000 km"
+    }
+  ],
+  [
+    [
+      "74",
+      "Nuno Filipe da Fonseca Bastos Gomes"
+    ],
+    {
+      "frac": 0.99511719,
+      "effort": "20.128000 km"
+    }
+  ],
+  [
+    [
+      "72",
+      "Mitja Jančič"
+    ],
+    {
+      "frac": 0.99511719,
+      "effort": "20.190000 km"
+    }
+  ],
+  [
+    [
+      "101",
+      "Tomaž Toplak"
+    ],
+    {
+      "frac": 0.99511719,
+      "effort": "20.200000 km"
+    }
+  ],
+  [
+    [
       "54",
       "Krešo  Kovačič"
     ],
     {
-      "frac": 1,
-      "effort": "20.058000 km"
+      "frac": 0.97949219,
+      "effort": "19.993000 km"
     }
   ],
   [
@@ -15,8 +65,8 @@
       "Ivo Duarte"
     ],
     {
-      "frac": 0.98974609,
-      "effort": "19.503000 km"
+      "frac": 0.94189453,
+      "effort": "19.502000 km"
     }
   ],
   [
@@ -25,7 +75,7 @@
       "Stojan Kranjc"
     ],
     {
-      "frac": 0.95214844,
+      "frac": 0.84228516,
       "effort": "18.683000 km"
     }
   ],
@@ -35,8 +85,8 @@
       "Bruno Matos"
     ],
     {
-      "frac": 0.90820312,
-      "effort": "17.907000 km"
+      "frac": 0.75439453,
+      "effort": "17.906000 km"
     }
   ],
   [
@@ -45,7 +95,7 @@
       "Joan Brito"
     ],
     {
-      "frac": 0.82666016,
+      "frac": 0.63330078,
       "effort": "16.999000 km"
     }
   ],
@@ -55,8 +105,8 @@
       "Igor Eržen"
     ],
     {
-      "frac": 0.81005859,
-      "effort": "16.703000 km"
+      "frac": 0.62060547,
+      "effort": "16.704000 km"
     }
   ],
   [
@@ -65,8 +115,8 @@
       "Lara Leban"
     ],
     {
-      "frac": 0.73925781,
-      "effort": "15.958000 km"
+      "frac": 0.56689453,
+      "effort": "15.957000 km"
     }
   ],
   [
@@ -75,8 +125,8 @@
       "Sandi Krč"
     ],
     {
-      "frac": 0.56152344,
-      "effort": "9.486000 km"
+      "frac": 0.43310547,
+      "effort": "10.756000 km"
     }
   ],
   [
@@ -85,18 +135,8 @@
       "Alojz Tovornik"
     ],
     {
-      "frac": 0.55126953,
-      "effort": "8.979000 km"
-    }
-  ],
-  [
-    [
-      "13",
-      "Balazs Szatmari"
-    ],
-    {
-      "frac": 0.47167969,
-      "effort": "7.030000 km"
+      "frac": 0.40478516,
+      "effort": "8.980000 km"
     }
   ],
   [
@@ -105,8 +145,18 @@
       "Zsolt Sandor"
     ],
     {
-      "frac": 0.47167969,
-      "effort": "7.040000 km"
+      "frac": 0.35742188,
+      "effort": "7.107000 km"
+    }
+  ],
+  [
+    [
+      "13",
+      "Balazs Szatmari"
+    ],
+    {
+      "frac": 0.35449219,
+      "effort": "7.096000 km"
     }
   ],
   [
@@ -115,8 +165,8 @@
       "Marketa Tomaskova"
     ],
     {
-      "frac": 0.38623047,
-      "effort": "5.858000 km"
+      "frac": 0.29931641,
+      "effort": "5.820000 km"
     }
   ],
   [
@@ -125,8 +175,8 @@
       "Jerko Odžak"
     ],
     {
-      "frac": 0.3046875,
-      "effort": "4.544000 km"
+      "frac": 0.28515625,
+      "effort": "5.561000 km"
     }
   ],
   [
@@ -135,8 +185,8 @@
       "Mitja Jug"
     ],
     {
-      "frac": 0.22119141,
-      "effort": "3.014000 km"
+      "frac": 0.17626953,
+      "effort": "3.545000 km"
     }
   ],
   [
@@ -145,8 +195,8 @@
       "Damir Kalinger"
     ],
     {
-      "frac": 0.19189453,
-      "effort": "2.418000 km"
+      "frac": 0.13085938,
+      "effort": "2.381000 km"
     }
   ],
   [
@@ -155,8 +205,8 @@
       "Ivica Huljek"
     ],
     {
-      "frac": 0.16699219,
-      "effort": "2.052000 km"
+      "frac": 0.12109375,
+      "effort": "2.023000 km"
     }
   ],
   [
@@ -165,7 +215,7 @@
       "Slava Jelić"
     ],
     {
-      "frac": 0.09375,
+      "frac": 0.07421875,
       "effort": "1.000000 km"
     }
   ],
@@ -175,8 +225,8 @@
       "Antoni Buljan"
     ],
     {
-      "frac": 0.01855469,
-      "effort": "0.125000 km"
+      "frac": 0.06152344,
+      "effort": "0.873000 km"
     }
   ]
 ]
